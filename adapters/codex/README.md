@@ -2,7 +2,7 @@
 
 Status: draft
 
-This adapter will translate Tianlu methods into a Codex skill.
+This adapter translates Tianlu methods into Codex skill packaging and Codex-specific operating receipts.
 
 Codex-specific details belong here, not in runtime-neutral `dao/` or `laws/`.
 
@@ -18,16 +18,17 @@ Codex-specific details belong here, not in runtime-neutral `dao/` or `laws/`.
 
 ```text
 safe-agent-workflow/
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    └── ...
+|-- SKILL.md
+|-- agents/
+|   `-- openai.yaml
+`-- references/
+    `-- ...
 ```
 
 ## Adapter Drafts
 
 - [Feed-to-method adapter](feed-to-method.md)
+- [Chrome/X troubleshooting adapter](chrome-x-troubleshooting.md)
 
 ## Response Receipt Pattern
 

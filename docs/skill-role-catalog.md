@@ -28,6 +28,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | --- | --- | --- |
 | `../adapters/codex/README.md` | Codex packaging plan and response receipt guidance. | Keeps Codex-specific output behavior out of neutral laws. |
 | `../adapters/codex/feed-to-method.md` | Codex feed-reading workflow for turning external signals into notes, evals, checklists, or inactive skill drafts. | Chrome/X/local archive details belong in private deployment notes, not neutral laws. |
+| `../adapters/codex/chrome-x-troubleshooting.md` | Codex Chrome failure recovery workflow for X or feed reading. | Keeps native-pipe recovery, permission prompts, and no-fake-reading behavior in the Codex adapter. |
 
 ## Inspected Local Skills
 
