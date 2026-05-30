@@ -32,6 +32,8 @@ The loop is combinatorial. A scoped input can yield a neutral method, and neutra
 
 The cycle is a circle: scoped variants enter as input, neutral generation extracts reusable plasticity, and composition spends that plasticity into a new scoped variant. Creation in this repository means recombination for a concrete context, so it is scoped by design. A variant becomes dangerous only when it hides that scope or claims to be universal law without passing through neutral generation and evidence review.
 
+The phase boundary is strict: absorb handles scoped material, generate is the neutral middle, and compose creates scoped material again. A composed variant is not neutral merely because it was built from neutral methods. It must return to the absorb side as scoped input before any later attempt to generalize it.
+
 See [Method Cycle](docs/en/method-cycle.md) for the phase invariants behind absorb, generate, compose, and re-enter.
 
 ## Repository Layout
@@ -55,6 +57,7 @@ tianlu-skills/
 - General methods are not the endpoint. They are reusable building blocks for safer scoped variants.
 - Scoped variants are useful because they fit a context, but they must not claim neutral status until their bias is named, removed, or contained.
 - Scoped variants can feed the next cycle when their source, evidence, and boundaries remain visible.
+- Absorb and compose are scoped phases; generate is the neutral phase between them.
 - Creation means scoped recombination from neutral methods, not an automatic claim to universal status.
 - Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
 - The incubator is an entrance for new methods, not a dumping ground.

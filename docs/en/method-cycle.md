@@ -20,6 +20,8 @@ The circle has three active motions:
 
 The composed variant then returns to the absorb side as fresh scoped input after practice. The system is therefore not a one-way ladder from local to general. It is a cycle where scoped practice can create neutral methods, and neutral methods can create many scoped practices.
 
+The boundary is intentionally asymmetric: absorb receives scoped or biased material, generate produces a neutral reusable middle, and compose produces scoped or biased material again. Creation is therefore recombination, not final promotion. A composed variant starts the next turn of the cycle as scoped input, even when every ingredient was neutral.
+
 ## Phase Invariants
 
 | Phase | Input | Output | Invariant |

@@ -20,6 +20,8 @@ The cycle is combinatorial rather than linear. It can absorb many scoped sources
 
 The cycle is circular. Scoped variants enter as input, neutral generation extracts reusable plasticity, and composition spends that plasticity into a new concrete variant. Creation here means recombination for a specific runtime, project, organization, machine, or task, so the result is scoped by design. The risk is not scoped bias itself; the risk is hiding that scope or claiming universal status before neutral generation and evidence review.
 
+In practical terms, absorb and compose are scoped phases, while generate is the neutral phase. The system remains portable by never letting a composed variant skip back into broad law just because it was assembled from neutral parts.
+
 For the phase invariants, see [Method Cycle](method-cycle.md).
 
 ## The Three-Part Model
