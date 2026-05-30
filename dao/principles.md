@@ -7,10 +7,12 @@ Dao contains source principles for the method system. It is not the full method 
 1. Neutrality is not flattening.
    - Do not erase diversity.
    - Put each method in its honest scope.
+   - Neutrality preserves plasticity: a method that has not been fixed to one runtime, event, or project can still become many scoped variants.
 
 2. Scope before promotion.
    - A method must declare where it applies before it can be reused safely.
    - A narrow method can be valuable without being universal.
+   - A scoped variant created for a specific event is biased by that event until evidence shows which parts can be generalized.
 
 3. Evidence before activation.
    - External posts, repositories, docs, and tool outputs can suggest methods.

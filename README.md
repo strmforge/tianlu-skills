@@ -22,7 +22,7 @@ It treats method work as a generation system:
 signals -> reusable methods -> composed variants
 ```
 
-External information is absorbed as candidate material, generalized into portable methods, then recombined into scoped variants for concrete runtimes, projects, or tasks.
+External information is absorbed as candidate material, generalized into portable methods, then recombined into scoped variants for concrete runtimes, projects, or tasks. Those variants can later become new signals, so method generation is a loop rather than a one-time conversion.
 
 ## Repository Layout
 
@@ -42,6 +42,7 @@ tianlu-skills/
 
 - Neutrality does not mean minimalism. It means every method is placed in its honest scope.
 - General methods are not the endpoint. They are reusable building blocks for safer, scoped variants.
+- Scoped variants can be recombined into further candidates when their source, evidence, and boundaries remain visible.
 - Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
 - The incubator is an entrance for new methods, not a dumping ground.
 - Adapters and overlays are part of the method system, not pollutants outside it.

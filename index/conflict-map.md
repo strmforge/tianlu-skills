@@ -22,3 +22,4 @@
 | Durable recall vs unsafe steering | Memory can improve future behavior but can also steer tools or permissions | Require provenance, scope, negative tests, and rollback before behavior-affecting recall |
 | Feed learning vs active method | Useful signals can be mistaken for validated reusable methods | Keep signals in notes or incubator until source evidence, trigger, boundary, and eval exist |
 | Skill generation vs skill sprawl | Repeated local fixes can become many narrow active skills | Draft first, patch existing artifacts when possible, and promote only with evidence and regression checks |
+| Public skill collection vs local marginal utility | A large or popular skill pack can look valuable while duplicating local laws, adding context cost, or importing activation surfaces | Treat the pack as a method catalog, sample for mechanisms, compare overlap, and extract only scoped candidates with validation |

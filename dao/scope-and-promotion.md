@@ -25,6 +25,18 @@ A method can move to a broader scope only when:
 
 Promotion is not based on popularity, novelty, or a single successful run.
 
+## Generalization Test
+
+A scoped variant can move upward only after its event-specific bias is visible and removed or contained:
+
+- name the original event, runtime, project, or task that shaped the variant;
+- separate the reusable mechanism from local names, tools, paths, permissions, habits, examples, and assumptions;
+- keep local details in adapters or overlays when they still matter;
+- add evidence from at least one different scope before claiming the method is broader;
+- preserve provenance so the generalized method can be traced back to the variant that produced it.
+
+If the bias cannot be separated, the method may still be useful, but it stays scoped.
+
 ## Routing Pressure Test
 
 Before adding a new broad law, check:
