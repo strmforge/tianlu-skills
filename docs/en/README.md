@@ -72,7 +72,7 @@ Poor candidates:
 - Compose: recombine neutral methods into scoped variants for concrete contexts without hiding their source, evidence, or boundaries.
 - Re-enter: let useful scoped variants become new scoped candidates only when their provenance, scope, evidence, and boundaries remain inspectable.
 
-This keeps diversity and portability aligned: a general method is not a final answer, but a stable building block for many safe variants. A variant created for one concrete event is useful precisely because it is shaped by that event, but it is not broad law until its local bias has been named, removed, or contained. The cycle is not a ladder with promotion as the only goal; it is a loop where scoped practice can continually produce new candidates.
+This keeps diversity and portability aligned: a general method is not a final answer, but a stable building block for many safe variants. A variant created for one concrete event is useful precisely because it is shaped by that event, but it is not broad law until its local bias has been named, removed, or contained. The cycle is not a ladder with promotion as the only goal; it is a circle where scoped practice can produce neutral methods, neutral methods can be recombined into scoped practice, and practice can return as the next source.
 
 ## Current Seed Laws
 

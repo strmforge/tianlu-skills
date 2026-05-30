@@ -84,6 +84,10 @@ For scanners that inventory MCP configurations by starting configured stdio serv
 
 For developer endpoint inventory, the agent should define a narrow exposure question, prefer metadata-first read-only collection, avoid execution, avoid raw secret-bearing output, and emit structured records with skipped roots and parse errors.
 
+For vulnerable but not obviously malicious skills, the agent should separate malicious intent from attack-surface exposure. Third-party content ingestion, generated credential commands, remote prompt or code loading, direct money access, and system-service modification remain adoption risks even when no confirmed payload is found. Scanner results can prioritize review, but a clean or "not malicious" result does not authorize installation, autoloading, tool registration, account access, or durable memory writes. The agent should keep the skill inactive until source, scope, permissions, data exposure, rollback, and negative cases are reviewed.
+
+For dynamic context or shell interpolation in skill files, the agent should treat the interpolation as executable pre-model behavior. Model-level prompt-injection defenses cannot inspect or block a command that runs before the rendered context reaches the model. Before enabling such a skill, the agent should review project, nested, plugin, and additional skill load roots; inspect exact commands, environment access, file and network effects, and secret exposure; prefer disabling or gating shell execution where supported; require code review for skill directories; and record rollback before activation.
+
 ## MCP, Tools, And Authorization
 
 The agent should not expose an entire API, SDK, route table, or prompt/resource catalog by default. It should start from a minimal allowlist, prefer read-only or dry-run tools, and promote write actions one at a time with tests and receipts.

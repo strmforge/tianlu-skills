@@ -55,6 +55,7 @@ tianlu-skills/
 - General methods are not the endpoint. They are reusable building blocks for safer scoped variants.
 - Scoped variants are useful because they fit a context, but they must not claim neutral status until their bias is named, removed, or contained.
 - Scoped variants can feed the next cycle when their source, evidence, and boundaries remain visible.
+- Creation means scoped recombination from neutral methods, not an automatic claim to universal status.
 - Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
 - The incubator is an entrance for new methods, not a dumping ground.
 - Adapters and overlays are part of the method system, not pollutants outside it.

@@ -12,6 +12,14 @@ Neutral generation is the reusable middle of the loop. It extracts a mechanism f
 
 Composition spends that neutral plasticity into a new scoped variant. This is not a loss of neutrality; it is how a reusable method becomes practical. The variant becomes risky only when it hides its scope, loses provenance, or claims universal status without neutral generation and evidence review.
 
+The circle has three active motions:
+
+- Absorb: carry scoped or biased source material without pretending it is already general.
+- Generate: extract a neutral reusable method from that material.
+- Compose: recombine neutral methods into a new scoped variant for a concrete context.
+
+The composed variant then returns to the absorb side as fresh scoped input after practice. The system is therefore not a one-way ladder from local to general. It is a cycle where scoped practice can create neutral methods, and neutral methods can create many scoped practices.
+
 ## Phase Invariants
 
 | Phase | Input | Output | Invariant |

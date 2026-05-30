@@ -20,6 +20,8 @@ Another later feed item on 2026-05-30 pointed to `nowork-studio/NotFair`, a publ
 
 Another later feed item on 2026-05-30 pointed to `mukul975/Anthropic-Cybersecurity-Skills`, a public cybersecurity skill library mapped to multiple security and AI-risk frameworks. It is a useful seventh sample because a large structured skill catalog can include dual-use defensive, offensive, compliance, incident-response, and AI-risk material while also advertising cross-runtime installation.
 
+A later primary-source report on 2026-05-30 reviewed security issues in the emerging Agent Skill ecosystem. It is a useful eighth sample because it separates confirmed malicious skills from vulnerable skills that can still become attack-chain accomplices through third-party content ingestion, unsafe credential handling, remote prompt or code execution, money access, or system-service modification.
+
 Primary source review, read-only:
 
 - Repository: `https://github.com/addyosmani/agent-skills`
@@ -75,6 +77,14 @@ Seventh sample, read-only:
 - The repository describes coverage across security domains and maps skills to frameworks such as ATT&CK, CSF, ATLAS, D3FEND, and AI RMF.
 - Framework mapping helps classification and review, but dual-use cybersecurity skills still need target authorization, scope, safe mode, legal boundary, and per-domain activation review before any local import or execution.
 
+Eighth sample, read-only:
+
+- Report: `Technical Report: Exploring the Emerging Threats of the Agent Skill Ecosystem`
+- Review surface at review time: static report text and linked taxonomy, not any skill execution.
+- Report shape at review time: analysis of thousands of skills, issue taxonomy, malicious payload examples, and vulnerable-skill categories.
+- The report distinguishes malicious skills from vulnerable skills. A skill can lack an obvious malicious payload while still creating adoption risk through third-party content ingestion, unsafe credential handling, remote prompt or code loading, direct money access, or system-service modification.
+- Scanner output is useful evidence, but "not malicious" is not the same as safe to install, autoload, grant account access, or treat as neutral law.
+
 No install, clone, package execution, plugin activation, hook execution, or skill import was performed during review.
 
 ## Proposed Trigger
@@ -110,6 +120,9 @@ Review in this order:
    - Adapter or overlay only when runtime- or project-specific assumptions are explicit.
 8. Validate before promotion.
    - Add at least one eval prompt or review checklist before turning extracted guidance into active behavior.
+9. Separate intent from exposure.
+   - A confirmed malicious payload blocks adoption.
+   - A vulnerable but apparently benign skill still needs adoption review for content ingestion, credential handling, remote loading, money access, service modification, persistence, and rollback.
 
 ## Initial Scope
 
@@ -123,6 +136,8 @@ This candidate is about adopting or learning from public skill collections. It i
 - Scanner quality is mistaken for permission to install hooks, register MCP tools, write local state, send telemetry, or auto-fix code.
 - Domain expertise or account login is mistaken for permission to mutate spend-affecting settings.
 - Framework mapping or security-domain coverage is mistaken for authorization to activate dual-use cybersecurity skills.
+- No confirmed malicious payload is mistaken for safe adoption despite vulnerable attack surfaces.
+- A scanner clean result is mistaken for permission to install, autoload, register tools, or write durable memory.
 - A public skill pack is copied wholesale, importing platform assumptions, hooks, scripts, or context bloat.
 - A meta-skill router over-triggers and loads too much context.
 - A domain-specific or taste-heavy skill is treated as neutral because its checklist is detailed.
@@ -132,7 +147,7 @@ This candidate is about adopting or learning from public skill collections. It i
 
 ## Verification Needed
 
-- Apply this gate to public skill or rule collections without installing them. Seven samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, one domain account-action plugin, and one dual-use cybersecurity skill library.
+- Apply this gate to public skill or rule collections without installing them. Eight samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, one domain account-action plugin, one dual-use cybersecurity skill library, and one skill ecosystem security report.
 - Record whether it changes adoption decisions compared with simple README review.
 - Add eval cases for high-star public skill packs, install-heavy packs, duplicated local methods, and preference-heavy packs.
 
