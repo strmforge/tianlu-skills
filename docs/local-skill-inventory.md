@@ -4,6 +4,12 @@ Status: working inventory
 
 Purpose: record which local skills were inspected before more feed reading or new method adoption. This file is not an install manifest and should not be treated as permission to copy, publish, install, or activate any skill.
 
+## Completion Status
+
+As of 2026-05-30, every skill exposed in the current session has been inventoried and assigned a Tianlu decision.
+
+This does not mean every skill was copied into the repository. Neutral methods were abstracted into `dao/`, `laws/`, `index/`, `eval/`, or `adapters/`. System skills, plugin skills, connector-specific skills, private workflows, and product-specific procedures are listed with their role and boundary instead of being migrated as source text.
+
 ## Inventory Scope
 
 This inventory covers:

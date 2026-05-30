@@ -22,3 +22,4 @@ Placement candidates:
 
 - [Install-time package firewall](install-time-package-firewall.md): package-manager-path enforcement for agent package installs; not active protection and not a tool endorsement.
 - [Instruction-file policy profile](instruction-file-policy-profile.md): scoped persistent instruction profiles for safer command lanes, file handling, and skill discovery.
+- [Local agent provider gateway](local-agent-provider-gateway.md): review model-routing shims, provider dashboards, config patchers, vision bridges, and desktop/MCP control surfaces before adoption.
