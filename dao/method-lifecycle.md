@@ -12,6 +12,8 @@ signal -> incubating -> scoped law -> adapter packaging -> eval -> promotion / r
 
 A signal is a claim, incident, source, workflow, repo, doc, user correction, or observed failure that may become reusable.
 
+Capture enough context to recover the source later. A signal can suggest a method, but it cannot activate one.
+
 ### Incubating
 
 An incubating method has promise but not enough scope or evidence.
@@ -24,6 +26,8 @@ Required fields:
 - known risk;
 - initial scope;
 - verification needed.
+
+Verification may include source checks, permission and data exposure review, rollback or disable path, and a small dry run or replay case.
 
 ### Scoped Law
 
@@ -39,6 +43,8 @@ Required fields:
 - boundary;
 - validation status.
 
+Scoped laws should prefer local, inspectable artifacts over conversation memory.
+
 ### Adapter Packaging
 
 Runtime-specific adapters translate a law into a local format, such as a Codex skill or another agent runtime instruction file.
@@ -47,9 +53,13 @@ Runtime-specific adapters translate a law into a local format, such as a Codex s
 
 Evals test whether a method changes behavior in the intended direction without unacceptable side effects.
 
+Keep successful traces, corrected traces, edge cases, negative cases, and safety cases separate when practical.
+
 ### Promotion
 
 A method can be promoted when it survives cross-context evidence, adapter testing, and conflict review.
+
+Do not promote a method if it only shifts failure modes, increases permission use, hides uncertainty, loses receipts, or improves one case while breaking a higher-priority safety case.
 
 ### Retirement
 
