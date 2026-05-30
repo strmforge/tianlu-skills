@@ -12,6 +12,8 @@ absorb scoped input -> generate neutral methods -> compose scoped variants -> ab
 
 Signals include documents, incidents, user corrections, external feeds, repositories, eval results, and field experience. Most signals are scoped already: they come from one event, runtime, project, tool, or task. A signal does not become a method directly. It first becomes a candidate, then a neutral reusable method when its trigger, mechanism, evidence, failure modes, and boundaries are clear. Neutrality means plasticity, not emptiness: a neutral method can be reused because it has not been fixed to one concrete context. Neutral methods can then be recombined into adapter-specific, project-specific, or task-specific variants. A scoped variant is intentionally biased toward its context; after use, it may later become new scoped input, so the system can keep absorbing, generating, and composing without losing provenance.
 
+Returning from a neutral method to a scoped variant is not a regression. It is the practical half of the cycle: neutral methods stay portable, while scoped variants make those methods fit real environments. The variant can re-enter the system only when source, scope, evidence, and boundaries remain inspectable.
+
 ## The Three-Part Model
 
 ```text

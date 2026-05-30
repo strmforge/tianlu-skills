@@ -24,6 +24,8 @@ absorb scoped input -> generate neutral method -> compose scoped variant -> abso
 
 External information usually arrives as scoped, event-shaped material. Tianlu absorbs that biased input, generates a neutral reusable method by extracting the mechanism and containing local bias, then composes neutral methods into new scoped variants for concrete runtimes, projects, or tasks. Those variants are intentionally biased toward their context; after use, they can feed back as new scoped input. This makes the system circular rather than linear: scoped practice can produce neutral methods, and neutral methods can produce new scoped practice.
 
+Returning from a neutral method to a scoped variant is intentional. Neutral methods keep the system portable; scoped variants make the methods useful in real environments. Both states are part of the cycle as long as source, scope, evidence, and boundaries remain visible.
+
 ## Repository Layout
 
 ```text

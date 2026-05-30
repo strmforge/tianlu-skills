@@ -8,6 +8,8 @@ scoped input -> incubating -> neutral generation -> scoped recombination -> eval
 
 The lifecycle is a loop, not a one-way ladder. Scoped input is biased by an event, runtime, project, tool, or task. Neutral generation absorbs that biased input, makes the reusable mechanism explicit, and removes or contains local bias. Scoped recombination then composes neutral methods into a concrete variant; that variant is intentionally biased again, and its results can re-enter as new scoped input.
 
+Returning to a scoped form is deliberate. A neutral method stays useful because it can be recombined; a scoped variant becomes useful because it fits a concrete runtime, project, organization, machine, person, or task. Tianlu should preserve both states and keep the transition between them inspectable.
+
 In short:
 
 - absorb: receive scoped or biased candidates with source and scope intact;
@@ -76,7 +78,7 @@ Runtime-specific adapters translate a law into a local format, such as a Codex s
 
 Scoped recombination combines neutral methods into a concrete variant for a runtime, project, organization, machine, person, or task.
 
-The variant is useful because it fits its target context, so it is scoped again by design. It must keep source, scope, evidence, and boundaries visible. It should not be promoted as broad law just because it fits its target context well.
+The variant is useful because it fits its target context, so it is scoped again by design. This is not a failure of neutrality; it is how neutral methods become practical. It must keep source, scope, evidence, and boundaries visible. It should not be promoted as broad law just because it fits its target context well.
 
 ### Eval
 
