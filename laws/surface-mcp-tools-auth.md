@@ -79,6 +79,31 @@ Boundary:
 
 - Authorization is not just login. It must bind a privileged invocation to actor, resource, purpose, scope, time, and evidence.
 
+## Law: Physical Device Actions Need Operational Scope
+
+Trigger:
+
+- An agent, tool, API wrapper, home automation bridge, IoT device cloud API, robot controller, vehicle connector, camera, lock, thermostat, HVAC, appliance, printer, or other actuator can read from or change a real-world device.
+
+Mechanism:
+
+- Separate read-only status queries from physical state changes such as power, temperature, fan, lock, unlock, open, close, move, print, record, stream, dispense, start, stop, schedule, or mode changes.
+- Before any physical state change, record actor, account, device id, human-readable device name, location, current state, requested state, allowed range, duration, schedule, occupants or affected people, safety constraints, energy or cost impact, rollback or manual override, and audit receipt.
+- For accounts with multiple devices, require explicit device selection or fail with a list of candidates; do not guess from a default when the action can affect the physical environment.
+- Prefer status, dry-run, preview, or narrow single-action commands before recurring automation, schedules, batch changes, or autonomous optimization.
+- Keep OAuth credentials, refresh tokens, device ids, camera feeds, location data, and household or facility metadata out of prompts, logs, commits, screenshots, and durable memory.
+
+Failure Modes:
+
+- The agent changes the wrong room, device, account, home, facility, or tenant because a default device was assumed.
+- A convenience command changes comfort, safety, access, surveillance, motion, energy use, or costs without explicit scope.
+- A recurring automation or retry loop repeats physical actions after conditions changed.
+- Logs, screenshots, or device lists expose private locations, occupancy patterns, camera content, or account identifiers.
+
+Boundary:
+
+- A device API command is not only a software mutation. If it changes the physical world or observes a private physical space, treat it as high-impact until the operational scope is explicit.
+
 ## Law: Secrets Need Brokered Access
 
 Trigger:

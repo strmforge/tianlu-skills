@@ -54,6 +54,8 @@ For account authority, the agent should separate capability from permission. Bef
 
 For self-hosted email agents, the agent should separate cloud deployment, mailbox routing, storage, access control, attachment handling, and email-send authority. It should keep the first pass read-only, require explicit deployment approval, verify access policy and secrets handling, record mailbox/domain scope, retention and attachment storage, allowed tools, confirmation requirements for sending, audit logs, and teardown path. Auto-drafts are advisory; sending email is an account action requiring per-action or tightly bounded approval.
 
+For physical device control, the agent should treat IoT, home automation, robots, vehicles, cameras, locks, appliances, HVAC, printers, and other actuators as real-world operational authority. Status reads may be reviewed separately, but writes need explicit device identity, location, current state, requested state, affected people, allowed range, duration, schedule, safety constraints, energy or cost impact, rollback or manual override, and audit receipt. A single obvious device, local CLI, OAuth token, or natural-language skill is not enough to authorize a physical state change, recurring automation, camera access, movement, unlocking, or retry loop.
+
 For remote debugging or browser ports, the agent should record endpoint, bind address, profile/account state, allowed actions, exposed permissions, and teardown proof before use.
 
 For worktrees, containers, sandboxes, CI, or hosted runtimes, the agent should not assume full isolation. It should record runtime authority, network, secrets, cache, browser state, ports, background jobs, persisted files, cleanup, rollback, and residual risk.
