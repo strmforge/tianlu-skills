@@ -28,6 +28,8 @@ Returning from a neutral method to a scoped variant is intentional. Neutral meth
 
 The cycle starts and ends in scoped form. The first scoped form is absorbed as candidate material; the later scoped form is a deliberate recombination for a concrete context. Both are biased, but neither is a mistake. The system stays neutral by naming the scope of each variant instead of pretending every useful variant is broad law.
 
+The loop is combinatorial. A scoped input can yield a neutral method, and neutral methods can be combined into many new scoped variants. Those variants are not failures of neutrality; they are useful concrete forms that can later re-enter the loop as fresh scoped input. This lets the system absorb many sources, generate reusable middle forms, and compose new practical variants without treating any one variant as universal.
+
 ## Repository Layout
 
 ```text

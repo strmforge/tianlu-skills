@@ -12,6 +12,8 @@ Returning to a scoped form is deliberate. A neutral method stays useful because 
 
 The scoped forms on the two sides of the loop have different roles. Incoming scoped material is absorbed as evidence-bearing candidate input. Outgoing scoped material is a recombined variant built from neutral methods for a concrete context. Both are biased by design, and both are useful when their scope is explicit. The neutral phase is the reusable middle, not the final destination of every method.
 
+The loop is combinatorial. Many scoped inputs can generate reusable neutral methods, and those neutral methods can be recombined into many new scoped variants. A variant produced by recombination is scoped again by design. It may re-enter the loop when its provenance, evidence, and boundaries remain inspectable.
+
 In short:
 
 - absorb: receive scoped or biased candidates with source and scope intact;

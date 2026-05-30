@@ -16,6 +16,8 @@ Returning from a neutral method to a scoped variant is not a regression. It is t
 
 This means scoped methods appear twice in the loop. At entry, a scoped method is source-shaped material to absorb. After generation, a scoped method is a composed variant for a concrete context. The first carries evidence from practice; the second turns reusable plasticity back into practice. The distinction is scope, not rank.
 
+The cycle is combinatorial rather than linear. It can absorb many scoped sources, generate reusable neutral middle forms, then recombine those middle forms into many new scoped variants. A new scoped variant can be valuable without being universal, as long as its source, scope, evidence, and boundaries remain visible.
+
 ## The Three-Part Model
 
 ```text

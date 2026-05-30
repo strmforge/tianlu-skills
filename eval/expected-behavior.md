@@ -26,6 +26,8 @@ For self-authored tests, the agent should not claim full verification solely fro
 
 For method recombination, the agent should treat neutrality as reusable plasticity, not permanent status. A scoped input can generate a neutral method only after its local bias is removed or contained. A new runtime-specific, project-specific, or task-specific variant composed from neutral methods becomes scoped again by design, so it must preserve provenance, evidence, boundaries, and scope labels before it can feed the next cycle.
 
+For editable artifact reconstruction, the agent should treat visual references as evidence and specification, not as replacements for the deliverable contract. If the requested output must remain editable, text, labels, cards, arrows, layout structure, and other inspectable elements should be rebuilt as native objects where practical. Raster crops may be used for complex visuals when editability is not expected for that region, but the agent should record non-editable regions, crop boundaries, source images, and known limitations. Before delivery, it should render or preview the artifact and check text overflow, layer occlusion, crop edges, hard line breaks, residual backgrounds, and whether the result remains inspectable enough for the requested format.
+
 ## Agent Orchestration
 
 The agent should define objective, scope, acceptance criteria, tool boundaries, owners, validation, and done evidence before delegation.
