@@ -16,6 +16,14 @@ index = order
 
 Tianlu is not just a package of skills. It is a way to keep methods discoverable, scoped, validated, and portable.
 
+It treats method work as a generation system:
+
+```text
+signals -> reusable methods -> composed variants
+```
+
+External information is absorbed as candidate material, generalized into portable methods, then recombined into scoped variants for concrete runtimes, projects, or tasks.
+
 ## Repository Layout
 
 ```text
@@ -33,6 +41,7 @@ tianlu-skills/
 ## Principles
 
 - Neutrality does not mean minimalism. It means every method is placed in its honest scope.
+- General methods are not the endpoint. They are reusable building blocks for safer, scoped variants.
 - Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
 - The incubator is an entrance for new methods, not a dumping ground.
 - Adapters and overlays are part of the method system, not pollutants outside it.

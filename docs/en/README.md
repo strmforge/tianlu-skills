@@ -4,6 +4,14 @@ Tianlu Skills is a neutral method system for agent workflows.
 
 It is designed for methods that may need to work across multiple agent runtimes, such as Codex, Claude Code, Hermes-style agents, CI agents, local agent harnesses, or future runtimes.
 
+Tianlu treats methods as a generation system:
+
+```text
+absorb signals -> generalize reusable methods -> compose scoped variants
+```
+
+Signals include documents, incidents, user corrections, external feeds, repositories, eval results, and field experience. A signal does not become a method directly. It first becomes a candidate, then a general method when its trigger, mechanism, evidence, failure modes, and boundaries are clear. General methods can then be recombined into adapter-specific, project-specific, or task-specific variants.
+
 ## The Three-Part Model
 
 ```text
@@ -46,6 +54,14 @@ Poor candidates:
 - Runtime-specific instructions placed outside adapters.
 - Private project terminology in runtime-neutral files.
 - Install instructions that bypass review.
+
+## Method Generation Direction
+
+- Absorb: collect high-signal information as candidates, with source and scope.
+- Generalize: extract a neutral, reusable method from repeated or well-evidenced candidates.
+- Compose: combine general methods into scoped variants without hiding their source, evidence, or boundaries.
+
+This keeps diversity and portability aligned: a general method is not a final answer, but a stable building block for many safe variants.
 
 ## Current Seed Laws
 
