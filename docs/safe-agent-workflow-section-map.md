@@ -76,11 +76,12 @@ This map is a neutral migration guide. It does not import private terminology in
 
 | Source Section | Target | Status |
 | --- | --- | --- |
-| Memory Write Gate | `laws/surface-memory-learning.md` | later |
-| Memory Lifecycle Gate | `laws/surface-memory-learning.md` | later |
-| Memory State Trajectory Gate | `laws/surface-memory-learning.md` | later |
-| Skill Generation Decision | `laws/surface-memory-learning.md` | later |
-| Feed To Workflow | `laws/surface-memory-learning.md` or `incubator/` | later |
+| Memory Write Gate | `laws/surface-memory-learning.md` | migrated |
+| Memory Lifecycle Gate | `laws/surface-memory-learning.md` | migrated |
+| Memory State Trajectory Gate | `laws/surface-memory-learning.md` | migrated |
+| Skill Generation Decision | `laws/surface-memory-learning.md` | migrated |
+| Feed To Workflow | `laws/surface-memory-learning.md` and `incubator/` | migrated |
+| Context Budget Ledger Gate | `laws/surface-memory-learning.md` | migrated |
 | Source-specific experience layer | overlay or neutral rewrite only | do not migrate as-is |
 
 ## Do Not Import As-Is

@@ -17,3 +17,7 @@ Track cross-law dependencies here before splitting or moving law files.
 | `surface-ci-devops.md` | `surface-evidence-eval.md` | workflow provenance, scanner findings, repair claims, and policy promotion need evidence and negative tests | seed |
 | `surface-ci-devops.md` | `surface-install-supply-chain.md` | scanners, hooks, workflow helpers, endpoint inventory tools, and policy engines are adoption surfaces | seed |
 | `surface-ci-devops.md` | `index/conflict-map.md` | repair loops and policy-as-code can conflict with fast paths or over-gate routine work | seed |
+| `surface-memory-learning.md` | `surface-evidence-eval.md` | memory promotion, feed learning, and skill generation need source evidence and eval cases | seed |
+| `surface-memory-learning.md` | `surface-mcp-tools-auth.md` | memory can steer tools, connectors, providers, permission lanes, and agent roles | seed |
+| `surface-memory-learning.md` | `surface-install-supply-chain.md` | generated skills, memory services, and automatic writers are install/config adoption surfaces | seed |
+| `surface-memory-learning.md` | `surface-agent-orchestration.md` | handoff and compaction depend on durable state, verified checkpoints, and scoped recall | seed |

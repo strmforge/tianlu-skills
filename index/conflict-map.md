@@ -15,3 +15,7 @@
 | Clean scanner result vs safety proof | A pass can be mistaken for authorization to proceed | Treat scanner output as evidence and keep independent review, tests, and rollback for high-impact changes |
 | Policy-as-code vs soft judgment | Vague lessons can become brittle executable blockers | Promote only decisions with stable inputs, expected outputs, tests, logs, and rollback |
 | Endpoint inventory vs secret exposure | Broad local inventory can collect credentials or private data | Use metadata-first narrow roots and avoid execution or raw secret-bearing config output |
+| Context retention vs context flooding | Preserving too much history can bury the decision-relevant evidence | Store outside the prompt, select on demand, and keep loss notes for summaries |
+| Durable recall vs unsafe steering | Memory can improve future behavior but can also steer tools or permissions | Require provenance, scope, negative tests, and rollback before behavior-affecting recall |
+| Feed learning vs active method | Useful signals can be mistaken for validated reusable methods | Keep signals in notes or incubator until source evidence, trigger, boundary, and eval exist |
+| Skill generation vs skill sprawl | Repeated local fixes can become many narrow active skills | Draft first, patch existing artifacts when possible, and promote only with evidence and regression checks |

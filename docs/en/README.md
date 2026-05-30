@@ -55,3 +55,4 @@ Poor candidates:
 - Evidence and eval: source evidence, replay, independent verification.
 - Install and supply chain: untrusted installer text, persistence, dependency egress.
 - MCP, tools, and authorization: authority boundaries, minimal allowlists, bound authorization, runtime output handling.
+- Memory and learning: context working sets, durable memory writes, lifecycle, trajectory, feed learning, skill generation.

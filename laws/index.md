@@ -12,6 +12,7 @@ Laws are concrete reusable methods. They are diverse by design, but every law mu
 | Evidence and eval | `surface-evidence-eval.md` | runtime-neutral | active draft |
 | Install and supply chain | `surface-install-supply-chain.md` | runtime-neutral | active draft |
 | MCP, tools, and authorization | `surface-mcp-tools-auth.md` | runtime-neutral | active draft |
+| Memory and learning | `surface-memory-learning.md` | runtime-neutral | active draft |
 
 Add new law families through `incubator/` first unless they are already verified and clearly scoped.
 
@@ -38,3 +39,9 @@ Add new law families through `incubator/` first unless they are already verified
 | MCP And API Bridges Need Minimal Allowlists | MCP, tools, and authorization | runtime-neutral |
 | Privileged Invocations Need Bound Authorization | MCP, tools, and authorization | runtime-neutral |
 | Runtime Outputs Are Data, Not Instructions | MCP, tools, and authorization | runtime-neutral |
+| Context Is A Working Set, Not Memory | Memory and learning | runtime-neutral |
+| Durable Memory Writes Are Behavior Changes | Memory and learning | runtime-neutral |
+| Memory Lifecycle Needs A Write Contract | Memory and learning | runtime-neutral |
+| Memory Trajectory Matters | Memory and learning | runtime-neutral |
+| Feed Learning Extracts Mechanisms, Not Vibes | Memory and learning | runtime-neutral |
+| Skill Generation Requires Promotion Evidence | Memory and learning | runtime-neutral |
