@@ -11,6 +11,7 @@ Codex-specific details belong here, not in runtime-neutral `dao/` or `laws/`.
 - Codex `SKILL.md` frontmatter should contain only `name` and `description`.
 - Runtime compatibility notes belong in the skill body or adapter docs, not extra YAML fields.
 - Keep `SKILL.md` thin and route detailed methods through references.
+- Verify the effective skill-loading path before relying on long bodies, tail sections, or cross-skill handoffs. Authored file contents are not proof that Codex delivered the same content to the model.
 - Validate with Codex skill validation and forward-testing before active installation.
 
 ## Planned Output
