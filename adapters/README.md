@@ -8,4 +8,4 @@ Current adapter drafts:
 
 - `codex/`
 - `claude-code/`
-- `hermes/`
+- `future-runtime/`

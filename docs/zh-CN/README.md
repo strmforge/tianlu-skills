@@ -46,7 +46,7 @@ index = 序
 
 ## 其他层
 
-- `adapters/`：面向具体运行时的打包和安装说明，例如 Codex、Claude Code、Hermes。
+- `adapters/`：面向具体运行时的打包和安装说明，例如 Codex、Claude Code 或未来运行时。
 - `overlays/`：项目、组织、机器或个人的局部方法脉络。
 - `incubator/`：新方法入口，不是垃圾桶。
 - `eval/`：验法题和期望行为。

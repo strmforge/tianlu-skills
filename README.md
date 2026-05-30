@@ -43,7 +43,7 @@ tianlu-skills/
 ├── dao/        # Source principles: method lifecycle, scope, promotion, conflicts
 ├── laws/       # Method collection: concrete reusable methods with declared scope
 ├── index/      # Order: routing, dependencies, scope maps, conflict maps
-├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, Hermes
+├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, or future runtimes
 ├── overlays/   # Project, machine, organization, or personal method lineages
 ├── incubator/  # Entrance for new methods
 ├── eval/       # Test prompts and expected behavior

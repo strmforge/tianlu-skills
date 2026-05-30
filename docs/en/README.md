@@ -2,7 +2,7 @@
 
 Tianlu Skills is a neutral method system for agent workflows.
 
-It is designed for methods that may need to work across multiple agent runtimes, such as Codex, Claude Code, Hermes-style agents, CI agents, local agent harnesses, or future runtimes.
+It is designed for methods that may need to work across multiple agent runtimes, such as Codex, Claude Code, CI agents, local agent harnesses, or future runtimes.
 
 Tianlu treats methods as a generation cycle:
 
