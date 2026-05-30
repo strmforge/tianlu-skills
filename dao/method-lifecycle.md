@@ -27,6 +27,8 @@ Absorb, generate, and compose are phases of one loop, not a hierarchy. Absorb ha
 
 This phase boundary is a promotion guard. Absorb and compose both deal in scoped forms; generate is the neutral phase between them. A composed variant must not inherit neutral status from its ingredients. After use, it re-enters as scoped input and can only be generalized again through a new neutral generation pass.
 
+The cycle should be read as biased input, neutral generation, biased recombination, and return. Bias is not an error in the absorb or compose phases; it is the material being carried or the practical form being created. The error is allowing either scoped form to bypass the neutral generation pass while claiming broad-law status.
+
 For a shorter phase table, see [Method Cycle](../docs/en/method-cycle.md).
 
 ## Stages

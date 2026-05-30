@@ -49,4 +49,5 @@ Add new law families through `incubator/` first unless they are already verified
 | Memory Lifecycle Needs A Write Contract | Memory and learning | runtime-neutral |
 | Memory Trajectory Matters | Memory and learning | runtime-neutral |
 | Feed Learning Extracts Mechanisms, Not Vibes | Memory and learning | runtime-neutral |
+| Skills Are Delivery Artifacts, Not Evidence Layers | Memory and learning | runtime-neutral |
 | Skill Generation Requires Promotion Evidence | Memory and learning | runtime-neutral |

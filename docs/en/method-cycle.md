@@ -22,6 +22,8 @@ The composed variant then returns to the absorb side as fresh scoped input after
 
 The boundary is intentionally asymmetric: absorb receives scoped or biased material, generate produces a neutral reusable middle, and compose produces scoped or biased material again. Creation is therefore recombination, not final promotion. A composed variant starts the next turn of the cycle as scoped input, even when every ingredient was neutral.
 
+Read the loop as scoped input, neutral generation, scoped recombination, and return. Scope is expected at the first and third positions. The safety requirement is not to remove all scoped variants, but to prevent scoped variants from skipping the neutral generation phase while claiming broad-law status.
+
 ## Phase Invariants
 
 | Phase | Input | Output | Invariant |

@@ -127,6 +127,31 @@ Boundary:
 
 - Feeds can supply signals. They do not supply authority.
 
+## Law: Skills Are Delivery Artifacts, Not Evidence Layers
+
+Trigger:
+
+- An agent turns user corrections, incidents, field notes, traces, logs, transcripts, feed research, or repeated workflows into a skill, SOP, adapter, overlay, prompt route, checklist, or active learning rule.
+
+Mechanism:
+
+- Treat the skill-like artifact as a delivery form, not as the evidence layer itself.
+- Preserve or link the evidence contract behind the artifact: observed facts, inferred workflow, recommended procedure, verification steps, rollback or stop conditions, failure patterns, source references or excerpt hashes, confidence, limits, and scope.
+- Keep enough provenance for audit, replay, regression testing, conflict review, and later retirement.
+- If a concise skill must omit detail for context budget, point to the evidence record rather than deleting it.
+- Compare evidence-backed variants against bare trigger-action recipes when claiming improvement.
+- Keep the evidence source authoritative over the packaged skill when the two conflict.
+
+Failure Modes:
+
+- A useful-sounding "when X, do Y" recipe becomes active behavior after dropping why it exists, what failed before, how to verify it, when to stop, and where the source evidence lives.
+- A generated skill becomes detached from the incidents, corrections, or traces that justify it.
+- A delivery artifact is treated as broader, safer, or more current than its underlying evidence supports.
+
+Boundary:
+
+- A skill can deliver experience. It is not a substitute for the experience, evidence, or audit trail that produced it.
+
 ## Law: Skill Generation Requires Promotion Evidence
 
 Trigger:

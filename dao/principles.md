@@ -31,6 +31,8 @@ Dao contains source principles for the method system. It is not the full method 
 6. New methods enter through incubation.
    - Incubation is a path into the collection, not a rejection area.
    - Incubation may absorb scoped input, extract neutral mechanisms, or compose scoped variants; all three motions keep provenance and scope visible.
+   - The loop returns to scoped form: absorbed material is scoped, generated methods are neutral, and composed variants are scoped again.
+   - A composed variant must re-enter as scoped input before any later attempt to generalize it.
 
 7. Promotion requires validation.
    - A method can move upward only when evidence shows it works beyond its original scope.
