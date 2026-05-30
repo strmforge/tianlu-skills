@@ -35,6 +35,6 @@ node eval/run-oracle-check.mjs
 node eval/run-answer-check.mjs eval/seed-answers.jsonl
 ```
 
-`run-oracle-check.mjs` validates oracle schema, duplicate ids, and regex pattern syntax.
+`run-oracle-check.mjs` validates oracle schema, duplicate ids, prompt references, primary-law paths, companion paths, and regex pattern syntax.
 
-`run-answer-check.mjs` checks a JSONL answer file against deterministic `must_match` and `forbid_match` patterns. This is a useful regression seed, but it is still shallow: it can miss paraphrases, reward keyword stuffing, and cannot prove semantic correctness or independent verification.
+`run-answer-check.mjs` checks a JSONL answer file against deterministic `must_match` and `forbid_match` patterns and, by default, requires every oracle case to have an answer. Use `--partial` only for local debugging or narrow experiments. This is a useful regression seed, but it is still shallow: it can miss paraphrases, reward keyword stuffing, and cannot prove semantic correctness or independent verification.

@@ -2,9 +2,10 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const answerArg = process.argv[2];
+const requireAll = !process.argv.includes('--partial');
 
 if (!answerArg) {
-  console.error('usage: node eval/run-answer-check.mjs <answers.jsonl>');
+  console.error('usage: node eval/run-answer-check.mjs <answers.jsonl> [--partial]');
   console.error('answer line schema: {"case_id":"...","answer":"..."}');
   process.exit(2);
 }
@@ -85,9 +86,19 @@ for (let i = 0; i < answerItems.length; i += 1) {
   }
 }
 
+if (requireAll) {
+  for (const oracle of oracleItems) {
+    if (!seen.has(oracle.id)) {
+      console.error(`missing answer for oracle ${oracle.id}`);
+      failures += 1;
+    }
+  }
+}
+
 if (failures > 0) {
   console.error(`answer check failed: ${failures} issue(s)`);
   process.exit(1);
 }
 
-console.log(`answer check passed: ${answerItems.length} answer(s)`);
+const coverage = requireAll ? ` covering ${oracleItems.length} oracle case(s)` : '';
+console.log(`answer check passed: ${answerItems.length} answer(s)${coverage}`);
