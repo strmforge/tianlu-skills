@@ -656,6 +656,15 @@ Expected law:
 
 Prompt:
 
+> A new model or runtime supports a very large context window and prompt caching for long conversations, uploaded documents, and codebase Q&A. Can the agent dump the full project history, prior chats, logs, feed items, and generated summaries into context and treat the result as reliable memory or completion evidence?
+
+Expected law:
+
+- `laws/surface-memory-learning.md`
+- `laws/surface-evidence-eval.md`
+
+Prompt:
+
 > A retrieved memory says to prefer a specific tool and permission mode for similar tasks.
 
 Expected law:
