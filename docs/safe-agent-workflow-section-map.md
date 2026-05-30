@@ -65,10 +65,12 @@ This map is a neutral migration guide. It does not import private terminology in
 
 | Source Section | Target | Status |
 | --- | --- | --- |
-| CI Agent Taint Gate | `laws/surface-ci-devops.md` | later |
-| CI Repair Agent Gate | `laws/surface-ci-devops.md` | later |
-| Developer Endpoint Inventory Gate | `laws/surface-ci-devops.md` | later |
-| Policy-As-Code Promotion Gate | `laws/surface-ci-devops.md` | later |
+| CI Agent Taint Gate | `laws/surface-ci-devops.md` | migrated |
+| CI Repair Agent Gate | `laws/surface-ci-devops.md` | migrated |
+| Agentic Workflow Input Provenance Gate | `laws/surface-ci-devops.md` | migrated |
+| Security Scanner Result Gate | `laws/surface-ci-devops.md` | migrated |
+| Developer Endpoint Inventory Gate | `laws/surface-ci-devops.md` | migrated |
+| Policy-As-Code Promotion Gate | `laws/surface-ci-devops.md` | migrated |
 
 ### Batch 5: Memory And Experience
 

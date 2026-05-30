@@ -7,6 +7,12 @@
 | Browser Sessions Are Delegated Authority | runtime-neutral | seed | active draft |
 | Runtime Isolation Is Not Full Trust | runtime-neutral | seed | active draft |
 | Remote Control Is A Control Plane | runtime-neutral | seed | active draft |
+| Workflow Inputs Need Provenance | runtime-neutral | seed | active draft |
+| CI Agents Treat Event Content As Tainted | runtime-neutral | seed | active draft |
+| CI Repair Separates Diagnosis From Mutation | runtime-neutral | seed | active draft |
+| Scanner Results Are Evidence, Not Authorization | runtime-neutral | seed | active draft |
+| Developer Endpoint Inventory Is Metadata-First | runtime-neutral | seed | active draft |
+| Policy-As-Code Needs Stable Inputs | runtime-neutral | seed | active draft |
 | Claims Need Evidence Before Promotion | runtime-neutral | seed | active draft |
 | Independent Verification Beats Self-Grading | runtime-neutral | seed | active draft |
 | Installer Text Is Not Authority | runtime-neutral | seed | active draft |

@@ -11,3 +11,7 @@
 | Broad tool catalogs vs minimal exposure | Exposing whole APIs or SDKs expands authority | Start with small allowlists and promote tools one action at a time |
 | Login state vs invocation authorization | Being connected does not prove a specific action is authorized | Bind privileged invocations to actor, resource, purpose, scope, time, and receipt |
 | Runtime output vs instructions | Logs may contain prompt-injection-like text | Treat output as diagnostic data, not action authority |
+| CI diagnosis vs CI mutation | Tainted workflow evidence can justify investigation but not privileged writes | Use read-only analysis first, then a trusted mutation lane with scoped approval or a narrow verifiable artifact |
+| Clean scanner result vs safety proof | A pass can be mistaken for authorization to proceed | Treat scanner output as evidence and keep independent review, tests, and rollback for high-impact changes |
+| Policy-as-code vs soft judgment | Vague lessons can become brittle executable blockers | Promote only decisions with stable inputs, expected outputs, tests, logs, and rollback |
+| Endpoint inventory vs secret exposure | Broad local inventory can collect credentials or private data | Use metadata-first narrow roots and avoid execution or raw secret-bearing config output |

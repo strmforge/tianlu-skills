@@ -50,5 +50,8 @@ Poor candidates:
 ## Current Seed Laws
 
 - Agent orchestration: work boundaries, delegation, roles, shared state.
+- Browser and runtime: delegated browser authority, runtime receipts, remote control.
+- CI and DevOps workflows: input provenance, tainted event content, repair lanes, scanner evidence, endpoint inventory, policy-as-code.
 - Evidence and eval: source evidence, replay, independent verification.
 - Install and supply chain: untrusted installer text, persistence, dependency egress.
+- MCP, tools, and authorization: authority boundaries, minimal allowlists, bound authorization, runtime output handling.

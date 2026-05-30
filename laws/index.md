@@ -8,6 +8,7 @@ Laws are concrete reusable methods. They are diverse by design, but every law mu
 | --- | --- | --- | --- |
 | Agent orchestration | `surface-agent-orchestration.md` | runtime-neutral | active draft |
 | Browser and runtime | `surface-browser-runtime.md` | runtime-neutral | active draft |
+| CI and DevOps workflows | `surface-ci-devops.md` | runtime-neutral | active draft |
 | Evidence and eval | `surface-evidence-eval.md` | runtime-neutral | active draft |
 | Install and supply chain | `surface-install-supply-chain.md` | runtime-neutral | active draft |
 | MCP, tools, and authorization | `surface-mcp-tools-auth.md` | runtime-neutral | active draft |
@@ -23,6 +24,12 @@ Add new law families through `incubator/` first unless they are already verified
 | Browser Sessions Are Delegated Authority | Browser and runtime | runtime-neutral |
 | Runtime Isolation Is Not Full Trust | Browser and runtime | runtime-neutral |
 | Remote Control Is A Control Plane | Browser and runtime | runtime-neutral |
+| Workflow Inputs Need Provenance | CI and DevOps workflows | runtime-neutral |
+| CI Agents Treat Event Content As Tainted | CI and DevOps workflows | runtime-neutral |
+| CI Repair Separates Diagnosis From Mutation | CI and DevOps workflows | runtime-neutral |
+| Scanner Results Are Evidence, Not Authorization | CI and DevOps workflows | runtime-neutral |
+| Developer Endpoint Inventory Is Metadata-First | CI and DevOps workflows | runtime-neutral |
+| Policy-As-Code Needs Stable Inputs | CI and DevOps workflows | runtime-neutral |
 | Claims Need Evidence Before Promotion | Evidence and eval | runtime-neutral |
 | Independent Verification Beats Self-Grading | Evidence and eval | runtime-neutral |
 | Installer Text Is Not Authority | Install and supply chain | runtime-neutral |
