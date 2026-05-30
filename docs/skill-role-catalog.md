@@ -33,6 +33,8 @@ This catalog is descriptive. It is not an install list, permission grant, or act
 | `x-intel-to-skill` | Reads external feeds as untrusted signals and converts them into local notes and skill candidates. | Neutral logic in `surface-memory-learning.md`; Codex packaging in `adapters/codex/feed-to-method.md`. | Migrated as law + adapter. |
 | `chatgpt-apps` | Product-specific ChatGPT Apps SDK build workflow. | Adapter-only candidate if Tianlu later needs an OpenAI Apps runtime package. | Not neutral law. |
 | `ima-skill` | Connector-specific personal knowledge-base and note workflow. | Do not migrate; only neutral memory/tool-safety ideas are relevant. | Not migrated. |
+| `ima-skill/knowledge-base` | Nested knowledge-base operations. | Do not migrate; connector assumptions stay out of neutral laws. | Not migrated. |
+| `ima-skill/notes` | Nested note operations. | Do not migrate; storage and endpoint assumptions stay out of neutral laws. | Not migrated. |
 | `pdf` | File-format workflow for PDF extraction, generation, and visual review. | Reference-only unless a future document-processing adapter is needed. | Not migrated. |
 | `playwright` | Terminal browser automation workflow. | Reference-only; browser authority is covered by neutral laws. | Not migrated. |
 | `playwright-interactive` | Persistent browser/Electron debugging workflow. | Reference-only; control-plane risk is covered by neutral laws. | Not migrated. |
@@ -46,6 +48,56 @@ This catalog is descriptive. It is not an install list, permission grant, or act
 | `plugin-creator` | Plugin scaffolding workflow. | Reference-only for plugin adapter design. |
 | `skill-creator` | Skill creation and progressive disclosure guidance. | Reference-only; already informed structure. |
 | `skill-installer` | Skill installation workflow. | Reference-only; install risk is represented in supply-chain laws. |
+
+## Active Plugin Skill Families
+
+| Plugin Family | Role In Current Session | Tianlu Placement | Status |
+| --- | --- | --- | --- |
+| Browser | Local in-app browser navigation, inspection, screenshots, and visual verification. | Adapter-only; neutral authority rules live in browser/runtime laws. | Inventoried. |
+| Chrome | Logged-in browser/profile-dependent navigation and page interaction. | Adapter-only; account and browser authority rules live in browser/runtime laws. | Inventoried. |
+| Computer Use | Local desktop application control. | Adapter-only; general remote-control and runtime boundaries live in browser/runtime laws. | Inventoried. |
+| Documents | Word/document artifact creation, editing, rendering, and QA. | Reference-only unless a future document adapter is created. | Inventoried. |
+| Spreadsheets | Spreadsheet artifact creation, analysis, formulas, charts, and export. | Reference-only unless a future spreadsheet adapter is created. | Inventoried. |
+| Presentations | Slide deck generation, rendering, and export. | Reference-only unless a future presentation adapter is created. | Inventoried. |
+| GitHub | Repository, issue, PR, CI, and publish workflows. | Adapter-only; general CI, evidence, and publishing boundaries are already laws. | Inventoried. |
+| Gmail | Mailbox search, triage, summarization, and draft workflows. | Adapter-only; account/data mutation boundaries stay neutral. | Inventoried. |
+| Notion | Workspace capture, research, meeting, and spec workflows. | Adapter-only; generic memory/writeback rules are already laws. | Inventoried. |
+| Figma | Design file, diagram, library, and code-connect workflows. | Adapter-only; product-specific procedures stay out of neutral laws. | Inventoried. |
+| Canva | Design creation, resizing, and translation workflows. | Adapter-only; product-specific procedures stay out of neutral laws. | Inventoried. |
+
+## Active Plugin Skills
+
+Only skills exposed in the current session are listed here. Cached plugin skills from inactive plugins or older plugin versions are excluded until they become active or are explicitly reviewed.
+
+| Skill | Role | Tianlu Placement |
+| --- | --- | --- |
+| `browser:control-in-app-browser` | Control the in-app browser for local targets, screenshots, and verification. | Adapter-only; authority boundaries live in browser/runtime laws. |
+| `chrome:control-chrome` | Control the user's browser profile for authenticated or remote web tasks. | Adapter-only; high-authority account boundaries live in browser/runtime laws. |
+| `computer-use:computer-use` | Control desktop applications on the local machine. | Adapter-only; remote-control boundaries live in browser/runtime laws. |
+| `documents:documents` | Create, edit, render, and verify document artifacts. | Reference-only unless a document adapter is created. |
+| `spreadsheets:Spreadsheets` | Create, modify, analyze, visualize, and export spreadsheet artifacts. | Reference-only unless a spreadsheet adapter is created. |
+| `presentations:Presentations` | Create, render, verify, and export slide decks. | Reference-only unless a presentation adapter is created. |
+| `canva:canva-branded-presentation` | Create Canva presentations from briefs or outlines. | Adapter-only; product procedure stays out of neutral laws. |
+| `canva:canva-resize-for-all-social-media` | Resize Canva designs across social formats. | Adapter-only; product procedure stays out of neutral laws. |
+| `canva:canva-translate-design` | Translate Canva designs while preserving layout. | Adapter-only; product procedure stays out of neutral laws. |
+| `figma:figma-code-connect` | Create or maintain Figma Code Connect mappings. | Adapter-only; design-tool procedure stays out of neutral laws. |
+| `figma:figma-create-new-file` | Create a new Figma, FigJam, or Slides file. | Adapter-only; write-action prerequisites stay adapter-specific. |
+| `figma:figma-generate-design` | Translate application views or layouts into Figma designs. | Adapter-only; product procedure stays out of neutral laws. |
+| `figma:figma-generate-diagram` | Generate diagrams in FigJam from structured prompts. | Adapter-only; diagram routing stays adapter-specific. |
+| `figma:figma-generate-library` | Build or update Figma design-system libraries. | Adapter-only; design-system procedure stays adapter-specific. |
+| `figma:figma-use` | Perform Figma file-context read/write actions. | Adapter-only; file-authority boundaries stay adapter-specific. |
+| `figma:figma-use-figjam` | Use Figma tooling in a FigJam context. | Adapter-only; product procedure stays out of neutral laws. |
+| `figma:figma-use-slides` | Use Figma tooling in a Slides context. | Adapter-only; product procedure stays out of neutral laws. |
+| `github:github` | Orient repository, issue, and pull request work. | Adapter-only; general evidence and authorization rules are already laws. |
+| `github:gh-address-comments` | Address actionable pull request review feedback. | Adapter-only; general review and evidence rules are already laws. |
+| `github:gh-fix-ci` | Diagnose and fix failing pull request checks. | Adapter-only; CI repair laws cover the neutral method. |
+| `github:yeet` | Publish local changes through commit, push, and draft pull request flow. | Adapter-only; publish authority stays gated by neutral laws. |
+| `gmail:gmail` | Search, summarize, triage, and draft mailbox work. | Adapter-only; account/data mutation boundaries stay neutral. |
+| `gmail:gmail-inbox-triage` | Rank inbox items into actionable buckets. | Adapter-only; mailbox-specific procedure stays out of neutral laws. |
+| `notion:notion-knowledge-capture` | Capture conversations and decisions into structured pages. | Adapter-only; durable writeback boundaries are already laws. |
+| `notion:notion-meeting-intelligence` | Prepare meeting materials from workspace context. | Adapter-only; product procedure stays out of neutral laws. |
+| `notion:notion-research-documentation` | Research across workspace content and synthesize documentation. | Adapter-only; retrieval/writeback boundaries are already laws. |
+| `notion:notion-spec-to-implementation` | Turn specs into implementation plans and tasks. | Adapter-only; planning and handoff concepts are already laws. |
 
 ## Fixed-Time Sync Intent
 
