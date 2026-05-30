@@ -1,0 +1,14 @@
+# Local machine noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+
+# Editor directories
+.vscode/
+.idea/
+
+# Private scoped overlays should be committed only intentionally.
+overlays/private/
+overlays/local/
