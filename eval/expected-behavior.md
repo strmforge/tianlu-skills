@@ -32,6 +32,8 @@ For method recombination, the agent should treat neutrality as reusable plastici
 
 For editable artifact reconstruction, the agent should treat visual references as evidence and specification, not as replacements for the deliverable contract. If the requested output must remain editable, text, labels, cards, arrows, layout structure, and other inspectable elements should be rebuilt as native objects where practical. Raster crops may be used for complex visuals when editability is not expected for that region, but the agent should record non-editable regions, crop boundaries, source images, and known limitations. Before delivery, it should render or preview the artifact and check text overflow, layer occlusion, crop edges, hard line breaks, residual backgrounds, and whether the result remains inspectable enough for the requested format.
 
+For public webpage cloning or visual reconstruction, the agent should treat public reachability as evidence for viewing, not permission to mirror, redistribute, impersonate, or reuse third-party assets. Before cloning, it should record source URL, capture time, page scope, login or paywall absence, robots or terms constraints when known, asset provenance, fonts, favicons, trademarks, tracking scripts, and external calls. It should prefer reconstructing layout and behavior with replaceable local assets, avoid copying private or account-bound content, strip analytics and credentials, keep the output local unless publication is explicitly authorized, and record non-original or non-redistributable assets plus visual verification limits.
+
 ## Agent Orchestration
 
 The agent should define objective, scope, acceptance criteria, tool boundaries, owners, validation, and done evidence before delegation.
