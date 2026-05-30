@@ -15,6 +15,7 @@ Mechanism:
 
 - Record source, scope, mechanism, expected outcome, failure mode, and validation evidence.
 - Prefer small eval cases before activation or promotion.
+- Treat prose-only evals as review aids, not as hard promotion gates.
 - Build replay cases from real successes, corrected failures, edge cases, negative cases, and safety-sensitive cases.
 - Keep expected behavior and forbidden behavior explicit.
 - Compare baseline and candidate behavior before activation.
@@ -28,11 +29,13 @@ Failure Modes:
 - Losing rollback evidence.
 - Letting a method improve one case while regressing a higher-priority safety case.
 - Letting the same agent create the work and serve as the only judge.
+- Claiming a method "passed eval" when the eval has no answer-judging runner, oracle, or independent reviewer.
 
 Boundary:
 
 - A method can stay useful in a narrow scope without being promoted.
 - Raw sensitive traces should not be broadly reused; prefer compact structured traces or redacted artifacts.
+- Until `eval/` has answer-judging runner and independent oracle coverage, eval results are soft evidence.
 
 ## Law: Independent Verification Beats Self-Grading
 

@@ -20,10 +20,12 @@ A method can move to a broader scope only when:
 - evidence exists outside the original case;
 - failure modes are known;
 - it does not conflict with source principles;
-- it passes relevant eval cases;
+- it has relevant eval cases and, for hard promotion, an independent oracle or runner evidence;
 - the index maps its dependencies and conflicts.
 
 Promotion is not based on popularity, novelty, or a single successful run.
+
+Current eval status: seed prompts, expected behavior, and schema-checked oracle entries are a soft review gate. They are not a hard promotion gate until the eval layer has answer-judging runner coverage and independent oracle evidence for the method.
 
 ## Generalization Test
 

@@ -48,7 +48,7 @@ tianlu-skills/
 ├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, or future runtimes
 ├── overlays/   # Project, machine, organization, or personal method lineages
 ├── incubator/  # Entrance for new methods
-├── eval/       # Test prompts and expected behavior
+├── eval/       # Test prompts, seed oracles, and expected behavior
 └── docs/       # English and Chinese documentation
 ```
 
@@ -64,7 +64,7 @@ tianlu-skills/
 - Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
 - The incubator is an entrance for new methods, not a dumping ground.
 - Adapters and overlays are part of the method system, not pollutants outside it.
-- Promotion requires evidence, evals, and conflict review.
+- Promotion requires evidence, evals, conflict review, and independent oracle evidence before it is treated as a hard gate.
 
 ## Current Status
 
@@ -80,6 +80,8 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [Dao principles](dao/principles.md)
 - [Laws index](laws/index.md)
 - [Surface registry](index/surface-registry.md)
+- [Fan-in audit](docs/fan-in-audit.md)
+- [Eval boundary](eval/README.md)
 - [Test prompts](eval/test-prompts.md)
 - [Local skill inventory](docs/local-skill-inventory.md)
 - [Skill role catalog](docs/skill-role-catalog.md)
