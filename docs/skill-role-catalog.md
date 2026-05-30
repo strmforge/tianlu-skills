@@ -6,6 +6,10 @@ Purpose: make each current Tianlu method family and inspected local skill easy t
 
 This catalog is descriptive. It is not an install list, permission grant, or activation manifest.
 
+Private/local-only exclusions: 1
+
+Private local skills are counted for inventory integrity but are not named or migrated in this neutral repository.
+
 ## Tianlu Law Families
 
 | Family | File | Role | Typical Output |
@@ -26,6 +30,8 @@ This catalog is descriptive. It is not an install list, permission grant, or act
 | `../adapters/codex/feed-to-method.md` | Codex feed-reading workflow for turning external signals into notes, evals, checklists, or inactive skill drafts. | Chrome/X/local archive details belong in private deployment notes, not neutral laws. |
 
 ## Inspected Local Skills
+
+This table lists non-private local skills only. Private/local-only skills are excluded by count above.
 
 | Local Skill | Role In Current Machine | Tianlu Placement | Status |
 | --- | --- | --- | --- |

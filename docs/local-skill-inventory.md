@@ -6,9 +6,13 @@ Purpose: record which local skills were inspected before more feed reading or ne
 
 ## Completion Status
 
-As of 2026-05-30, every skill exposed in the current session has been inventoried and assigned a Tianlu decision.
+As of 2026-05-31, every non-private local or system skill discoverable in the current session has been inventoried and assigned a Tianlu decision.
 
 This does not mean every skill was copied into the repository. Neutral methods were abstracted into `dao/`, `laws/`, `index/`, `eval/`, or `adapters/`. System skills, plugin skills, connector-specific skills, private workflows, and product-specific procedures are listed with their role and boundary instead of being migrated as source text.
+
+Private/local-only exclusions: 1
+
+The excluded private skill is counted for audit completeness but is not named, copied, or summarized in this neutral public repository.
 
 ## Inventory Scope
 
@@ -18,6 +22,7 @@ This inventory covers:
 - nested user-level skills that expose their own `SKILL.md`;
 - system skills visible to the current agent session;
 - plugin-provided skills that are active in the current session, summarized by plugin family.
+- private or local-only user skills by count only when naming them would pollute the neutral repository.
 
 Plugin cache directories are not authoritative. Cached skills from disabled plugins, old plugin versions, or bundles not exposed in the current session are excluded until the runtime exposes them or a user explicitly asks to review that plugin.
 
@@ -74,5 +79,6 @@ Do not copy private paths, credentials, local account details, plugin internals,
 ## Current Gaps Before More Feed Reading
 
 - Current visible skills are now inventoried at the user, system, and active plugin-family levels.
+- `scripts/check-local-skill-inventory.mjs` checks local and system skill inventory against this document and the role catalog without printing private exclusion names by default.
 - Future work should only extract neutral trigger/mechanism/evidence/boundary patterns, not product procedures or connector internals.
 - Cache-only plugin skills remain out of inventory until they become active in-session or are explicitly requested for review.

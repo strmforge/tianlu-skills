@@ -90,6 +90,7 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 
 ```bash
 node scripts/route-lint.mjs
+node scripts/check-local-skill-inventory.mjs
 node eval/run-oracle-check.mjs
 node eval/run-answer-check.mjs eval/seed-answers.jsonl
 ```
