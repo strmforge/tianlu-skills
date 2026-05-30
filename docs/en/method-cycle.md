@@ -18,6 +18,8 @@ The circle has three active motions:
 - Generate: extract a neutral reusable method from that material.
 - Compose: recombine neutral methods into a new scoped variant for a concrete context.
 
+Absorb is scoped, generate is neutral, and compose is scoped again. In other words, the loop receives biased practice, produces a neutral reusable middle, then spends that middle into a new biased practice. The point of the system is not to eliminate scoped forms; it is to keep the conversion boundaries visible so scoped forms can keep recombining safely.
+
 The composed variant then returns to the absorb side as fresh scoped input after practice. The system is therefore not a one-way ladder from local to general. It is a cycle where scoped practice can create neutral methods, and neutral methods can create many scoped practices.
 
 The boundary is intentionally asymmetric: absorb receives scoped or biased material, generate produces a neutral reusable middle, and compose produces scoped or biased material again. Creation is therefore recombination, not final promotion. A composed variant starts the next turn of the cycle as scoped input, even when every ingredient was neutral.
