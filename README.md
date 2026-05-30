@@ -2,50 +2,53 @@
 
 Tianlu Skills is a neutral, layered method system for agent workflows.
 
-It is not tied to one agent runtime, one project, or one working style. It records methods, their scope, their relationships, and the evidence required to promote or retire them.
+It records reusable agent methods, their scope, their relationships, and the evidence required to promote, adapt, or retire them. It is not tied to one model, one agent runtime, one project, or one working style.
 
-## Model
+中文文档见：[docs/zh-CN/README.md](docs/zh-CN/README.md)
 
-Tianlu is organized as:
-
-```text
-tianlu-skills/
-├── dao/        # source principles: how methods are born, scoped, promoted, retired
-├── laws/       # method collection: concrete reusable methods with declared scope
-├── index/      # order: routing, dependencies, scope maps, conflicts
-├── adapters/   # runtime-specific packaging, such as Codex or Claude Code
-├── overlays/   # project, machine, organization, or personal lineages
-├── incubator/  # entrance for new methods
-└── eval/       # validation prompts and expected behavior
-```
-
-Short form:
+## Core Idea
 
 ```text
-dao = source
-laws = collection
+dao   = source
+laws  = collection
 index = order
 ```
 
-The incubator is an entrance, not a dumping ground. Adapters and overlays are scoped parts of the method system, not pollutants outside it.
+Tianlu is not just a package of skills. It is a way to keep methods discoverable, scoped, validated, and portable.
 
-## Neutrality
+## Repository Layout
 
-Neutrality does not mean minimalism. It means methods are recorded without pretending that one platform, project, person, or workflow is universal.
+```text
+tianlu-skills/
+├── dao/        # Source principles: method lifecycle, scope, promotion, conflicts
+├── laws/       # Method collection: concrete reusable methods with declared scope
+├── index/      # Order: routing, dependencies, scope maps, conflict maps
+├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, Hermes
+├── overlays/   # Project, machine, organization, or personal method lineages
+├── incubator/  # Entrance for new methods
+├── eval/       # Test prompts and expected behavior
+└── docs/       # English and Chinese documentation
+```
 
-A method may be:
+## Principles
 
-- runtime-neutral;
-- adapter-specific;
-- overlay-specific;
-- incubating;
-- deprecated;
-- unsafe.
-
-The important rule is honest scope. Useful but narrow methods belong in their proper layer instead of being forced into generic guidance.
+- Neutrality does not mean minimalism. It means every method is placed in its honest scope.
+- Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
+- The incubator is an entrance for new methods, not a dumping ground.
+- Adapters and overlays are part of the method system, not pollutants outside it.
+- Promotion requires evidence, evals, and conflict review.
 
 ## Current Status
 
-This repository is being initialized. The first target adapter is Codex, but the repository itself is runtime-neutral.
+This repository is in early initialization.
 
-Do not install or auto-activate anything from this repository until the adapter and eval files say it is ready.
+The first target adapter is Codex, but the repository itself is runtime-neutral. Do not install or auto-activate anything from this repository until the relevant adapter and eval files say it is ready.
+
+## Start Here
+
+- [English overview](docs/en/README.md)
+- [中文概览](docs/zh-CN/README.md)
+- [Dao principles](dao/principles.md)
+- [Laws index](laws/index.md)
+- [Surface registry](index/surface-registry.md)
+- [Test prompts](eval/test-prompts.md)
