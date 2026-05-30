@@ -78,6 +78,8 @@ For desktop-control MCP servers, the agent should treat tool annotations such as
 
 For worktrees, containers, sandboxes, CI, or hosted runtimes, the agent should not assume full isolation. It should record runtime authority, network, secrets, cache, browser state, ports, background jobs, persisted files, cleanup, rollback, and residual risk.
 
+For declarative agent runtimes with YAML definitions, registry distribution, sandbox defaults, secret or history redaction, persistent memory or snapshots, MCP catalogs, OAuth flows, and allow/block lists, the agent should treat each feature as part of the control plane. Before running a downloaded definition or granting credentials, it should review agent source, registry provenance, image or package identity, configured tools, filesystem mounts, sandbox and network allowlists, secret injection and redaction coverage, memory or snapshot retention, MCP server identity, OAuth token storage and revocation, logs, rollback, and fail-open behavior. Sandboxing, redaction, and catalog filtering reduce risk; they do not authorize untrusted agent configs, broad network access, durable memory writes, or account credentials.
+
 ## CI And DevOps Workflows
 
 The agent should produce a provenance map before enabling an event-driven workflow with secrets, write permissions, shell execution, or durable outputs. It should identify trigger paths, event fields, transform chain, trust boundaries, capabilities, exfiltration channels, and negative tests.
