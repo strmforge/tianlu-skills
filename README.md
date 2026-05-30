@@ -30,6 +30,8 @@ The cycle starts and ends in scoped form. The first scoped form is absorbed as c
 
 The loop is combinatorial. A scoped input can yield a neutral method, and neutral methods can be combined into many new scoped variants. Those variants are not failures of neutrality; they are useful concrete forms that can later re-enter the loop as fresh scoped input. This lets the system absorb many sources, generate reusable middle forms, and compose new practical variants without treating any one variant as universal.
 
+The cycle is a circle: scoped variants enter as input, neutral generation extracts reusable plasticity, and composition spends that plasticity into a new scoped variant. Creation in this repository means recombination for a concrete context, so it is scoped by design. A variant becomes dangerous only when it hides that scope or claims to be universal law without passing through neutral generation and evidence review.
+
 ## Repository Layout
 
 ```text

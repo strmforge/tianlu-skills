@@ -14,12 +14,16 @@ The scoped forms on the two sides of the loop have different roles. Incoming sco
 
 The loop is combinatorial. Many scoped inputs can generate reusable neutral methods, and those neutral methods can be recombined into many new scoped variants. A variant produced by recombination is scoped again by design. It may re-enter the loop when its provenance, evidence, and boundaries remain inspectable.
 
+The key transition is plasticity. A neutral method is not more valuable because it is abstract; it is valuable because it has not been fixed to one concrete context and can still be recombined. Composition deliberately spends that plasticity to solve a scoped problem, so the composed result is biased again. The next cycle begins by treating that result as scoped input, not as universal law.
+
 In short:
 
 - absorb: receive scoped or biased candidates with source and scope intact;
 - generate: turn candidates into neutral reusable methods by extracting mechanisms and containing bias;
 - compose: recombine neutral methods into new scoped variants for concrete use;
 - re-enter: let useful scoped variants become new scoped input when their provenance, evidence, and boundaries remain inspectable.
+
+Absorb, generate, and compose are phases of one loop, not a hierarchy. Absorb handles scoped material, generate produces the neutral middle form, and compose creates a new scoped form from that middle. The repository stays neutral by keeping those phase labels honest.
 
 ## Stages
 

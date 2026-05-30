@@ -18,6 +18,8 @@ This means scoped methods appear twice in the loop. At entry, a scoped method is
 
 The cycle is combinatorial rather than linear. It can absorb many scoped sources, generate reusable neutral middle forms, then recombine those middle forms into many new scoped variants. A new scoped variant can be valuable without being universal, as long as its source, scope, evidence, and boundaries remain visible.
 
+The cycle is circular. Scoped variants enter as input, neutral generation extracts reusable plasticity, and composition spends that plasticity into a new concrete variant. Creation here means recombination for a specific runtime, project, organization, machine, or task, so the result is scoped by design. The risk is not scoped bias itself; the risk is hiding that scope or claiming universal status before neutral generation and evidence review.
+
 ## The Three-Part Model
 
 ```text
