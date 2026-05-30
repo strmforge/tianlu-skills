@@ -30,6 +30,30 @@ Boundary:
 
 - This law does not forbid browser use. It requires scoped authority and evidence handling.
 
+## Law: Account Authority Needs Explicit Scope
+
+Trigger:
+
+- An agent can act through a logged-in account, browser profile, SaaS session, desktop app, mobile steering channel, extension, or connector where the human user is already authenticated.
+
+Mechanism:
+
+- Separate capability from permission. The ability to click, submit, send, edit, purchase, approve, upload, download, configure, or delete does not prove the action is authorized.
+- Before account mutation, record target account, target site or app, intended action, allowed resources, forbidden actions, approval text, expected side effects, evidence to capture, rollback or compensation path, and stop condition.
+- Keep read-only discovery separate from write actions such as posting, liking, following, messaging, buying, subscribing, uploading, changing settings, inviting users, exporting private data, or deleting records.
+- Avoid inspecting cookies, session stores, local storage, password stores, autofill, browser profiles, device keychains, or account recovery settings unless the task explicitly requires that surface and approval names it.
+- Treat account switching, multiple profiles, shared devices, delegated org accounts, and foreground desktop takeover as wrong-principal risks.
+
+Failure Modes:
+
+- The agent performs an account action because the UI was available, not because the user authorized that exact action.
+- A browser tab, app window, or remote desktop belongs to the wrong account or organization.
+- Evidence captures sensitive account state that was not needed for the task.
+
+Boundary:
+
+- Logged-in state is a convenience for read-only work. It is not a standing mandate for mutation.
+
 ## Law: Runtime Isolation Is Not Full Trust
 
 Trigger:

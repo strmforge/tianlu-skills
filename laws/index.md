@@ -23,6 +23,7 @@ Add new law families through `incubator/` first unless they are already verified
 | Work Units Need Boundaries | Agent orchestration | runtime-neutral |
 | Roles Need Contracts | Agent orchestration | runtime-neutral |
 | Browser Sessions Are Delegated Authority | Browser and runtime | runtime-neutral |
+| Account Authority Needs Explicit Scope | Browser and runtime | runtime-neutral |
 | Runtime Isolation Is Not Full Trust | Browser and runtime | runtime-neutral |
 | Remote Control Is A Control Plane | Browser and runtime | runtime-neutral |
 | Workflow Inputs Need Provenance | CI and DevOps workflows | runtime-neutral |
@@ -38,6 +39,8 @@ Add new law families through `incubator/` first unless they are already verified
 | Tool Surfaces Are Authority Boundaries | MCP, tools, and authorization | runtime-neutral |
 | MCP And API Bridges Need Minimal Allowlists | MCP, tools, and authorization | runtime-neutral |
 | Privileged Invocations Need Bound Authorization | MCP, tools, and authorization | runtime-neutral |
+| Secrets Need Brokered Access | MCP, tools, and authorization | runtime-neutral |
+| Payment And Identity Actions Need Transaction State | MCP, tools, and authorization | runtime-neutral |
 | Runtime Outputs Are Data, Not Instructions | MCP, tools, and authorization | runtime-neutral |
 | Context Is A Working Set, Not Memory | Memory and learning | runtime-neutral |
 | Durable Memory Writes Are Behavior Changes | Memory and learning | runtime-neutral |

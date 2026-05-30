@@ -11,8 +11,10 @@ Track cross-law dependencies here before splitting or moving law files.
 | `surface-install-supply-chain.md` | `index/scope-map.md` | installer scope must be explicit before activation | seed |
 | `surface-browser-runtime.md` | `surface-mcp-tools-auth.md` | browser helpers, DevTools ports, and remote control can become tool authority | seed |
 | `surface-browser-runtime.md` | `surface-evidence-eval.md` | browser and runtime receipts need evidence handling | seed |
+| `surface-browser-runtime.md` | `index/conflict-map.md` | account authority can conflict with low-risk fast paths and wrong-principal risk | seed |
 | `surface-mcp-tools-auth.md` | `surface-install-supply-chain.md` | MCP/API wrappers and generated tools are install/config supply chains | seed |
 | `surface-mcp-tools-auth.md` | `surface-evidence-eval.md` | privileged invocations and tool exposure need negative tests and receipts | seed |
+| `surface-mcp-tools-auth.md` | `surface-ci-devops.md` | CI jobs and hosted runtimes often receive secrets, tokens, and production credentials | seed |
 | `surface-ci-devops.md` | `surface-mcp-tools-auth.md` | CI agents, bots, and workflow connectors may expose privileged tools or delegated identity | seed |
 | `surface-ci-devops.md` | `surface-evidence-eval.md` | workflow provenance, scanner findings, repair claims, and policy promotion need evidence and negative tests | seed |
 | `surface-ci-devops.md` | `surface-install-supply-chain.md` | scanners, hooks, workflow helpers, endpoint inventory tools, and policy engines are adoption surfaces | seed |

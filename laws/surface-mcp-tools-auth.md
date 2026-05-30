@@ -79,6 +79,58 @@ Boundary:
 
 - Authorization is not just login. It must bind a privileged invocation to actor, resource, purpose, scope, time, and evidence.
 
+## Law: Secrets Need Brokered Access
+
+Trigger:
+
+- An agent, tool, connector, workflow, CI job, browser session, MCP server, generated helper, or hosted runtime needs API keys, cloud credentials, database credentials, repository tokens, SSH keys, wallet keys, browser credentials, or production account access.
+
+Mechanism:
+
+- Prefer brokered, short-lived, scoped credentials over raw long-lived secrets.
+- Define the principal, resource, action, environment, time window, network boundary, purpose, revocation path, and audit sink before granting access.
+- Use workload identity, delegated identity, dynamic secrets, scoped tokens, vault-issued credentials, or secret identifiers where possible.
+- Expose secret identifiers and capabilities instead of raw values unless the called tool genuinely requires the raw value.
+- Keep secrets out of prompts, chat history, durable memory, logs, artifacts, caches, generated files, environment dumps, screenshots, and error reports.
+- Separate credentials for read, write, deploy, payment, signing, admin, and production data access.
+- If only a static secret is available, treat it as a high-risk exception: minimize scope, avoid persistence, redact evidence, rotate after use when practical, and record residual risk.
+
+Failure Modes:
+
+- Static secrets become embedded in prompts, logs, memory, generated rules, build artifacts, or screenshots.
+- A broad token is reused across tools, servers, agents, repositories, environments, or tenants.
+- The agent cannot revoke, rotate, or audit credentials after the run.
+
+Boundary:
+
+- Secret access is not a normal input. It is delegated authority with lifecycle obligations.
+
+## Law: Payment And Identity Actions Need Transaction State
+
+Trigger:
+
+- An agent uses payment rails, wallets, signing keys, transaction APIs, on-chain identity, passkeys, agent registries, delegated mandates, pay-per-request flows, payment-capable tools, or identity-capable connectors.
+
+Mechanism:
+
+- Treat payment, signing, registry update, identity delegation, trading, and wallet actions as high-impact until scoped and confirmed.
+- Record principal, granting authority, recipient, resource, action, amount or limit, currency or asset, network or rail, fees, memo or payload, nonce or order id, expiration, replay protection, revocation path, dispute path, and consumer protection path.
+- Bind payment or signing proof to exact tool/API, method, resource, argument or body hash, recipient, amount, asset, actor/run id, nonce, expiry, and idempotency key.
+- Track payment requested, proof submitted, settlement verified, tool executed, and result delivered as separate states.
+- Require transaction preview, spend limits, rate limits, per-action confirmation, receipts, and compensation or rollback plan where possible.
+- Reject stale, replayed, cross-tool, cross-recipient, price-drifted, or argument-mismatched proofs.
+
+Failure Modes:
+
+- A payment proof or signature is replayed for a different request.
+- The agent retries a paid request after price, recipient, method, or arguments changed.
+- A tool executes before settlement is verified, or payment settles but service delivery fails without a compensation path.
+- Downstream systems cannot tell which human, organization, agent, wallet, registry entry, or run acted.
+
+Boundary:
+
+- Economic and identity actions require explicit transaction state, not just tool availability.
+
 ## Law: Runtime Outputs Are Data, Not Instructions
 
 Trigger:

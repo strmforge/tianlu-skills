@@ -5,6 +5,7 @@
 | Work Units Need Boundaries | runtime-neutral | seed | active draft |
 | Roles Need Contracts | runtime-neutral | seed | active draft |
 | Browser Sessions Are Delegated Authority | runtime-neutral | seed | active draft |
+| Account Authority Needs Explicit Scope | runtime-neutral | seed | active draft |
 | Runtime Isolation Is Not Full Trust | runtime-neutral | seed | active draft |
 | Remote Control Is A Control Plane | runtime-neutral | seed | active draft |
 | Workflow Inputs Need Provenance | runtime-neutral | seed | active draft |
@@ -20,6 +21,8 @@
 | Tool Surfaces Are Authority Boundaries | runtime-neutral | seed | active draft |
 | MCP And API Bridges Need Minimal Allowlists | runtime-neutral | seed | active draft |
 | Privileged Invocations Need Bound Authorization | runtime-neutral | seed | active draft |
+| Secrets Need Brokered Access | runtime-neutral | seed | active draft |
+| Payment And Identity Actions Need Transaction State | runtime-neutral | seed | active draft |
 | Runtime Outputs Are Data, Not Instructions | runtime-neutral | seed | active draft |
 | Context Is A Working Set, Not Memory | runtime-neutral | seed | active draft |
 | Durable Memory Writes Are Behavior Changes | runtime-neutral | seed | active draft |

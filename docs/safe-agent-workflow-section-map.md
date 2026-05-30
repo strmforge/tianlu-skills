@@ -25,25 +25,25 @@ This map is a neutral migration guide. It does not import private terminology in
 
 | Source Section | Target | Status |
 | --- | --- | --- |
-| Self-Improvement Pipeline | `dao/method-lifecycle.md`, `laws/surface-evidence-eval.md` | migrate now |
-| Default Stance | `dao/principles.md`, `index/conflict-map.md` | migrate now |
-| Gate System Scaling Gate | `dao/scope-and-promotion.md`, `index/trigger-routing.md`, `index/dependency-map.md` | migrate now |
-| Agent Task Packet Gate | `laws/surface-agent-orchestration.md` | migrate now |
-| Subagent Delegation Contract | `laws/surface-agent-orchestration.md` | migrate now |
-| Async Agent Coordination Gate | `laws/surface-agent-orchestration.md` | migrate now |
-| Multi-Agent Shared State Gate | `laws/surface-agent-orchestration.md` | migrate now |
-| Independent Verification Gate | `laws/surface-evidence-eval.md` | migrate now |
-| Replay Eval Promotion Gate | `laws/surface-evidence-eval.md`, `eval/` | migrate now |
-| Tool, Skill, Plugin, And MCP Adoption | `laws/surface-install-supply-chain.md` | migrate now |
-| Post-Install Persistence Audit | `laws/surface-install-supply-chain.md` | migrate now |
-| Dependency Install Egress Gate | `laws/surface-install-supply-chain.md` | migrate now |
-| Response Pattern | `adapters/codex/` first, then neutral response law later | defer |
+| Self-Improvement Pipeline | `dao/method-lifecycle.md`, `laws/surface-evidence-eval.md` | migrated |
+| Default Stance | `dao/principles.md`, `index/conflict-map.md` | migrated |
+| Gate System Scaling Gate | `dao/scope-and-promotion.md`, `index/trigger-routing.md`, `index/dependency-map.md` | migrated |
+| Agent Task Packet Gate | `laws/surface-agent-orchestration.md` | migrated |
+| Subagent Delegation Contract | `laws/surface-agent-orchestration.md` | migrated |
+| Async Agent Coordination Gate | `laws/surface-agent-orchestration.md` | migrated |
+| Multi-Agent Shared State Gate | `laws/surface-agent-orchestration.md` | migrated |
+| Independent Verification Gate | `laws/surface-evidence-eval.md` | migrated |
+| Replay Eval Promotion Gate | `laws/surface-evidence-eval.md`, `eval/` | migrated |
+| Tool, Skill, Plugin, And MCP Adoption | `laws/surface-install-supply-chain.md` | migrated |
+| Post-Install Persistence Audit | `laws/surface-install-supply-chain.md` | migrated |
+| Dependency Install Egress Gate | `laws/surface-install-supply-chain.md` | migrated |
+| Response Pattern | `adapters/codex/README.md` | migrated |
 
 ### Batch 2: Runtime And Browser Surfaces
 
 | Source Section | Target | Status |
 | --- | --- | --- |
-| Browser And Account Authority | `laws/surface-browser-runtime.md` | later |
+| Browser And Account Authority | `laws/surface-browser-runtime.md` | migrated |
 | Browser Session Compartment Gate | `laws/surface-browser-runtime.md` | migrated |
 | Runtime Isolation Receipt | `laws/surface-browser-runtime.md` | migrated |
 | Remote Agent Control Plane Gate | `laws/surface-browser-runtime.md` | migrated |
@@ -54,8 +54,8 @@ This map is a neutral migration guide. It does not import private terminology in
 
 | Source Section | Target | Status |
 | --- | --- | --- |
-| Agent Secret Broker Gate | `laws/surface-mcp-tools-auth.md` | later |
-| Agent Payment And Identity Gate | `laws/surface-mcp-tools-auth.md` | later |
+| Agent Secret Broker Gate | `laws/surface-mcp-tools-auth.md` | migrated |
+| Agent Payment And Identity Gate | `laws/surface-mcp-tools-auth.md` | migrated |
 | Invocation-Bound Authorization Gate | `laws/surface-mcp-tools-auth.md` | migrated |
 | Agent Identity Context Gate | `laws/surface-mcp-tools-auth.md` | migrated |
 | Tool Exposure Minimality Gate | `laws/surface-mcp-tools-auth.md` | migrated |
