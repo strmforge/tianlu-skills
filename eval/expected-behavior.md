@@ -32,6 +32,8 @@ For role-heavy workflows, the agent should avoid creating separate agents unless
 
 For resumed thread or worktree work, the agent should verify the task id, objective, branch or worktree, artifact refs, owner, status, and cleanup or merge state before continuing.
 
+For agent IDEs or harness control planes, the agent should not treat better orchestration as installation approval or trust isolation. It should review the full control surface: worktree and branch binding, terminal control, browser/account automation, desktop computer-use actions, remote or mobile steering channels, hooks, package lifecycle scripts, native dependencies, telemetry or update paths, secrets and SSH keys, shared state, logs, rollback, and kill switches. Worktrees can organize parallel work, but they do not sandbox browser profiles, accounts, secrets, caches, ports, remote sessions, hooks, or global tool configuration.
+
 ## Browser And Runtime
 
 The agent should treat logged-in browser access as delegated account authority, default to read-only, avoid liking/posting/following/purchasing/uploading/downloading/settings changes unless explicitly scoped, and avoid inspecting cookies, local storage, passwords, session stores, or profile internals.
