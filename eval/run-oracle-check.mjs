@@ -11,6 +11,7 @@ const required = [
   'forbid',
   'oracle_status',
 ];
+const optionalRegexFields = ['must_match', 'forbid_match'];
 
 const text = readFileSync(oraclePath, 'utf8');
 const lines = text.split(/\r?\n/).filter((line) => line.trim().length > 0);
@@ -46,6 +47,24 @@ for (let i = 0; i < lines.length; i += 1) {
     if (!Array.isArray(item[key]) || item[key].length === 0) {
       console.error(`line ${lineNo}: ${key} must be a non-empty array`);
       failures += 1;
+    }
+  }
+
+  for (const key of optionalRegexFields) {
+    if (key in item) {
+      if (!Array.isArray(item[key]) || item[key].length === 0) {
+        console.error(`line ${lineNo}: ${key} must be a non-empty array when present`);
+        failures += 1;
+        continue;
+      }
+      for (const pattern of item[key]) {
+        try {
+          new RegExp(pattern, 'i');
+        } catch (error) {
+          console.error(`line ${lineNo}: invalid ${key} regex "${pattern}": ${error.message}`);
+          failures += 1;
+        }
+      }
     }
   }
 

@@ -6,19 +6,20 @@ The current eval layer contains seed prompts, expected behavior, and a minimal m
 
 ## Current Boundary
 
-Until an answer-judging runner and independent oracle coverage exist, "passes eval" means:
+Until independent oracle coverage exists, "passes eval" means:
 
 - the case is present in `test-prompts.md`;
 - expected behavior is written in `expected-behavior.md`;
 - at least one oracle entry in `oracle-cases.jsonl` names the primary law, companions, must-have behavior, and forbidden behavior;
-- a reviewer can compare an agent answer against those fields.
+- deterministic match patterns exist for seed cases when answer checking is used;
+- a reviewer can compare an agent answer against those fields and note what the deterministic check cannot judge.
 
 It does not mean the method has passed an independent automated benchmark.
 
 ## Hardening Path
 
 1. Keep adding oracle entries for high-risk and promoted cases.
-2. Add an answer-judging runner that parses `oracle-cases.jsonl` and checks candidate answers for required and forbidden behavior.
+2. Expand answer-judging coverage beyond the current deterministic seed runner.
 3. Separate authoring, answering, and judging roles when possible.
 4. Record whether each check is self-authored, pre-existing, independently generated, or human-reviewed.
 5. Treat promotions as soft until at least one independent oracle exists for the method.
@@ -31,6 +32,9 @@ Run:
 
 ```bash
 node eval/run-oracle-check.mjs
+node eval/run-answer-check.mjs eval/seed-answers.jsonl
 ```
 
-This only validates oracle schema and duplicate ids. It does not judge agent answers yet.
+`run-oracle-check.mjs` validates oracle schema, duplicate ids, and regex pattern syntax.
+
+`run-answer-check.mjs` checks a JSONL answer file against deterministic `must_match` and `forbid_match` patterns. This is a useful regression seed, but it is still shallow: it can miss paraphrases, reward keyword stuffing, and cannot prove semantic correctness or independent verification.

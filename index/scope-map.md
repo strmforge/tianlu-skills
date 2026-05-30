@@ -21,6 +21,8 @@
 | Tool Surfaces Are Authority Boundaries | runtime-neutral | seed | active draft |
 | MCP And API Bridges Need Minimal Allowlists | runtime-neutral | seed | active draft |
 | Privileged Invocations Need Bound Authorization | runtime-neutral | seed | active draft |
+| Physical Device Actions Need Operational Scope | runtime-neutral | seed | active draft |
+| Network Route Changes Need Traffic Scope | runtime-neutral | seed | active draft |
 | Secrets Need Brokered Access | runtime-neutral | seed | active draft |
 | Payment And Identity Actions Need Transaction State | runtime-neutral | seed | active draft |
 | Runtime Outputs Are Data, Not Instructions | runtime-neutral | seed | active draft |
@@ -29,4 +31,5 @@
 | Memory Lifecycle Needs A Write Contract | runtime-neutral | seed | active draft |
 | Memory Trajectory Matters | runtime-neutral | seed | active draft |
 | Feed Learning Extracts Mechanisms, Not Vibes | runtime-neutral | seed | active draft |
+| Skills Are Delivery Artifacts, Not Evidence Layers | runtime-neutral | seed | active draft |
 | Skill Generation Requires Promotion Evidence | runtime-neutral | seed | active draft |

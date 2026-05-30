@@ -85,3 +85,13 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [Test prompts](eval/test-prompts.md)
 - [Local skill inventory](docs/local-skill-inventory.md)
 - [Skill role catalog](docs/skill-role-catalog.md)
+
+## Local Checks
+
+```bash
+node scripts/route-lint.mjs
+node eval/run-oracle-check.mjs
+node eval/run-answer-check.mjs eval/seed-answers.jsonl
+```
+
+These checks guard the current indexes and seed evals. They are not a substitute for independent review or runtime-specific adapter testing.

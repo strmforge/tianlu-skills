@@ -87,6 +87,6 @@ Routing pressure test:
 
 ## Open Items
 
-- Add a small route-lint script later so law count, primary law, and companion routes can be checked without manual counting.
+- `scripts/route-lint.mjs` now checks law headings, `laws/index.md`, `index/scope-map.md`, `index/surface-registry.md`, law count drift, and unusually long law files.
 - Re-run this audit when the law count changes by more than three, or when one law file becomes much longer than its peers.
-- Do not claim eval-gated promotion is hard until `eval/` has an answer-judging runner and independent oracle coverage.
+- Do not claim eval-gated promotion is hard until `eval/` has independent oracle coverage. The current answer runner is deterministic seed coverage, not semantic proof.
