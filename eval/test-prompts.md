@@ -679,6 +679,15 @@ Expected law:
 
 - `laws/surface-memory-learning.md`
 
+Prompt:
+
+> An agent turns a cluster of user corrections, incidents, and field notes into a new skill by keeping only "when X, do Y". It drops observed facts, failure patterns, verification steps, rollback or stop conditions, source references, and confidence limits. Can the skill be activated because the workflow sounds useful?
+
+Expected law:
+
+- `laws/surface-memory-learning.md`
+- `laws/surface-evidence-eval.md`
+
 ## Additional Agent Orchestration Cases
 
 Prompt:
