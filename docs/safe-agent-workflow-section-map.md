@@ -44,11 +44,11 @@ This map is a neutral migration guide. It does not import private terminology in
 | Source Section | Target | Status |
 | --- | --- | --- |
 | Browser And Account Authority | `laws/surface-browser-runtime.md` | later |
-| Browser Session Compartment Gate | `laws/surface-browser-runtime.md` | later |
-| Runtime Isolation Receipt | `laws/surface-browser-runtime.md` or `laws/surface-agent-orchestration.md` | later |
-| Remote Agent Control Plane Gate | `laws/surface-browser-runtime.md` | later |
-| Private MCP Tunnel Gate | `laws/surface-mcp-tools-auth.md` | later |
-| API-To-MCP Bridge Gate | `laws/surface-mcp-tools-auth.md` | later |
+| Browser Session Compartment Gate | `laws/surface-browser-runtime.md` | migrated |
+| Runtime Isolation Receipt | `laws/surface-browser-runtime.md` | migrated |
+| Remote Agent Control Plane Gate | `laws/surface-browser-runtime.md` | migrated |
+| Private MCP Tunnel Gate | `laws/surface-mcp-tools-auth.md` | migrated |
+| API-To-MCP Bridge Gate | `laws/surface-mcp-tools-auth.md` | migrated |
 
 ### Batch 3: Identity, Authorization, And Tool Metadata
 
@@ -56,10 +56,10 @@ This map is a neutral migration guide. It does not import private terminology in
 | --- | --- | --- |
 | Agent Secret Broker Gate | `laws/surface-mcp-tools-auth.md` | later |
 | Agent Payment And Identity Gate | `laws/surface-mcp-tools-auth.md` | later |
-| Invocation-Bound Authorization Gate | `laws/surface-mcp-tools-auth.md` | later |
-| Agent Identity Context Gate | `laws/surface-mcp-tools-auth.md` | later |
-| Tool Exposure Minimality Gate | `laws/surface-mcp-tools-auth.md` | later |
-| MCP and tool metadata trigger notes | `laws/surface-mcp-tools-auth.md` | later |
+| Invocation-Bound Authorization Gate | `laws/surface-mcp-tools-auth.md` | migrated |
+| Agent Identity Context Gate | `laws/surface-mcp-tools-auth.md` | migrated |
+| Tool Exposure Minimality Gate | `laws/surface-mcp-tools-auth.md` | migrated |
+| MCP and tool metadata trigger notes | `laws/surface-mcp-tools-auth.md` | migrated |
 
 ### Batch 4: CI, DevOps, And Developer Endpoints
 
