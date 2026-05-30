@@ -16,13 +16,13 @@ index = order
 
 Tianlu is not just a package of skills. It is a way to keep methods discoverable, scoped, validated, and portable.
 
-It treats method work as a generation system:
+It treats method work as a cycle:
 
 ```text
-signals -> reusable methods -> composed variants
+scoped signals -> neutral methods -> scoped variants -> new scoped signals
 ```
 
-External information is absorbed as candidate material, generalized into portable methods, then recombined into scoped variants for concrete runtimes, projects, or tasks. Those variants can later become new signals, so method generation is a loop rather than a one-time conversion.
+External information usually arrives as scoped, event-shaped material. Tianlu absorbs that material, generalizes the reusable mechanism into a neutral method, then recombines neutral methods into scoped variants for concrete runtimes, projects, or tasks. Those variants can later become new scoped signals.
 
 ## Repository Layout
 
