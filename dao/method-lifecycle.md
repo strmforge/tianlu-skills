@@ -25,6 +25,8 @@ In short:
 
 Absorb, generate, and compose are phases of one loop, not a hierarchy. Absorb handles scoped material, generate produces the neutral middle form, and compose creates a new scoped form from that middle. The repository stays neutral by keeping those phase labels honest.
 
+For a shorter phase table, see [Method Cycle](../docs/en/method-cycle.md).
+
 ## Stages
 
 ### Signal

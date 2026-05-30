@@ -32,6 +32,8 @@ The loop is combinatorial. A scoped input can yield a neutral method, and neutra
 
 The cycle is a circle: scoped variants enter as input, neutral generation extracts reusable plasticity, and composition spends that plasticity into a new scoped variant. Creation in this repository means recombination for a concrete context, so it is scoped by design. A variant becomes dangerous only when it hides that scope or claims to be universal law without passing through neutral generation and evidence review.
 
+See [Method Cycle](docs/en/method-cycle.md) for the phase invariants behind absorb, generate, compose, and re-enter.
+
 ## Repository Layout
 
 ```text
@@ -68,6 +70,7 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 
 - [English overview](docs/en/README.md)
 - [中文概览](docs/zh-CN/README.md)
+- [Method cycle](docs/en/method-cycle.md)
 - [Dao principles](dao/principles.md)
 - [Laws index](laws/index.md)
 - [Surface registry](index/surface-registry.md)
