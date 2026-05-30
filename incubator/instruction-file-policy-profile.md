@@ -14,6 +14,13 @@ The same mechanism is risky because instruction files are persistent agent-facin
 - Primary source reviewed: public article page at `note.com/genkaijokyo/n/n76d27b3e66a8`.
 - Official reference checked: OpenAI Codex AGENTS.md documentation and Codex approval/sandbox documentation were used as background for the general behavior model.
 
+Additional sample, read-only:
+
+- Repository: `https://github.com/jerry47j-lang/ai-agent-rules-generator`
+- Observed commit: `f7ce782a0d6d0d0e8a33749bba80a7b6f4b61839`
+- Repository shape at review time: static HTML, CSS, and JavaScript generator for files such as `AGENTS.md`, Cursor rules, GitHub Copilot instructions, and `CLAUDE.md`.
+- The README says the tool can be opened locally with no backend, build step, account, or API key. The generated files are still persistent agent-facing instructions and should be treated as drafts until reviewed.
+
 ## Proposed Trigger
 
 Use this candidate when a user, team, project, or agent wants to create or modify persistent instruction files such as:
@@ -43,6 +50,9 @@ Before writing or adopting an instruction-file profile:
    - The agent should inspect nearby skills or project workflows when relevant, explain which one it is using, and avoid relying solely on implicit trigger matching.
 6. Keep the profile reviewable.
    - Record source, scope, owner, last review date, conflict precedence, and rollback path.
+7. Treat generated instruction files as draft policy.
+   - Generator output is convenient starting material, not authority.
+   - Review the generated text for hidden assumptions, broad permissions, stale commands, private data, and runtime-specific claims before committing, copying to an autoload path, or relying on it in future agent sessions.
 
 ## Initial Scope
 
@@ -59,6 +69,7 @@ Before writing or adopting an instruction-file profile:
 - Skill discovery rules cause over-triggering, context bloat, or conflicting skill instructions.
 - A project-local profile overrides safer global rules without an explicit conflict model.
 - Third-party profiles become supply-chain instructions when copied from posts, templates, or repositories.
+- Static generators make persistent instruction files look low-risk because they avoid backend execution, while the output can still alter future agent behavior.
 
 ## Verification Needed
 
@@ -72,6 +83,7 @@ Before writing or adopting an instruction-file profile:
   - nearby skill selection;
   - destructive command requiring explicit approval;
   - conflicting global and project-local rules.
+- Test generated-file review with a sample output before committing or placing it in a runtime autoload path.
 - Confirm rollback path for removing or reverting the profile.
 
 ## Placement Candidates

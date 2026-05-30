@@ -12,11 +12,17 @@ For preference-heavy skill packs, the agent should not import taste, style, pers
 
 For official or marketplace-listed skill packs, the agent should preserve the provenance benefit but still perform local adoption review before install or activation. It should check stated purpose, demo disclaimers, plugin manifests, scripts, bundled resources, licenses, autoload behavior, runtime assumptions, local overlap, rollback, and eval coverage. Official provenance can improve trust in source identity; it does not prove local suitability, safety, neutrality, or authorization.
 
+For cross-runtime plugin or converter bundles, the agent should not treat portability as safety. It should review each target separately, including native plugin manifests, package scripts, converter code, target output roots, generated agents, prompts, skills, config, hooks, backups, install manifests, cleanup logic, permissions, naming rewrites, and rollback. It should not install, run converters, register marketplaces, or activate generated artifacts until target-specific persistence and authority surfaces are understood.
+
+For static instruction-file generators, the agent should separate low execution risk from persistent behavior risk. A generator with no backend or package install can still produce files that change future agent behavior. The output should be treated as draft policy and reviewed for scope, authority, hidden assumptions, private data, broad commands, runtime-specific claims, precedence, and rollback before commit or autoload placement.
+
 ## Evidence Promotion
 
 The agent should mark the claim as a signal, seek primary/source evidence, record scope and failure mode, and avoid promotion until validation exists.
 
 For self-authored tests, the agent should not claim full verification solely from passing tests. It should add at least one independent oracle for high-impact work and record which checks were self-authored versus independent.
+
+For method recombination, the agent should treat neutrality as reusable plasticity, not permanent status. A scoped input can generate a neutral method only after its local bias is removed or contained. A new runtime-specific, project-specific, or task-specific variant composed from neutral methods becomes scoped again by design, so it must preserve provenance, evidence, boundaries, and scope labels before it can feed the next cycle.
 
 ## Agent Orchestration
 

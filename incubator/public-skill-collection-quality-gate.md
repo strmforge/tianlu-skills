@@ -12,6 +12,8 @@ A later feed item on 2026-05-30 pointed to `Leonxlnx/taste-skill`, a public repo
 
 Another later feed item on 2026-05-30 pointed to `anthropics/skills`, an official public repository of Agent Skills examples and Claude plugin marketplace metadata. It is a useful third sample because an official source, demo purpose, and marketplace install path can make agents under-review adoption risk.
 
+Another later feed item on 2026-05-30 pointed to `EveryInc/compound-engineering-plugin`, a public cross-runtime plugin and converter repository. It is a useful fourth sample because it combines skill collection, agent collection, marketplace manifests, a package installer, target-specific conversion, config writes, hooks, and cleanup behavior.
+
 Primary source review, read-only:
 
 - Repository: `https://github.com/addyosmani/agent-skills`
@@ -34,6 +36,14 @@ Third sample, read-only:
 - Repository shape at review time: 17 `skills/*/SKILL.md` files, many scripts and resources, per-skill licenses, bundled fonts/templates, third-party notices, and Claude plugin marketplace metadata.
 - The repository README describes the skills as demonstrations and educational references, notes that implementations and production behavior may differ, and says to test skills thoroughly before relying on them.
 - The marketplace metadata exposes skill sets such as document skills, example skills, and a Claude API skill. Official source and marketplace packaging are provenance signals, not automatic local activation approval.
+
+Fourth sample, read-only:
+
+- Repository: `https://github.com/EveryInc/compound-engineering-plugin`
+- Observed commit: `85987d496fdfdc8a18faf592fd53329e23266537`
+- Repository shape at review time: plugin manifests for multiple runtimes, 38 skill entrypoints, 50+ agent files, hook-related files, Bun/TypeScript CLI, package metadata, privacy and security docs, target-specific conversion code, and Codex install guidance.
+- The Codex manifest points to a native skill folder and advertises interactive read/write capabilities. The README also documents a companion Bun install step for Codex agents because native plugin install does not cover the full agent-heavy workflow.
+- The converter can write target-specific artifacts such as Codex agents, prompts, skills, config, hooks, install manifests, backups, and cleanup output. Cross-runtime portability is useful, but each target still needs its own activation and persistence review.
 
 No install, clone, package execution, plugin activation, hook execution, or skill import was performed during review.
 
@@ -58,6 +68,7 @@ Review in this order:
    - For preference-heavy skills, separate the preference profile from the review mechanism. Do not import taste, style, persona, or voice as neutral law.
 4. Review activation and persistence.
    - Check install paths, autoload behavior, hooks, lifecycle scripts, plugin manifests, generated config, shell commands, and rollback or disable paths.
+   - For cross-runtime converters, review each target writer separately. A converter that is safe or useful for one runtime can still create different persistence, naming, hook, config, or permission surfaces in another runtime.
 5. Check local overlap and marginal utility.
    - Compare the candidate collection with existing local laws, adapters, overlays, and evals.
    - Prefer extracting a mechanism or eval case over copying whole skills.
@@ -78,6 +89,7 @@ This candidate is about adopting or learning from public skill collections. It i
 
 - High star count, author reputation, or polished README is mistaken for local suitability.
 - Official source, demo purpose, or marketplace packaging is mistaken for local activation approval.
+- Cross-runtime support is mistaken for cross-runtime safety or identical semantics.
 - A public skill pack is copied wholesale, importing platform assumptions, hooks, scripts, or context bloat.
 - A meta-skill router over-triggers and loads too much context.
 - A domain-specific or taste-heavy skill is treated as neutral because its checklist is detailed.
@@ -87,7 +99,7 @@ This candidate is about adopting or learning from public skill collections. It i
 
 ## Verification Needed
 
-- Apply this gate to at least three public skill or rule collections without installing them. Three samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, and one official example/marketplace collection.
+- Apply this gate to public skill or rule collections without installing them. Four samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, and one cross-runtime plugin/converter collection.
 - Record whether it changes adoption decisions compared with simple README review.
 - Add eval cases for high-star public skill packs, install-heavy packs, duplicated local methods, and preference-heavy packs.
 

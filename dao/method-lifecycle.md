@@ -3,10 +3,17 @@
 Tianlu tracks methods through a lifecycle:
 
 ```text
-scoped input -> incubating -> neutral extraction -> scoped recombination -> eval -> promotion / retention / retirement -> scoped input
+scoped input -> incubating -> neutral generation -> scoped recombination -> eval -> promotion / retention / retirement -> scoped input
 ```
 
-The lifecycle is a loop, not a one-way ladder. Scoped input is biased by an event, runtime, project, tool, or task. A neutral method is extracted by making the reusable mechanism explicit and removing or containing local bias. A scoped variant is then composed for a concrete context; that variant is intentionally biased again, and its results can re-enter as new scoped input.
+The lifecycle is a loop, not a one-way ladder. Scoped input is biased by an event, runtime, project, tool, or task. Neutral generation absorbs that biased input, makes the reusable mechanism explicit, and removes or contains local bias. Scoped recombination then composes neutral methods into a concrete variant; that variant is intentionally biased again, and its results can re-enter as new scoped input.
+
+In short:
+
+- absorb: receive scoped or biased candidates with source and scope intact;
+- generate: turn candidates into neutral reusable methods by extracting mechanisms and containing bias;
+- compose: recombine neutral methods into new scoped variants for concrete use;
+- re-enter: let useful scoped variants become new scoped input when their provenance, evidence, and boundaries remain inspectable.
 
 ## Stages
 
@@ -31,9 +38,9 @@ Required fields:
 
 Verification may include source checks, permission and data exposure review, rollback or disable path, and a small dry run or replay case.
 
-### Neutral Extraction
+### Neutral Generation
 
-Neutral extraction turns one or more scoped candidates into a reusable method.
+Neutral generation turns one or more scoped candidates into a reusable method.
 
 Required fields:
 
@@ -69,7 +76,7 @@ Runtime-specific adapters translate a law into a local format, such as a Codex s
 
 Scoped recombination combines neutral methods into a concrete variant for a runtime, project, organization, machine, person, or task.
 
-The variant must keep source, scope, evidence, and boundaries visible. It should not be promoted as broad law just because it fits its target context well.
+The variant is useful because it fits its target context, so it is scoped again by design. It must keep source, scope, evidence, and boundaries visible. It should not be promoted as broad law just because it fits its target context well.
 
 ### Eval
 

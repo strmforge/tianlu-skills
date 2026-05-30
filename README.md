@@ -19,10 +19,10 @@ Tianlu is not just a package of skills. It is a way to keep methods discoverable
 It treats method work as a cycle:
 
 ```text
-scoped input -> neutral extraction -> scoped recombination -> scoped input
+absorb scoped input -> generate neutral method -> compose scoped variant -> absorb scoped input
 ```
 
-External information usually arrives as scoped, event-shaped material. Tianlu absorbs that biased input, extracts the reusable mechanism into a neutral method, then recombines neutral methods into new scoped variants for concrete runtimes, projects, or tasks. Those variants are intentionally shaped for their context; after use, they can feed back as new scoped input.
+External information usually arrives as scoped, event-shaped material. Tianlu absorbs that biased input, generates a neutral reusable method by extracting the mechanism and containing local bias, then composes neutral methods into new scoped variants for concrete runtimes, projects, or tasks. Those variants are intentionally biased toward their context; after use, they can feed back as new scoped input. This makes the system circular rather than linear: scoped practice can produce neutral methods, and neutral methods can produce new scoped practice.
 
 ## Repository Layout
 
