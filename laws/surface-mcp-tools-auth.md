@@ -104,6 +104,32 @@ Boundary:
 
 - A device API command is not only a software mutation. If it changes the physical world or observes a private physical space, treat it as high-impact until the operational scope is explicit.
 
+## Law: Network Route Changes Need Traffic Scope
+
+Trigger:
+
+- An agent, tool, script, skill, MCP server, or API wrapper can create, translate, publish, import, or apply proxy profiles, VPN profiles, firewall rules, DNS settings, routing tables, subscription links, QR codes, network-controller authentication flows, device-controller API calls, or other network path configuration.
+
+Mechanism:
+
+- Separate offline conversion or documentation from applied network changes. Generated YAML, QR codes, subscription URLs, curl commands, and import instructions become operational when they are copied into a client, served publicly, applied to a controller, or used with live credentials.
+- Before applying or publishing network configuration, record actor, organization or account, target devices or clients, traffic classes affected, direct/proxy/block rules, endpoints, credential material, subscription URL exposure, certificate or TLS verification changes, duration, rollback, and verification plan.
+- Treat proxy links, subscription URLs, controller tokens, RSA-encrypted passwords, client auth strings, network topology, private IPs, and routing rules as sensitive operational data.
+- Require explicit approval before disabling TLS verification, accepting self-signed certificates, bypassing security controls, changing controller state, publishing subscription links, or routing all traffic through a generated profile.
+- Prefer dry-run parsing, schema validation, redacted diffs, and local-only artifacts before live import, controller calls, public hosting, or fleet rollout.
+
+Failure Modes:
+
+- A generated proxy or VPN profile silently routes all traffic, credentials, or internal services through an unintended endpoint.
+- A subscription URL or QR code exposes reusable access material to the wrong audience.
+- A network-controller helper turns authentication knowledge into live infrastructure mutation without scope or rollback.
+- Skipping certificate verification becomes a default habit outside the one known self-signed administrative endpoint.
+- Rule-mode assumptions leak, block, or misroute traffic for a different region, tenant, device, or network.
+
+Boundary:
+
+- Network path configuration is operational authority. Treat generated network artifacts as drafts until the target client, traffic scope, credential exposure, publication boundary, and rollback are explicit.
+
 ## Law: Secrets Need Brokered Access
 
 Trigger:

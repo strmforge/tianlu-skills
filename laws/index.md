@@ -40,6 +40,7 @@ Add new law families through `incubator/` first unless they are already verified
 | MCP And API Bridges Need Minimal Allowlists | MCP, tools, and authorization | runtime-neutral |
 | Privileged Invocations Need Bound Authorization | MCP, tools, and authorization | runtime-neutral |
 | Physical Device Actions Need Operational Scope | MCP, tools, and authorization | runtime-neutral |
+| Network Route Changes Need Traffic Scope | MCP, tools, and authorization | runtime-neutral |
 | Secrets Need Brokered Access | MCP, tools, and authorization | runtime-neutral |
 | Payment And Identity Actions Need Transaction State | MCP, tools, and authorization | runtime-neutral |
 | Runtime Outputs Are Data, Not Instructions | MCP, tools, and authorization | runtime-neutral |
