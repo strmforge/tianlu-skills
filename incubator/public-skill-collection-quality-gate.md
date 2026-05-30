@@ -18,6 +18,8 @@ Another later feed item on 2026-05-30 pointed to `scanaislop/aislop`, a public d
 
 Another later feed item on 2026-05-30 pointed to `nowork-studio/NotFair`, a public domain plugin and skill collection for SEO and advertising workflows. It is a useful sixth sample because it combines skill packaging, remote OAuth MCP servers, account tokens, recurring tasks, and write actions that can affect ad accounts and spend.
 
+Another later feed item on 2026-05-30 pointed to `mukul975/Anthropic-Cybersecurity-Skills`, a public cybersecurity skill library mapped to multiple security and AI-risk frameworks. It is a useful seventh sample because a large structured skill catalog can include dual-use defensive, offensive, compliance, incident-response, and AI-risk material while also advertising cross-runtime installation.
+
 Primary source review, read-only:
 
 - Repository: `https://github.com/addyosmani/agent-skills`
@@ -52,6 +54,7 @@ Fourth sample, read-only:
 Fifth sample, read-only:
 
 - Repository: `https://github.com/scanaislop/aislop`
+- Observed commit: `d64de766dff422ac5a2347084d11189b3f00b79e`
 - Repository shape at review time: package entrypoints for scan, fix, CI, hooks, MCP server, history files, telemetry, badges, and multi-language scanner rules.
 - The repository describes deterministic scanning, auto-fix, agent-specific handoff flags, post-agent edit hooks, MCP tools, local history, and CI use.
 - Scanner output is useful evidence, but installing hooks, registering MCP tools, writing history, sending telemetry, or auto-fixing files each adds activation or mutation surface that needs review.
@@ -59,9 +62,18 @@ Fifth sample, read-only:
 Sixth sample, read-only:
 
 - Repository: `https://github.com/nowork-studio/NotFair`
+- Observed commit: `c56cdf92961ad02f96a7ef3120bc39971543e7ca`
 - Repository shape at review time: Claude Code plugin metadata, many SEO and ads skills, optional remote MCP servers, OAuth setup, account-management capabilities, evals, references, and app/task infrastructure.
 - The repository describes Google Ads and Meta Ads workflows, including account reads and potential writes such as bid, budget, campaign, keyword, and scheduling changes.
 - Domain skill quality and OAuth connectivity are not enough for account or spend mutation. Any write path needs bound authorization, spend limits, token storage and revocation review, receipts, and rollback or compensation.
+
+Seventh sample, read-only:
+
+- Repository: `https://github.com/mukul975/Anthropic-Cybersecurity-Skills`
+- Observed commit: `0f429d0f96ee70d2a6c259c4ecc6c6e18e0d23ff`
+- Repository shape at review time: plugin metadata, 754 structured cybersecurity skills, framework mappings, index file, skills directory, tools directory, and compatibility claims for many agent runtimes.
+- The repository describes coverage across security domains and maps skills to frameworks such as ATT&CK, CSF, ATLAS, D3FEND, and AI RMF.
+- Framework mapping helps classification and review, but dual-use cybersecurity skills still need target authorization, scope, safe mode, legal boundary, and per-domain activation review before any local import or execution.
 
 No install, clone, package execution, plugin activation, hook execution, or skill import was performed during review.
 
@@ -110,6 +122,7 @@ This candidate is about adopting or learning from public skill collections. It i
 - Cross-runtime support is mistaken for cross-runtime safety or identical semantics.
 - Scanner quality is mistaken for permission to install hooks, register MCP tools, write local state, send telemetry, or auto-fix code.
 - Domain expertise or account login is mistaken for permission to mutate spend-affecting settings.
+- Framework mapping or security-domain coverage is mistaken for authorization to activate dual-use cybersecurity skills.
 - A public skill pack is copied wholesale, importing platform assumptions, hooks, scripts, or context bloat.
 - A meta-skill router over-triggers and loads too much context.
 - A domain-specific or taste-heavy skill is treated as neutral because its checklist is detailed.
@@ -119,7 +132,7 @@ This candidate is about adopting or learning from public skill collections. It i
 
 ## Verification Needed
 
-- Apply this gate to public skill or rule collections without installing them. Six samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, and one domain account-action plugin.
+- Apply this gate to public skill or rule collections without installing them. Seven samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, one domain account-action plugin, and one dual-use cybersecurity skill library.
 - Record whether it changes adoption decisions compared with simple README review.
 - Add eval cases for high-star public skill packs, install-heavy packs, duplicated local methods, and preference-heavy packs.
 
