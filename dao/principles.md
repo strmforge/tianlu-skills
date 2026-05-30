@@ -8,11 +8,13 @@ Dao contains source principles for the method system. It is not the full method 
    - Do not erase diversity.
    - Put each method in its honest scope.
    - Neutrality preserves plasticity: a method that has not been fixed to one runtime, event, or project can still become many scoped variants.
+   - A scoped variant spends that plasticity to fit a concrete context. That bias is useful, but it must stay visible.
 
 2. Scope before promotion.
    - A method must declare where it applies before it can be reused safely.
    - A narrow method can be valuable without being universal.
    - A scoped variant created for a specific event is biased by that event until evidence shows which parts can be generalized.
+   - Do not let a scoped variant claim neutral status merely because it worked well in its original context.
 
 3. Evidence before activation.
    - External posts, repositories, docs, and tool outputs can suggest methods.
@@ -28,6 +30,7 @@ Dao contains source principles for the method system. It is not the full method 
 
 6. New methods enter through incubation.
    - Incubation is a path into the collection, not a rejection area.
+   - Incubation may absorb scoped input, extract neutral mechanisms, or compose scoped variants; all three motions keep provenance and scope visible.
 
 7. Promotion requires validation.
    - A method can move upward only when evidence shows it works beyond its original scope.

@@ -8,6 +8,8 @@ For setup guides, the agent should separate source review, dependency resolution
 
 For public skill packs, the agent should treat the pack as a catalog of candidate methods, not as authority or an install source. It should first perform read-only source review, record commit and package shape, distinguish markdown from executable or persistent surfaces, sample representative skills for trigger clarity, workflow determinism, verification, negative cases, scope boundaries, and progressive disclosure, compare overlap with local methods, estimate context cost, and extract mechanisms or eval ideas before any install, copy, autoload, hook, or active behavior change.
 
+For preference-heavy skill packs, the agent should not import taste, style, persona, voice, or domain-specific defaults as neutral law. It should keep those rules scoped to the domain or adapter, then extract only neutral mechanisms such as brief inference, explicit applicability boundaries, dial or parameter declaration, audit-before-change workflow, pre-flight checks, and proof that subjective constraints fit the requested context.
+
 ## Evidence Promotion
 
 The agent should mark the claim as a signal, seek primary/source evidence, record scope and failure mode, and avoid promotion until validation exists.

@@ -7,10 +7,10 @@ It is designed for methods that may need to work across multiple agent runtimes,
 Tianlu treats methods as a generation cycle:
 
 ```text
-absorb scoped signals -> generalize neutral methods -> compose scoped variants -> absorb again
+absorb scoped input -> extract neutral methods -> compose scoped variants -> absorb again
 ```
 
-Signals include documents, incidents, user corrections, external feeds, repositories, eval results, and field experience. Most signals are scoped already: they come from one event, runtime, project, tool, or task. A signal does not become a method directly. It first becomes a candidate, then a neutral reusable method when its trigger, mechanism, evidence, failure modes, and boundaries are clear. Neutral methods can then be recombined into adapter-specific, project-specific, or task-specific variants. A scoped variant may later become a new scoped signal, so the system can keep absorbing, generalizing, and composing without losing provenance.
+Signals include documents, incidents, user corrections, external feeds, repositories, eval results, and field experience. Most signals are scoped already: they come from one event, runtime, project, tool, or task. A signal does not become a method directly. It first becomes a candidate, then a neutral reusable method when its trigger, mechanism, evidence, failure modes, and boundaries are clear. Neutrality means plasticity, not emptiness: a neutral method can be reused because it has not been fixed to one concrete context. Neutral methods can then be recombined into adapter-specific, project-specific, or task-specific variants. A scoped variant is intentionally biased toward its context; after use, it may later become new scoped input, so the system can keep absorbing, generalizing, and composing without losing provenance.
 
 ## The Three-Part Model
 
@@ -57,12 +57,12 @@ Poor candidates:
 
 ## Method Generation Direction
 
-- Absorb: collect scoped information as candidates, with source and scope.
-- Generalize: extract a neutral, reusable method from repeated or well-evidenced candidates.
-- Compose: combine neutral methods into scoped variants without hiding their source, evidence, or boundaries.
+- Absorb: collect biased, scoped information as candidates, with source and scope.
+- Generalize: extract a neutral, reusable method from repeated or well-evidenced candidates by removing or containing local bias.
+- Compose: recombine neutral methods into scoped variants for concrete contexts without hiding their source, evidence, or boundaries.
 - Re-enter: let useful scoped variants become new scoped candidates only when their provenance, scope, evidence, and boundaries remain inspectable.
 
-This keeps diversity and portability aligned: a general method is not a final answer, but a stable building block for many safe variants. A variant created for one concrete event is useful precisely because it is shaped by that event, but it is not broad law until its local bias has been named, removed, or contained.
+This keeps diversity and portability aligned: a general method is not a final answer, but a stable building block for many safe variants. A variant created for one concrete event is useful precisely because it is shaped by that event, but it is not broad law until its local bias has been named, removed, or contained. The cycle is not a ladder with promotion as the only goal; it is a loop where scoped practice can continually produce new candidates.
 
 ## Current Seed Laws
 

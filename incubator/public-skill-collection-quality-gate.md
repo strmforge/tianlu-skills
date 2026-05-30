@@ -8,12 +8,22 @@ Scope: runtime-neutral
 
 An external feed item on 2026-05-30 pointed to `addyosmani/agent-skills`, a public repository describing a multi-runtime collection of engineering workflow skills.
 
+A later feed item on 2026-05-30 pointed to `Leonxlnx/taste-skill`, a public repository of frontend design and output-completeness skills. It is a useful second sample because many of its methods are intentionally preference-heavy and domain-shaped.
+
 Primary source review, read-only:
 
 - Repository: `https://github.com/addyosmani/agent-skills`
 - Observed commit: `6ce029897d2b794940325fc7148774a6ec51111c`
 - Repository shape at review time: skills, agents, references, commands, hooks, setup docs, plugin manifests, and validation scripts.
 - The repository documents skill anatomy, quality criteria, progressive disclosure, anti-rationalization sections, verification requirements, and a validator for skill frontmatter and required sections.
+
+Secondary sample, read-only:
+
+- Repository: `https://github.com/Leonxlnx/taste-skill`
+- Observed commit: `3c7017d636c3a4aad378433ea6d0cfa6c921da4a`
+- Repository shape at review time: multiple `skills/*/SKILL.md` files, image-generation skills, examples, assets, `skill.sh`, repository instructions, changelog, and research notes.
+- The repository documents brief inference, design dials, design-system selection, style bans, redesign audit, final pre-flight checks, and full-output enforcement.
+- The repository's design taste guidance is scoped by frontend aesthetics and author preference. Its extractable mechanism is the review structure, not the specific taste profile.
 
 No install, clone, package execution, plugin activation, hook execution, or skill import was performed during review.
 
@@ -34,6 +44,7 @@ Review in this order:
    - Record repository URL, commit, license, maintainer, release or branch, and last update time.
 3. Sample for method quality.
    - For representative skills, inspect trigger clarity, workflow determinism, verification evidence, negative cases, scope boundaries, and whether details are loaded progressively.
+   - For preference-heavy skills, separate the preference profile from the review mechanism. Do not import taste, style, persona, or voice as neutral law.
 4. Review activation and persistence.
    - Check install paths, autoload behavior, hooks, lifecycle scripts, plugin manifests, generated config, shell commands, and rollback or disable paths.
 5. Check local overlap and marginal utility.
@@ -57,14 +68,16 @@ This candidate is about adopting or learning from public skill collections. It i
 - High star count, author reputation, or polished README is mistaken for local suitability.
 - A public skill pack is copied wholesale, importing platform assumptions, hooks, scripts, or context bloat.
 - A meta-skill router over-triggers and loads too much context.
+- A domain-specific or taste-heavy skill is treated as neutral because its checklist is detailed.
+- Subjective style preferences are copied into general methods instead of kept in adapters, overlays, or scoped variants.
 - Useful method ideas are rejected because the source also contains runtime-specific install instructions.
 - Skill collection review focuses on content quality but misses activation, hook, or persistence surfaces.
 
 ## Verification Needed
 
-- Apply this gate to at least three public skill or rule collections without installing them.
+- Apply this gate to at least three public skill or rule collections without installing them. Two samples have been reviewed so far: one engineering workflow collection and one frontend taste/output collection.
 - Record whether it changes adoption decisions compared with simple README review.
-- Add eval cases for high-star public skill packs, install-heavy packs, and duplicated local methods.
+- Add eval cases for high-star public skill packs, install-heavy packs, duplicated local methods, and preference-heavy packs.
 
 ## Placement Candidates
 

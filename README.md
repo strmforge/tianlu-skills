@@ -19,10 +19,10 @@ Tianlu is not just a package of skills. It is a way to keep methods discoverable
 It treats method work as a cycle:
 
 ```text
-scoped signals -> neutral methods -> scoped variants -> new scoped signals
+scoped input -> neutral extraction -> scoped recombination -> scoped input
 ```
 
-External information usually arrives as scoped, event-shaped material. Tianlu absorbs that material, generalizes the reusable mechanism into a neutral method, then recombines neutral methods into scoped variants for concrete runtimes, projects, or tasks. Those variants can later become new scoped signals.
+External information usually arrives as scoped, event-shaped material. Tianlu absorbs that biased input, extracts the reusable mechanism into a neutral method, then recombines neutral methods into new scoped variants for concrete runtimes, projects, or tasks. Those variants are intentionally shaped for their context; after use, they can feed back as new scoped input.
 
 ## Repository Layout
 
@@ -41,8 +41,10 @@ tianlu-skills/
 ## Principles
 
 - Neutrality does not mean minimalism. It means every method is placed in its honest scope.
-- General methods are not the endpoint. They are reusable building blocks for safer, scoped variants.
-- Scoped variants can be recombined into further candidates when their source, evidence, and boundaries remain visible.
+- Neutrality preserves plasticity: a neutral method stays reusable because it is not fixed to one event, runtime, project, or task.
+- General methods are not the endpoint. They are reusable building blocks for safer scoped variants.
+- Scoped variants are useful because they fit a context, but they must not claim neutral status until their bias is named, removed, or contained.
+- Scoped variants can feed the next cycle when their source, evidence, and boundaries remain visible.
 - Useful but narrow methods belong in adapters or overlays instead of being forced into generic law.
 - The incubator is an entrance for new methods, not a dumping ground.
 - Adapters and overlays are part of the method system, not pollutants outside it.
