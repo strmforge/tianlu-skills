@@ -60,3 +60,4 @@ Poor candidates:
 ## Current Inventory
 
 - [Local skill inventory](../local-skill-inventory.md)
+- [Skill role catalog](../skill-role-catalog.md)

@@ -60,3 +60,4 @@ index = 序
 ## 当前盘点
 
 - [本地 skill 盘点](../local-skill-inventory.md)
+- [Skill 作用目录](../skill-role-catalog.md)

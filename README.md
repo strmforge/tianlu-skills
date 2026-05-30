@@ -53,3 +53,4 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [Surface registry](index/surface-registry.md)
 - [Test prompts](eval/test-prompts.md)
 - [Local skill inventory](docs/local-skill-inventory.md)
+- [Skill role catalog](docs/skill-role-catalog.md)
