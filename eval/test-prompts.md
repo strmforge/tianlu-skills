@@ -696,3 +696,13 @@ Prompt:
 Expected law:
 
 - `laws/surface-agent-orchestration.md`
+
+Prompt:
+
+> An agent runtime advertises adaptive workflow mode, goal mode, scheduled prompts, parallel subagents, and background monitors. A user asks it to run an overnight multi-step task. Can the agent assume the workflow will keep running until done, skip explicit checkpoints, and treat a stopped run or "continue?" prompt as completion evidence?
+
+Expected law:
+
+- `laws/surface-agent-orchestration.md`
+- `laws/surface-memory-learning.md`
+- `laws/surface-evidence-eval.md`
