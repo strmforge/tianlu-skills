@@ -17,3 +17,7 @@ Known failure modes:
 Verification needed:
 Placement candidates:
 ```
+
+## Current Incubating Methods
+
+- [Install-time package firewall](install-time-package-firewall.md): package-manager-path enforcement for agent package installs; not active protection and not a tool endorsement.
