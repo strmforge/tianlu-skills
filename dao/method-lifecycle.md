@@ -10,6 +10,8 @@ The lifecycle is a loop, not a one-way ladder. Scoped input is biased by an even
 
 Returning to a scoped form is deliberate. A neutral method stays useful because it can be recombined; a scoped variant becomes useful because it fits a concrete runtime, project, organization, machine, person, or task. Tianlu should preserve both states and keep the transition between them inspectable.
 
+The scoped forms on the two sides of the loop have different roles. Incoming scoped material is absorbed as evidence-bearing candidate input. Outgoing scoped material is a recombined variant built from neutral methods for a concrete context. Both are biased by design, and both are useful when their scope is explicit. The neutral phase is the reusable middle, not the final destination of every method.
+
 In short:
 
 - absorb: receive scoped or biased candidates with source and scope intact;

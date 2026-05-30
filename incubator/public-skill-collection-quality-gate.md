@@ -14,6 +14,10 @@ Another later feed item on 2026-05-30 pointed to `anthropics/skills`, an officia
 
 Another later feed item on 2026-05-30 pointed to `EveryInc/compound-engineering-plugin`, a public cross-runtime plugin and converter repository. It is a useful fourth sample because it combines skill collection, agent collection, marketplace manifests, a package installer, target-specific conversion, config writes, hooks, and cleanup behavior.
 
+Another later feed item on 2026-05-30 pointed to `scanaislop/aislop`, a public deterministic scanner for AI-coding-agent code issues. It is a useful fifth sample because it combines scanner evidence, auto-fix, CI, hooks, MCP tools, local history, badges, telemetry, and agent handoff prompts.
+
+Another later feed item on 2026-05-30 pointed to `nowork-studio/NotFair`, a public domain plugin and skill collection for SEO and advertising workflows. It is a useful sixth sample because it combines skill packaging, remote OAuth MCP servers, account tokens, recurring tasks, and write actions that can affect ad accounts and spend.
+
 Primary source review, read-only:
 
 - Repository: `https://github.com/addyosmani/agent-skills`
@@ -44,6 +48,20 @@ Fourth sample, read-only:
 - Repository shape at review time: plugin manifests for multiple runtimes, 38 skill entrypoints, 50+ agent files, hook-related files, Bun/TypeScript CLI, package metadata, privacy and security docs, target-specific conversion code, and Codex install guidance.
 - The Codex manifest points to a native skill folder and advertises interactive read/write capabilities. The README also documents a companion Bun install step for Codex agents because native plugin install does not cover the full agent-heavy workflow.
 - The converter can write target-specific artifacts such as Codex agents, prompts, skills, config, hooks, install manifests, backups, and cleanup output. Cross-runtime portability is useful, but each target still needs its own activation and persistence review.
+
+Fifth sample, read-only:
+
+- Repository: `https://github.com/scanaislop/aislop`
+- Repository shape at review time: package entrypoints for scan, fix, CI, hooks, MCP server, history files, telemetry, badges, and multi-language scanner rules.
+- The repository describes deterministic scanning, auto-fix, agent-specific handoff flags, post-agent edit hooks, MCP tools, local history, and CI use.
+- Scanner output is useful evidence, but installing hooks, registering MCP tools, writing history, sending telemetry, or auto-fixing files each adds activation or mutation surface that needs review.
+
+Sixth sample, read-only:
+
+- Repository: `https://github.com/nowork-studio/NotFair`
+- Repository shape at review time: Claude Code plugin metadata, many SEO and ads skills, optional remote MCP servers, OAuth setup, account-management capabilities, evals, references, and app/task infrastructure.
+- The repository describes Google Ads and Meta Ads workflows, including account reads and potential writes such as bid, budget, campaign, keyword, and scheduling changes.
+- Domain skill quality and OAuth connectivity are not enough for account or spend mutation. Any write path needs bound authorization, spend limits, token storage and revocation review, receipts, and rollback or compensation.
 
 No install, clone, package execution, plugin activation, hook execution, or skill import was performed during review.
 
@@ -90,6 +108,8 @@ This candidate is about adopting or learning from public skill collections. It i
 - High star count, author reputation, or polished README is mistaken for local suitability.
 - Official source, demo purpose, or marketplace packaging is mistaken for local activation approval.
 - Cross-runtime support is mistaken for cross-runtime safety or identical semantics.
+- Scanner quality is mistaken for permission to install hooks, register MCP tools, write local state, send telemetry, or auto-fix code.
+- Domain expertise or account login is mistaken for permission to mutate spend-affecting settings.
 - A public skill pack is copied wholesale, importing platform assumptions, hooks, scripts, or context bloat.
 - A meta-skill router over-triggers and loads too much context.
 - A domain-specific or taste-heavy skill is treated as neutral because its checklist is detailed.
@@ -99,7 +119,7 @@ This candidate is about adopting or learning from public skill collections. It i
 
 ## Verification Needed
 
-- Apply this gate to public skill or rule collections without installing them. Four samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, and one cross-runtime plugin/converter collection.
+- Apply this gate to public skill or rule collections without installing them. Six samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, and one domain account-action plugin.
 - Record whether it changes adoption decisions compared with simple README review.
 - Add eval cases for high-star public skill packs, install-heavy packs, duplicated local methods, and preference-heavy packs.
 

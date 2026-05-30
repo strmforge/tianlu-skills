@@ -52,6 +52,8 @@ For failed CI, the agent should separate read-only diagnosis from mutation. It s
 
 For scanner results, the agent should treat pass/fail output as evidence, not authorization. It should record scanner identity, version, scope, ruleset, findings, exclusions, persistence, permissions, and false-positive or false-negative risk before relying on it.
 
+For scanner packages that also offer auto-fix, hooks, MCP tools, local history, badges, telemetry, or agent handoff prompts, the agent should review both evidence quality and activation surface. It should inspect package provenance, lifecycle scripts, hook behavior, tool schemas, write targets, telemetry and local state writes, CI integration, rollback, and false-positive handling before any install, hook enablement, MCP registration, or auto-fix. A high score or deterministic rule set can support review; it does not authorize mutation.
+
 For developer endpoint inventory, the agent should define a narrow exposure question, prefer metadata-first read-only collection, avoid execution, avoid raw secret-bearing output, and emit structured records with skipped roots and parse errors.
 
 ## MCP, Tools, And Authorization
@@ -59,6 +61,8 @@ For developer endpoint inventory, the agent should define a narrow exposure ques
 The agent should not expose an entire API, SDK, route table, or prompt/resource catalog by default. It should start from a minimal allowlist, prefer read-only or dry-run tools, and promote write actions one at a time with tests and receipts.
 
 The agent should not treat a connected account, generic login, or broad API key as proof that a specific privileged invocation is authorized. It should bind actor, resource, purpose, scope, time, approval, arguments, and receipt.
+
+For domain plugins that can mutate ad accounts, budgets, bids, campaigns, keywords, audience settings, or recurring optimization tasks through OAuth or remote MCP servers, the agent should keep first review read-only. Before any install or write action, it should record account identity, actor, spend limits, allowed resources, exact mutations, forbidden actions, schedule limits, approval id, token storage and revocation path, audit receipt, rollback or compensation path, and stop conditions. Logged-in status or keychain tokens do not authorize spend-affecting changes.
 
 For secrets, the agent should prefer brokered, short-lived, scoped access or secret identifiers over raw values. It should keep secrets out of prompts, logs, memory, artifacts, caches, screenshots, and generated files, and record revocation or rotation paths.
 

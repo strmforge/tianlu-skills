@@ -26,6 +26,8 @@ External information usually arrives as scoped, event-shaped material. Tianlu ab
 
 Returning from a neutral method to a scoped variant is intentional. Neutral methods keep the system portable; scoped variants make the methods useful in real environments. Both states are part of the cycle as long as source, scope, evidence, and boundaries remain visible.
 
+The cycle starts and ends in scoped form. The first scoped form is absorbed as candidate material; the later scoped form is a deliberate recombination for a concrete context. Both are biased, but neither is a mistake. The system stays neutral by naming the scope of each variant instead of pretending every useful variant is broad law.
+
 ## Repository Layout
 
 ```text

@@ -14,6 +14,8 @@ Signals include documents, incidents, user corrections, external feeds, reposito
 
 Returning from a neutral method to a scoped variant is not a regression. It is the practical half of the cycle: neutral methods stay portable, while scoped variants make those methods fit real environments. The variant can re-enter the system only when source, scope, evidence, and boundaries remain inspectable.
 
+This means scoped methods appear twice in the loop. At entry, a scoped method is source-shaped material to absorb. After generation, a scoped method is a composed variant for a concrete context. The first carries evidence from practice; the second turns reusable plasticity back into practice. The distinction is scope, not rank.
+
 ## The Three-Part Model
 
 ```text
