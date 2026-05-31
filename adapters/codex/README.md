@@ -4,7 +4,7 @@ Status: draft
 
 This adapter translates Tianlu methods into Codex skill packaging and Codex-specific operating receipts.
 
-Codex-specific details belong here, not in runtime-neutral `dao/` or `laws/`.
+Codex-specific details belong here, not in runtime-neutral `tiandao/` or `laws/`.
 
 ## Codex Constraints
 

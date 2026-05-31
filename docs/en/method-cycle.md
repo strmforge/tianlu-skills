@@ -42,6 +42,6 @@ The method system is combinatorial. Many scoped inputs can produce neutral metho
 When adding or promoting a method, ask which phase it is in:
 
 - If it is scoped source material, place it in incubation or an overlay.
-- If it is a neutral mechanism, place it in `dao/`, `laws/`, or `index/` according to its role.
+- If it is a neutral mechanism, place it in `tiandao/`, `laws/`, or `index/` according to its role.
 - If it is a runtime or project variant, place it in an adapter or overlay.
 - If it is a variant returning from practice, record it as scoped input again before further promotion.

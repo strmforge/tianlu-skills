@@ -1,6 +1,6 @@
 # Neutrality Review
 
-Use this review before promoting content into runtime-neutral dao or laws.
+Use this review before promoting content into runtime-neutral Tiandao or laws.
 
 ## Literal Scan
 
@@ -25,4 +25,4 @@ Reject, generalize, or move to an overlay when content assumes:
 
 ## Stranger Test
 
-A user doing an unrelated project with a different agent runtime should still understand runtime-neutral dao and laws without private context.
+A user doing an unrelated project with a different agent runtime should still understand runtime-neutral Tiandao and laws without private context.

@@ -9,9 +9,9 @@ It records reusable agent methods, their scope, their relationships, and the evi
 ## Core Idea
 
 ```text
-dao   = source
-laws  = collection
-index = order
+tiandao = source
+laws    = collection
+index   = order
 ```
 
 Tianlu is not just a package of skills. It is a way to keep methods discoverable, scoped, validated, and portable.
@@ -42,7 +42,7 @@ See [Method Cycle](docs/en/method-cycle.md) for the phase invariants behind abso
 
 ```text
 tianlu-skills/
-├── dao/        # Source principles: method lifecycle, scope, promotion, conflicts
+├── tiandao/   # Source principles: method lifecycle, scope, promotion, conflicts
 ├── laws/       # Method collection: concrete reusable methods with declared scope
 ├── index/      # Order: routing, dependencies, scope maps, conflict maps
 ├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, or future runtimes
@@ -77,7 +77,7 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [English overview](docs/en/README.md)
 - [中文概览](docs/zh-CN/README.md)
 - [Method cycle](docs/en/method-cycle.md)
-- [Dao principles](dao/principles.md)
+- [Tiandao principles](tiandao/principles.md)
 - [Laws index](laws/index.md)
 - [Surface registry](index/surface-registry.md)
 - [Fan-in audit](docs/fan-in-audit.md)

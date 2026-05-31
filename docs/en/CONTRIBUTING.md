@@ -15,7 +15,7 @@ Ask:
 
 ## Placement
 
-- Source principles go in `dao/`.
+- Source principles go in `tiandao/`.
 - Concrete methods go in `laws/`.
 - Routing, dependencies, scope, and conflicts go in `index/`.
 - Runtime-specific packaging goes in `adapters/`.

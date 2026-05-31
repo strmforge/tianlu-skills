@@ -29,14 +29,14 @@ For the phase invariants, see [Method Cycle](method-cycle.md).
 ## The Three-Part Model
 
 ```text
-dao   = source
-laws  = collection
-index = order
+tiandao = source
+laws    = collection
+index   = order
 ```
 
-### Dao
+### Tiandao
 
-`dao/` contains source principles: how methods enter the system, how they are scoped, how they mature, how they conflict, and how they are promoted or retired.
+`tiandao/` contains source principles: how methods enter the system, how they are scoped, how they mature, how they conflict, and how they are promoted or retired.
 
 ### Laws
 

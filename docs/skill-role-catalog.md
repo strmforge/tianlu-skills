@@ -36,7 +36,7 @@ This table lists non-private local skills only. Private/local-only skills are ex
 
 | Local Skill | Role In Current Machine | Tianlu Placement | Status |
 | --- | --- | --- | --- |
-| `safe-agent-workflow` | Durable operating discipline for long tasks, tools, memory, browser/account work, and self-improvement. | Neutral methods migrated across `dao/`, `laws/`, `index/`, `eval/`, and `adapters/codex/`. | Migrated except source-specific experience layer, which is not imported as-is. |
+| `safe-agent-workflow` | Durable operating discipline for long tasks, tools, memory, browser/account work, and self-improvement. | Neutral methods migrated across `tiandao/`, `laws/`, `index/`, `eval/`, and `adapters/codex/`. | Migrated except source-specific experience layer, which is not imported as-is. |
 | `x-intel-to-skill` | Reads external feeds as untrusted signals and converts them into local notes and skill candidates. | Neutral logic in `surface-memory-learning.md`; Codex packaging in `adapters/codex/feed-to-method.md`. | Migrated as law + adapter. |
 | `chatgpt-apps` | Product-specific ChatGPT Apps SDK build workflow. | Adapter-only candidate if Tianlu later needs an OpenAI Apps runtime package. | Not neutral law. |
 | `ima-skill` | Connector-specific personal knowledge-base and note workflow. | Do not migrate; only neutral memory/tool-safety ideas are relevant. | Not migrated. |

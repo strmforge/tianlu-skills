@@ -11,7 +11,7 @@ This map is a neutral migration guide. It does not import private terminology in
 
 ## Placement Rules
 
-- `dao`: source principles and lifecycle rules.
+- `Tiandao`: source principles and lifecycle rules.
 - `laws`: reusable method families with scope.
 - `index`: routing, dependencies, scope, and conflict maps.
 - `adapters`: runtime packaging details.
@@ -25,9 +25,9 @@ This map is a neutral migration guide. It does not import private terminology in
 
 | Source Section | Target | Status |
 | --- | --- | --- |
-| Self-Improvement Pipeline | `dao/method-lifecycle.md`, `laws/surface-evidence-eval.md` | migrated |
-| Default Stance | `dao/principles.md`, `index/conflict-map.md` | migrated |
-| Gate System Scaling Gate | `dao/scope-and-promotion.md`, `index/trigger-routing.md`, `index/dependency-map.md` | migrated |
+| Self-Improvement Pipeline | `tiandao/method-lifecycle.md`, `laws/surface-evidence-eval.md` | migrated |
+| Default Stance | `tiandao/principles.md`, `index/conflict-map.md` | migrated |
+| Gate System Scaling Gate | `tiandao/scope-and-promotion.md`, `index/trigger-routing.md`, `index/dependency-map.md` | migrated |
 | Agent Task Packet Gate | `laws/surface-agent-orchestration.md` | migrated |
 | Subagent Delegation Contract | `laws/surface-agent-orchestration.md` | migrated |
 | Async Agent Coordination Gate | `laws/surface-agent-orchestration.md` | migrated |

@@ -51,7 +51,7 @@ Prompt:
 
 Expected law:
 
-- `dao/scope-and-promotion.md`
+- `tiandao/scope-and-promotion.md`
 - `laws/surface-evidence-eval.md`
 - `incubator/public-skill-collection-quality-gate.md`
 
@@ -204,8 +204,8 @@ Prompt:
 
 Expected law:
 
-- `dao/method-lifecycle.md`
-- `dao/scope-and-promotion.md`
+- `tiandao/method-lifecycle.md`
+- `tiandao/scope-and-promotion.md`
 - `laws/surface-evidence-eval.md`
 
 Prompt:
@@ -262,8 +262,8 @@ Prompt:
 
 Expected law:
 
-- `dao/method-lifecycle.md`
-- `dao/scope-and-promotion.md`
+- `tiandao/method-lifecycle.md`
+- `tiandao/scope-and-promotion.md`
 - `laws/surface-evidence-eval.md`
 - `laws/surface-mcp-tools-auth.md`
 

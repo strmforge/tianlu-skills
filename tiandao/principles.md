@@ -1,6 +1,6 @@
-# Dao Principles
+# Tiandao Principles
 
-Dao contains source principles for the method system. It is not the full method collection.
+Tiandao contains source principles for the method system. It is not the full method collection.
 
 ## Principles
 

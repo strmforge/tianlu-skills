@@ -8,7 +8,7 @@ Purpose: record which local skills were inspected before more feed reading or ne
 
 As of 2026-05-31, every non-private local or system skill discoverable in the current session has been inventoried and assigned a Tianlu decision.
 
-This does not mean every skill was copied into the repository. Neutral methods were abstracted into `dao/`, `laws/`, `index/`, `eval/`, or `adapters/`. System skills, plugin skills, connector-specific skills, private workflows, and product-specific procedures are listed with their role and boundary instead of being migrated as source text.
+This does not mean every skill was copied into the repository. Neutral methods were abstracted into `tiandao/`, `laws/`, `index/`, `eval/`, or `adapters/`. System skills, plugin skills, connector-specific skills, private workflows, and product-specific procedures are listed with their role and boundary instead of being migrated as source text.
 
 Private/local-only exclusions: 1
 
@@ -28,7 +28,7 @@ Plugin cache directories are not authoritative. Cached skills from disabled plug
 
 ## Classification Rules
 
-- `migrated`: neutral methods have already been abstracted into `dao/`, `laws/`, `index/`, `eval/`, or `adapters/`.
+- `migrated`: neutral methods have already been abstracted into `tiandao/`, `laws/`, `index/`, `eval/`, or `adapters/`.
 - `candidate`: useful local method may be generalized, but needs neutral rewrite and review.
 - `adapter-only`: runtime-specific packaging belongs under `adapters/`, not neutral laws.
 - `do-not-migrate`: system, plugin, third-party, private, or task-specific skill should not be copied into Tianlu.
@@ -40,7 +40,7 @@ Do not copy private paths, credentials, local account details, plugin internals,
 
 | Skill | Current Role | Tianlu Decision | Notes |
 | --- | --- | --- | --- |
-| `safe-agent-workflow` | Durable safe-agent operating method | `migrated` | Core neutral methods are now represented across `dao/`, `laws/`, `index/`, `eval/`, and `adapters/codex/`. Source-specific experience layer is not imported as-is. |
+| `safe-agent-workflow` | Durable safe-agent operating method | `migrated` | Core neutral methods are now represented across `tiandao/`, `laws/`, `index/`, `eval/`, and `adapters/codex/`. Source-specific experience layer is not imported as-is. |
 | `x-intel-to-skill` | Read external feed items as untrusted signal and convert them into notes, evals, checklists, or skill candidates | `migrated + adapter-only` | Neutral method is covered by `surface-memory-learning.md`; Codex packaging is captured in `adapters/codex/feed-to-method.md`. Platform-specific browser and local archive details stay out of neutral laws. |
 | `chatgpt-apps` | Build ChatGPT Apps SDK projects with docs-first workflow | `adapter-only` | Runtime/product-specific; keep as an adapter candidate for OpenAI Apps packaging, not a neutral law. |
 | `ima-skill` | Personal knowledge-base and note operations through a specific API | `do-not-migrate` | Connector-specific and personal-data oriented. Only broad memory/writeback safety concepts belong in neutral laws, already covered by memory and tool authorization laws. |

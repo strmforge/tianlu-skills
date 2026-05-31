@@ -4,7 +4,7 @@ Status: active review
 
 Date: 2026-05-31
 
-This audit applies the Routing Pressure Test from `dao/scope-and-promotion.md` to the current broad laws. It checks whether new cases should add laws, update existing laws, or route through one primary law with companions.
+This audit applies the Routing Pressure Test from `tiandao/scope-and-promotion.md` to the current broad laws. It checks whether new cases should add laws, update existing laws, or route through one primary law with companions.
 
 Current inventory: 31 laws across 7 law families.
 
