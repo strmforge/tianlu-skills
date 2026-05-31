@@ -37,6 +37,7 @@ The cycle is a circle: scoped variants enter as input, neutral generation extrac
 The phase boundary is strict: absorb handles scoped material, generate is the neutral middle, and compose creates scoped material again. A composed variant is not neutral merely because it was built from neutral methods. It must return to the absorb side as scoped input before any later attempt to generalize it.
 
 See [Method Cycle](docs/en/method-cycle.md) for the phase invariants behind absorb, generate, compose, and re-enter.
+The source-principles layer is intentionally named `tiandao/`; see the [Tiandao naming decision](docs/tiandao-naming-decision.md).
 
 ## Repository Layout
 
@@ -78,6 +79,7 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [中文概览](docs/zh-CN/README.md)
 - [Method cycle](docs/en/method-cycle.md)
 - [Tiandao principles](tiandao/principles.md)
+- [Tiandao naming decision](docs/tiandao-naming-decision.md)
 - [Laws index](laws/index.md)
 - [Surface registry](index/surface-registry.md)
 - [Fan-in audit](docs/fan-in-audit.md)

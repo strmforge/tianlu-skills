@@ -38,6 +38,8 @@ index   = order
 
 `tiandao/` contains source principles: how methods enter the system, how they are scoped, how they mature, how they conflict, and how they are promoted or retired.
 
+The directory name is intentional. It keeps the source-principles layer aligned with the repository owner's subsystem convention while avoiding broader source-layer names that would imply a larger scope. See [Tiandao naming decision](../tiandao-naming-decision.md).
+
 ### Laws
 
 `laws/` contains concrete reusable methods. Diversity belongs here. A method can be broad, narrow, adapter-specific, project-specific, incubating, deprecated, or unsafe, as long as its scope is honest.

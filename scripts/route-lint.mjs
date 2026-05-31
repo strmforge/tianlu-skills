@@ -1,10 +1,22 @@
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { dirname, normalize, relative, resolve } from 'node:path';
 
 const root = process.cwd();
 const lawsDir = resolve(root, 'laws');
 const failures = [];
 const warnings = [];
+const lintRoots = [
+  'README.md',
+  'docs',
+  'eval',
+  'tiandao',
+  'laws',
+  'index',
+  'adapters',
+  'overlays',
+  'incubator',
+  'scripts',
+];
 
 function read(path) {
   return readFileSync(resolve(root, path), 'utf8');
@@ -44,6 +56,51 @@ function addDuplicateAware(map, key, value, label) {
     failures.push(`${label} duplicates "${key}"`);
   }
 }
+
+function collectFiles(path) {
+  const fullPath = resolve(root, path);
+  if (!existsSync(fullPath)) return [];
+  const entries = readdirSync(fullPath, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const child = `${path}/${entry.name}`;
+    if (entry.isDirectory()) {
+      files.push(...collectFiles(child));
+    } else if (entry.isFile()) {
+      files.push(child);
+    }
+  }
+  return files;
+}
+
+function lintTiandaoNaming() {
+  if (existsSync(resolve(root, 'dao'))) {
+    failures.push('top-level legacy source directory is not allowed; use tiandao/');
+  }
+
+  const allowedHistoricalFiles = new Set(['docs/tiandao-naming-decision.md']);
+  const legacyPathPattern = new RegExp(`\\b${'d' + 'ao'}/`);
+  const files = lintRoots.flatMap((path) => {
+    const fullPath = resolve(root, path);
+    if (!existsSync(fullPath)) return [];
+    if (statSync(fullPath).isFile()) return [path];
+    return collectFiles(path);
+  });
+
+  for (const file of files) {
+    const repoPath = normalizeRepoPath(file);
+    if (allowedHistoricalFiles.has(repoPath)) continue;
+    const text = read(repoPath);
+    const lines = text.split(/\r?\n/);
+    lines.forEach((line, index) => {
+      if (legacyPathPattern.test(line)) {
+        failures.push(`${repoPath}:${index + 1} references legacy source path; use tiandao/`);
+      }
+    });
+  }
+}
+
+lintTiandaoNaming();
 
 const lawFiles = readdirSync(lawsDir)
   .filter((name) => name.endsWith('.md') && name !== 'index.md')
