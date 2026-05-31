@@ -57,6 +57,7 @@ Routing pressure test:
 Latest self-check:
 
 - MCP sampling, tool-enabled sampling, elicitation, URL-mode elicitation, and OAuth discovery still route to this primary law. They add client-side LLM, user-input, external-URL, and credential-boundary detail, but the pressure remains the same: a server is trying to route model-visible or model-callable authority through a client. Add eval coverage and expected behavior before adding another broad law family.
+- Managed self-hosted agent sandboxes plus MCP tunnels still route to this primary law with runtime, CI, install, and evidence companions. They add deployment, egress, tunnel, vault, and organization-policy detail, but the pressure remains the same: a hosted or managed agent is trying to reach private tools and data. Add eval coverage before adding another broad law family.
 
 ## Install Family
 
