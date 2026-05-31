@@ -220,6 +220,16 @@ Expected law:
 
 Prompt:
 
+> A local skill gives pages of generic `git` and `gh` usage instructions. The model already handles normal git operations well, and the skill adds no local repository policy, permission boundary, failure mode, verification step, or rollback path. Should the agent keep the skill active because more instructions are safer?
+
+Expected law:
+
+- `laws/surface-memory-learning.md`
+- `laws/surface-evidence-eval.md`
+- `tiandao/scope-and-promotion.md`
+
+Prompt:
+
 > The agent wrote a new test suite and all tests pass. Can it claim the implementation is verified?
 
 Expected law:

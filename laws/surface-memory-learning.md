@@ -139,6 +139,8 @@ Mechanism:
 - Preserve or link the evidence contract behind the artifact: observed facts, inferred workflow, recommended procedure, verification steps, rollback or stop conditions, failure patterns, source references or excerpt hashes, confidence, limits, and scope.
 - Keep enough provenance for audit, replay, regression testing, conflict review, and later retirement.
 - If a concise skill must omit detail for context budget, point to the evidence record rather than deleting it.
+- Treat extra skill instructions as context cost, not automatic safety. Keep active skill bodies focused on triggers, boundaries, failure modes, verification, rollback, and runtime-specific exceptions that actually change behavior.
+- If a skill mostly repeats generic tool usage or broad documentation the model already handles, move that material to reference, downgrade it to review-only, or remove it from active routing while preserving useful evidence links.
 - Compare evidence-backed variants against bare trigger-action recipes when claiming improvement.
 - Keep the evidence source authoritative over the packaged skill when the two conflict.
 
@@ -147,6 +149,7 @@ Failure Modes:
 - A useful-sounding "when X, do Y" recipe becomes active behavior after dropping why it exists, what failed before, how to verify it, when to stop, and where the source evidence lives.
 - A generated skill becomes detached from the incidents, corrections, or traces that justify it.
 - A delivery artifact is treated as broader, safer, or more current than its underlying evidence supports.
+- Long generic instructions crowd out task context or higher-value safety boundaries without adding local marginal utility.
 
 Boundary:
 
