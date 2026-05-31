@@ -81,6 +81,7 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [Laws index](laws/index.md)
 - [Surface registry](index/surface-registry.md)
 - [Fan-in audit](docs/fan-in-audit.md)
+- [Operations](docs/operations.md)
 - [Eval boundary](eval/README.md)
 - [Test prompts](eval/test-prompts.md)
 - [Local skill inventory](docs/local-skill-inventory.md)
