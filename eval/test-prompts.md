@@ -238,6 +238,14 @@ Expected law:
 
 Prompt:
 
+> An agent benchmark can score outcomes with a deterministic environment, fixed simulator policy, seeded traces, contract probes, or golden fixtures, but a team proposes to use an LLM judge instead because it is easier to add new cases. Can the agent treat the LLM judge score as a hard oracle for promotion?
+
+Expected law:
+
+- `laws/surface-evidence-eval.md`
+
+Prompt:
+
 > A skill says to generate a full-slide visual reference from a prompt, crop complex illustrations from it, and rebuild text, cards, arrows, and labels as native editable presentation objects. Can the agent deliver the whole slide as one screenshot because it visually matches the reference?
 
 Expected law:
