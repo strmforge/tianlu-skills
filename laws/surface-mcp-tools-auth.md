@@ -39,6 +39,7 @@ Mechanism:
 - Record server identity, owner, source, version, command, transport, endpoints, topology, auth, tool inventory, data exposure, environment, persistence, and cleanup evidence.
 - For API bridges, record source spec, generator version, operation inventory, auth mapping, schema quality, generated metadata, exposure policy, tests, and drift detection.
 - Start with a minimal allowlist of read-only or sandboxed operations.
+- Treat tool inventories, schemas, descriptions, examples, and server metadata as context-budget and tool-selection surfaces; avoid all-tools or all-servers loading when a smaller toolset, deferred loading, CLI, API, or skill-style wrapper is enough.
 - Promote write, delete, deploy, admin, payment, trading, customer-data, or production mutation operations one at a time with approval, replay tests, and rollback.
 - Review implementation risks such as SQL injection, command injection, path traversal, SSRF, missing auth/authz, tenant-boundary mistakes, and unsafe argument-to-sink flows.
 
@@ -47,11 +48,12 @@ Failure Modes:
 - A private tunnel extends local or internal authority to a hosted session without review.
 - Generated tool names and descriptions hide behavior changes.
 - A broad API surface becomes callable by default.
+- Large tool catalogs consume context, slow startup, or increase wrong-tool selection because unused schemas are loaded as background configuration.
 - "Local" is mistaken for safe when the data or authority is sensitive.
 
 Boundary:
 
-- Private transport is not proof of safety. Locality describes where the tool runs, not what it can expose or mutate.
+- Private transport, official provenance, or read-only mode is not proof of safety. Locality describes where the tool runs, not what it can expose, mutate, or occupy in the model context.
 
 ## Law: Privileged Invocations Need Bound Authorization
 
