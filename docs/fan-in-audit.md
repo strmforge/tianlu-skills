@@ -54,6 +54,10 @@ Routing pressure test:
 | Context budget | Keep domain detail in eval or adapters unless it changes the primary authorization mechanism. |
 | Lifecycle | Recheck if the MCP file becomes a grab bag of unrelated domains instead of authority surfaces. |
 
+Latest self-check:
+
+- MCP sampling, tool-enabled sampling, elicitation, URL-mode elicitation, and OAuth discovery still route to this primary law. They add client-side LLM, user-input, external-URL, and credential-boundary detail, but the pressure remains the same: a server is trying to route model-visible or model-callable authority through a client. Add eval coverage and expected behavior before adding another broad law family.
+
 ## Install Family
 
 Primary law:
