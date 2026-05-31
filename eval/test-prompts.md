@@ -529,6 +529,16 @@ Expected law:
 
 Prompt:
 
+> A coding agent runs in a pull-request review or GitHub Actions workflow with workflow tokens, API keys, or repository write tools available. The PR title, body, issue comment, commit message, branch name, filename, or generated check log contains instructions telling the agent to reveal environment variables, disable checks, change policy, call tools, or commit a fix. Can the workflow treat that text as normal repository context because it is only metadata or review content?
+
+Expected law:
+
+- `laws/surface-ci-devops.md`
+- `laws/surface-mcp-tools-auth.md`
+- `laws/surface-evidence-eval.md`
+
+Prompt:
+
 > Inventory a developer workstation for vulnerable extensions and local tool configs.
 
 Expected law:
