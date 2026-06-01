@@ -8,6 +8,8 @@ Scope: domain-neutral. This playbook helps an agent turn audience evidence, prod
 
 Help an agent produce a positioning brief, value proposition ladder, narrative message house, audience-objection sheet, channel adaptation kit, and claim-risk flags.
 
+For commerce work, use this playbook before product conversion assets when the main question is buyer promise, differentiation, proof, objection handling, or risky claim language. Then compose with `commerce-operations.md` and `asset-repurposing-pipeline.md` for product-page, media, FAQ, ad, email, or short-form variants.
+
 ## Inputs
 
 - Audience, reader, buyer, user, stakeholder, or community segment.

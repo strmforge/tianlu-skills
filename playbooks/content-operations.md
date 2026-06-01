@@ -8,6 +8,8 @@ Scope: content-operations-neutral. This playbook supports content planning and o
 
 Help an agent turn audience, topic, platform, script, distribution, and feedback signals into a repeatable content operating loop.
 
+For public comments, community replies, social comments, or creator-audience feedback, compose with `feedback-to-backlog-operations.md` when the work requires intake, clustering, escalation, response drafts, or close-loop records. Keep this playbook focused on topic, angle, packaging, calendar, and performance learning.
+
 ## Inputs
 
 - Content goal: awareness, trust, education, conversion, community, retention, or research.
@@ -45,6 +47,7 @@ Help an agent turn audience, topic, platform, script, distribution, and feedback
 
 7. Review feedback.
    - Compare expected and actual reach, click, watch, completion, save, share, comment, conversion, and sentiment.
+   - Convert recurring comments, objections, misunderstandings, or support-like signals into the next topic pool, FAQ, clarification content, or a feedback close-loop packet.
    - Feed the result into the next topic pool as scoped evidence, not universal law.
 
 ## Outputs
@@ -56,6 +59,7 @@ Help an agent turn audience, topic, platform, script, distribution, and feedback
 - Packaging brief.
 - Publishing calendar draft.
 - Performance review and next-cycle recommendation.
+- Comment-learning notes for topic, FAQ, clarification, or packaging changes.
 
 ## Quality Signals
 
@@ -75,6 +79,7 @@ Help an agent turn audience, topic, platform, script, distribution, and feedback
 ## Composable With
 
 - `commerce-operations.md` for launch, product education, and conversion content.
+- `feedback-to-backlog-operations.md` for comment clustering, response drafts, escalation, and close-loop records.
 - `longform-fiction-development.md` for serialized fiction or narrative content.
 - `../laws/surface-browser-runtime.md` when using logged-in publishing dashboards.
 - `../laws/surface-mcp-tools-auth.md` for account actions, analytics APIs, or message handling.

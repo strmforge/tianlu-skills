@@ -8,7 +8,7 @@ Scope: domain-neutral. This playbook helps an agent transform one source asset i
 
 Help an agent produce a multi-format asset package: long-form draft, short post, script, product-page section, email, support answer, slide outline, or internal brief variant, with a mapping table and consistency checks.
 
-This playbook also covers source-material-to-content-package requests when the useful output is a reviewable bundle of variants. If the source material first needs evidence synthesis, start with `research-to-brief-synthesis.md`; if the request is mainly about calendars, distribution, or feedback loops, compose with `content-operations.md`.
+This playbook also covers source-material-to-content-package requests when the useful output is a reviewable bundle of variants. If the source material first needs evidence synthesis, start with `research-to-brief-synthesis.md`; if the request is mainly about calendars, distribution, or feedback loops, compose with `content-operations.md`; if the source is a product conversion asset kit, compose with `commerce-operations.md` and preserve the claim-evidence table.
 
 ## Inputs
 
@@ -75,6 +75,7 @@ This playbook also covers source-material-to-content-package requests when the u
 - `research-to-brief-synthesis.md` when the source asset is a research brief.
 - `content-operations.md` for topic, packaging, distribution, and performance review.
 - `commerce-operations.md` for product page, campaign, and customer-response variants.
+- `offer-narrative-positioning.md` when conversion variants need a stable promise, objection map, or claim-risk review first.
 - `longform-fiction-development.md` for serialized, excerpt, synopsis, or continuity-sensitive variants.
 - `../laws/surface-evidence-eval.md` for claim verification and consistency checks.
 - `../laws/surface-browser-runtime.md` when variants are prepared in logged-in publishing or commerce surfaces.
