@@ -102,6 +102,9 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Commerce operations: opportunity reports, product page briefs, title variants, promotion plans, customer-response drafts.
 - Long-form fiction development: premise, characters, world rules, conflict ladder, chapter outline, continuity, revision.
 - Content operations: topic pool, angle brief, script, platform variants, packaging, calendar, performance review.
+- Research to brief synthesis: evidence tables, hypothesis maps, risk lists, decision options, next-action plans.
+- Experiment design and iteration: variable matrices, success and stop criteria, result reviews, next-iteration backlogs.
+- Asset repurposing pipeline: multi-format asset packages, source-to-variant maps, consistency checks, review packets.
 
 ## Current Inventory
 

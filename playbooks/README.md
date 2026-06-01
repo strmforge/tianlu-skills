@@ -36,5 +36,8 @@ Each playbook should declare:
 | [Commerce Operations Planning](commerce-operations.md) | Turn product, audience, pricing, and channel signals into merchandise and campaign work products. | commerce-neutral | seed draft |
 | [Long-Form Fiction Development](longform-fiction-development.md) | Turn story intent into character, world, conflict, outline, draft, and revision artifacts. | creative-writing-neutral | seed draft |
 | [Content Operations Planning](content-operations.md) | Turn audience, topic, platform, script, distribution, and feedback signals into a content operating loop. | content-operations-neutral | seed draft |
+| [Research To Brief Synthesis](research-to-brief-synthesis.md) | Turn scattered source signals into an actionable brief with evidence, risks, options, and next actions. | domain-neutral | seed draft |
+| [Experiment Design And Iteration](experiment-design-iteration.md) | Turn an idea into a bounded experiment, result review, and next-iteration backlog. | domain-neutral | seed draft |
+| [Asset Repurposing Pipeline](asset-repurposing-pipeline.md) | Turn one source asset into multiple scoped variants with a mapping table and consistency checks. | domain-neutral | seed draft |
 
 These are seed drafts, not universal laws. They are intentionally broad enough to help many concrete agents, such as an e-commerce operator, a writing assistant, or a media manager, while still requiring scoped adaptation before use in a real project.

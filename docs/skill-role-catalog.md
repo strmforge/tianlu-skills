@@ -29,6 +29,9 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Commerce operations planning | `../playbooks/commerce-operations.md` | Helps commerce agents turn product, audience, pricing, inventory, and channel signals into useful operating artifacts without binding to one marketplace. | Opportunity report, product page brief, title variants, promotion plan, customer-response drafts. |
 | Long-form fiction development | `../playbooks/longform-fiction-development.md` | Helps writing agents develop story intent into characters, world rules, conflict structure, outlines, continuity, and revision notes. | Premise, character sheets, world rules, conflict ladder, chapter outline, revision checklist. |
 | Content operations planning | `../playbooks/content-operations.md` | Helps media agents operate topic, script, packaging, distribution, and feedback loops without binding to one platform. | Topic pool, angle brief, script, platform variants, packaging brief, publishing calendar draft, performance review. |
+| Research to brief synthesis | `../playbooks/research-to-brief-synthesis.md` | Helps agents turn scattered source material into an actionable brief without treating weak signals as authority. | Research brief, evidence table, hypothesis map, risk list, decision options, next-action plan. |
+| Experiment design and iteration | `../playbooks/experiment-design-iteration.md` | Helps agents turn ideas into bounded experiments with predeclared metrics, stop criteria, and learning loops. | Experiment plan, variable matrix, approval checklist, result review, next-iteration backlog. |
+| Asset repurposing pipeline | `../playbooks/asset-repurposing-pipeline.md` | Helps agents transform one source asset into multiple scoped variants while preserving the core promise and review path. | Multi-format asset package, source-to-variant map, consistency checklist, review packet. |
 
 ## Codex Adapter Drafts
 
