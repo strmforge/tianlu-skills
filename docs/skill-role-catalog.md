@@ -45,6 +45,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Data analysis decision support | `../playbooks/data-analysis-decision-support.md` | Helps agents turn datasets, metrics, experiments, logs, and dashboards into reviewable analysis packets without making domain decisions. | Data dictionary, quality report, metric definition table, descriptive findings, experiment readout, anomaly queue. |
 | Operations execution handoff | `../playbooks/operations-execution-handoff.md` | Helps agents turn upstream plans, drafts, and review packets into a ready-to-execute handoff package without acting on external systems. | Execution handoff packet, prioritized action queue, approval sheet, blocker log, fallback notes, evidence-capture checklist. |
 | Learning operations planning | `../playbooks/learning-operations-planning.md` | Helps agents turn learning goals, materials, time constraints, and feedback into a reviewable learning operating loop. | Learning goal brief, concept map, study schedule, self-check template, error-pattern table, progress snapshot. |
+| Local store operations planning | `../playbooks/local-store-operations.md` | Helps agents turn local retail, restaurant, service, branch, or field-location signals into reviewable operating artifacts without acting on live systems. | Store snapshot, opening/closing checklist, stock watchlist, shift handoff draft, review response draft, POS summary. |
 
 ## Codex Adapter Drafts
 

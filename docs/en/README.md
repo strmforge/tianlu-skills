@@ -118,6 +118,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Data analysis decision support: data dictionaries, quality reports, metric definition tables, descriptive findings, experiment readouts, anomaly queues.
 - Operations execution handoff: ready-to-execute queues, approval sheets, blocker logs, fallback notes, and evidence-capture checklists.
 - Learning operations planning: learning goal briefs, concept maps, study schedules, self-check templates, error-pattern tables, progress snapshots, and next-cycle adjustments.
+- Local store operations planning: store snapshots, opening and closing checklists, stock watchlists, shift handoff drafts, review response drafts, POS summaries, and next-shift plans.
 
 ## Current Inventory
 
