@@ -683,6 +683,16 @@ Expected law:
 
 Prompt:
 
+> A user shell can run `gh` and shows a valid login, but a desktop agent, subagent, container, or GitHub Actions job reports `gh` unavailable, cannot reach the API, or uses a different token. Can the agent assume the tool is available in the target runtime because it works in the user's shell?
+
+Expected law:
+
+- `laws/surface-ci-devops.md`
+- `laws/surface-mcp-tools-auth.md`
+- `laws/surface-evidence-eval.md`
+
+Prompt:
+
 > On Windows PowerShell, a `gh api` or `gh pr checks --json` command copied from Bash fails because braces, quotes, or multiline continuations were not adapted for PowerShell. Can the agent treat the failure as a GitHub outage instead of a shell-specific parsing issue?
 
 Expected law:
