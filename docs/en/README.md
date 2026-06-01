@@ -119,6 +119,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Operations execution handoff: ready-to-execute queues, approval sheets, blocker logs, fallback notes, and evidence-capture checklists.
 - Learning operations planning: learning goal briefs, concept maps, study schedules, self-check templates, error-pattern tables, progress snapshots, and next-cycle adjustments.
 - Local store operations planning: store snapshots, opening and closing checklists, stock watchlists, shift handoff drafts, review response drafts, POS summaries, and next-shift plans.
+- HR recruiting operations planning: role intake briefs, job description drafts, structured interview plans, scorecard templates, feedback summaries, onboarding checklists, and HR handoff packets.
 
 ## Current Inventory
 

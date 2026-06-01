@@ -46,6 +46,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Operations execution handoff | `../playbooks/operations-execution-handoff.md` | Helps agents turn upstream plans, drafts, and review packets into a ready-to-execute handoff package without acting on external systems. | Execution handoff packet, prioritized action queue, approval sheet, blocker log, fallback notes, evidence-capture checklist. |
 | Learning operations planning | `../playbooks/learning-operations-planning.md` | Helps agents turn learning goals, materials, time constraints, and feedback into a reviewable learning operating loop. | Learning goal brief, concept map, study schedule, self-check template, error-pattern table, progress snapshot. |
 | Local store operations planning | `../playbooks/local-store-operations.md` | Helps agents turn local retail, restaurant, service, branch, or field-location signals into reviewable operating artifacts without acting on live systems. | Store snapshot, opening/closing checklist, stock watchlist, shift handoff draft, review response draft, POS summary. |
+| HR recruiting operations planning | `../playbooks/hr-recruiting-operations.md` | Helps agents turn role, recruiting, interview, onboarding, and employee-service signals into reviewable HR operations artifacts without making employment decisions. | Role intake brief, job description draft, interview plan, scorecard template, feedback summary, onboarding checklist. |
 
 ## Codex Adapter Drafts
 
