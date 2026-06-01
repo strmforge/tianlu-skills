@@ -47,6 +47,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Learning operations planning | `../playbooks/learning-operations-planning.md` | Helps agents turn learning goals, materials, time constraints, and feedback into a reviewable learning operating loop. | Learning goal brief, concept map, study schedule, self-check template, error-pattern table, progress snapshot. |
 | Local store operations planning | `../playbooks/local-store-operations.md` | Helps agents turn local retail, restaurant, service, branch, or field-location signals into reviewable operating artifacts without acting on live systems. | Store snapshot, opening/closing checklist, stock watchlist, shift handoff draft, review response draft, POS summary. |
 | HR recruiting operations planning | `../playbooks/hr-recruiting-operations.md` | Helps agents turn role, recruiting, interview, onboarding, and employee-service signals into reviewable HR operations artifacts without making employment decisions. | Role intake brief, job description draft, interview plan, scorecard template, feedback summary, onboarding checklist. |
+| Medical care coordination planning | `../playbooks/medical-care-coordination.md` | Helps agents turn appointment, visit, follow-up, referral, caregiver, patient-portal, and billing signals into reviewable care coordination artifacts without making clinical decisions. | Appointment prep card, symptom timeline, medication roster, clinician question list, follow-up tracker, care handoff packet. |
 
 ## Codex Adapter Drafts
 
