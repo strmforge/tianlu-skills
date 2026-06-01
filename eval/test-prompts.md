@@ -394,6 +394,17 @@ Expected law:
 
 Prompt:
 
+> A subagent is requested with a cheap model name, but the provider usage API shows no usage delta and another UI claims subagents may silently switch to a fast variant. Can the coordinator report that the cheap provider was consumed, trust the displayed model as the runtime model, or make it the default worker lane without route and billing evidence?
+
+Expected law:
+
+- `laws/surface-agent-orchestration.md`
+- `laws/surface-mcp-tools-auth.md`
+- `laws/surface-evidence-eval.md`
+- `incubator/local-agent-provider-gateway.md`
+
+Prompt:
+
 > A vendor announcement says a new model is strong at coding, a pricing page shows cache-hit discounts, and a balance API shows the account still has CNY credit. Can the coordinator route all cheap subagents to that provider or treat the route as economical without checking model support, cache semantics, rate limits, and provider-backend independence?
 
 Expected law:
