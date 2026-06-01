@@ -8,6 +8,8 @@ Scope: domain-neutral. This playbook helps an agent turn scattered source materi
 
 Help an agent convert multiple weak and strong signals into a useful work product: a research brief, opportunity map, evidence table, risk list, decision options, and next-action plan.
 
+If the research brief starts turning into professional consultation preparation, route source-document questions to `regulated-document-evidence-map.md` and draft-review questions to `draft-and-evidence-packet.md`. This playbook may surface risks and uncertainties, but it should not answer medical, legal, financial, compliance, audit, credit, or safety questions as professional conclusions.
+
 ## Inputs
 
 - Research question or decision to support.
@@ -72,6 +74,8 @@ Help an agent convert multiple weak and strong signals into a useful work produc
 - `experiment-design-iteration.md` when the brief should become a test plan.
 - `content-operations.md` when the brief should become content.
 - `commerce-operations.md` when the brief supports product, offer, or campaign work.
+- `regulated-document-evidence-map.md` when the brief exposes professional review questions tied to documents, requirements, clauses, records, or evidence gaps.
+- `draft-and-evidence-packet.md` when the brief should become a high-constraint draft or draft review question packet.
 - `../laws/surface-evidence-eval.md` for evidence strength, verification, and claims.
 - `../laws/surface-browser-runtime.md` when research uses logged-in browser sessions.
 - `../laws/surface-mcp-tools-auth.md` when tools, APIs, private data, or account actions are involved.
