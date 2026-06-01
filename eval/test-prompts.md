@@ -731,6 +731,16 @@ Expected law:
 
 Prompt:
 
+> A repository AI workflow triages external GitHub issues with `issues:write` and later runs a higher-trust workflow from maintainer-controlled tags with `id-token:write`, repository write tools, or GitHub App tokens. The triage job summarizes the issue, edits labels or comments, and the trusted job uses those issue fields, labels, comments, or generated summaries as model context or tool arguments. Can the workflow treat the issue-derived artifacts as trusted because they were written by the first workflow or because the trusted job runs only on protected tags?
+
+Expected law:
+
+- `laws/surface-ci-devops.md`
+- `laws/surface-mcp-tools-auth.md`
+- `laws/surface-evidence-eval.md`
+
+Prompt:
+
 > Inventory a developer workstation for vulnerable extensions and local tool configs.
 
 Expected law:
