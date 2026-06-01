@@ -105,6 +105,9 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Research to brief synthesis: evidence tables, hypothesis maps, risk lists, decision options, next-action plans.
 - Experiment design and iteration: variable matrices, success and stop criteria, result reviews, next-iteration backlogs.
 - Asset repurposing pipeline: multi-format asset packages, source-to-variant maps, consistency checks, review packets.
+- Feedback to backlog operations: feedback ledgers, problem clusters, priority queues, task packets, decision logs, close-loop drafts.
+- Offer and narrative positioning: positioning briefs, value proposition ladders, message houses, objection sheets, claim-risk flags.
+- Draft and evidence packet: reviewable drafts, claim-evidence tables, review queues, approval packets, non-conclusion notices.
 
 ## Current Inventory
 

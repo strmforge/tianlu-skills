@@ -39,5 +39,8 @@ Each playbook should declare:
 | [Research To Brief Synthesis](research-to-brief-synthesis.md) | Turn scattered source signals into an actionable brief with evidence, risks, options, and next actions. | domain-neutral | seed draft |
 | [Experiment Design And Iteration](experiment-design-iteration.md) | Turn an idea into a bounded experiment, result review, and next-iteration backlog. | domain-neutral | seed draft |
 | [Asset Repurposing Pipeline](asset-repurposing-pipeline.md) | Turn one source asset into multiple scoped variants with a mapping table and consistency checks. | domain-neutral | seed draft |
+| [Feedback To Backlog Operations](feedback-to-backlog-operations.md) | Turn user, customer, reader, support, or stakeholder feedback into reviewable backlog items and close-loop notes. | domain-neutral | seed draft |
+| [Offer And Narrative Positioning](offer-narrative-positioning.md) | Turn audience evidence and constraints into a value proposition and narrative positioning package. | domain-neutral | seed draft |
+| [Draft And Evidence Packet](draft-and-evidence-packet.md) | Turn high-constraint source material into a reviewable draft, evidence table, and approval packet without producing expert conclusions. | high-constraint drafting | seed draft |
 
 These are seed drafts, not universal laws. They are intentionally broad enough to help many concrete agents, such as an e-commerce operator, a writing assistant, or a media manager, while still requiring scoped adaptation before use in a real project.

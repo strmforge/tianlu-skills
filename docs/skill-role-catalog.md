@@ -32,6 +32,9 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Research to brief synthesis | `../playbooks/research-to-brief-synthesis.md` | Helps agents turn scattered source material into an actionable brief without treating weak signals as authority. | Research brief, evidence table, hypothesis map, risk list, decision options, next-action plan. |
 | Experiment design and iteration | `../playbooks/experiment-design-iteration.md` | Helps agents turn ideas into bounded experiments with predeclared metrics, stop criteria, and learning loops. | Experiment plan, variable matrix, approval checklist, result review, next-iteration backlog. |
 | Asset repurposing pipeline | `../playbooks/asset-repurposing-pipeline.md` | Helps agents transform one source asset into multiple scoped variants while preserving the core promise and review path. | Multi-format asset package, source-to-variant map, consistency checklist, review packet. |
+| Feedback to backlog operations | `../playbooks/feedback-to-backlog-operations.md` | Helps agents convert noisy feedback into reviewable backlog items while preserving source context and close-loop decisions. | Feedback ledger, problem clusters, priority queue, task packets, decision log, close-loop drafts. |
+| Offer and narrative positioning | `../playbooks/offer-narrative-positioning.md` | Helps agents turn audience evidence and constraints into a value proposition and narrative package without treating positioning as proof. | Positioning brief, value proposition ladder, message house, objection sheet, claim-risk flags. |
+| Draft and evidence packet | `../playbooks/draft-and-evidence-packet.md` | Helps agents produce reviewable drafts and evidence packets for high-constraint communication without generating expert conclusions. | Draft, claim-evidence table, review queue, approval packet, non-conclusion notice. |
 
 ## Codex Adapter Drafts
 
