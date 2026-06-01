@@ -43,6 +43,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Creator monetization operations | `../playbooks/creator-monetization-operations.md` | Helps agents plan creator monetization options, commercial assets, disclosure checks, and experiments without publishing or making commercial commitments. | Monetization map, audience-offer fit table, sponsor/affiliate ledger, disclosure checklist, pitch packet. |
 | Customer support quality review | `../playbooks/customer-support-quality-review.md` | Helps agents review support conversation quality, scorecard evidence, error patterns, and improvement needs without acting on customers or employees. | Support QA scorecard, conversation review ledger, error-pattern table, improvement packet, recheck plan. |
 | Data analysis decision support | `../playbooks/data-analysis-decision-support.md` | Helps agents turn datasets, metrics, experiments, logs, and dashboards into reviewable analysis packets without making domain decisions. | Data dictionary, quality report, metric definition table, descriptive findings, experiment readout, anomaly queue. |
+| Operations execution handoff | `../playbooks/operations-execution-handoff.md` | Helps agents turn upstream plans, drafts, and review packets into a ready-to-execute handoff package without acting on external systems. | Execution handoff packet, prioritized action queue, approval sheet, blocker log, fallback notes, evidence-capture checklist. |
 
 ## Codex Adapter Drafts
 

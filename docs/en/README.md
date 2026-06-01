@@ -116,6 +116,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Creator monetization operations: monetization maps, audience-offer fit tables, sponsor or affiliate ledgers, disclosure checklists, pitch packets.
 - Customer support quality review: support QA scorecards, conversation review ledgers, error-pattern tables, improvement packets, recheck plans.
 - Data analysis decision support: data dictionaries, quality reports, metric definition tables, descriptive findings, experiment readouts, anomaly queues.
+- Operations execution handoff: ready-to-execute queues, approval sheets, blocker logs, fallback notes, and evidence-capture checklists.
 
 ## Current Inventory
 
