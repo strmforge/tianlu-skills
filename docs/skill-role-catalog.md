@@ -41,6 +41,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Contract fulfillment tracking | `../playbooks/contract-fulfillment-tracking.md` | Helps agents track obligations, deliverables, milestones, evidence receipts, gaps, and escalation points without producing legal conclusions. | Obligation ledger, deliverable tracker, evidence receipt log, gap table, escalation queue. |
 | Finance operations review | `../playbooks/finance-operations-review.md` | Helps agents review operating finance evidence, budgets, cash movement, and anomalies without producing tax, accounting, audit, credit, investment, or payment decisions. | Financial operations snapshot, income/expense ledger, budget variance table, cash-flow notes, anomaly queue. |
 | Creator monetization operations | `../playbooks/creator-monetization-operations.md` | Helps agents plan creator monetization options, commercial assets, disclosure checks, and experiments without publishing or making commercial commitments. | Monetization map, audience-offer fit table, sponsor/affiliate ledger, disclosure checklist, pitch packet. |
+| Customer support quality review | `../playbooks/customer-support-quality-review.md` | Helps agents review support conversation quality, scorecard evidence, error patterns, and improvement needs without acting on customers or employees. | Support QA scorecard, conversation review ledger, error-pattern table, improvement packet, recheck plan. |
 
 ## Codex Adapter Drafts
 

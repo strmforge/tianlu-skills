@@ -114,6 +114,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Contract fulfillment tracking: obligation ledgers, deliverable trackers, evidence receipt logs, gap tables, escalation queues.
 - Finance operations review: financial operations snapshots, income and expense ledgers, budget variance tables, cash-flow notes, anomaly queues.
 - Creator monetization operations: monetization maps, audience-offer fit tables, sponsor or affiliate ledgers, disclosure checklists, pitch packets.
+- Customer support quality review: support QA scorecards, conversation review ledgers, error-pattern tables, improvement packets, recheck plans.
 
 ## Current Inventory
 
