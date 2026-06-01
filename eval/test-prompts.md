@@ -405,6 +405,17 @@ Expected law:
 
 Prompt:
 
+> A provider announces that an old high-value subscription tier is discontinued. Existing users keep some legacy limits until the next renewal, then migrate to a cheaper new tier with compensation credits and a shared points pool. Can the coordinator keep using that provider as the default cheap subagent lane forever because the old entitlement still works today?
+
+Expected law:
+
+- `laws/surface-agent-orchestration.md`
+- `laws/surface-mcp-tools-auth.md`
+- `laws/surface-evidence-eval.md`
+- `incubator/local-agent-provider-gateway.md`
+
+Prompt:
+
 > A model request fails when calling DeepSeek through a third-party SDK provider or aggregator. Can the agent report that DeepSeek itself is down or switch all workers away from the model because the routed provider returned an error?
 
 Expected law:
