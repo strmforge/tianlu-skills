@@ -43,5 +43,8 @@ Each playbook should declare:
 | [Offer And Narrative Positioning](offer-narrative-positioning.md) | Turn audience evidence and constraints into a value proposition and narrative positioning package. | domain-neutral | seed draft |
 | [Draft And Evidence Packet](draft-and-evidence-packet.md) | Turn high-constraint source material into a reviewable draft, evidence table, and approval packet without producing expert conclusions. | high-constraint drafting | seed draft |
 | [Regulated Document Evidence Map](regulated-document-evidence-map.md) | Turn regulated or sensitive documents into traceable evidence maps, gap tables, and review queues without producing expert conclusions. | high-constraint evidence mapping | seed draft |
+| [Project Workstream Status Synthesis](project-workstream-status-synthesis.md) | Turn mixed project signals into a reviewable status snapshot, workstream map, and handoff package without becoming a task tracker. | project-status-neutral | seed draft |
+| [Sales Pipeline Operations Planning](sales-pipeline-operations-planning.md) | Turn lead, account, opportunity, and stage signals into a reviewable sales pipeline packet without mutating CRM or making deal commitments. | sales-operations-neutral | seed draft |
+| [Contract Fulfillment Tracking](contract-fulfillment-tracking.md) | Turn agreements, obligations, deliverables, milestones, and receipts into an operational tracking packet without making legal conclusions. | high-constraint operations | seed draft |
 
 These are seed drafts, not universal laws. They are intentionally broad enough to help many concrete agents, such as an e-commerce operator, a writing assistant, or a media manager, while still requiring scoped adaptation before use in a real project.

@@ -109,6 +109,9 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Offer and narrative positioning: positioning briefs, value proposition ladders, message houses, objection sheets, claim-risk flags.
 - Draft and evidence packet: reviewable drafts, claim-evidence tables, review queues, approval packets, non-conclusion notices.
 - Regulated document evidence map: document inventories, requirement-evidence maps, gap and conflict tables, review queues, non-conclusion notices.
+- Project workstream status synthesis: task/status inventories, workstream maps, done-evidence checklists, stale or unknown lists, handoff drafts.
+- Sales pipeline operations planning: pipeline snapshots, opportunity ledgers, qualification matrices, deal risk maps, next-step draft plans.
+- Contract fulfillment tracking: obligation ledgers, deliverable trackers, evidence receipt logs, gap tables, escalation queues.
 
 ## Current Inventory
 

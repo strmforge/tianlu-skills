@@ -47,7 +47,7 @@ The source-principles layer is intentionally named `tiandao/`; see the [Tiandao 
 ```text
 tianlu-skills/
 ├── tiandao/   # Source principles: method lifecycle, scope, promotion, conflicts
-├── laws/       # Method collection: concrete reusable methods with declared scope
+├── laws/       # Foundation method collection: evidence, authority, safety, promotion
 ├── playbooks/  # Productive method cards for creating useful work artifacts
 ├── index/      # Order: routing, dependencies, scope maps, conflict maps
 ├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, or future runtimes
