@@ -112,6 +112,8 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Project workstream status synthesis: task/status inventories, workstream maps, done-evidence checklists, stale or unknown lists, handoff drafts.
 - Sales pipeline operations planning: pipeline snapshots, opportunity ledgers, qualification matrices, deal risk maps, next-step draft plans.
 - Contract fulfillment tracking: obligation ledgers, deliverable trackers, evidence receipt logs, gap tables, escalation queues.
+- Finance operations review: financial operations snapshots, income and expense ledgers, budget variance tables, cash-flow notes, anomaly queues.
+- Creator monetization operations: monetization maps, audience-offer fit tables, sponsor or affiliate ledgers, disclosure checklists, pitch packets.
 
 ## Current Inventory
 
