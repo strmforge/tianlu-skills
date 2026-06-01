@@ -8,10 +8,13 @@ Scope: domain-neutral. This playbook helps an agent transform one source asset i
 
 Help an agent produce a multi-format asset package: long-form draft, short post, script, product-page section, email, support answer, slide outline, or internal brief variant, with a mapping table and consistency checks.
 
+This playbook also covers source-material-to-content-package requests when the useful output is a reviewable bundle of variants. If the source material first needs evidence synthesis, start with `research-to-brief-synthesis.md`; if the request is mainly about calendars, distribution, or feedback loops, compose with `content-operations.md`.
+
 ## Inputs
 
 - Source asset such as a brief, article, transcript, product note, story scene, customer answer, research summary, or campaign idea.
 - Target formats and audiences.
+- Source-material context such as transcript, interview, webinar, notes, PDF, report, meeting material, or research summary when the task is to create a content package.
 - Core promise, claims, tone, style, and required omissions.
 - Channel constraints such as length, structure, media type, accessibility, claim policy, or review requirements.
 - Existing brand, project, or author guidance.
@@ -46,6 +49,7 @@ Help an agent produce a multi-format asset package: long-form draft, short post,
 ## Outputs
 
 - Multi-format asset package.
+- Source-material content package when requested.
 - Source-to-variant mapping table.
 - Variant-specific notes.
 - Claim and consistency checklist.

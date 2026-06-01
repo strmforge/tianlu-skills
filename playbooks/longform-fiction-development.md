@@ -42,6 +42,8 @@ Help an agent turn a story intention into reusable creative artifacts: premise, 
 6. Track continuity and foreshadowing.
    - Maintain a register of facts, promises, clues, secrets, and payoffs.
    - Mark unresolved threads before drafting new material.
+   - Treat a story bible or continuity ledger as a living working artifact, not a rulebook that freezes every creative choice.
+   - Separate confirmed canon, tentative ideas, unknowns, retcons, and change notes.
 
 7. Draft and revise.
    - Draft against the chapter function and emotional target.
@@ -55,6 +57,8 @@ Help an agent turn a story intention into reusable creative artifacts: premise, 
 - Conflict ladder.
 - Chapter or episode outline.
 - Foreshadowing and payoff register.
+- Story bible or continuity ledger when the project is long, serialized, or revision-heavy.
+- Retcon and change log.
 - Draft plan and revision checklist.
 
 ## Quality Signals
@@ -64,6 +68,7 @@ Help an agent turn a story intention into reusable creative artifacts: premise, 
 - World rules create or constrain conflict.
 - Each chapter changes the state of the story.
 - Payoffs trace back to earlier setup.
+- Continuity records protect future writing without turning creative exploration into approval work.
 - Revision notes distinguish structural issues from prose polish.
 
 ## Human Checkpoints
@@ -71,6 +76,7 @@ Help an agent turn a story intention into reusable creative artifacts: premise, 
 - Final creative direction, taste, tone, taboo boundaries, and genre promise.
 - Major plot turns such as death, betrayal, romance outcome, ending, or theme inversion.
 - Publication decisions and any use of copyrighted source material or living-person likeness.
+- Durable story-state writes that should affect future sessions or collaborators.
 
 ## Composable With
 

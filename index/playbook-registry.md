@@ -15,6 +15,7 @@ Playbooks are not permission grants. They are productive method cards. When a pl
 | [Feedback To Backlog Operations](../playbooks/feedback-to-backlog-operations.md) | Helps agents turn noisy feedback into reviewable backlog items and close-loop records. | Feedback ledger, problem clusters, priority queue, task packets, decision log, close-loop drafts. | domain-neutral | Evidence/eval, browser/runtime, MCP/tools/auth |
 | [Offer And Narrative Positioning](../playbooks/offer-narrative-positioning.md) | Helps agents turn audience evidence into a value proposition and narrative package. | Positioning brief, value proposition ladder, message house, objection sheet, claim-risk flags. | domain-neutral | Evidence/eval, browser/runtime, MCP/tools/auth |
 | [Draft And Evidence Packet](../playbooks/draft-and-evidence-packet.md) | Helps agents create reviewable drafts and evidence packets for high-constraint work. | Draft, claim-evidence table, review queue, approval packet, non-conclusion notice. | high-constraint drafting | Evidence/eval, browser/runtime, MCP/tools/auth |
+| [Regulated Document Evidence Map](../playbooks/regulated-document-evidence-map.md) | Helps agents organize regulated or sensitive documents into traceable evidence maps before briefs or drafts. | Document inventory, requirement-evidence map, gap and conflict table, review queue, non-conclusion notice. | high-constraint evidence mapping | Evidence/eval, browser/runtime, MCP/tools/auth |
 
 ## Registry Rules
 

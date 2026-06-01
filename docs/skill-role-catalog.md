@@ -35,6 +35,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Feedback to backlog operations | `../playbooks/feedback-to-backlog-operations.md` | Helps agents convert noisy feedback into reviewable backlog items while preserving source context and close-loop decisions. | Feedback ledger, problem clusters, priority queue, task packets, decision log, close-loop drafts. |
 | Offer and narrative positioning | `../playbooks/offer-narrative-positioning.md` | Helps agents turn audience evidence and constraints into a value proposition and narrative package without treating positioning as proof. | Positioning brief, value proposition ladder, message house, objection sheet, claim-risk flags. |
 | Draft and evidence packet | `../playbooks/draft-and-evidence-packet.md` | Helps agents produce reviewable drafts and evidence packets for high-constraint communication without generating expert conclusions. | Draft, claim-evidence table, review queue, approval packet, non-conclusion notice. |
+| Regulated document evidence map | `../playbooks/regulated-document-evidence-map.md` | Helps agents organize regulated or sensitive documents into traceable evidence maps before creating briefs, drafts, or review packets. | Document inventory, requirement-evidence map, gap and conflict table, review queue, non-conclusion notice. |
 
 ## Codex Adapter Drafts
 
