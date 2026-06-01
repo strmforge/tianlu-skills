@@ -123,6 +123,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Medical care coordination planning: appointment prep cards, symptom timelines, medication rosters, clinician question lists, follow-up trackers, referral boards, care task matrices, and care handoff packets.
 - Travel itinerary operations planning: trip briefs, itinerary grids, transport option tables, stay shortlists, activity shortlists, budget worksheets, risk notes, backup plans, and booking handoff packets.
 - Rental housing operations planning: rental operations briefs, unit snapshots, application checklists, tenant-screening evidence packets, maintenance summaries, rent reminder draft queues, move-cycle checklists, and handoff packets.
+- Event operations planning: event operations briefs, run-of-show timelines, registration flow checklists, attendee communication drafts, stakeholder handoffs, risk notes, day-of checklists, and handoff packets.
 
 ## Current Inventory
 
