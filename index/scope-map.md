@@ -11,6 +11,7 @@
 | Workflow Inputs Need Provenance | runtime-neutral | seed | active draft |
 | CI Agents Treat Event Content As Tainted | runtime-neutral | seed | active draft |
 | CI Repair Separates Diagnosis From Mutation | runtime-neutral | seed | active draft |
+| Runner Runtime Migrations Need Canary Evidence | runtime-neutral | seed | active draft |
 | Scanner Results Are Evidence, Not Authorization | runtime-neutral | seed | active draft |
 | Developer Endpoint Inventory Is Metadata-First | runtime-neutral | seed | active draft |
 | Policy-As-Code Needs Stable Inputs | runtime-neutral | seed | active draft |

@@ -29,6 +29,7 @@ Add new law families through `incubator/` first unless they are already verified
 | Workflow Inputs Need Provenance | CI and DevOps workflows | runtime-neutral |
 | CI Agents Treat Event Content As Tainted | CI and DevOps workflows | runtime-neutral |
 | CI Repair Separates Diagnosis From Mutation | CI and DevOps workflows | runtime-neutral |
+| Runner Runtime Migrations Need Canary Evidence | CI and DevOps workflows | runtime-neutral |
 | Scanner Results Are Evidence, Not Authorization | CI and DevOps workflows | runtime-neutral |
 | Developer Endpoint Inventory Is Metadata-First | CI and DevOps workflows | runtime-neutral |
 | Policy-As-Code Needs Stable Inputs | CI and DevOps workflows | runtime-neutral |

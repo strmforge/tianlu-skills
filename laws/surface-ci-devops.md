@@ -77,6 +77,32 @@ Boundary:
 
 - A repair agent may propose fixes from tainted evidence. Writing code, workflow, release, or policy changes needs a trusted lane.
 
+## Law: Runner Runtime Migrations Need Canary Evidence
+
+Trigger:
+
+- A CI provider, hosted runner, self-hosted runner, reusable action, base image, language runtime, tool cache, or runner label is being deprecated, upgraded, migrated, or retargeted.
+- A warning or failure mentions runner version, action runtime, image label, OS version, architecture, language version, tool cache, cache defaults, or compatibility with a future platform date.
+
+Mechanism:
+
+- Treat platform runtime migration as an environment change, not an ordinary test failure.
+- Record provider announcement, effective date, runner version, hosted versus self-hosted path, OS and architecture, runner image label, action versions, declared action runtime, actual runtime, environment flags, tool cache, dependency cache behavior, network requirements, and opt-out expiry.
+- Test with an explicit canary or matrix before broad edits: future runtime flag, pinned image label, upgraded action version, self-hosted runner version, and the smallest representative workflow.
+- Separate warning triage from mutation. Suppressing warnings, opting out to insecure runtimes, relaxing workflow policy, pinning old images, or broad action upgrades need scoped approval and a rollback date.
+- Preserve enough evidence to distinguish declared runtime, actual runtime, warning text, and platform default.
+
+Failure Modes:
+
+- Treating a platform migration warning as proof that the repository code is broken.
+- Suppressing deprecation warnings or setting insecure opt-out flags without a dated migration plan.
+- Assuming local tests or one runner label prove future hosted, self-hosted, OS, architecture, or action runtime behavior.
+- Upgrading actions, runner images, or language versions broadly without checking cache, credential, network, and toolchain side effects.
+
+Boundary:
+
+- Runtime migration evidence authorizes diagnosis and canaries. It does not authorize weakening CI policy or indefinite opt-outs.
+
 ## Law: Scanner Results Are Evidence, Not Authorization
 
 Trigger:

@@ -6,7 +6,7 @@ Date: 2026-05-31
 
 This audit applies the Routing Pressure Test from `tiandao/scope-and-promotion.md` to the current broad laws. It checks whether new cases should add laws, update existing laws, or route through one primary law with companions.
 
-Current inventory: 31 laws across 7 law families.
+Current inventory: 32 laws across 7 law families.
 
 ## Result
 
@@ -115,6 +115,7 @@ Covered sublaws:
 - Workflow Inputs Need Provenance
 - CI Agents Treat Event Content As Tainted
 - CI Repair Separates Diagnosis From Mutation
+- Runner Runtime Migrations Need Canary Evidence
 - Scanner Results Are Evidence, Not Authorization
 - Developer Endpoint Inventory Is Metadata-First
 - Policy-As-Code Needs Stable Inputs
