@@ -1,8 +1,8 @@
 # Tianlu Skills Overview
 
-Tianlu Skills is a neutral method system for agent workflows.
+Tianlu Skills is a neutral method system for agent workflows and productive work.
 
-It is designed for methods that may need to work across multiple agent runtimes, such as Codex, Claude Code, CI agents, local agent harnesses, or future runtimes.
+It is designed for methods that may need to work across multiple agent runtimes, domains, and projects, such as Codex, Claude Code, CI agents, local agent harnesses, commerce assistants, writing assistants, media operators, or future runtimes.
 
 Tianlu treats methods as a generation cycle:
 
@@ -30,7 +30,8 @@ For the phase invariants, see [Method Cycle](method-cycle.md).
 
 ```text
 tiandao = source
-laws    = collection
+laws    = foundation collection
+playbooks = productive collection
 index   = order
 ```
 
@@ -42,7 +43,11 @@ The directory name is intentional. It keeps the source-principles layer aligned 
 
 ### Laws
 
-`laws/` contains concrete reusable methods. Diversity belongs here. A method can be broad, narrow, adapter-specific, project-specific, incubating, deprecated, or unsafe, as long as its scope is honest.
+`laws/` contains foundation methods that govern evidence, authority, safety, persistence, tools, and promotion. These methods keep productive work auditable, but they are not the whole collection.
+
+### Playbooks
+
+`playbooks/` contains output-oriented method cards. This is where methods for creating useful work belong: commerce operations, long-form fiction development, content operations, research briefs, support workflows, and other productive domains. A playbook may reference laws, but it should not turn every productive step into a gate.
 
 ### Index
 
@@ -60,6 +65,7 @@ The directory name is intentional. It keeps the source-principles layer aligned 
 Good candidates:
 
 - Methods that can be stated with trigger, mechanism, evidence, failure mode, and boundary.
+- Productive playbooks that help an agent create useful artifacts while declaring inputs, outputs, quality signals, and human checkpoints.
 - Agent workflow practices that can be scoped honestly.
 - Cross-runtime laws that can later be packaged into adapters.
 - Narrow methods that are useful enough to keep in an overlay.
@@ -70,6 +76,7 @@ Poor candidates:
 - Runtime-specific instructions placed outside adapters.
 - Private project terminology in runtime-neutral files.
 - Install instructions that bypass review.
+- Gate-heavy rules that suppress productive work when a playbook would be enough.
 
 ## Method Generation Direction
 
@@ -89,6 +96,12 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Install and supply chain: untrusted installer text, persistence, dependency egress.
 - MCP, tools, and authorization: authority boundaries, minimal allowlists, bound authorization, runtime output handling.
 - Memory and learning: context working sets, durable memory writes, lifecycle, trajectory, feed learning, skill generation.
+
+## Current Seed Playbooks
+
+- Commerce operations: opportunity reports, product page briefs, title variants, promotion plans, customer-response drafts.
+- Long-form fiction development: premise, characters, world rules, conflict ladder, chapter outline, continuity, revision.
+- Content operations: topic pool, angle brief, script, platform variants, packaging, calendar, performance review.
 
 ## Current Inventory
 

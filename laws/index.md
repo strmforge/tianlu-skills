@@ -1,6 +1,8 @@
 # Laws Index
 
-Laws are concrete reusable methods. They are diverse by design, but every law must declare its scope and evidence.
+Laws are foundation methods for authority, evidence, safety, persistence, tools, and promotion. They are diverse by design, but every law must declare its scope and evidence.
+
+Laws are not the whole Tianlu collection. Output-oriented methods belong in `../playbooks/` when their main purpose is to help an agent create, plan, draft, operate, compare, or improve useful work.
 
 ## Current Law Families
 

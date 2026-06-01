@@ -1,6 +1,8 @@
 # Trigger Routing
 
-Use this table to decide which law files to read.
+Use this table to decide which law files or productive playbooks to read.
+
+If the trigger is mainly about producing useful work, start with [Playbook Registry](playbook-registry.md) and then apply supporting laws only where the playbook crosses a boundary. Do not turn every productive workflow into a gate.
 
 | Trigger | Primary | Companions | Fast Path |
 | --- | --- | --- | --- |
@@ -30,3 +32,6 @@ Use this table to decide which law files to read.
 | Feed, community item, documentation, issue tracker, benchmark, blog, video, chat, or social post is proposed as a reusable method | `../laws/surface-memory-learning.md` | `../laws/surface-evidence-eval.md`, `../incubator/README.md` | Keep as unverified note or signal |
 | Public skill pack, prompt pack, agent rule pack, command bundle, plugin, or reusable instruction collection is recommended | `../laws/surface-install-supply-chain.md` | `../laws/surface-memory-learning.md`, `../laws/surface-evidence-eval.md`, `../incubator/public-skill-collection-quality-gate.md` | Read-only source review and method sampling; no install, clone, activation, or hook execution |
 | New skill, adapter, overlay, active rule, prompt patch, workflow patch, or self-improvement update is proposed | `../laws/surface-memory-learning.md` | `../laws/surface-install-supply-chain.md`, `../laws/surface-evidence-eval.md` | Draft-only checklist with no activation |
+| Commerce planning, product page work, title or keyword variants, promotion plan, customer-response drafts, or commerce performance review | `../playbooks/commerce-operations.md` | `../laws/surface-browser-runtime.md`, `../laws/surface-mcp-tools-auth.md`, `../laws/surface-evidence-eval.md` | Draft plan with no live account action, spend, price change, publication, refund, or customer send |
+| Fiction premise, characters, world rules, conflict map, chapter outline, continuity, draft plan, or revision | `../playbooks/longform-fiction-development.md` | `../laws/surface-memory-learning.md`, `../laws/surface-evidence-eval.md` | Creative draft or outline with no publication or copyrighted-source adoption |
+| Topic pool, content angle, script, title or cover brief, platform variant, publishing calendar, or content performance review | `../playbooks/content-operations.md` | `../laws/surface-browser-runtime.md`, `../laws/surface-mcp-tools-auth.md`, `../laws/surface-evidence-eval.md` | Draft content plan with no publish, reply, DM, sponsorship, account mutation, or paid promotion |

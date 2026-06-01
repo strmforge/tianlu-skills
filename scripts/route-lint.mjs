@@ -3,6 +3,7 @@ import { dirname, normalize, relative, resolve } from 'node:path';
 
 const root = process.cwd();
 const lawsDir = resolve(root, 'laws');
+const playbooksDir = resolve(root, 'playbooks');
 const failures = [];
 const warnings = [];
 const lintRoots = [
@@ -11,6 +12,7 @@ const lintRoots = [
   'eval',
   'tiandao',
   'laws',
+  'playbooks',
   'index',
   'adapters',
   'overlays',
@@ -145,6 +147,9 @@ for (const cells of scopeRows) {
 const surfaceRegistry = read('index/surface-registry.md');
 const registryRows = tableRows(surfaceRegistry)
   .filter((cells) => cells[0] !== 'Surface' && cells.length >= 4);
+const playbookRegistry = read('index/playbook-registry.md');
+const playbookRows = tableRows(playbookRegistry)
+  .filter((cells) => cells[0] !== 'Playbook' && cells.length >= 5);
 
 for (const file of lawFiles) {
   const repoPath = `laws/${file}`;
@@ -203,6 +208,41 @@ for (const file of familyFiles) {
   }
 }
 
+const playbookFiles = readdirSync(playbooksDir)
+  .filter((name) => name.endsWith('.md') && name !== 'README.md' && name !== 'template.md')
+  .sort();
+
+const registeredPlaybooks = new Set();
+for (const cells of playbookRows) {
+  const rawPath = cells[0].match(/\]\((.+?)\)/)?.[1] ?? '';
+  if (!rawPath) {
+    failures.push(`index/playbook-registry.md has a playbook row without a markdown link: ${cells[0]}`);
+    continue;
+  }
+  const registryFile = resolve(root, 'index/playbook-registry.md');
+  const target = resolve(dirname(registryFile), rawPath);
+  const repoTarget = normalizeRepoPath(relative(root, target));
+  if (!existsSync(target)) {
+    failures.push(`index/playbook-registry.md references missing ${rawPath}`);
+  }
+  if (!repoTarget.startsWith('playbooks/')) {
+    failures.push(`index/playbook-registry.md playbook target is outside playbooks/: ${repoTarget}`);
+  }
+  registeredPlaybooks.add(repoTarget.replace(/^playbooks\//, ''));
+}
+
+for (const file of playbookFiles) {
+  if (!registeredPlaybooks.has(file)) {
+    failures.push(`index/playbook-registry.md missing playbooks/${file}`);
+  }
+}
+
+for (const file of registeredPlaybooks) {
+  if (!existsSync(resolve(root, 'playbooks', file))) {
+    failures.push(`index/playbook-registry.md lists missing playbooks/${file}`);
+  }
+}
+
 const fanInAudit = read('docs/fan-in-audit.md');
 const auditMatch = fanInAudit.match(/Current inventory:\s+(\d+)\s+laws/i);
 if (auditMatch) {
@@ -240,5 +280,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  `route lint passed: ${lawHeadings.size} law(s), ${familyFiles.size} family file(s), ${registryRows.length} registry surface(s)`,
+  `route lint passed: ${lawHeadings.size} law(s), ${familyFiles.size} family file(s), ${registryRows.length} registry surface(s), ${registeredPlaybooks.size} playbook(s)`,
 );

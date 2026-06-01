@@ -1,8 +1,8 @@
 # Tianlu Skills
 
-Tianlu Skills is a neutral, layered method system for agent workflows.
+Tianlu Skills is a neutral, layered method system for agent workflows and productive work.
 
-It records reusable agent methods, their scope, their relationships, and the evidence required to promote, adapt, or retire them. It is not tied to one model, one agent runtime, one project, or one working style.
+It records reusable agent methods, their scope, their relationships, and the evidence required to promote, adapt, compose, or retire them. It is not tied to one model, one agent runtime, one project, one industry, or one working style.
 
 中文文档见：[docs/zh-CN/README.md](docs/zh-CN/README.md)
 
@@ -10,11 +10,12 @@ It records reusable agent methods, their scope, their relationships, and the evi
 
 ```text
 tiandao = source
-laws    = collection
+laws    = foundation collection
+playbooks = productive collection
 index   = order
 ```
 
-Tianlu is not just a package of skills. It is a way to keep methods discoverable, scoped, validated, and portable.
+Tianlu is not just a package of skills. It is a way to keep methods discoverable, scoped, validated, composable, and portable.
 
 It treats method work as a cycle:
 
@@ -25,6 +26,8 @@ absorb scoped input -> generate neutral method -> compose scoped variant -> abso
 In compact form: absorb takes in scoped or biased methods, generate extracts a neutral reusable version, and compose recombines neutral methods into new scoped variants. The composed variant then returns to the absorb side after practice. This is an open-ended combinatorial loop, not a one-time promotion path.
 
 External information usually arrives as scoped, event-shaped material. Tianlu absorbs that biased input, generates a neutral reusable method by extracting the mechanism and containing local bias, then composes neutral methods into new scoped variants for concrete runtimes, projects, or tasks. Those variants are intentionally biased toward their context; after use, they can feed back as new scoped input. This makes the system circular rather than linear: scoped practice can produce neutral methods, and neutral methods can produce new scoped practice.
+
+The repository should not become only a gate library. Foundational laws keep agents safe and auditable, but agents also need productive methods for real work: commerce operations, fiction development, content operations, research, analysis, support, planning, and other domains. `playbooks/` holds those output-oriented method cards. `laws/` supports them with authority, evidence, safety, and promotion boundaries.
 
 Returning from a neutral method to a scoped variant is intentional. Neutral methods keep the system portable; scoped variants make the methods useful in real environments. Both states are part of the cycle as long as source, scope, evidence, and boundaries remain visible.
 
@@ -45,6 +48,7 @@ The source-principles layer is intentionally named `tiandao/`; see the [Tiandao 
 tianlu-skills/
 ├── tiandao/   # Source principles: method lifecycle, scope, promotion, conflicts
 ├── laws/       # Method collection: concrete reusable methods with declared scope
+├── playbooks/  # Productive method cards for creating useful work artifacts
 ├── index/      # Order: routing, dependencies, scope maps, conflict maps
 ├── adapters/   # Runtime-specific packaging, such as Codex, Claude Code, or future runtimes
 ├── overlays/   # Project, machine, organization, or personal method lineages
@@ -58,6 +62,8 @@ tianlu-skills/
 - Neutrality does not mean minimalism. It means every method is placed in its honest scope.
 - Neutrality preserves plasticity: a neutral method stays reusable because it is not fixed to one event, runtime, project, or task.
 - General methods are not the endpoint. They are reusable building blocks for safer scoped variants.
+- Guardrails are not the whole system. Productive playbooks are first-class methods when they help an agent create useful artifacts.
+- Use the smallest necessary gate. If a method mainly helps create, compare, plan, draft, operate, or improve something, write it as a playbook first.
 - Scoped variants are useful because they fit a context, but they must not claim neutral status until their bias is named, removed, or contained.
 - Scoped variants can feed the next cycle when their source, evidence, and boundaries remain visible.
 - Absorb and compose are scoped phases; generate is the neutral phase between them.
@@ -81,6 +87,8 @@ The first target adapter is Codex, but the repository itself is runtime-neutral.
 - [Tiandao principles](tiandao/principles.md)
 - [Tiandao naming decision](docs/tiandao-naming-decision.md)
 - [Laws index](laws/index.md)
+- [Playbook registry](index/playbook-registry.md)
+- [Productive playbooks](playbooks/README.md)
 - [Surface registry](index/surface-registry.md)
 - [Fan-in audit](docs/fan-in-audit.md)
 - [Operations](docs/operations.md)

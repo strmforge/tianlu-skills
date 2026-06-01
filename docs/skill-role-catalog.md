@@ -22,6 +22,14 @@ Private local skills are counted for inventory integrity but are not named or mi
 | MCP, tools, and authorization | `../laws/surface-mcp-tools-auth.md` | Governs exposed tools, MCP/API bridges, bound authorization, brokered secrets, payment/identity state, and runtime outputs. | Tool inventory, allowlist, auth receipt, secret broker record, transaction state. |
 | Memory and learning | `../laws/surface-memory-learning.md` | Turns context, memories, feeds, skill generation, and self-improvement into scoped, reviewable, rollback-capable methods. | Memory event, method card, incubator entry, inactive skill draft, eval label. |
 
+## Tianlu Productive Playbooks
+
+| Playbook | File | Role | Typical Output |
+| --- | --- | --- | --- |
+| Commerce operations planning | `../playbooks/commerce-operations.md` | Helps commerce agents turn product, audience, pricing, inventory, and channel signals into useful operating artifacts without binding to one marketplace. | Opportunity report, product page brief, title variants, promotion plan, customer-response drafts. |
+| Long-form fiction development | `../playbooks/longform-fiction-development.md` | Helps writing agents develop story intent into characters, world rules, conflict structure, outlines, continuity, and revision notes. | Premise, character sheets, world rules, conflict ladder, chapter outline, revision checklist. |
+| Content operations planning | `../playbooks/content-operations.md` | Helps media agents operate topic, script, packaging, distribution, and feedback loops without binding to one platform. | Topic pool, angle brief, script, platform variants, packaging brief, publishing calendar draft, performance review. |
+
 ## Codex Adapter Drafts
 
 | Adapter File | Role | Notes |
