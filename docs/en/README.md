@@ -114,6 +114,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Draft and evidence packet: reviewable drafts, claim-evidence tables, review queues, approval packets, non-conclusion notices.
 - Regulated document evidence map: document inventories, requirement-evidence maps, gap and conflict tables, review queues, non-conclusion notices.
 - Consumer evidence and escalation planning: issue intake snapshots, evidence inventories, timelines, communication logs, draft packets, timing trackers, escalation maps, official-source lookup queues, stop-line questions, and handoff packets.
+- Medical bill and EOB appeal evidence operations: EOB-to-bill crosswalks, denial timelines, missing-record lists, official-source lookup queues, appeal option maps, unsent draft packets, deadline trackers, reviewer handoffs, and post-response evidence capture checklists.
 - Project workstream status synthesis: task/status inventories, workstream maps, done-evidence checklists, stale or unknown lists, handoff drafts.
 - Sales pipeline operations planning: pipeline snapshots, opportunity ledgers, qualification matrices, deal risk maps, next-step draft plans.
 - Contract fulfillment tracking: obligation ledgers, deliverable trackers, evidence receipt logs, gap tables, escalation queues.
