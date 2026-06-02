@@ -104,6 +104,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Long-form fiction development: premise, characters, world rules, conflict ladder, chapter outline, continuity, revision.
 - Content operations: topic pool, angle brief, script, platform variants, packaging, calendar, performance review.
 - Research to brief synthesis: evidence tables, hypothesis maps, risk lists, decision options, next-action plans.
+- Public skill recommendation triage: source inventories, item triage tables, surface maps, local-overlap maps, extraction candidates, risk classes, review queues, and no-install receipts.
 - Experiment design and iteration: variable matrices, success and stop criteria, result reviews, next-iteration backlogs.
 - Asset repurposing pipeline: multi-format asset packages, source-to-variant maps, consistency checks, review packets.
 - Feedback to backlog operations: feedback ledgers, problem clusters, priority queues, task packets, decision logs, close-loop drafts.
