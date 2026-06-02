@@ -126,6 +126,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Event operations planning: event operations briefs, run-of-show timelines, registration flow checklists, attendee communication drafts, stakeholder handoffs, risk notes, day-of checklists, and handoff packets.
 - Procurement and vendor sourcing operations planning: sourcing briefs, requirements matrices, vendor shortlists, RFI/RFQ/RFP packets, quote comparisons, due-diligence question lists, purchase request packets, PO/invoice handoff notes, onboarding checklists, and procurement handoff packets.
 - Field service and mobile service operations planning: service intake snapshots, appointment and route notes, dispatch review questions, technician or crew handoffs, parts and tools checklists, quote packets, proof-of-service checklists, follow-up queues, and mobile operations handoff packets.
+- After-sales returns and RMA operations planning: case intake snapshots, policy-evidence maps, RMA review packets, refund or replacement options, return-label questions, reverse-logistics and restock handoffs, dispute evidence packets, and customer communication drafts.
 
 ## Current Inventory
 
