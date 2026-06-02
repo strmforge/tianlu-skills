@@ -100,6 +100,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 ## Current Seed Playbooks
 
 - Commerce operations: opportunity reports, product page briefs, title variants, promotion plans, customer-response drafts.
+- Marketplace listing and catalog readiness: listing readiness briefs, category and attribute matrices, product-data field maps, title variants, media checklists, claim ledgers, publication handoffs, and listing improvement backlogs.
 - Long-form fiction development: premise, characters, world rules, conflict ladder, chapter outline, continuity, revision.
 - Content operations: topic pool, angle brief, script, platform variants, packaging, calendar, performance review.
 - Research to brief synthesis: evidence tables, hypothesis maps, risk lists, decision options, next-action plans.
