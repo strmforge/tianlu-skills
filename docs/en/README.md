@@ -103,6 +103,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Marketplace listing and catalog readiness: listing readiness briefs, category and attribute matrices, product-data field maps, title variants, media checklists, claim ledgers, publication handoffs, and listing improvement backlogs.
 - Long-form fiction development: premise, characters, world rules, conflict ladder, chapter outline, continuity, revision.
 - Content operations: topic pool, angle brief, script, platform variants, packaging, calendar, performance review.
+- Campaign and ad operations: campaign objective briefs, offer maps, creative test matrices, landing-page readiness notes, budget worksheets, launch handoffs, and performance reviews.
 - Research to brief synthesis: evidence tables, hypothesis maps, risk lists, decision options, next-action plans.
 - Public skill recommendation triage: source inventories, item triage tables, surface maps, local-overlap maps, extraction candidates, risk classes, review queues, and no-install receipts.
 - Experiment design and iteration: variable matrices, success and stop criteria, result reviews, next-iteration backlogs.
