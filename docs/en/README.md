@@ -126,6 +126,7 @@ This keeps diversity and portability aligned: a general method is not a final an
 - Operations execution handoff: ready-to-execute queues, approval sheets, blocker logs, fallback notes, and evidence-capture checklists.
 - Learning operations planning: learning goal briefs, concept maps, study schedules, self-check templates, error-pattern tables, progress snapshots, and next-cycle adjustments.
 - Local store operations planning: store snapshots, opening and closing checklists, stock watchlists, shift handoff drafts, review response drafts, POS summaries, and next-shift plans.
+- Inventory count and stock reconciliation operations: count sheets, source quantity ledgers, expected-versus-observed variance tables, recount queues, adjustment-candidate handoffs, shrinkage or damage review questions, and next-cycle stock controls.
 - HR recruiting operations planning: role intake briefs, job description drafts, structured interview plans, scorecard templates, feedback summaries, onboarding checklists, and HR handoff packets.
 - Medical care coordination planning: appointment prep cards, symptom timelines, medication rosters, clinician question lists, follow-up trackers, referral boards, care task matrices, and care handoff packets.
 - Travel itinerary operations planning: trip briefs, itinerary grids, transport option tables, stay shortlists, activity shortlists, budget worksheets, risk notes, backup plans, and booking handoff packets.
