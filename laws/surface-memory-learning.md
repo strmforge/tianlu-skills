@@ -155,6 +155,33 @@ Boundary:
 
 - A skill can deliver experience. It is not a substitute for the experience, evidence, or audit trail that produced it.
 
+## Law: History-Derived Skill Distillation Starts As Candidate Discovery
+
+Trigger:
+
+- An agent is asked to inspect Chronicle-like memory, session history, prior chats, transcripts, activity logs, tool traces, or previous runs to find repeated workflows and turn them into skills, SOPs, prompts, adapters, overlays, or active rules.
+
+Mechanism:
+
+- Treat the scan as discovery over sensitive state, not permission to read every available history source or change future behavior.
+- Define the allowed source set first: time range, repositories, accounts, tools, transcript roots, memory stores, data classes, excluded topics, and whether logged-in, regulated, private, or secret-bearing material is out of scope.
+- Cluster repeated workflows by trigger, goal, steps, evidence, observed benefit, failure pattern, stop condition, and scope before naming a skill.
+- Classify each cluster as user preference, project fact, work experience, checklist, template, eval case, skill update, or new skill candidate. Prefer updating an existing umbrella skill when the trigger and procedure overlap.
+- Preserve source pointers, short excerpts or hashes, provenance, confidence, conflicts, redaction notes, and why the workflow repeated. Do not store raw private transcripts in the generated skill.
+- Draft generated skills outside autoload and active behavior paths. Include evidence links, verification steps, rollback or retirement path, and a no-activation receipt.
+- Require review, replay or eval evidence, duplicate check, privacy review, and scoped approval before promotion to an active skill or durable future-session rule.
+
+Failure Modes:
+
+- A catchy prompt turns broad private history into active skills without source scope, redaction, duplicate review, or user approval.
+- The agent creates many narrow duplicate skills for habits that belong in one existing skill, a project note, or a preference record.
+- Sensitive conversations, account details, private paths, secrets, or third-party text are copied into reusable skill bodies.
+- A repeated workaround is mistaken for a good workflow without checking whether it actually improved outcomes.
+
+Boundary:
+
+- History can reveal skill candidates. It does not authorize broad memory inspection, private-history disclosure, or active behavior changes by itself.
+
 ## Law: Skill Generation Requires Promotion Evidence
 
 Trigger:

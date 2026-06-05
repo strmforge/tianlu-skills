@@ -53,4 +53,5 @@ Add new law families through `incubator/` first unless they are already verified
 | Memory Trajectory Matters | Memory and learning | runtime-neutral |
 | Feed Learning Extracts Mechanisms, Not Vibes | Memory and learning | runtime-neutral |
 | Skills Are Delivery Artifacts, Not Evidence Layers | Memory and learning | runtime-neutral |
+| History-Derived Skill Distillation Starts As Candidate Discovery | Memory and learning | runtime-neutral |
 | Skill Generation Requires Promotion Evidence | Memory and learning | runtime-neutral |

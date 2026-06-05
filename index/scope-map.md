@@ -33,4 +33,5 @@
 | Memory Trajectory Matters | runtime-neutral | seed | active draft |
 | Feed Learning Extracts Mechanisms, Not Vibes | runtime-neutral | seed | active draft |
 | Skills Are Delivery Artifacts, Not Evidence Layers | runtime-neutral | seed | active draft |
+| History-Derived Skill Distillation Starts As Candidate Discovery | runtime-neutral | seed | active draft |
 | Skill Generation Requires Promotion Evidence | runtime-neutral | seed | active draft |

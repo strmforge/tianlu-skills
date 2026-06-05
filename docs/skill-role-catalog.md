@@ -6,7 +6,7 @@ Purpose: make each current Tianlu method family and inspected local skill easy t
 
 This catalog is descriptive. It is not an install list, permission grant, or activation manifest.
 
-Private/local-only exclusions: 1
+Private/local-only exclusions: 7
 
 Private local skills are counted for inventory integrity but are not named or migrated in this neutral repository.
 
@@ -27,6 +27,7 @@ Private local skills are counted for inventory integrity but are not named or mi
 | Playbook | File | Role | Typical Output |
 | --- | --- | --- | --- |
 | Commerce operations planning | `../playbooks/commerce-operations.md` | Helps commerce agents turn product, audience, pricing, inventory, and channel signals into useful operating artifacts without binding to one marketplace. | Opportunity report, product page brief, title variants, promotion plan, customer-response drafts. |
+| Solo business lifecycle planning | `../playbooks/solo-business-lifecycle-planning.md` | Helps solo operators, small ventures, creator businesses, service offers, commerce ideas, and digital products move from community discovery through validation, manual MVP, first customers, pricing, marketing readiness, sustainable growth, values, and review. | Lifecycle stage map, community map, demand evidence ledger, manual MVP plan, first-customer packet, pricing hypothesis, marketing readiness note, growth option map, values card, minimalist review sheet. |
 | Marketplace listing and catalog readiness planning | `../playbooks/marketplace-listing-and-catalog-readiness-planning.md` | Helps marketplace or seller agents prepare listing, catalog, category, attribute, variant, media, claim, and policy-review artifacts without publishing or mutating seller systems. | Listing readiness brief, category/attribute matrix, product-data field map, title variants, media checklist, claim ledger, publication handoff. |
 | Long-form fiction development | `../playbooks/longform-fiction-development.md` | Helps writing agents develop story intent into characters, world rules, conflict structure, outlines, continuity, and revision notes. | Premise, character sheets, world rules, conflict ladder, chapter outline, revision checklist. |
 | Content operations planning | `../playbooks/content-operations.md` | Helps media agents operate topic, script, packaging, distribution, and feedback loops without binding to one platform. | Topic pool, angle brief, script, platform variants, packaging brief, publishing calendar draft, performance review. |
