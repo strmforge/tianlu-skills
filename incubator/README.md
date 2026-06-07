@@ -21,6 +21,7 @@ Placement candidates:
 ## Current Incubating Methods
 
 - [Agent team meta-factory review](agent-team-meta-factory-review.md): review tools that generate agent teams, skills, orchestrators, runtime pointers, or future behavior files before activation.
+- [AI company benchmark readiness review](ai-company-benchmark-readiness-review.md): separate AI CEO, AI employee, one-person company OS, digital-worker benchmark, and agentic-market claims from business execution authority before promotion or adoption.
 - [Generative media production planning](generative-media-production-planning.md): shape AI video, avatar, anime, UGC, and generated-media requests into production briefs, source ledgers, run receipts, QA passes, and publication handoffs without granting generation, upload, publish, rights, or account authority.
 - [Install-time package firewall](install-time-package-firewall.md): package-manager-path enforcement for agent package installs; not active protection and not a tool endorsement.
 - [Instruction-file policy profile](instruction-file-policy-profile.md): scoped persistent instruction profiles for safer command lanes, file handling, and skill discovery.
