@@ -26,3 +26,6 @@ Track cross-law dependencies here before splitting or moving law files.
 | `incubator/public-skill-collection-quality-gate.md` | `surface-install-supply-chain.md` | public skill packs can contain install, autoload, hooks, scripts, commands, plugins, and persistent config | incubating |
 | `incubator/public-skill-collection-quality-gate.md` | `surface-memory-learning.md` | external skill packs are feed signals that should become mechanisms or evals before active methods | incubating |
 | `incubator/public-skill-collection-quality-gate.md` | `surface-evidence-eval.md` | collection quality and local marginal utility need evidence before promotion | incubating |
+| `incubator/open-domain-industry-horizon-scout.md` | `surface-memory-learning.md` | proactive feed learning can become durable behavior or memory without review | incubating |
+| `incubator/open-domain-industry-horizon-scout.md` | `surface-evidence-eval.md` | trend and industry signals need primary-source verification before promotion | incubating |
+| `incubator/open-domain-industry-horizon-scout.md` | `playbooks/research-to-brief-synthesis.md` | scout receipts should become source maps, briefs, and candidate queues rather than news dumps | incubating |

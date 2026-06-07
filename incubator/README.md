@@ -27,6 +27,7 @@ Placement candidates:
 - [Instruction-file policy profile](instruction-file-policy-profile.md): scoped persistent instruction profiles for safer command lanes, file handling, and skill discovery.
 - [Local agent provider gateway](local-agent-provider-gateway.md): review model-routing shims, provider dashboards, config patchers, vision bridges, and desktop/MCP control surfaces before adoption.
 - [MCP API bridge adoption review](mcp-api-bridge-adoption-review.md): review official, hosted, compressed, Code Mode, portal-backed, registry-published, or API-wrapper MCP bridges before connection, install, OAuth, token use, or tool registration.
+- [Open-domain industry horizon scout](open-domain-industry-horizon-scout.md): maintain bounded proactive industry/source-map coverage for recurring feed-reading workflows without treating trends as authority or waiting for user-named topics.
 - [Public skill collection quality gate](public-skill-collection-quality-gate.md): sample and score public skill packs as method catalogs before importing, installing, or composing local variants.
 - [Terminal output compression review](terminal-output-compression-review.md): review local wrappers, hooks, and summaries that compress noisy command output while preserving raw evidence.
 - [Voice profile skill review](voice-profile-skill-review.md): review corpus-to-profile-to-skill systems for consent, privacy, measured evidence, held-out verification, activation, misuse, and rollback boundaries.
