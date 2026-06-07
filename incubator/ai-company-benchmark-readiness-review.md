@@ -19,6 +19,9 @@ This candidate is not a claim that AI companies are ready to operate autonomousl
 - OpenAI GDPval measures model performance on economically valuable, real-world knowledge-work deliverables across occupations. Its limitations note that the first version is one-shot and does not capture building context, iterative revision, ambiguity navigation, or workplace integration. Sources: `https://openai.com/index/gdpval/`, `https://cdn.openai.com/pdf/d5eb7428-c4e9-4a33-bd86-86dd4bcf12ce/GDPval.pdf`.
 - Microsoft AgentRx studies failed agent execution trajectories by identifying the critical failure step, evidence for the violation, failure category, and repair direction. Its public materials are useful for failure-receipt design, not for claiming production safety or business readiness. Sources: `https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/`, `https://github.com/microsoft/AgentRx`, `https://arxiv.org/abs/2602.02475`, `https://huggingface.co/datasets/microsoft/AgentRx`.
 - Tycoon, HeyBoss, and OneManCompany-style sources use AI CEO, AI employees, one-person company OS, agent market, launch workflow, KPI loop, and all-AI team language. These are useful product-category samples, not authority claims. Sources: `https://tycoon.us/`, `https://github.com/1mancompany/OneManCompany`, `https://heyboss.ai/about`, `https://heyboss.ai/blog/heyboss-ai-seed-funding-openai-startup-fund`.
+- YC-Bench studies long-horizon startup-like operation in simulated business settings. It is useful for evidence fields such as seed, task horizon, cash-flow model, customer or adversarial-client behavior, staffing, memory or scratchpad use, and bankruptcy or failure modes. It is not proof that a model or agent-company runtime can run a real company. Sources: `https://arxiv.org/abs/2604.01212`, `https://collinear-ai.github.io/yc-bench/`, `https://github.com/collinear-ai/yc-bench`.
+- Anthropic Project Vend and Vending-Bench provide cautionary long-horizon business-operation evidence: AI CEO or manager labels, procedure changes, and better tools can improve some behaviors while still leaving pricing, refund, customer, memory, schedule, and legal or manipulation risks unresolved. Sources: `https://www.anthropic.com/research/project-vend-1?c=braziljs`, `https://red.anthropic.com/2025/project-vend-2/`, `https://arxiv.org/abs/2502.15840`.
+- OneManCompany issue and release evidence should be read as runtime failure receipts and maintenance signals. Duplicate-product reports, lost entity ids, idempotency gaps, weak progress logging, provider-configuration errors, or onboarding fixes show surfaces to review; they do not prove execution readiness. Sources: `https://github.com/1mancompany/OneManCompany/issues/395`, `https://github.com/1mancompany/OneManCompany/issues`, `https://github.com/1mancompany/OneManCompany/releases`.
 - No install, clone, benchmark run, account connection, payment setup, ad launch, customer send, production deploy, workspace import, or agent activation was performed during review.
 
 ## Proposed Trigger
@@ -49,6 +52,7 @@ Before treating an AI company or digital-employee claim as reusable method evide
    - For AgentRx-style trajectories, record the critical failure step, evidence, violated constraint, category, repair hint, and boundary.
    - Allow an `inconclusive` or unresolved category when the trace is not sufficient. Do not let an LLM judge, taxonomy label, or dataset schema replace environment evidence or human review.
    - If raw traces are gated, sensitive, unavailable, or only partly reviewed, record only the accessible schema and source pointer until scoped review allows redacted replay fixtures.
+   - For AI-company runtimes, also record stable entity ids, idempotency keys, ownership routing, duplicate-write detection, state persistence, liveness or progress logs, provider or account configuration, and rollback path.
 7. Compose existing Tianlu methods before adding new structure.
    - Use solo-business lifecycle planning for business framing, operations execution handoff for last-mile action packets, agent orchestration laws for role contracts, MCP/tools authority laws for write surfaces, and evidence/eval laws for benchmark claims.
 8. Keep adoption read-only until gates pass.
@@ -70,6 +74,8 @@ Before treating an AI company or digital-employee claim as reusable method evide
 - A task board, KPI plan, founder approval worksheet, or launch packet becomes authority to publish, spend, invoice, refund, send customer messages, change prices, deploy, or write systems of record.
 - Benchmark limitations, failed tasks, grader type, simulator artifacts, and human oversight needs are omitted from the candidate packet.
 - A failure taxonomy, LLM judge report, or failed-trajectory dataset is treated as a universal capability, safety, or readiness conclusion rather than scoped diagnostic evidence.
+- Long-horizon business simulation results, Project Vend-style case studies, or startup leaderboards are treated as authority to operate real customer, payment, finance, support, seller, ecommerce, or production systems.
+- Agent-company runtimes lose stable entity ids, rerun create tools, duplicate products or records, hide liveness failures, or conflate provider configuration with business readiness.
 
 ## Verification Needed
 
@@ -78,6 +84,7 @@ Before treating an AI company or digital-employee claim as reusable method evide
   - a benchmark or paper claim about digital-worker task completion;
   - a failure receipt, issue, or simulation result showing long-horizon, scaling, manipulation, or process failure.
 - Turn at least one AgentRx-style failed trajectory into a redacted receipt with critical failure step, evidence, violated constraint, category or inconclusive label, repair hint, and no-extrapolation boundary before considering any further eval fixture.
+- Turn at least one YC-Bench, Project Vend, Vending-Bench, or OneManCompany issue into a redacted failure receipt that includes seed or run id where available, horizon, role labels, memory channel, staffing or delegation policy, adversarial or customer input, stable entity id, idempotency evidence, and no-extrapolation boundary.
 - Confirm whether the review adds behavior beyond existing `ai-one-person-company-os-is-not-business-execution-customer-send-payment-or-account-write-authority` and `agent-benchmark-score-is-not-task-competence-or-process-compliance` eval cases.
 - Test whether the review prevents over-promotion while still preserving useful source signals for solo-business planning.
 - Decide later whether this should stay incubating, become a narrow eval, or be folded into existing evidence and agent orchestration surfaces.
