@@ -23,6 +23,15 @@ This can make an agent runtime more flexible, but it also concentrates model rou
   - a vision bridge can send screenshots to a multimodal provider, replace images with generated text descriptions, and route the resulting prompt to a text-only model;
   - the package declares a package-manager lifecycle script;
   - no repository license was observed through the GitHub metadata reviewed at the time.
+- X signal observed on 2026-06-07: posts described exposed OpenClaw agent control planes, prompt-injection paths, gateway-token leakage, and confusion between installed packages and actually reachable services.
+- Primary source reviewed: OpenClaw GitHub security advisory `GHSA-g8p2-7wf7-98mq`.
+- Security and exposure analyses reviewed: SecurityScorecard OpenClaw agentic-AI risk analysis and Qualys ETM OpenClaw risk analysis.
+- Additional observed mechanism:
+  - a desktop or browser deep link can become a control-plane path when it accepts a gateway URL or equivalent untrusted connection target;
+  - a victim browser can bridge a localhost service to an attacker-controlled gateway even when the local service itself is not directly internet-facing;
+  - gateway tokens, prompt execution requests, provider configuration, logs, and tool routes need destination, origin, and redaction review;
+  - warning pages and confirmation screens are containment evidence, not proof that prompt execution, token flow, or gateway selection is safe;
+  - package presence on disk, scanner inventory, or package count must be separated from whether a service is running and externally reachable.
 
 This file records the method shape and review requirements. It is not an endorsement of the implementation and does not recommend installing or running it.
 
@@ -34,6 +43,7 @@ Use this candidate when an agent, user, runtime adapter, or repository proposes 
 - route model requests through a local endpoint;
 - store or resolve API keys;
 - expose provider configuration through a web UI or local API;
+- launch through desktop or browser deep links;
 - advertise custom model capabilities;
 - expose MCP, browser, desktop, or file tools;
 - transform screenshots or tool outputs into prompts;
@@ -75,6 +85,11 @@ Before adopting or activating a local agent provider gateway:
 ## Known Failure Modes
 
 - A local server binds beyond loopback or allows broad cross-origin requests.
+- A scanner or report conflates package presence on disk with a running and externally reachable control plane.
+- A local or desktop deep link accepts a `gatewayUrl`-style target or other untrusted gateway selection parameter.
+- A victim browser bridges a localhost service to an attacker-controlled endpoint.
+- Gateway tokens, provider tokens, prompts, logs, or tool outputs are sent to an attacker-controlled or unreviewed gateway.
+- Warning, preview, or confirmation screens are treated as sufficient proof instead of containment evidence that still needs negative tests.
 - Dashboard or API routes expose provider keys, prompts, screenshots, logs, model catalogs, reset actions, or runtime restart actions without authentication.
 - Config auto-patching changes future sessions before review.
 - Model capability metadata overclaims tool, image, MCP, context, reasoning, or streaming support.
@@ -89,6 +104,11 @@ Before adopting or activating a local agent provider gateway:
 ## Verification Needed
 
 - Confirm bind address, firewall exposure, CORS, and route authentication.
+- Distinguish installed package, configured package, running service, locally reachable service, and externally reachable service.
+- Inspect desktop/browser deep-link handlers, URL schemes, query parameters such as `gatewayUrl`, redirects, and gateway-selection defaults.
+- Confirm token issuance, token destination, token lifetime, token redaction, and whether tokens can be sent to untrusted gateways.
+- Test whether the user's browser can drive the local service or bridge it to an attacker-controlled endpoint.
+- Confirm warning, preview, confirmation, and explicit-review behavior before prompt execution or gateway connection.
 - Confirm whether config patching happens automatically on construction, startup, dashboard action, or explicit command only.
 - Inspect exact config patch blocks, backups, rollback, and conflict behavior when user config already contains provider settings.
 - Confirm key storage format, environment variable resolution, redaction, dashboard display, API response redaction, and log redaction.
