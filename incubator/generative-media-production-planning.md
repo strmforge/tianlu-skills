@@ -13,6 +13,12 @@ Source:
 - TikTok Direct Post API: https://developers.tiktok.com/doc/content-posting-api-reference-direct-post
 - TikTok Content Posting get started: https://developers.tiktok.com/doc/content-posting-api-get-started/
 - YouTube videos.insert: https://developers.google.com/youtube/v3/docs/videos/insert
+- YouTube video resource fields: https://developers.google.com/youtube/v3/docs/videos
+- YouTube altered or synthetic content disclosure: https://support.google.com/youtube/answer/14328491
+- TikTok AI-generated content labels: https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content
+- ComfyUI workflow API format: https://docs.comfy.org/development/api-development/workflow-api-format
+- ComfyUI workflow JSON spec: https://docs.comfy.org/specs/workflow_json
+- C2PA specification: https://spec.c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html
 - W3C WAI audio/video planning: https://www.w3.org/WAI/media/av/planning/
 - YouTube supported subtitle and caption files: https://support.google.com/youtube/answer/2734698
 
@@ -43,6 +49,11 @@ Verification needed:
 - Add and replay a narrow eval that separates generated-media planning packets from generation, upload, publication, rights, account, and retention authority.
 - Replay at least two real planning tasks: one tool-local workflow such as ComfyUI and one platform handoff such as TikTok or YouTube, with no account mutation.
 - If promoted to playbook, update `playbooks/README.md`, `index/trigger-routing.md`, and relevant expected behavior with explicit composition rather than duplicating existing creator, content, campaign, and handoff playbooks.
+
+Replay evidence notes:
+- A tool-local workflow replay should include a packet id, objective, source date, reviewer, explicit `planning_only: true`, source-asset ledger, workflow JSON pointer or hash, format type, node and model inventory, planned prompt controls, QA checklist, reviewer questions, and an execution-absence receipt. The receipt should state that no prompt or workflow was submitted, no queue id or server prompt id was created, no history receipt was produced, no generation process was started, no model or custom node was downloaded, and no source asset was uploaded or transformed.
+- A platform handoff replay should include target platform, intended state, required platform write scope, visibility fields, AI-generated or synthetic-content disclosure fields, sponsored or paid-promotion fields, caption/transcript/accessibility fields, source and rights ledger, human approval fields, and a no-upload receipt. The receipt should state that no OAuth or platform login was used, no private account data was read, no upload, direct-post, update, caption-insert, upload-url, visibility, label, schedule, or publication endpoint was called, and no post id, publish id, upload URL, schedule, visibility change, or label change was created.
+- Replay completion is evidence for method shaping only. It does not by itself promote this incubator item, prove platform safety, prove rights clearance, authorize generation or account mutation, or justify a neutral playbook without repeated scoped replays and comparison against the existing content, asset, rights, campaign, and execution-handoff playbooks.
 
 Placement candidates:
 - `playbooks/generative-media-production-planning.md` only after replay evidence shows a stable productive method that is not already covered by existing playbooks.
