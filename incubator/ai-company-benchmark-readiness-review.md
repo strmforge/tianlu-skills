@@ -24,6 +24,23 @@ This candidate is not a claim that AI companies are ready to operate autonomousl
 - OneManCompany issue and release evidence should be read as runtime failure receipts and maintenance signals. Duplicate-product reports, lost entity ids, idempotency gaps, weak progress logging, provider-configuration errors, or onboarding fixes show surfaces to review; they do not prove execution readiness. Sources: `https://github.com/1mancompany/OneManCompany/issues/395`, `https://github.com/1mancompany/OneManCompany/issues`, `https://github.com/1mancompany/OneManCompany/releases`.
 - No install, clone, benchmark run, account connection, payment setup, ad launch, customer send, production deploy, workspace import, or agent activation was performed during review.
 
+## Failure Receipt Queue
+
+Round456 added a small primary-source queue for future replay fixtures. These are receipts to sample and redact before any promotion decision, not new authority:
+
+- `project-vend-phase-1-identity-payment-memory`: Anthropic Project Vend phase one reports a small-shop experiment where payment handling, discounting, identity behavior, and memory limits remained material risk surfaces. Source: `https://www.anthropic.com/research/project-vend-1`.
+- `project-vend-phase-2-tools-do-not-remove-business-risk`: Anthropic Project Vend phase two adds procedures, reminders, CRM, payment links, and role framing, but still leaves pricing, manipulation, role calibration, customer, and operational fragility to review. Source: `https://red.anthropic.com/2025/project-vend-2/`.
+- `vending-bench-long-horizon-meltdown-loop`: Andon Labs Vending-Bench exposes long-horizon business-operation failures such as meltdown loops, inventory or arrival-state confusion, persistent execution after attempted stop, and cost or escalation anomalies. Sources: `https://andonlabs.com/evals/vending-bench`, `https://arxiv.org/abs/2502.15840`.
+- `yc-bench-startup-simulation-scratchpad-cashflow`: YC-Bench gives a one-year simulated startup setting with scratchpad memory, adversarial or demanding clients, staffing or parallelization choices, and bankruptcy or cash-flow outcomes. Sources: `https://github.com/collinear-ai/yc-bench`, `https://arxiv.org/abs/2604.01212`.
+- `magentic-marketplace-agentic-market-bias-manipulation`: Microsoft Magentic Marketplace gives marketplace evidence for customer and business agents, search and proposal dynamics, manipulation resistance, first-proposal or speed bias, position bias, and transaction-like coordination risks. Sources: `https://www.microsoft.com/en-us/research/publication/magentic-marketplace-an-open-source-environment-for-studying-agentic-markets/`, `https://github.com/microsoft/multi-agent-marketplace`.
+- `agentrx-failed-trajectory-taxonomy`: Microsoft AgentRx is useful as a failure-receipt schema source for critical failure step, evidence, violated constraint, category, repair direction, and inconclusive cases. It is not business-readiness evidence by itself. Sources: `https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/`, `https://github.com/microsoft/AgentRx`.
+- `onemancompany-395-duplicate-product-idempotency`: OneManCompany issue 395 reports downstream agent re-running `create_product_tool` and creating duplicate products with separate ids. Treat this as a runtime state, stable entity id, ownership routing, duplicate-write, and idempotency failure receipt. Source: `https://github.com/1mancompany/OneManCompany/issues/395`.
+
+Receipt schema for future fixtures:
+
+- Bind source url, source type, date checked, benchmark or issue id, version or commit where available, seed or run id where available, task horizon, role labels, allowed tools, memory channel, staffing or delegation policy, customer or adversarial input, stable entity id, idempotency key or duplicate-write evidence, liveness or progress logging evidence, provider or account configuration, critical failure step, unresolved missing evidence, no-extrapolation boundary, and owner handoff.
+- Preserve the hard boundary: a benchmark score, simulated profit, issue fix, stable entity id patch, idempotency patch, progress log, provider configuration fix, manual QA, or approval worksheet does not authorize customer sends, product creation, refunds, ad spend, payment setup, invoice issuance, credential binding, production deploys, CRM, support, seller, ecommerce, finance, accounting, system-of-record writes, sensitive-data retention, or business-readiness claims.
+
 ## Proposed Trigger
 
 Use this candidate when a source, product, repo, benchmark, paper, or user request claims or implies that:
