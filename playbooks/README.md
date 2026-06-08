@@ -34,7 +34,7 @@ Each playbook should declare:
 | Playbook | Role | Scope | Status |
 | --- | --- | --- | --- |
 | [Commerce Operations Planning](commerce-operations.md) | Turn product, audience, pricing, and channel signals into merchandise and campaign work products. | commerce-neutral | seed draft |
-| [Solo Business Lifecycle Planning](solo-business-lifecycle-planning.md) | Turn early solo-business, side-project, creator-business, service, commerce, or digital-product signals into a staged lifecycle packet from community discovery through review. | solo-business-lifecycle-neutral | seed draft |
+| [Solo Business Lifecycle Planning](solo-business-lifecycle-planning.md) | Turn early solo-business, one-person-one-computer earning-path, side-project, creator-business, service, commerce, or digital-product signals into a staged lifecycle packet and computer-deliverable opportunity map from community discovery through review. | solo-business-lifecycle-neutral | seed draft |
 | [Marketplace Listing And Catalog Readiness Planning](marketplace-listing-and-catalog-readiness-planning.md) | Turn marketplace listing, catalog, category, attribute, title, media, variant, policy, inventory, and launch-readiness signals into reviewable listing readiness artifacts. | marketplace-listing-catalog-readiness-neutral | seed draft |
 | [Long-Form Fiction Development](longform-fiction-development.md) | Turn story intent into character, world, conflict, outline, draft, and revision artifacts. | creative-writing-neutral | seed draft |
 | [Content Operations Planning](content-operations.md) | Turn audience, topic, platform, script, distribution, and feedback signals into a content operating loop. | content-operations-neutral | seed draft |

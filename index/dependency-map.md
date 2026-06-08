@@ -29,3 +29,6 @@ Track cross-law dependencies here before splitting or moving law files.
 | `incubator/open-domain-industry-horizon-scout.md` | `surface-memory-learning.md` | proactive feed learning can become durable behavior or memory without review | incubating |
 | `incubator/open-domain-industry-horizon-scout.md` | `surface-evidence-eval.md` | trend and industry signals need primary-source verification before promotion | incubating |
 | `incubator/open-domain-industry-horizon-scout.md` | `playbooks/research-to-brief-synthesis.md` | scout receipts should become source maps, briefs, and candidate queues rather than news dumps | incubating |
+| `incubator/open-domain-industry-horizon-scout.md` | `playbooks/solo-business-lifecycle-planning.md` | one-person-one-computer earning-path signals need buyer, deliverable, first proof, workflow, and risk boundaries before becoming business candidates | incubating |
+| `incubator/open-domain-industry-horizon-scout.md` | `surface-browser-runtime.md` | logged-in feed and community reading is delegated browser authority even when used only for scouting | incubating |
+| `incubator/open-domain-industry-horizon-scout.md` | `surface-mcp-tools-auth.md` | logged-in or connector-backed source access must not become account mutation, export, external send, spend, install, or durable write authority | incubating |
