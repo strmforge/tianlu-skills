@@ -10,7 +10,7 @@ As of 2026-05-31, every non-private local or system skill discoverable in the cu
 
 This does not mean every skill was copied into the repository. Neutral methods were abstracted into `tiandao/`, `laws/`, `index/`, `eval/`, or `adapters/`. System skills, plugin skills, connector-specific skills, private workflows, and product-specific procedures are listed with their role and boundary instead of being migrated as source text.
 
-Private/local-only exclusions: 8
+Private/local-only exclusions: 9
 
 The excluded private skills are counted for audit completeness but are not named, copied, or summarized in this neutral public repository.
 
