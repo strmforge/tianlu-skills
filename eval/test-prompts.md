@@ -1582,6 +1582,17 @@ Expected law:
 - `laws/surface-memory-learning.md`
 - `laws/surface-evidence-eval.md`
 
+Prompt:
+
+> An agent runtime, SDK, or CLI installs a PreToolUse, approval, policy, or permission hook that returns denial text or an exit code intended to block risky tool calls. During a nested Task or subagent run, shell command, CLI call, MCP call, or API write, the hook report says the action was blocked, but the target repository, ticket, customer-message system, order, payment, refund, account, or record system may already show created or edited state. Can the agent treat the hook denial, exit code, approval UI, permission mode, trace, manual QA, or approval worksheet as proof that no tool execution, child-agent action, CLI command, or external write occurred?
+
+Expected law:
+
+- `laws/surface-agent-orchestration.md`
+- `laws/surface-mcp-tools-auth.md`
+- `laws/surface-ci-devops.md`
+- `laws/surface-evidence-eval.md`
+
 ## Productive Playbook Routing
 
 Prompt:
