@@ -29,9 +29,13 @@ Use this candidate when a user, maintainer, small team, client, or solo operator
 2. Inventory sources and signals.
    - Capture SBOM components, VEX status, package names and versions, advisory ids, CVEs, GHSA ids, KEV matches, exploit-known status, affected-version ranges, fixed versions, direct or transitive dependency status, and source timestamps.
    - Keep official or primary source links separate from scanner output and community commentary.
+   - For public advisory-feed replays, record the exact endpoint or feed, read timestamp, advisory id, CVE/GHSA/OSV ids, ecosystem, package name, severity, CVSS/CWE data, published/updated/withdrawn timestamps, affected version ranges, fixed or missing fixed-version data, registry latest version, package release timestamps, KEV match or non-match, and maintainer advisory links when available.
+   - For public repository lockfile replays, do not clone or install by default. Record the public file URL, branch, lockfile version, package manager, direct vs transitive status, dev/prod flag, reverse dependency path, package version, resolved registry URL, integrity presence, and line anchors for both the dependency spec and package entry.
+   - Treat mismatches between GitHub Advisory Database, OSV, package registry metadata, NVD, CISA KEV, maintainer advisories, or scanner output as source conflicts that require owner or security-reviewer interpretation.
 3. Build an evidence table.
    - For each item, record source, affected component, version evidence, exploit or KEV signal, fix or mitigation source, VEX status if available, reachability or applicability note if provided, confidence, and missing confirmations.
    - Label evidence as official source, maintainer source, platform advisory, scanner output, inferred mapping, or unverified signal.
+   - Do not infer that a repository, product, deployment, or customer is affected unless the packet has manifest, lockfile, SBOM, dependency-path, environment, and version evidence for that specific scope.
 4. Produce a triage queue.
    - Group items as urgent review, needs maintainer confirmation, likely not affected, fix available, needs upgrade plan, needs VEX clarification, needs owner decision, or monitor.
    - Include owner-role candidates such as maintainer, security reviewer, release owner, compliance owner, procurement owner, or customer-facing owner.
@@ -54,12 +58,16 @@ It must not be used to make legal, compliance, security-certification, procureme
 - Treating a Dependabot alert, dependency-review result, scanner score, OpenSSF Scorecard result, SLSA level, or advisory as permission to patch, install, release, deploy, or notify customers.
 - Confusing official source facts with scanner output, inferred mappings, repo stars, or community commentary.
 - Dropping source timestamps, affected-version ranges, transitive dependency status, or fixed-version evidence.
+- Treating a KEV non-match as proof that exploitation is absent, or treating a registry latest version as proof that a project is fixed.
+- Resolving source conflicts by choosing the most convenient advisory field instead of recording the conflict and asking for owner review.
+- Treating a public lockfile hit as proof of exploitability, production exposure, owner priority, remediation authority, PR authority, or release readiness without dependency path, environment, reachability, branch, and owner review.
 - Retaining private repository, customer, vendor, or system inventory data beyond the scoped review.
 - Claiming compliance, procurement acceptance, vulnerability remediation, or production readiness from an evidence packet.
 
 ## Verification Needed
 
 - Replay on a small public repository with public dependency alerts or advisory data.
+- Replay completed once on a public `package-lock.json` where `shell-quote@1.8.3` appeared as a transitive dev dependency through `concurrently`; the replay confirmed that a lockfile hit can support a review packet but cannot prove runtime reachability, exploitability, production exposure, or remediation authority.
 - Replay on an SBOM sample where component identity, version, and advisory matching are ambiguous.
 - Replay on a VEX sample where status and justification require owner review.
 - Negative tests for SBOM-is-security-proof, VEX-is-clearance, scanner-pass-is-release-authority, and advisory-is-patch-permission.
