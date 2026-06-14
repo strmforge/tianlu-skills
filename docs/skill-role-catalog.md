@@ -6,7 +6,7 @@ Purpose: make each current Tianlu method family and inspected local skill easy t
 
 This catalog is descriptive. It is not an install list, permission grant, or activation manifest.
 
-Private/local-only exclusions: 9
+Private/local-only exclusions: 10
 
 Private local skills are counted for inventory integrity but are not named or migrated in this neutral repository.
 
