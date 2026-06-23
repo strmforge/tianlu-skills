@@ -32,13 +32,16 @@ This playbook is productive, not only defensive. It should help the user learn w
 2. Inventory each recommended item.
    - Record name, source URL, maintainer or publisher, repository or package identity, version, commit or release when available, license, and last-update signal.
    - Mark source status: primary source reviewed, secondary claim only, unavailable, or unknown.
+   - For marketplace, catalog, preset, or cross-runtime sync entries, also record catalog source, target runtime, generated artifact inventory, provenance or hash metadata, drift state, and disable or rollback path.
    - Do not clone, install, run, autoload, activate, register tools, or copy into active behavior during triage.
 
 3. Map surfaces.
    - Separate passive markdown from executable or persistent surfaces.
    - Look for skills, prompts, commands, agents, hooks, scripts, package lifecycle steps, plugin manifests, MCP or API tools, browser extensions, account permissions, background jobs, telemetry, local state, generated config, and rollback paths.
    - Treat centralized feeds, remote content endpoints, desktop application patchers, model or tool bridges, repository packers, local cleanup scripts, and preview helpers as different surface types even when a public post calls them all "skills".
+   - Treat MCP presets, server bundles, and plugin manifests as tool-registration recipes. Review the resulting tools, credentials, prompts, resources, startup behavior, and persistence separately from the preset text.
    - Mark whether the item may change future agent behavior, mutate accounts, spend money, publish, send messages, read private data, or expose secrets.
+   - For finance, payment, trading, wallet, registry, or identity-capable skills, mark transaction state, confirmation binding, input provenance, authoritative destination source, audit availability, spend or rate limits, and rollback or compensation path.
 
 4. Sample method quality.
    - Inspect representative instructions for trigger clarity, procedure, evidence, verification, stop conditions, negative cases, scope boundaries, progressive disclosure, and context cost.

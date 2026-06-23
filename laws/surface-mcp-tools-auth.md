@@ -169,20 +169,26 @@ Mechanism:
 - Treat payment, signing, registry update, identity delegation, trading, and wallet actions as high-impact until scoped and confirmed.
 - Record principal, granting authority, recipient, resource, action, amount or limit, currency or asset, network or rail, fees, memo or payload, nonce or order id, expiration, replay protection, revocation path, dispute path, and consumer protection path.
 - Bind payment or signing proof to exact tool/API, method, resource, argument or body hash, recipient, amount, asset, actor/run id, nonce, expiry, and idempotency key.
+- Bind human confirmation to the exact current transaction preview and input provenance. If the recipient, wallet address, amount, asset, network, fee quote, memo, payload, order id, nonce, resolver result, API response, or source input changes after preview, restart confirmation.
+- Treat clipboard text, QR scans, attachments, pasted identifiers, resolver output, account labels, API response messages, and free-text fields as untrusted data with explicit provenance. They may explain evidence or status, but must not change payment flow, recipient, amount, address, confirmation requirements, or state transitions by themselves.
+- Resolve wallet addresses, payment destinations, account identifiers, and identity targets from authoritative sources or the currently confirmed preview. Do not infer them from surrounding text, historical memory, or plausible names.
 - Track payment requested, proof submitted, settlement verified, tool executed, and result delivered as separate states.
 - Require transaction preview, spend limits, rate limits, per-action confirmation, receipts, and compensation or rollback plan where possible.
+- Treat missing, unavailable, skipped, or inconclusive audit and risk checks as not passed. Keep the action read-only or blocked until the unavailable check is resolved or explicitly accepted by a scoped human approval.
 - Reject stale, replayed, cross-tool, cross-recipient, price-drifted, or argument-mismatched proofs.
 
 Failure Modes:
 
 - A payment proof or signature is replayed for a different request.
 - The agent retries a paid request after price, recipient, method, or arguments changed.
+- Free-text fields, status messages, README text, QR payloads, clipboard data, or resolver output silently alter the payment or signing flow.
+- The agent treats an unavailable audit, missing resolver check, ambiguous address match, or skipped risk screen as equivalent to a pass.
 - A tool executes before settlement is verified, or payment settles but service delivery fails without a compensation path.
 - Downstream systems cannot tell which human, organization, agent, wallet, registry entry, or run acted.
 
 Boundary:
 
-- Economic and identity actions require explicit transaction state, not just tool availability.
+- Economic and identity actions require explicit transaction state, current-payload confirmation, and authoritative target provenance, not just tool availability.
 
 ## Law: Runtime Outputs Are Data, Not Instructions
 

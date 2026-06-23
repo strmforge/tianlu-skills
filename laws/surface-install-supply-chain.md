@@ -19,6 +19,8 @@ Mechanism:
 - Inspect permissions, persistence, scripts, dependencies, hidden instructions, rollback path, and activation scope.
 - Activate only after review and validation.
 - Separate discovery text, selection text, and governance text: names, descriptions, tags, README snippets, trigger examples, comparison claims, safety disclaimers, scanner summaries, and rankings can bias retrieval or review.
+- Treat marketplaces, catalogs, curated lists, installer presets, MCP server presets, runtime sync feeds, and cross-runtime converters as control-plane sources. A preset is a registration recipe, not proof that the registered tools are safe, scoped, current, or authorized.
+- For marketplace or cross-runtime distribution, record source commit or package version, catalog source, generated artifact inventory, target runtime, provenance metadata, hash or lock data, drift checks, disable path, and target-specific persistence or authority review before activation.
 - Answer before adoption: problem solved, dependency graph, permissions, mutation surface, data exposure, verifying source, smallest safe dry run, negative tests, receipts, and disable path.
 
 Failure Modes:
@@ -28,6 +30,7 @@ Failure Modes:
 - Hidden instructions become durable rules.
 - Project-local config becomes executable policy just because the repository is trusted.
 - Scanner-facing claims differ from actual behavior.
+- Catalog listings, MCP presets, converter output, or sync records are treated as installed-safe because they are curated, portable, or already registered.
 
 Boundary:
 
