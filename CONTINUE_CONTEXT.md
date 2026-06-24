@@ -12,6 +12,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Added a new incubator candidate: `incubator/agent-role-skill-bundle-routing-review.md`
 - Added a new incubator candidate: `incubator/loop-engineering-workflow-review.md`
 - Added a new incubator candidate: `incubator/context-harness-loop-readiness-review.md`
+- Added a new incubator candidate: `incubator/code-intelligence-graph-runtime-review.md`
 - Added a concrete incubator pilot: `incubator/public-skill-triage-role-envelope-pilot.md`
 - Added a new incubator candidate: `incubator/role-skill-operating-package-review.md`
 - Updated incubator index: `incubator/README.md`
@@ -22,7 +23,9 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended public mechanism intake groups with controller-audited examples for marketplace supply chains, observability/memory sidecars, instruction lifecycle packages, curated plugin manifests, and knowledge-vault role packages.
 - Extended the role-skill operating package incubator with evidence-gated research packages, content workflow packages, clean-room spec-to-runtime packages, and Markdown OS four-file governance packages.
 - Extended public mechanism intake groups with controller-audited examples for evidence-gated research, content/account-action separation, clean-room spec-to-runtime, registry lifecycle, vertical skill packs, and Markdown OS file-role governance.
+- Extended the public mechanism intake groups with controller-audited graph-backed code intelligence runtimes, auto-detect wiring, incremental reparse loops, and blast-radius query surfaces.
 - Added eval coverage for research evidence gates, content workflow account-action boundaries, clean-room spec/runtime activation boundaries, and Markdown OS persistent-write/backend/provider boundaries.
+- The latest synthesis push also wrote `incubator/code-intelligence-graph-runtime-review.md` and updated `incubator/README.md` to route the new intake note from the incubator index.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -34,6 +37,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Recurring work should become a loop only when a hard gate, state file, verifier, and liveness contract are present.
 - A coding workflow should not enter a loop until it has a current context packet, execution harness contract, scoped approval boundary, and evidence path.
 - A role-skill operating package should be treated as scoped source evidence until its routing, execution, persistence, permissions, and eval boundaries are independently reviewed. Counts of agents, skills, hooks, templates, or tests are package-shape evidence, not activation proof.
+- A graph-backed code intelligence runtime should be treated as scoped source evidence until its graph/query boundary, auto-detect wiring, incremental update behavior, and reversible install path are independently reviewed. Token-reduction and blast-radius claims are package-shape evidence, not activation proof.
 - Observability sidecars and status dashboards can govern loop cost and liveness, but do not authorize unattended execution, remote control, config mutation, or session exposure.
 - Instruction files are governed lifecycle artifacts. Hooks may provide feedback; mutating repairs such as pruning, splitting, or sync require an explicit command and separate approval boundary.
 - Knowledge-vault role packages strengthen the role-name plus skills plus workflow plus memory/retrieval thesis, but vault writes, web research, hooks, locks, and setup scripts remain inactive until activation review.
