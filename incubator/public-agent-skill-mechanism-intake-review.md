@@ -76,6 +76,11 @@ Role-envelope and bundled-skill surfaces:
 - `b2b-sdr-hermes-skill`: cron-anchored multi-stage role skill.
 - `career-ops`: one canonical domain skill projected across multiple runtime surfaces.
 - `canadian-finance-planner-skill`: one large domain workflow skill surrounded by demo outputs, references, and scenario evals.
+- `claude-ads`: role-specialized audit suite with sub-agent roles, normalized scoring output, fixtures, routing tests, and account-action red lanes.
+- `claude-ai-music-skills`: staged creative-production skill suite with routed skills, domain corpus, quality gates, source verification, and generation-account red lanes.
+- `claude-blog`: commercial content skill suite with reviewer gates, multi-artifact output, agent roles, and substantial test surfaces.
+- `Claude-Code-Game-Studios`: large role ecology with agent files, skill directories, hooks, path rules, templates, tiered delegation, escalation rules, and explicit human approval protocol.
+- `claude-code-infrastructure-showcase`: hook-routed skill infrastructure with trigger registry, progressive-disclosure skill layout, and resumable dev-doc state pattern.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -83,6 +88,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - `agentic-os`: prompt and rule guidance backed by validators, hooks, CI, and evidence logs.
 - `agent-runbook`: YAML runbook as source of truth compiled into skill artifacts with build-time contract checks.
 - `agents`: canonical source with harness-native adapters and graceful degradation rules.
+- `claude-code-dispatch`: dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces.
 
 Eval, evidence-ring, and rubric surfaces:
 
