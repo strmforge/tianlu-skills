@@ -69,6 +69,8 @@ Registry and index surfaces:
 - `awesome-agent-conventions`: convention registry as code with structured metadata, generated catalog, fetched examples, field notes, and CI verification.
 - `awesome-bio-agent-skills`: machine-readable mega-index with source repo, category, description, file count, and archive path.
 - `binance-skills-hub`: domain-partitioned skill marketplace with major domain roots and leaf `SKILL.md` files.
+- `claude-code-plugins-plus-skills`: marketplace-scale plugin, skill, and agent catalog with specs, category folders, metadata, release docs, validation scripts, and web browsing surfaces.
+- `claude-plugins-official`: curated plugin directory split between internally maintained plugins and external plugin submissions, with manifest-based skill composition.
 
 Role-envelope and bundled-skill surfaces:
 
@@ -81,6 +83,9 @@ Role-envelope and bundled-skill surfaces:
 - `claude-blog`: commercial content skill suite with reviewer gates, multi-artifact output, agent roles, and substantial test surfaces.
 - `Claude-Code-Game-Studios`: large role ecology with agent files, skill directories, hooks, path rules, templates, tiered delegation, escalation rules, and explicit human approval protocol.
 - `claude-code-infrastructure-showcase`: hook-routed skill infrastructure with trigger registry, progressive-disclosure skill layout, and resumable dev-doc state pattern.
+- `ClaudeForge`: instruction-file lifecycle package with `CLAUDE.md` creation, validation hooks, drift summaries, explicit sync/repair commands, and sibling-instruction import patterns.
+- `claude-obsidian`: knowledge-vault role package with routed skills, methodology modes, hybrid retrieval, bounded research, per-file locks, agents, scripts, tests, and seeded vault material.
+- `claude-power-skills`: workflow-protocol skill pack where individual skills encode multi-step processes, decision points, structured outputs, and quality gates.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -89,6 +94,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - `agent-runbook`: YAML runbook as source of truth compiled into skill artifacts with build-time contract checks.
 - `agents`: canonical source with harness-native adapters and graceful degradation rules.
 - `claude-code-dispatch`: dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces.
+- `claude-code-zero`: small plugin marketplace pattern that distinguishes full plugin installation from skills-only installation where hooks, agents, MCP servers, and scripts are omitted.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -103,6 +109,10 @@ State, memory, isolation, and portability surfaces:
 - `cc-provider-add`: per-provider config isolation for runtime/provider routing.
 - `agentskills-proxy`: separated skill discovery and skill execution protocol services.
 - `agent-bus-skills`: router skill plus verb-scoped subskills for coordination.
+- `Claude-Code-Usage-Monitor`: cost and token observability sidecar with burn-rate prediction, reset or session forecasting, plan presets, and local preference persistence.
+- `claude-code-viewer`: session-log viewer and control-plane sample that separates read-oriented inspection from opt-in chat sending, resume, and permission approval.
+- `claude-hud`: statusline-as-heads-up-display sample using a stdin/stdout transport and configurable display policy.
+- `claude-mem`: memory sidecar sample with lifecycle hooks, worker service, SQLite/vector stores, progressive disclosure, web UI, and privacy-tag boundaries.
 
 Scheduled monitor and alert-loop surfaces:
 

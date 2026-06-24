@@ -21,6 +21,10 @@ Controller-audited public repository samples from the local short-worker loop in
 - a large role ecology with many agent files, skill directories, path rules, hooks, templates, tiered delegation, escalation rules, and explicit human approval protocol;
 - a dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces;
 - a hook-routed skill infrastructure sample with `skill-rules.json`, prompt/file trigger metadata, `UserPromptSubmit`, `PostToolUse`, and `Stop` hooks, progressive-disclosure skills, and resumable dev docs.
+- marketplace-scale skill and plugin catalogs with structured specs, category folders, metadata, validation scripts, release notes, web browsing surfaces, and visible install paths;
+- cost, token, session, and control-plane observability sidecars that expose burn rate, reset forecasts, session logs, remote-control surfaces, and config-write boundaries;
+- instruction-file lifecycle packages where hooks check size or drift, but explicit repair commands perform mutating split, prune, or sync work;
+- knowledge-vault role packages that combine a skill suite, methodology modes, retrieval, bounded research, multi-writer locking, agents, scripts, tests, and seeded vault material.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -61,7 +65,11 @@ Review the package as an operating package before any activation:
    - The package can be a useful composed variant without becoming neutral law.
 6. Require activation review for executable surfaces.
    - Hooks, scripts, package installs, MCP servers, browser or account access, callbacks, scheduled loops, broad permissions, commits, pushes, and external services need separate scoped approval.
-7. Add eval coverage before promotion.
+7. Treat observability as a governor, not permission.
+   - Statuslines, cost monitors, session viewers, sidecar memory services, and remote dashboards can improve loop control, but they also create retention, exposure, write, and remote-control surfaces.
+8. Treat instruction files as lifecycle artifacts.
+   - `CLAUDE.md`, `AGENTS.md`, project memory, and role prompt files need size, drift, inheritance, and repair policies. A hook that warns is not the same as a command that mutates.
+9. Add eval coverage before promotion.
    - Test whether the role package improves routing and completion against a single-prompt baseline, while avoiding over-bundling, permission creep, and false completion.
 
 ## Initial Scope
@@ -81,6 +89,9 @@ Review the package as an operating package before any activation:
 - Self-validation: the same package that produces work also declares it accepted.
 - Permission bleed: worktree or package boundaries are mistaken for browser, account, secret, MCP, or filesystem isolation.
 - Scope laundering: a scoped package is promoted to neutral law because it looked coherent once.
+- Observability laundering: a dashboard, statusline, session viewer, or cost monitor is treated as authorization to run unattended loops.
+- Repair-hook confusion: a read/check hook is mistaken for safe automatic mutation of instruction files.
+- Vault overreach: a knowledge-base role package with locks, retrieval, and tests is treated as safe to write local vaults, fetch the web, or activate hooks without review.
 
 ## Verification Needed
 

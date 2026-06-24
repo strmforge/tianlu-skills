@@ -18,6 +18,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Added eval coverage for the pilot in `eval/test-prompts.md`, `eval/expected-behavior.md`, `eval/oracle-cases.jsonl`, and `eval/seed-answers.jsonl`.
 - Added eval coverage for context -> harness -> loop escalation in the same eval files.
 - Added eval coverage for public role-skill operating packages that combine agents, skills, trigger metadata, hooks, commands, templates, dispatch loops, reviewer gates, and human approval language.
+- Extended the role-skill operating package incubator with marketplace-scale skill catalogs, loop observability sidecars, instruction-file lifecycle governance, and knowledge-vault role packages.
+- Extended public mechanism intake groups with controller-audited examples for marketplace supply chains, observability/memory sidecars, instruction lifecycle packages, curated plugin manifests, and knowledge-vault role packages.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -29,6 +31,9 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Recurring work should become a loop only when a hard gate, state file, verifier, and liveness contract are present.
 - A coding workflow should not enter a loop until it has a current context packet, execution harness contract, scoped approval boundary, and evidence path.
 - A role-skill operating package should be treated as scoped source evidence until its routing, execution, persistence, permissions, and eval boundaries are independently reviewed. Counts of agents, skills, hooks, templates, or tests are package-shape evidence, not activation proof.
+- Observability sidecars and status dashboards can govern loop cost and liveness, but do not authorize unattended execution, remote control, config mutation, or session exposure.
+- Instruction files are governed lifecycle artifacts. Hooks may provide feedback; mutating repairs such as pruning, splitting, or sync require an explicit command and separate approval boundary.
+- Knowledge-vault role packages strengthen the role-name plus skills plus workflow plus memory/retrieval thesis, but vault writes, web research, hooks, locks, and setup scripts remain inactive until activation review.
 
 ## Next Step
 
@@ -38,6 +43,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay `context-harness-loop-readiness-review.md` on one codebase-understanding task, one CI triage task, and one dependency-update task.
 - Decide whether the role-envelope method stays incubating, becomes a productive playbook, or gains a narrow agent-orchestration law note.
 - Replay `role-skill-operating-package-review.md` on at least three role package shapes: a large role ecology, a hook-routed skill infrastructure pack, and a dispatch/controller pack.
+- Replay `role-skill-operating-package-review.md` on marketplace-scale catalog, observability sidecar, instruction-file lifecycle package, and knowledge-vault role package shapes.
 - Decide whether role-skill operating package review should stay as an incubator note, merge into role-envelope review, or become a productive review playbook.
 
 ## Validation
@@ -49,3 +55,4 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - `git diff --check` passed with only line-ending normalization warnings from Git.
 - No activation, install, or runtime mutation was performed.
 - Latest QClaw synthesis source range: controller-audited cycles `qclaw-tianlu-20260624-224540`, `qclaw-tianlu-20260624-231302`, `qclaw-tianlu-20260624-234227`, and `qclaw-tianlu-20260625-001536`.
+- Current QClaw synthesis source range pending validation in this batch: controller-audited cycles `qclaw-tianlu-20260625-004440`, `qclaw-tianlu-20260625-011341`, `qclaw-tianlu-20260625-015314`, and `qclaw-tianlu-20260625-021315`; semantic failure `qclaw-tianlu-20260625-014244` is excluded.
