@@ -127,6 +127,14 @@ Scheduled monitor and alert-loop surfaces:
 - `b2b-sdr-hermes-skill`: recurring schedule file attached to domain workflow stages.
 - `bilibili-up-update-tracker`: async watcher and outbound notifier candidate, source-review-only in current receipts.
 
+Lifecycle platform and ingestion surfaces:
+
+- official curriculum packs: course order, SDK essentials, eval lessons, tool-use lessons, cost-conscious examples, and cross-platform variants as absorb-layer material rather than runtime proof.
+- self-evolution agent harnesses: planning, memory, knowledge, skills, channels, and automatic review or distillation claims that need state, retention, rollback, and owner-review boundaries before activation.
+- prompt/eval/observability platforms: prompt development, evaluator management, experiment comparison, trace capture, and monitoring planes that should be reviewed separately instead of treated as one validation surface.
+- visual agent builders: prompt, RAG, plugin, workflow, resource, API, SDK, model, and deployment surfaces that need independent authority review.
+- web-to-LLM ingestion tools: crawler, Markdown extraction, filtering, caching, progressive crawl state, security hardening, prompt-template, and egress surfaces that remain source-review-only until activation review.
+
 ## Initial Scope
 
 - Intake and synthesis of public repository mechanisms after local controller audit.

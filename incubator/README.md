@@ -21,6 +21,7 @@ Placement candidates:
 ## Current Incubating Methods
 
 - [Agent team meta-factory review](agent-team-meta-factory-review.md): review tools that generate agent teams, skills, orchestrators, runtime pointers, or future behavior files before activation.
+- [Agent platform lifecycle review](agent-platform-lifecycle-review.md): review all-in-one or lifecycle agent platforms that bundle prompt development, eval, observability, memory, self-evolution, workflows, builders, and ingestion tools before treating them as more than scoped source evidence.
 - [Agent role envelope and loop review](agent-role-envelope-cycle-review.md): review recurring agent roles that combine a role name, skill bundle, workflow contract, boundary laws, and a bounded loop.
 - [Agent role skill bundle routing review](agent-role-skill-bundle-routing-review.md): review role definitions that should be composed from an entry skill, a core skill, helper skills, boundary laws, and eval coverage instead of a single prompt file.
 - [Context harness loop readiness review](context-harness-loop-readiness-review.md): review whether a coding-agent workflow has a current context packet, execution harness contract, and bounded loop contract before recurring or unattended work.
