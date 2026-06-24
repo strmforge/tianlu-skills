@@ -25,6 +25,10 @@ Controller-audited public repository samples from the local short-worker loop in
 - cost, token, session, and control-plane observability sidecars that expose burn rate, reset forecasts, session logs, remote-control surfaces, and config-write boundaries;
 - instruction-file lifecycle packages where hooks check size or drift, but explicit repair commands perform mutating split, prune, or sync work;
 - knowledge-vault role packages that combine a skill suite, methodology modes, retrieval, bounded research, multi-writer locking, agents, scripts, tests, and seeded vault material.
+- evidence-gated research role packages that preserve question cards, evidence records, claim strength, source fitness, non-upgraded wording, contradictions, and proposal readiness gates before research claims move into knowledge, writing, reports, drafts, or rebuttals;
+- content workflow packages that combine style learning, calendar planning, draft generation, traffic review, narrative-intent budgets, and anti-generic-voice rules while keeping browser sessions, publishing, engagement, replies, and traffic reads behind account-action gates;
+- clean-room spec-to-runtime packages that put behavioral, tool, UI, state, permission, command, and host-protocol specifications between source absorption and implementation modules;
+- Markdown OS packages that separate kernel invariants, on-demand procedures, task state, and governed lessons, then apply budget diagnostics, stale and density gates, path-limited writes, and explicit generation or review surfaces.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -69,7 +73,11 @@ Review the package as an operating package before any activation:
    - Statuslines, cost monitors, session viewers, sidecar memory services, and remote dashboards can improve loop control, but they also create retention, exposure, write, and remote-control surfaces.
 8. Treat instruction files as lifecycle artifacts.
    - `CLAUDE.md`, `AGENTS.md`, project memory, and role prompt files need size, drift, inheritance, and repair policies. A hook that warns is not the same as a command that mutates.
-9. Add eval coverage before promotion.
+9. Treat evidence and spec artifacts as intermediate state.
+   - Research contracts, evidence records, claim-promotion gates, and clean-room specs can carry neutralized knowledge forward, but they are not runtime execution proof, writing authority, or protocol activation proof.
+10. Treat content loops and file-generation tools as dual-surface packages.
+   - Planning, drafting, style analysis, taxonomy, and templates may be useful methods; browser publishing, account access, local backend use, and filesystem writes remain separate activation surfaces.
+11. Add eval coverage before promotion.
    - Test whether the role package improves routing and completion against a single-prompt baseline, while avoiding over-bundling, permission creep, and false completion.
 
 ## Initial Scope
@@ -92,12 +100,17 @@ Review the package as an operating package before any activation:
 - Observability laundering: a dashboard, statusline, session viewer, or cost monitor is treated as authorization to run unattended loops.
 - Repair-hook confusion: a read/check hook is mistaken for safe automatic mutation of instruction files.
 - Vault overreach: a knowledge-base role package with locks, retrieval, and tests is treated as safe to write local vaults, fetch the web, or activate hooks without review.
+- Claim-upgrade laundering: evidence records or source trust labels are treated as permission to strengthen uncertain claims into knowledge, reports, drafts, or rebuttals.
+- Content-action laundering: a useful content calendar or style-learning loop is treated as authority to open a real browser session, publish, reply, engage, or read account analytics.
+- Spec-runtime laundering: a clean-room spec or host-protocol document is treated as proof that building, running, registering, or exposing the runtime is safe.
+- File-role laundering: a four-file governance model is treated as permission to write persistent instruction files, generate skills, launch local backends, or activate AI providers.
 
 ## Verification Needed
 
 - Replay on several role packages and compare against single-prompt role definitions.
 - Measure trigger precision, bundle completeness, context cost, acceptance or rejection rate, and boundary violations.
 - Add negative cases for large package counts, hook-based auto-activation, dispatch controllers, and reviewer gates.
+- Add negative cases for evidence-gated research packages, content automation packages, clean-room spec/runtime packages, and Markdown OS file-role governance packages.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

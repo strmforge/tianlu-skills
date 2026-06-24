@@ -71,6 +71,8 @@ Registry and index surfaces:
 - `binance-skills-hub`: domain-partitioned skill marketplace with major domain roots and leaf `SKILL.md` files.
 - `claude-code-plugins-plus-skills`: marketplace-scale plugin, skill, and agent catalog with specs, category folders, metadata, release docs, validation scripts, and web browsing surfaces.
 - `claude-plugins-official`: curated plugin directory split between internally maintained plugins and external plugin submissions, with manifest-based skill composition.
+- `clawhub`: public skill and package registry sample with versioning, rename and merge lifecycle, search, moderation roles, declared capability metadata, and install or publish surfaces that remain inactive in source review.
+- `clawhub-skills`: vertical skill-pack sample with pack-level and per-skill sync units, archived lifecycle state, and multi-runtime distribution channels.
 
 Role-envelope and bundled-skill surfaces:
 
@@ -81,6 +83,8 @@ Role-envelope and bundled-skill surfaces:
 - `claude-ads`: role-specialized audit suite with sub-agent roles, normalized scoring output, fixtures, routing tests, and account-action red lanes.
 - `claude-ai-music-skills`: staged creative-production skill suite with routed skills, domain corpus, quality gates, source verification, and generation-account red lanes.
 - `claude-blog`: commercial content skill suite with reviewer gates, multi-artifact output, agent roles, and substantial test surfaces.
+- `claude-scholar`: evidence-gated research role package with question cards, evidence records, source fitness, claim strength, wording boundaries, contradiction preservation, and claim or proposal promotion gates.
+- `claude-skill-social-post`: content workflow package with style learning, calendar planning, draft generation, narrative-intent budgeting, cooldowns, and anti-generic-voice rules, while publishing and engagement remain account-action red lanes.
 - `Claude-Code-Game-Studios`: large role ecology with agent files, skill directories, hooks, path rules, templates, tiered delegation, escalation rules, and explicit human approval protocol.
 - `claude-code-infrastructure-showcase`: hook-routed skill infrastructure with trigger registry, progressive-disclosure skill layout, and resumable dev-doc state pattern.
 - `ClaudeForge`: instruction-file lifecycle package with `CLAUDE.md` creation, validation hooks, drift summaries, explicit sync/repair commands, and sibling-instruction import patterns.
@@ -95,6 +99,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - `agents`: canonical source with harness-native adapters and graceful degradation rules.
 - `claude-code-dispatch`: dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces.
 - `claude-code-zero`: small plugin marketplace pattern that distinguishes full plugin installation from skills-only installation where hooks, agents, MCP servers, and scripts are omitted.
+- `claurst`: clean-room spec-to-runtime package with structured behavior, tool, UI, state, permission, command, and host-protocol specs before implementation crates.
+- `claw-code`: agent harness sample that explicitly separates exhibit or parity-harness artifacts from production runtime repositories.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -113,6 +119,7 @@ State, memory, isolation, and portability surfaces:
 - `claude-code-viewer`: session-log viewer and control-plane sample that separates read-oriented inspection from opt-in chat sending, resume, and permission approval.
 - `claude-hud`: statusline-as-heads-up-display sample using a stdin/stdout transport and configurable display policy.
 - `claude-mem`: memory sidecar sample with lifecycle hooks, worker service, SQLite/vector stores, progressive disclosure, web UI, and privacy-tag boundaries.
+- `clawdcontext4vscode`: Markdown OS package with separate kernel, on-demand procedure, task-state, and governed-lessons files plus budget diagnostics, stale or density gates, path-limited writes, and skill-generation templates.
 
 Scheduled monitor and alert-loop surfaces:
 
