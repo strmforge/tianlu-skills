@@ -36,6 +36,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the public-intake, role-operating-package, stateful-gate, and context-harness incubators with controller-audited mechanisms for design-system diagram skills, staged design gate loops, typed harness composition, and secure portable skill runtimes.
 - Extended the public-intake and role-operating-package incubators with controller-audited frontend design skills that use one-anchor-per-brief token fidelity, plus preview-first presentation packs that make style discovery visible and keep fallback templates available.
 - Extended the lifecycle-platform incubator with controller-audited brain-layer memory platforms that combine answer synthesis, typed graph traversal, gap analysis, citation repair, overnight consolidation, and per-login company slices.
+- Extended the context-harness, code-intelligence, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for lean git-backed context indexes, typed code-graph MCP runtimes, service-as-agent distributed frameworks, and goal-contract intake protocols.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -57,6 +58,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - A typed harness or portable skill runtime should be treated as scoped source evidence until its compile path, session semantics, sandbox boundary, security policy, observability, and deployment targets are independently reviewed. A rich module tree is package-shape evidence, not activation proof.
 - A multi-host projected platform should be treated as scoped source evidence until pointer files, host-specific settings, canonical skill bodies, and behavior parity across hosts are independently reviewed. Projection intent is not portability proof.
 - A brain-layer memory platform should be treated as scoped source evidence until its synthesis algorithm, typed graph schema, citation repair, consolidation cadence, and slice isolation are independently reviewed. Answer quality claims are not proof of durable memory authority by themselves.
+- A lean git-backed context layer should be treated as scoped source evidence until its storage format, reconstruction path, worktree lifecycle, and downstream bridge behavior are independently reviewed. A small index is not proof of good recovery or governance by itself.
+- A service-as-agent framework should be treated as scoped source evidence until its discovery, delegation, flow durability, memory persistence, and MCP/A2A reachability are independently reviewed. Shared primitives are architecture evidence, not runtime proof.
 - A tree-search autoresearch loop should be treated as scoped source evidence until its frontier state, keep-or-revert logic, shared trace reuse, and gate behavior are independently reviewed. Parallel worktrees and host install paths are not loop-quality proof by themselves.
 - External state only constrains future behavior when it is actually re-injected before action; stored state alone is not a governance guarantee.
 - Public-interface experience tests should be treated as scoped source evidence until replay logs, interface boundaries, mock boundaries, and refactor-guardrail value are independently reviewed. Generated tests are not validation proof by themselves.
@@ -79,6 +82,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay `role-skill-operating-package-review.md` on marketplace-scale catalog, observability sidecar, instruction-file lifecycle package, and knowledge-vault role package shapes.
 - Replay `role-skill-operating-package-review.md` on evidence-gated research, content workflow, clean-room spec-to-runtime, Markdown OS, and registry lifecycle package shapes.
 - Replay `agent-platform-lifecycle-review.md` on at least three lifecycle platform shapes: a self-evolution memory platform, a prompt/eval/observability platform, and a web-to-LLM ingestion platform.
+- Replay `code-intelligence-graph-runtime-review.md` on at least one typed knowledge-graph MCP runtime and compare graph query value against the smaller git-backed context-index pattern.
+- Replay `context-harness-loop-readiness-review.md` on at least one lean git-backed context package and one service-as-agent framework to decide when context storage is enough and when a fuller harness/runtime layer is actually warranted.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
 - Replay `public-interface-experience-test-review.md` on one API-doc example, one product-spec example, and one protocol-spec example.
 - Replay multi-host projected platform review on at least one `.agents`/`.claude`/`.gemini` projection set and compare projection intent against actual host behavior.

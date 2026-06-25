@@ -14,6 +14,7 @@ This candidate keeps that mechanism in incubation. It does not endorse any insta
 
 - Controller-audited local QClaw short-worker receipts from the public repository reading loop on 2026-06-25.
 - Reviewed source files were local lightweight artifacts such as README, AGENTS, SKILL, metadata, index, and directory shape from the `codebase-memory-mcp`, `codegraph`, and `code-review-graph` batches.
+- Reviewed source files also include a controller-audited typed code-graph runtime that explicitly documents an `index -> graph -> tools` pipeline, a shared `KnowledgeGraph`, typed ingestion phases, LadybugDB persistence, and an stdio MCP surface.
 - Related Tianlu candidates:
   - `public-agent-skill-mechanism-intake-review.md`
   - `role-skill-operating-package-review.md`
@@ -40,6 +41,7 @@ Before writing the mechanism into Tianlu:
 
 1. Separate graph build from query path.
    - The build or index step is not the same as the question-answer step.
+   - A graph can be richer than a lean context index, but that does not automatically make it the right default surface for every coding loop.
 2. Bundle runtime carefully.
    - A bundled runtime can reduce setup cost, but it still needs scope and boundary review.
 3. Auto-detect support explicitly.
@@ -48,9 +50,11 @@ Before writing the mechanism into Tianlu:
    - The useful object is the smallest answerable slice, not a full repository dump.
 5. Treat incremental reparse and file-watch loops as liveness features.
    - They improve freshness, but they do not authorize unattended mutation or persistent remote control.
-6. Keep evidence anchors separate from the graph.
+6. Separate graph runtime from narrower context storage.
+   - A typed graph runtime, a lean git-backed context index, and a plain file baseline answer different questions. Do not collapse them into one generic "memory" surface.
+7. Keep evidence anchors separate from the graph.
    - Source anchors, dated reports, and sampled claims remain separate from the graph itself.
-7. Add eval before promotion.
+8. Add eval before promotion.
    - Compare graph-backed answers against file-by-file baseline paths, token cost, update latency, and conflict handling.
 
 ## Initial Scope

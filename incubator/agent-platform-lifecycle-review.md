@@ -21,6 +21,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - lifecycle platforms that separate prompt development, evaluation, and observability;
 - visual agent builders that combine prompt, RAG, plugin, workflow, API, and deployment surfaces;
 - web-to-LLM Markdown crawlers with filtering, caching, API, progressive crawl, security, and prompt-template surfaces.
+- service-as-agent frameworks that explicitly compose model, memory, tools, registry discovery, deterministic flows, and MCP/A2A reachability on top of the same runtime primitives as ordinary services.
 - brain-layer memory platforms that combine well-cited answer synthesis, graph traversal, gap analysis, typed edges, overnight consolidation, and per-login company slices.
 - multi-host projected development platforms that carry canonical skill or review bodies into `.agents`, `.claude`, `.gemini`, or similar host surfaces via pointers and small runtime-specific policy files;
 - terminal coding agents, computer-use platforms, web UIs, and design-tool bridges that combine session state, LSP or tool context, MCP transports, plugins, WebSockets, and multi-runtime install paths;
@@ -77,6 +78,8 @@ Review the platform as separate lifecycle planes before any adoption:
    - Terminal clients, web UIs, MCP/plugin bridges, computer-use drivers, and design-tool connectors can be useful runtime surfaces, but sockets, plugins, local servers, browser sessions, and design-tool access are activation surfaces.
 10a. Split host projection from host parity.
    - A projected `.agents`, `.claude`, `.gemini`, or similar host surface can show portability intent, but it does not prove that hooks, permissions, skill lookup, or runtime behavior are equivalent across hosts.
+10b. Split service unification from runtime proof.
+   - A framework can coherently say "an agent is a distributed system" and unify agents with services, flows, and registries. That is architecture evidence, not proof that delegation, discovery, persistence, or gateways behave well in practice.
 11. Split sandbox and context claims from security proof.
    - Dedicated kernels, isolated filesystems, evolving context layers, and persistence claims describe architecture. They do not prove safety, correctness, compliance, or local fitness without replay.
 12. Split security-lab framing from authorization.
@@ -93,6 +96,7 @@ Review the platform as separate lifecycle planes before any adoption:
 ## Known Failure Modes
 
 - Platform completeness theater: a platform lists all lifecycle stages but only implements a shallow demo.
+- Service-unification overreach: a clear service-as-agent architecture is treated as if it already proves robust delegation, memory, or multi-agent operations.
 - Self-evolution laundering: memory or reflection language is treated as permission to write durable state or change future behavior.
 - Observability laundering: traces and dashboards are treated as proof of correctness or loop authority.
 - Builder authority creep: a no-code workflow canvas is treated as permission to create, deploy, publish, or mutate systems.

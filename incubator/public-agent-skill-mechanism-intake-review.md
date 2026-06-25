@@ -124,6 +124,7 @@ State, memory, isolation, and portability surfaces:
 - `cc-provider-add`: per-provider config isolation for runtime/provider routing.
 - `agentskills-proxy`: separated skill discovery and skill execution protocol services.
 - `agent-bus-skills`: router skill plus verb-scoped subskills for coordination.
+- `git-context-controller`: lean git-backed context index with `hash`, `intent`, optional decision note, worktree state, and on-demand reconstruction instead of verbose narrative memory copies.
 - `Claude-Code-Usage-Monitor`: cost and token observability sidecar with burn-rate prediction, reset or session forecasting, plan presets, and local preference persistence.
 - `claude-code-viewer`: session-log viewer and control-plane sample that separates read-oriented inspection from opt-in chat sending, resume, and permission approval.
 - `claude-hud`: statusline-as-heads-up-display sample using a stdin/stdout transport and configurable display policy.
@@ -140,6 +141,7 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - domain editing skills: measurable preservation thresholds, rolling paragraph summaries, terminology memory, and format-protection gates for long-form transformations.
 - experience-test generation skills: tests-as-second-truth framing, public-interface-only verification, internal-mock avoidance, replay-grade JSON logs, and explicit "not for" boundaries around unit-test theater and one-off debugging.
 - eval-surface packages: keep existing-registry evals, custom evals, private evals, held-out gates, and benchmark data surfaces separate from runtime execution authority.
+- goal-contract packages: fixed question sets that turn vague user requests into executable, verifiable, and pausable task contracts before downstream routing or execution.
 - database security audit skills: actual-versus-present configuration review, cross-backend reasoning, safe probes, scored reports, and exact fix formats, with real backend access remaining inactive.
 - cloud data-agent skills: per-message mode, attach-based session reuse, workspace/custom-agent support, credential-chain boundaries, and async/session isolation.
 - persona and theory-first skill packs: corpus-to-persona calibration, anti-bias rules, double-loop review, Socratic questioning, cybernetics framing, knowledge gardening, and narrative commit review as scoped method signals rather than truth claims.
@@ -158,6 +160,8 @@ Lifecycle platform and ingestion surfaces:
 - visual agent builders: prompt, RAG, plugin, workflow, resource, API, SDK, model, and deployment surfaces that need independent authority review.
 - web-to-LLM ingestion tools: crawler, Markdown extraction, filtering, caching, progressive crawl state, security hardening, prompt-template, and egress surfaces that remain source-review-only until activation review.
 - terminal, computer-use, design-tool, and web-UI agent bridges: terminal coding clients, computer-use sandboxes, MCP-plus-plugin bridges, and web UIs expose useful runtime surfaces, but installs, sockets, plugins, hosted sessions, browser accounts, and design-tool access remain separate activation reviews.
+- typed code-graph runtimes: explicit `index -> graph -> tools` pipelines, graph-store persistence, and stdio MCP query surfaces for repository traversal.
+- service-as-agent frameworks: model-memory-tool composition, registry-backed discovery, deterministic flows, and MCP/A2A reachability built on the same primitives as ordinary services.
 - data-engineering and AI-code execution platforms: evolvable context layers, schema/metric/reference-SQL knowledge bases, continuous learning loops, full-computer sandboxes, dedicated kernel/filesystem/network claims, and persistence surfaces should be separated before any adoption claim.
 - autoresearch orchestrators: tree-search loops over accepted branches, worktree-isolated parallel subagents, shared trace state, and inherited pass/fail gates as a stronger loop/state/gate package than plain single-branch retry.
 - security-testing platforms and vulnerable-agent benchmarks: role-based security skills, attack-chain analysis, prompt-injection targets, CTF origins, and C2-like surfaces are source-review signals only; offensive use, probing, credentials, implants, or live targets remain red-lane.

@@ -16,6 +16,7 @@ This candidate is not an endorsement of unattended coding, automatic pull reques
 
 - User-shared Toutiao article dated 2026-06-23 about prompt, context, harness, and loop engineering.
 - Controller-audited public runtime samples showing typed harness composition, explicit session-versus-run semantics, durable `plans/` and `blueprints/` artifacts, and skill-definition-to-runtime compilation with security policy, audit logs, and deployment targets.
+- Controller-audited public context packages showing lean git-backed context indexes with `hash`, `intent`, optional decision notes, worktree tracking, and on-demand reconstruction rather than full narrative memory copies.
 - `incubator/loop-engineering-workflow-review.md`
 - `incubator/agent-role-envelope-cycle-review.md`
 - `laws/surface-agent-orchestration.md`
@@ -50,6 +51,7 @@ Before moving a task into a loop, classify which layer is actually missing.
 3. Harness layer.
    - Define the execution harness contract: allowed tools, forbidden tools, worktree or sandbox path, test/lint/build gates, log capture, secret and credential boundary, network boundary, artifact paths, rollback, cleanup, and reviewer.
    - If a repo or runtime already exposes explicit agent-definition, session, sandbox, plan, blueprint, compile, or deployment surfaces, treat those as harness evidence rather than as proof that loop authority already exists.
+   - If a repo only exposes a lean context index plus worktree state and reconstruction scripts, treat it as context-layer evidence that can feed a harness; do not silently upgrade it into harness or loop authority.
    - Treat the harness as a control surface, not as proof of safety.
 4. Loop layer.
    - Define automation trigger, state file, cursor, checkpoint cadence, maker-checker or verifier split, acceptance gate, stop conditions, liveness receipt, review queue, retry limit, cost budget, and escalation path.
@@ -72,6 +74,7 @@ Before moving a task into a loop, classify which layer is actually missing.
 
 - Context theater: a long context document exists, but freshness, source, and authority are not known.
 - Harness theater: tests or worktrees exist, but tool, secret, network, and rollback boundaries are missing.
+- Context-index overreach: hash-plus-intent storage is treated as if it already provides acceptance gates, verifier splits, or safe unattended execution.
 - Loop theater: a scheduled run or goal mode exists, but no state file, gate, verifier, or stop condition exists.
 - Context flooding: the agent loads everything and crowds out the actual task.
 - Stale architecture: deprecated modules, schema changes, or permission model changes are treated as current.

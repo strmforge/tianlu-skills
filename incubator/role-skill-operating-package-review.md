@@ -41,6 +41,7 @@ Controller-audited public repository samples from the local short-worker loop in
 - creative and research method packages that use case libraries, prompt templates, staged scoring, and intersection synthesis as workflow gates;
 - meta-skill and domain-editing packages that compare baseline against with-skill output, keep result ledgers, revert regressions, preserve volume thresholds, maintain rolling summaries, and protect structured formats;
 - database, data-agent, and security packages that expose safe probes, cross-backend reasoning, session reuse, credential boundaries, exact fix formats, or prompt-injection targets while keeping real systems inactive.
+- compact contract-first skill packages that use a fixed question set to turn vague user intent into an executable, verifiable, and pausable goal contract across more than one coding host.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -77,6 +78,7 @@ Review the package as an operating package before any activation:
    - Counts of agents, skills, hooks, templates, tests, or badges are structure evidence, not adoption proof.
 4. Extract the neutral mechanism.
    - Role ecology, skill bundle, trigger registry, progressive disclosure, dev-doc continuation, gate, verifier, dispatch receipt, or human approval protocol.
+   - For smaller packages, the reusable mechanism may be an intake contract rather than a large role ecology; a fixed question set can itself be the role-entry operating surface.
 5. Keep the scoped package scoped.
    - The package can be a useful composed variant without becoming neutral law.
 6. Require activation review for executable surfaces.
@@ -110,6 +112,7 @@ Review the package as an operating package before any activation:
 ## Known Failure Modes
 
 - Role theater: the package has an impressive name but no real workflow contract.
+- Contract theater: a package presents a strong intake questionnaire, but there is no evidence that it changes routing, verification, or pause behavior downstream.
 - Count worship: many agents, skills, hooks, or templates are treated as quality proof.
 - Auto-activation creep: trigger metadata and hooks silently become runtime authority.
 - Over-bundling: too many helper skills increase context cost and route collisions.
