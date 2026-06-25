@@ -94,6 +94,9 @@ Role-envelope and bundled-skill surfaces:
 - `ClaudeForge`: instruction-file lifecycle package with `CLAUDE.md` creation, validation hooks, drift summaries, explicit sync/repair commands, and sibling-instruction import patterns.
 - `claude-obsidian`: knowledge-vault role package with routed skills, methodology modes, hybrid retrieval, bounded research, per-file locks, agents, scripts, tests, and seeded vault material.
 - `claude-power-skills`: workflow-protocol skill pack where individual skills encode multi-step processes, decision points, structured outputs, and quality gates.
+- `grant-thinking-cn-biology` and `grant-thinking-skill`: fundability-first grant reasoning packs that turn vague project ideas into scoped, evidence-aware review surfaces.
+- `grok-skills`: a compact multi-skill bundle for Grok and xAI agents.
+- `gpt-image-2-gen-skill`, `gpt-image2-ppt-skills`, and `GPT-Image2-Skill`: output-specialized image and presentation skill packs that combine locale coverage, CLI or installer glue, and package-level packaging surfaces.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -108,6 +111,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - `claude-code-zero`: small plugin marketplace pattern that distinguishes full plugin installation from skills-only installation where hooks, agents, MCP servers, and scripts are omitted.
 - `claurst`: clean-room spec-to-runtime package with structured behavior, tool, UI, state, permission, command, and host-protocol specs before implementation crates.
 - `claw-code`: agent harness sample that explicitly separates exhibit or parity-harness artifacts from production runtime repositories.
+- Separate diagnostic skill packs from output-specialized skill packs: grant reasoning, research-question refinement, and goal-contract packages behave like intake or diagnostic methods; image-generation, PPT-generation, and prompt-gallery packs behave like output specialization methods.
 - multi-host projected skill platforms: canonical skill bodies projected into host-specific surfaces such as `.agents`, `.claude`, `.gemini`, or similar directories through thin pointers, manifests, and small policy files; projection shape is source evidence only and does not prove behavior parity across hosts.
 - manifesto-lint packages: instruction-file linting as a separate pass/fail prose gate, distinct from packaging validation or runtime loadability.
 

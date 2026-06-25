@@ -37,6 +37,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the public-intake and role-operating-package incubators with controller-audited frontend design skills that use one-anchor-per-brief token fidelity, plus preview-first presentation packs that make style discovery visible and keep fallback templates available.
 - Extended the lifecycle-platform incubator with controller-audited brain-layer memory platforms that combine answer synthesis, typed graph traversal, gap analysis, citation repair, overnight consolidation, and per-login company slices.
 - Extended the context-harness, code-intelligence, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for lean git-backed context indexes, typed code-graph MCP runtimes, service-as-agent distributed frameworks, and goal-contract intake protocols.
+- Added a compact synthesis checkpoint for the 2026-06-25 intake batches that surfaced `GitNexus`, `go-micro`, `gpt-researcher`, `graphify`, `grant-thinking-*`, and `grok-skills` as controller-audited method candidates.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis

@@ -22,6 +22,8 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - visual agent builders that combine prompt, RAG, plugin, workflow, API, and deployment surfaces;
 - web-to-LLM Markdown crawlers with filtering, caching, API, progressive crawl, security, and prompt-template surfaces.
 - service-as-agent frameworks that explicitly compose model, memory, tools, registry discovery, deterministic flows, and MCP/A2A reachability on top of the same runtime primitives as ordinary services.
+- controller-audited deep-research agent frameworks that explicitly separate planner, execution, crawler, and publisher/report aggregation surfaces.
+- graph-backed code-intelligence runtimes with CLI/MCP/HTTP query or browser graph-output surfaces, where the output packaging is visible but the deeper schema replay still needs controller verification.
 - brain-layer memory platforms that combine well-cited answer synthesis, graph traversal, gap analysis, typed edges, overnight consolidation, and per-login company slices.
 - multi-host projected development platforms that carry canonical skill or review bodies into `.agents`, `.claude`, `.gemini`, or similar host surfaces via pointers and small runtime-specific policy files;
 - terminal coding agents, computer-use platforms, web UIs, and design-tool bridges that combine session state, LSP or tool context, MCP transports, plugins, WebSockets, and multi-runtime install paths;
@@ -64,6 +66,8 @@ Review the platform as separate lifecycle planes before any adoption:
    - Memory tiers, nightly distillation, automatic skill improvement, and unfinished-task follow-up require source, retention, rollback, owner-review, and activation boundaries.
 4a. Treat synthesis layers as memory surfaces.
    - If a platform says it gives the answer instead of the pages, and it couples that with typed graph edges, citation repair, or overnight consolidation, review the synthesis path as a lifecycle surface rather than as a search box.
+4b. Treat research-agent pipelines and graph-backed code-intelligence packages as lifecycle sub-planes.
+   - A planner/execution/publisher chain or a graph build/query/output chain is a lifecycle surface, but the controller still needs separate replay for ingestion, query, source tracking, and report or answer packaging.
 5. Treat visual builders as multi-surface products.
    - Prompt, RAG, plugin, workflow, database, API, SDK, model, deployment, and low-code surfaces each need their own authority and rollback review.
 6. Treat crawlers and web-to-LLM pipelines as ingestion systems.
