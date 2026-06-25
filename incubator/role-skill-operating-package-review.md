@@ -29,6 +29,9 @@ Controller-audited public repository samples from the local short-worker loop in
 - content workflow packages that combine style learning, calendar planning, draft generation, traffic review, narrative-intent budgets, and anti-generic-voice rules while keeping browser sessions, publishing, engagement, replies, and traffic reads behind account-action gates;
 - clean-room spec-to-runtime packages that put behavioral, tool, UI, state, permission, command, and host-protocol specifications between source absorption and implementation modules;
 - Markdown OS packages that separate kernel invariants, on-demand procedures, task state, and governed lessons, then apply budget diagnostics, stale and density gates, path-limited writes, and explicit generation or review surfaces.
+- creative and research method packages that use case libraries, prompt templates, staged scoring, and intersection synthesis as workflow gates;
+- meta-skill and domain-editing packages that compare baseline against with-skill output, keep result ledgers, revert regressions, preserve volume thresholds, maintain rolling summaries, and protect structured formats;
+- database, data-agent, and security packages that expose safe probes, cross-backend reasoning, session reuse, credential boundaries, exact fix formats, or prompt-injection targets while keeping real systems inactive.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -77,7 +80,11 @@ Review the package as an operating package before any activation:
    - Research contracts, evidence records, claim-promotion gates, and clean-room specs can carry neutralized knowledge forward, but they are not runtime execution proof, writing authority, or protocol activation proof.
 10. Treat content loops and file-generation tools as dual-surface packages.
    - Planning, drafting, style analysis, taxonomy, and templates may be useful methods; browser publishing, account access, local backend use, and filesystem writes remain separate activation surfaces.
-11. Add eval coverage before promotion.
+11. Treat measurable gates as claims until replayed.
+   - A threshold, rubric, score, safe probe, or improvement number is only source evidence until it is replayed on scoped examples with failure handling.
+12. Treat state surfaces as future-behavior boundaries.
+   - Session memories, rolling summaries, workspace reuse, result ledgers, and context stores can improve continuity, but they also define retention, rollback, and owner-review obligations.
+13. Add eval coverage before promotion.
    - Test whether the role package improves routing and completion against a single-prompt baseline, while avoiding over-bundling, permission creep, and false completion.
 
 ## Initial Scope
@@ -104,6 +111,8 @@ Review the package as an operating package before any activation:
 - Content-action laundering: a useful content calendar or style-learning loop is treated as authority to open a real browser session, publish, reply, engage, or read account analytics.
 - Spec-runtime laundering: a clean-room spec or host-protocol document is treated as proof that building, running, registering, or exposing the runtime is safe.
 - File-role laundering: a four-file governance model is treated as permission to write persistent instruction files, generate skills, launch local backends, or activate AI providers.
+- Gate laundering: a numeric threshold, score, rubric, or probe is treated as independent validation without replay.
+- State laundering: session reuse, rolling memory, or result ledgers are treated as permission to persist future behavior.
 
 ## Verification Needed
 
