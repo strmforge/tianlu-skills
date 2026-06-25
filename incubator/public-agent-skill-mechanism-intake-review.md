@@ -99,6 +99,8 @@ Role-envelope and bundled-skill surfaces:
 - `gpt-image-2-gen-skill`, `gpt-image2-ppt-skills`, and `GPT-Image2-Skill`: output-specialized image and presentation skill packs that combine locale coverage, CLI or installer glue, and package-level packaging surfaces.
 - healthcare administration role-system packages: narrow specialist roles, workflow routing, offline evidence packs, provenance or data-mode controls, and safety-boundary language; internal prompt-rubric scores are package evidence, not external validation.
 - brand-to-design-system skill packages: input-source inventory, extracted tokens, component tear-down sheets, source-confidence flags, contradiction handling, and screenshot or render validation as state and gate surfaces rather than proof of design quality.
+- vertical platform skill packs: competition, research, finance, or domain-API packages can combine API reference shards, templates, examples, lint scripts, reporting flows, and MCP surfaces; these are package-shape evidence, not authority for accounts, market data, trading, publishing, or advice.
+- high-risk security workflow packs: authorization text, scope forms, depth labels, coverage matrices, zero-finding fallbacks, and report templates are useful gate surfaces, but they do not authorize scanning, exploitation, credential testing, wireless/cloud/ICS activity, or target contact.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -120,6 +122,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - local-first multi-agent workbenches: each task can get an isolated worktree or branch, while parallel agent sessions, local databases, diff review, terminal panels, and PR/MR actions form loop/state/gate surfaces; actual PR actions, CI fixing, account connections, and agent quality remain unproven.
 - cost-aware model routers: tiered model catalogs, cost metadata, weighted scoring, confidence thresholds, override rules, user-message-only scoring, and health or stats endpoints form a loop/state/gate package; savings, quality, and provider behavior remain unproven until replay.
 - human-in-the-loop marketplace bridges: a single MCP or connector surface may expose discovery, offers, listings, messages, payments, reviews, profiles, and registration; discovery is not authority for contact, payment, public listing, identity, or reputation actions.
+- personal-agent runtime packages: provider catalogs, config roots, profile modes, host-access prompts, WebUI/OAuth boundaries, sandbox policies, channel registries, jobs, routines, and tool catalogs can be reviewed as separate loop/state/gate surfaces; secure-runtime branding is not safety proof.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -142,6 +145,7 @@ State, memory, isolation, and portability surfaces:
 - `clawdcontext4vscode`: Markdown OS package with separate kernel, on-demand procedure, task-state, and governed-lessons files plus budget diagnostics, stale or density gates, path-limited writes, and skill-generation templates.
 - self-improving agent architectures: memory/search, user modeling, skill creation, skill self-improvement, terminal backends, and trajectory compression can be reviewed as separate state, loop, gate, and research-output surfaces; self-improvement language is not durable-memory authority.
 - memory-as-learning architectures: retain, recall, reflect, memory banks, extracted facts or relationships, benchmark scripts, API/CLI/control planes, and generated clients can be reviewed as state and lifecycle surfaces; benchmark wording is not future-behavior authority.
+- portable profile packages: compact personal profiles, preference layers, project facts, lesson stores, mutation rules, decay rules, conflict types, and host projection files can be reviewed as state and governance surfaces; projection into many hosts is not proof of parity or memory authority.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 

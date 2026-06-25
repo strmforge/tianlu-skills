@@ -32,6 +32,8 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - local-first coding-agent workbenches that combine per-task worktrees or branches, local databases, sidecars, streaming IPC, native terminal sessions, diff review, and PR/MR action surfaces;
 - self-improving agent runtimes that combine memory/search, user modeling, autonomous skill creation, skill self-improvement, optional skill catalogs, terminal backend abstraction, batch trajectory generation, and trajectory compression.
 - memory-as-learning systems that split retain, recall, and reflect operations across memory banks, extracted fact or relationship representations, API/CLI/control-plane surfaces, clients, and benchmark scripts.
+- personal-agent runtime packages that combine provider catalogs, config roots, host-access modes, WebUI/OAuth boundaries, sandbox policies, channels, jobs, routines, tool registries, and workspace memory.
+- portable profile platforms that compress preferences, project facts, lessons, progress, decay rules, and conflict-handling rules into host-projected profile files.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction. For example, one self-evolution package had README support for a three-tier memory story, while a controller spot-check of its config surface only found flat self-evolution toggles and agent workspace/context settings, not proof of an explicit three-tier config schema.
 
@@ -98,6 +100,12 @@ Review the platform as separate lifecycle planes before any adoption:
 15. Split memory-learning claims from memory authority.
    - Retain, recall, reflect, benchmark, control-plane, generated-client, and memory-bank surfaces should be reviewed separately.
    - A system can describe learning over time without proving retention quality, conflict handling, privacy, rollback, or authority over future sessions.
+16. Split personal-agent runtime surfaces from security proof.
+   - Provider catalogs, local config roots, profile modes, WebUI tokens, OAuth allowlists, sandbox claims, job runners, and tool registries are separate lifecycle planes.
+   - None of these planes proves credential safety, host safety, prompt-injection resistance, self-repair quality, or local fitness until replayed under a scoped activation envelope.
+17. Split portable profile projection from behavior authority.
+   - A compact profile file can be a useful state packet, but onboarding, mutation, decay, conflict resolution, injection timing, rollback, and owner review must be visible before it can govern future behavior.
+   - Host projection files show portability intent, not equivalent behavior across hosts.
 
 ## Initial Scope
 
@@ -126,6 +134,8 @@ Review the platform as separate lifecycle planes before any adoption:
 - Workbench merge laundering: visible PR, merge, CI-fix, or conflict-resolution controls are treated as if they had already been exercised safely.
 - Self-improvement authority creep: a system that can create or update skills is treated as if future behavior changes are approved, reversible, or high quality.
 - Memory-learning authority creep: benchmark wording, generated clients, or control-plane dashboards are treated as proof that durable memory is accurate, private, reversible, or fit to govern future actions.
+- Personal-runtime safety creep: provider catalogs, sandbox labels, WebUI tokens, or OAuth warnings are treated as proof that the runtime is safe to run, connect, or trust with credentials.
+- Portable-profile authority creep: a compact profile or host projection is treated as permission to mutate personal state or govern future sessions without owner review.
 
 ## Verification Needed
 
@@ -136,6 +146,8 @@ Review the platform as separate lifecycle planes before any adoption:
 - Check whether local-first workbench claims actually keep task state, branches, agents, and account actions separated under replay.
 - Check whether self-improvement claims include owner review, rollback, retention limits, skill provenance, and negative cases for regression.
 - Check whether memory-learning claims include source provenance, retention limits, conflict handling, recall quality, privacy boundaries, rollback, and owner review before influencing future behavior.
+- Check whether personal-agent runtime packages separate providers, config, host access, WebUI, OAuth, sandboxing, routines, and tool execution before any activation.
+- Check whether portable profile packages show injection timing, mutation approval, conflict resolution, decay, rollback, and per-host behavior limits.
 - Add negative eval cases for platform-completeness claims, self-evolution as durable-memory authority, observability as validation, and crawler usefulness as web-action authority.
 - Decide whether this remains a supporting incubator note or becomes a productive platform-review playbook.
 

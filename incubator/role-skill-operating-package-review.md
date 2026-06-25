@@ -45,6 +45,9 @@ Controller-audited public repository samples from the local short-worker loop in
 - team-architecture factory packages that choose a named team pattern from a domain sentence, then emit agent, skill, orchestration, and validation surfaces while depending on runtime-specific team primitives.
 - domain role-system packages that combine many narrow specialist prompts, a workflow router, evidence-pack metadata, provenance modes, data-mode controls, safety boundaries, and an internal eval ledger.
 - local-first coding-agent workbench packages where isolated worktrees or branches, local storage, sidecar/IPC flows, native terminal sessions, diffs, and PR/MR actions define the operating package boundary.
+- portable profile packages where profile files, onboarding questions, preference layers, lesson stores, mutation rules, decay rules, conflict types, and host projection files define the operating package boundary.
+- vertical finance or competition platform packages where API references, templates, lint scripts, factor stores, reporting surfaces, credential hints, and MCP bridges define the package boundary.
+- high-risk security assessment packages where authorization, scope, depth, environment readiness, playbooks, tool categories, coverage matrices, stop conditions, and report templates define the package boundary.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -110,6 +113,10 @@ Review the package as an operating package before any activation:
    - A large role catalog, internal score, evidence-pack format, or workflow count can show package shape. It does not prove domain accuracy, professional authority, PHI/PII safety, billing correctness, legal compliance, or external validation.
 16. Treat workbench PR actions as gated surfaces.
    - Per-task worktrees and local state are valuable state boundaries, but create-PR, merge, CI-fix, conflict-resolution, account connection, and remote-review actions remain activation surfaces.
+17. Treat high-risk vertical packages as gate-first packages.
+   - Finance, security, account, and profile packages can contain useful route, state, lint, coverage, or report surfaces.
+   - The neutral mechanism is the gate and evidence shape, not the domain action.
+   - Credentials, accounts, market data, professional advice, target probing, exploitation, persistent personal profiles, and external mutations require separate activation review.
 
 ## Initial Scope
 
@@ -143,6 +150,7 @@ Review the package as an operating package before any activation:
 - Generated-team laundering: a plausible team pattern is treated as proof that the generated role package works in the target runtime.
 - Domain-authority laundering: a specialist role pack is treated as medical, legal, compliance, coding, billing, or clinical authority because its catalog is large or internally scored.
 - Workbench-action laundering: branch/worktree isolation is treated as permission to open PRs, fix CI, resolve conflicts, or merge.
+- High-risk vertical laundering: a finance, security, account, or profile package is treated as safe because it contains warnings, templates, lint scripts, or authorization language.
 
 ## Verification Needed
 
@@ -151,6 +159,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for large package counts, hook-based auto-activation, dispatch controllers, and reviewer gates.
 - Add negative cases for evidence-gated research packages, content automation packages, clean-room spec/runtime packages, and Markdown OS file-role governance packages.
 - Add negative cases for generated team factories, internally scored domain role systems, and local-first workbenches with visible PR/MR buttons.
+- Add negative cases for portable profile mutation, finance strategy generation, security assessment authorization, and platform MCP bridges being treated as activation authority.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

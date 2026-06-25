@@ -26,6 +26,9 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed memory-as-learning architectures that separate retain, recall, and reflect operations, memory banks, extracted facts or relationships, benchmark surfaces, control planes, and generated clients;
 - source-reviewed design-system pipelines that treat extracted tokens, component tear-downs, contradiction flags, source-confidence levels, and screenshot or render validation as state and gates rather than as proof of final design quality;
 - source-reviewed cost-aware model routers that hold model tiers, cost tables, scoring weights, confidence thresholds, and override rules in config, then use routing decisions and stats as loop outputs.
+- source-reviewed portable profile packages that use onboarding, mutation, decay, conflict resolution, and host-projection files as state and gates rather than as durable memory authority;
+- source-reviewed vertical finance strategy packs that use API reference shards, templates, lint rules, factor stores, and user-run backtest boundaries as state and gates rather than as trading, advice, or market-data authority;
+- source-reviewed security assessment packs that use authorization, scope, depth, coverage matrices, zero-findings fallbacks, stop conditions, and report evidence as gates rather than as permission to probe live targets.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -47,6 +50,9 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - a memory-learning loop that claims to retain, recall, reflect, consolidate, or improve future behavior;
 - baseline-versus-enhanced comparison;
 - extracted design tokens, component inventories, confidence flags, contradiction ledgers, or model-tier routing policy;
+- portable profile layers, conflict ledgers, decay rules, host projection surfaces, or owner-reviewed mutation gates;
+- vertical API reference shards, domain templates, lint policies, strategy or report ledgers, or user-run replay boundaries;
+- authorization/scope gates, assessment depth levels, coverage matrices, zero-finding escalation rules, or evidence report templates;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -80,6 +86,10 @@ Review stateful skills as gated operating loops:
    - Memory banks, design-token ledgers, source-confidence labels, model tiers, and cost stats are state candidates.
    - They constrain future action only after the system shows where the state is read, injected, compared, and downgraded on conflict.
    - Benchmark, savings, token-fidelity, and quality claims need independent replay or must stay source-review-only.
+11. Split authorization gates from action permission.
+   - Security, finance, account, and personal-profile packages can expose strong gate designs.
+   - Gate design does not authorize external action, target access, account use, credential handling, persistent profile mutation, or professional advice.
+   - Before activation, require a scoped owner decision, safe replay path, rollback, and evidence of which state is read and written.
 
 ## Initial Scope
 
@@ -101,6 +111,7 @@ Review stateful skills as gated operating loops:
 - Benchmark laundering: a memory, model-routing, or design pipeline benchmark is treated as independent validation without checking task scope, replay conditions, denominator, and negative cases.
 - Token-fidelity laundering: extracted colors, typography, component sheets, or model tiers are treated as output quality proof without visible replay against the brief or task.
 - Domain-action creep: a useful method in editing, security, data, design, or code execution becomes permission to use accounts, credentials, browsers, cloud services, or local runtimes.
+- Authorization theater: a repository warning, scope form, or user-says-authorized phrase is treated as real permission for live security, finance, account, or profile-mutation action.
 
 ## Verification Needed
 
@@ -109,6 +120,7 @@ Review stateful skills as gated operating loops:
 - Add negative eval cases where a named threshold has no measurement, a state file is treated as durable memory authority, and a safe-probe description becomes real-system access.
 - Add a negative case where state is stored but never injected, and another where an eval registry is mistaken for proof of production readiness.
 - Add negative cases where benchmark text is treated as learning proof, extracted design tokens are treated as design proof, or a routing cost table is treated as savings proof.
+- Add negative cases where a portable profile is treated as automatic cross-host memory, a strategy lint script is treated as financial safety, or an authorization checklist is treated as permission to scan a target.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates
