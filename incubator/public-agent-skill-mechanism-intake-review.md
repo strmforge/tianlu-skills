@@ -97,6 +97,7 @@ Role-envelope and bundled-skill surfaces:
 - `grant-thinking-cn-biology` and `grant-thinking-skill`: fundability-first grant reasoning packs that turn vague project ideas into scoped, evidence-aware review surfaces.
 - `grok-skills`: a compact multi-skill bundle for Grok and xAI agents.
 - `gpt-image-2-gen-skill`, `gpt-image2-ppt-skills`, and `GPT-Image2-Skill`: output-specialized image and presentation skill packs that combine locale coverage, CLI or installer glue, and package-level packaging surfaces.
+- healthcare administration role-system packages: narrow specialist roles, workflow routing, offline evidence packs, provenance or data-mode controls, and safety-boundary language; internal prompt-rubric scores are package evidence, not external validation.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -114,6 +115,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - Separate diagnostic skill packs from output-specialized skill packs: grant reasoning, research-question refinement, and goal-contract packages behave like intake or diagnostic methods; image-generation, PPT-generation, and prompt-gallery packs behave like output specialization methods.
 - multi-host projected skill platforms: canonical skill bodies projected into host-specific surfaces such as `.agents`, `.claude`, `.gemini`, or similar directories through thin pointers, manifests, and small policy files; projection shape is source evidence only and does not prove behavior parity across hosts.
 - manifesto-lint packages: instruction-file linting as a separate pass/fail prose gate, distinct from packaging validation or runtime loadability.
+- team-architecture factories: a domain sentence is mapped into a named team pattern, generated agent/skill/orchestrator surfaces, and validation steps; experimental runtime dependencies and generated-file quality remain activation review surfaces.
+- local-first multi-agent workbenches: each task can get an isolated worktree or branch, while parallel agent sessions, local databases, diff review, terminal panels, and PR/MR actions form loop/state/gate surfaces; actual PR actions, CI fixing, account connections, and agent quality remain unproven.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -134,6 +137,7 @@ State, memory, isolation, and portability surfaces:
 - `claude-hud`: statusline-as-heads-up-display sample using a stdin/stdout transport and configurable display policy.
 - `claude-mem`: memory sidecar sample with lifecycle hooks, worker service, SQLite/vector stores, progressive disclosure, web UI, and privacy-tag boundaries.
 - `clawdcontext4vscode`: Markdown OS package with separate kernel, on-demand procedure, task-state, and governed-lessons files plus budget diagnostics, stale or density gates, path-limited writes, and skill-generation templates.
+- self-improving agent architectures: memory/search, user modeling, skill creation, skill self-improvement, terminal backends, and trajectory compression can be reviewed as separate state, loop, gate, and research-output surfaces; self-improvement language is not durable-memory authority.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -166,6 +170,7 @@ Lifecycle platform and ingestion surfaces:
 - terminal, computer-use, design-tool, and web-UI agent bridges: terminal coding clients, computer-use sandboxes, MCP-plus-plugin bridges, and web UIs expose useful runtime surfaces, but installs, sockets, plugins, hosted sessions, browser accounts, and design-tool access remain separate activation reviews.
 - typed code-graph runtimes: explicit `index -> graph -> tools` pipelines, graph-store persistence, and stdio MCP query surfaces for repository traversal.
 - service-as-agent frameworks: model-memory-tool composition, registry-backed discovery, deterministic flows, and MCP/A2A reachability built on the same primitives as ordinary services.
+- self-improving agent runtimes: agent-curated memory, FTS search, skill command scanning, optional-skill surfaces, terminal backend abstraction, and trajectory compression should be reviewed as lifecycle planes before any claim of learning quality or safe persistence.
 - data-engineering and AI-code execution platforms: evolvable context layers, schema/metric/reference-SQL knowledge bases, continuous learning loops, full-computer sandboxes, dedicated kernel/filesystem/network claims, and persistence surfaces should be separated before any adoption claim.
 - autoresearch orchestrators: tree-search loops over accepted branches, worktree-isolated parallel subagents, shared trace state, and inherited pass/fail gates as a stronger loop/state/gate package than plain single-branch retry.
 - security-testing platforms and vulnerable-agent benchmarks: role-based security skills, attack-chain analysis, prompt-injection targets, CTF origins, and C2-like surfaces are source-review signals only; offensive use, probing, credentials, implants, or live targets remain red-lane.

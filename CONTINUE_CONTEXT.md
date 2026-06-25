@@ -1,6 +1,6 @@
 # Continue Context
 
-Date: 2026-06-25
+Date: 2026-06-26
 
 ## Objective
 
@@ -38,6 +38,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the lifecycle-platform incubator with controller-audited brain-layer memory platforms that combine answer synthesis, typed graph traversal, gap analysis, citation repair, overnight consolidation, and per-login company slices.
 - Extended the context-harness, code-intelligence, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for lean git-backed context indexes, typed code-graph MCP runtimes, service-as-agent distributed frameworks, and goal-contract intake protocols.
 - Added a compact synthesis checkpoint for the 2026-06-25 intake batches that surfaced `GitNexus`, `go-micro`, `gpt-researcher`, `graphify`, `grant-thinking-*`, and `grok-skills` as controller-audited method candidates.
+- Extended the public-intake, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for team-architecture factories, healthcare-style domain role systems, local-first multi-agent workbenches, and self-improving agent runtimes.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -71,6 +72,10 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Content loops can contribute style, calendar, draft, review, and narrative-intent methods, but browser sessions, publishing, engagement, replies, follows, traffic reads, and account analytics remain separate account-action surfaces.
 - Clean-room specifications are useful intermediate artifacts between absorption and runtime implementation, but they do not authorize builds, runs, host-protocol registration, service exposure, or neutral-law promotion.
 - Markdown OS file-role separation supports the role-envelope thesis, but persistent instruction writes, skill generation, backend launch, and AI provider calls remain activation surfaces.
+- Team-architecture factories are useful proposal generators, but their named patterns, generated agents, skill files, and orchestrators are not runtime proof until dependency, fallback, and generated-quality paths are replayed.
+- Domain specialist role systems are package-shape evidence until workflow routing, evidence-pack semantics, safety boundaries, data modes, and external validation are independently reviewed. Internal scores are not independent validation.
+- Local-first multi-agent workbenches strengthen loop/state/gate design through worktree state boundaries and review surfaces, but visible PR/MR, merge, CI-fix, conflict-resolution, and account controls remain activation surfaces.
+- Self-improving agent runtimes must be split into memory/search, user modeling, skill creation, skill mutation, terminal backends, optional skills, and trajectory compression before adoption. Self-improvement language is not durable future-behavior authority.
 
 ## Next Step
 
@@ -83,6 +88,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay `role-skill-operating-package-review.md` on marketplace-scale catalog, observability sidecar, instruction-file lifecycle package, and knowledge-vault role package shapes.
 - Replay `role-skill-operating-package-review.md` on evidence-gated research, content workflow, clean-room spec-to-runtime, Markdown OS, and registry lifecycle package shapes.
 - Replay `agent-platform-lifecycle-review.md` on at least three lifecycle platform shapes: a self-evolution memory platform, a prompt/eval/observability platform, and a web-to-LLM ingestion platform.
+- Replay `agent-platform-lifecycle-review.md` on one self-improving runtime and one local-first coding-agent workbench to check whether state, review gates, and account-action boundaries stay separated.
 - Replay `code-intelligence-graph-runtime-review.md` on at least one typed knowledge-graph MCP runtime and compare graph query value against the smaller git-backed context-index pattern.
 - Replay `context-harness-loop-readiness-review.md` on at least one lean git-backed context package and one service-as-agent framework to decide when context storage is enough and when a fuller harness/runtime layer is actually warranted.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
@@ -105,3 +111,4 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Latest QClaw synthesis source range validated in this batch: controller-audited cycles `qclaw-tianlu-20260625-090703`, `qclaw-tianlu-20260625-093720`, `qclaw-tianlu-20260625-101323`, and `qclaw-tianlu-20260625-103711`.
 - Current QClaw synthesis source range pending validation in this batch: controller-audited successful cycles `qclaw-tianlu-20260625-110818`, `qclaw-tianlu-20260625-113649`, `qclaw-tianlu-20260625-120649`, and `qclaw-tianlu-20260625-124712`; controller-audited but synthesis-excluded cycle `qclaw-tianlu-20260625-123731` is intentionally excluded because the worker reply omitted one selected directory's evidence block.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260625-130800`, `qclaw-tianlu-20260625-133650`, `qclaw-tianlu-20260625-140654`, and `qclaw-tianlu-20260625-143708`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-005517`, `qclaw-tianlu-20260626-012519`, `qclaw-tianlu-20260626-015658`, and `qclaw-tianlu-20260626-025549`.

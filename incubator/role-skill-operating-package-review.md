@@ -42,6 +42,9 @@ Controller-audited public repository samples from the local short-worker loop in
 - meta-skill and domain-editing packages that compare baseline against with-skill output, keep result ledgers, revert regressions, preserve volume thresholds, maintain rolling summaries, and protect structured formats;
 - database, data-agent, and security packages that expose safe probes, cross-backend reasoning, session reuse, credential boundaries, exact fix formats, or prompt-injection targets while keeping real systems inactive.
 - compact contract-first skill packages that use a fixed question set to turn vague user intent into an executable, verifiable, and pausable goal contract across more than one coding host.
+- team-architecture factory packages that choose a named team pattern from a domain sentence, then emit agent, skill, orchestration, and validation surfaces while depending on runtime-specific team primitives.
+- domain role-system packages that combine many narrow specialist prompts, a workflow router, evidence-pack metadata, provenance modes, data-mode controls, safety boundaries, and an internal eval ledger.
+- local-first coding-agent workbench packages where isolated worktrees or branches, local storage, sidecar/IPC flows, native terminal sessions, diffs, and PR/MR actions define the operating package boundary.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -101,6 +104,12 @@ Review the package as an operating package before any activation:
    - Session memories, rolling summaries, workspace reuse, result ledgers, and context stores can improve continuity, but they also define retention, rollback, and owner-review obligations.
 13. Add eval coverage before promotion.
    - Test whether the role package improves routing and completion against a single-prompt baseline, while avoiding over-bundling, permission creep, and false completion.
+14. Treat generated team structures as proposal artifacts.
+   - Team patterns, generated agents, skill files, and orchestration templates can be useful role-envelope material, but runtime-specific primitives, generated quality, and fallback behavior require separate replay.
+15. Treat domain specialist counts as catalog evidence.
+   - A large role catalog, internal score, evidence-pack format, or workflow count can show package shape. It does not prove domain accuracy, professional authority, PHI/PII safety, billing correctness, legal compliance, or external validation.
+16. Treat workbench PR actions as gated surfaces.
+   - Per-task worktrees and local state are valuable state boundaries, but create-PR, merge, CI-fix, conflict-resolution, account connection, and remote-review actions remain activation surfaces.
 
 ## Initial Scope
 
@@ -131,6 +140,9 @@ Review the package as an operating package before any activation:
 - File-role laundering: a four-file governance model is treated as permission to write persistent instruction files, generate skills, launch local backends, or activate AI providers.
 - Gate laundering: a numeric threshold, score, rubric, or probe is treated as independent validation without replay.
 - State laundering: session reuse, rolling memory, or result ledgers are treated as permission to persist future behavior.
+- Generated-team laundering: a plausible team pattern is treated as proof that the generated role package works in the target runtime.
+- Domain-authority laundering: a specialist role pack is treated as medical, legal, compliance, coding, billing, or clinical authority because its catalog is large or internally scored.
+- Workbench-action laundering: branch/worktree isolation is treated as permission to open PRs, fix CI, resolve conflicts, or merge.
 
 ## Verification Needed
 
@@ -138,6 +150,7 @@ Review the package as an operating package before any activation:
 - Measure trigger precision, bundle completeness, context cost, acceptance or rejection rate, and boundary violations.
 - Add negative cases for large package counts, hook-based auto-activation, dispatch controllers, and reviewer gates.
 - Add negative cases for evidence-gated research packages, content automation packages, clean-room spec/runtime packages, and Markdown OS file-role governance packages.
+- Add negative cases for generated team factories, internally scored domain role systems, and local-first workbenches with visible PR/MR buttons.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 
