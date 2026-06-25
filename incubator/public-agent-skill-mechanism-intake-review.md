@@ -87,6 +87,8 @@ Role-envelope and bundled-skill surfaces:
 - `claude-skill-social-post`: content workflow package with style learning, calendar planning, draft generation, narrative-intent budgeting, cooldowns, and anti-generic-voice rules, while publishing and engagement remain account-action red lanes.
 - design-system diagram skill packages: semantic palette, pattern-specific layout law, multilingual sizing rules, and export-backend constraints embedded directly in the skill package.
 - staged design-composition skill packages: mandatory brief commitment, deterministic pre-render fit checks, and fixed-axis critique loops wrapped around generation.
+- frontend design skill packs: one-anchor-per-brief selection, CSS-token fidelity, and explicit content discipline so the screen cannot drift into filler or fabricated data.
+- preview-first presentation skill packs: generate visual previews, let the user choose, and keep progressive fallback templates available so style discovery does not depend on prose descriptions alone.
 - `Claude-Code-Game-Studios`: large role ecology with agent files, skill directories, hooks, path rules, templates, tiered delegation, escalation rules, and explicit human approval protocol.
 - `claude-code-infrastructure-showcase`: hook-routed skill infrastructure with trigger registry, progressive-disclosure skill layout, and resumable dev-doc state pattern.
 - `ClaudeForge`: instruction-file lifecycle package with `CLAUDE.md` creation, validation hooks, drift summaries, explicit sync/repair commands, and sibling-instruction import patterns.
@@ -101,6 +103,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - `agents`: canonical source with harness-native adapters and graceful degradation rules.
 - typed harness packages: explicit bundle composition across model, tools, skills, sandbox, and instructions, with session-versus-run semantics and first-class `plans/` and `blueprints/` surfaces.
 - secure portable skill runtimes: `SKILL.md` compiled into runnable agents with security policy, audit logging, and multi-target deployment kept as separate runtime surfaces.
+- presentation-driven skill discovery: style previews and curated preset lists act as a selection gate, but still need explicit content discipline and fallback handling.
 - `claude-code-dispatch`: dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces.
 - `claude-code-zero`: small plugin marketplace pattern that distinguishes full plugin installation from skills-only installation where hooks, agents, MCP servers, and scripts are omitted.
 - `claurst`: clean-room spec-to-runtime package with structured behavior, tool, UI, state, permission, command, and host-protocol specs before implementation crates.

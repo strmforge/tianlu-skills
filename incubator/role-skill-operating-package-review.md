@@ -28,6 +28,8 @@ Controller-audited public repository samples from the local short-worker loop in
 - knowledge-vault role packages that combine a skill suite, methodology modes, retrieval, bounded research, multi-writer locking, agents, scripts, tests, and seeded vault material.
 - design-system diagram skill packages that carry semantic palette, layout law, multilingual sizing, and export-backend constraints inside the skill itself;
 - staged design-composition packages that require a brief gate, a deterministic fit check, and a fixed-axis critique loop around generation;
+- frontend design skill packs that lock each brief to one anchor, preserve CSS-token fidelity, and keep content discipline separate from visual styling.
+- preview-first presentation skill packs that generate visual previews and keep a safe fallback template path so style discovery is visible rather than purely verbal.
 - typed harness packages that separate agent definition, session-versus-run semantics, sandboxes, plans, and blueprints as visible operating surfaces;
 - secure portable skill runtimes that compile skill definitions into runnable agents with egress, secrets, audit, and deployment surfaces called out explicitly;
 - multi-host projected role packages where canonical skill bodies are projected into `.agents`, `.claude`, `.gemini`, or similar runtime surfaces via thin pointers and small host policy files rather than duplicated skill content.
