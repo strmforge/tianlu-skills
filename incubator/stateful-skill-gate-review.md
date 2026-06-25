@@ -20,6 +20,8 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - a domain editing skill whose sampled protocol uses character-preservation thresholds, rolling summaries, terminology memory, and format-protection rules;
 - a database-security skill whose declared method distinguishes actual working configuration from merely present configuration;
 - data and code-execution platforms that make session, sandbox, context, credential, or persistence surfaces first-class.
+- a governance loop that classifies each incoming statement, keeps active decisions in external state, and injects a compact ground-truth block before every model call;
+- official and open-source eval frameworks that separate registry evals, custom evals, private evals, held-out gates, and replay-grade evaluation surfaces.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -51,6 +53,8 @@ Review stateful skills as gated operating loops:
    - Name the threshold, rubric, review condition, safe probe, baseline comparison, or acceptance test.
 2. Identify the state.
    - Name the memory file, session, workspace, context layer, rolling summary, lock, sandbox, or result ledger.
+2a. Identify whether state is injected or merely stored.
+   - External state only constrains future behavior when it is actually reintroduced at decision time.
 3. Identify the action.
    - Name what the skill changes, generates, edits, probes, scores, or reports.
 4. Identify the rollback or stop condition.
@@ -63,6 +67,8 @@ Review stateful skills as gated operating loops:
    - If source files disagree about counts, scope, metrics, or validation status, carry the conflict instead of normalizing it away.
 8. Add eval before promotion.
    - Replay the gate on small safe examples, compare against a single-prompt baseline, and add negative cases for fake thresholds and state laundering.
+9. Separate eval surfaces from gate authority.
+   - A registry, held-out slice, or private eval corpus can strengthen a method, but an eval surface still does not authorize runtime mutation or claim production fitness by itself.
 
 ## Initial Scope
 
@@ -75,6 +81,7 @@ Review stateful skills as gated operating loops:
 
 - Gate theater: a threshold is named but never measured.
 - State laundering: a memory file, session, or workspace is treated as permission to persist future behavior.
+- Injection theater: a state surface is named, but nothing proves it is re-injected before action.
 - Baseline theater: a with-skill output is praised without a comparable baseline.
 - Probe laundering: a safe-probe description is treated as permission to touch real systems.
 - Sandbox laundering: an isolated runtime claim is treated as proof of security, compliance, or execution fitness.
@@ -87,6 +94,7 @@ Review stateful skills as gated operating loops:
 - Replay on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
 - Compare against single-prompt baselines for output quality, evidence separation, and boundary handling.
 - Add negative eval cases where a named threshold has no measurement, a state file is treated as durable memory authority, and a safe-probe description becomes real-system access.
+- Add a negative case where state is stored but never injected, and another where an eval registry is mistaken for proof of production readiness.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

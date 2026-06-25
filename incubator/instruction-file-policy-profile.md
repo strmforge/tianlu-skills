@@ -21,6 +21,10 @@ Additional sample, read-only:
 - Repository shape at review time: static HTML, CSS, and JavaScript generator for files such as `AGENTS.md`, Cursor rules, GitHub Copilot instructions, and `CLAUDE.md`.
 - The README says the tool can be opened locally with no backend, build step, account, or API key. The generated files are still persistent agent-facing instructions and should be treated as drafts until reviewed.
 
+Controller-audited public repository samples on 2026-06-25 add:
+
+- a strict manifesto linter pattern that treats `SKILL.md`, `CLAUDE.md`, and `AGENTS.md` as command-bearing prose subject to pass/fail review rather than style-only linting.
+
 ## Proposed Trigger
 
 Use this candidate when a user, team, project, or agent wants to create or modify persistent instruction files such as:
@@ -53,6 +57,9 @@ Before writing or adopting an instruction-file profile:
 7. Treat generated instruction files as draft policy.
    - Generator output is convenient starting material, not authority.
    - Review the generated text for hidden assumptions, broad permissions, stale commands, private data, and runtime-specific claims before committing, copying to an autoload path, or relying on it in future agent sessions.
+8. Separate manifesto lint from harness validation.
+   - A policy file can be structurally loadable yet still be weak, bloated, or ambiguous as operator prose.
+   - Treat pass/fail instruction linting as a separate gate from plugin packaging, schema validation, or runtime discovery.
 
 ## Initial Scope
 
@@ -70,6 +77,7 @@ Before writing or adopting an instruction-file profile:
 - A project-local profile overrides safer global rules without an explicit conflict model.
 - Third-party profiles become supply-chain instructions when copied from posts, templates, or repositories.
 - Static generators make persistent instruction files look low-risk because they avoid backend execution, while the output can still alter future agent behavior.
+- Manifesto theater: a profile passes packaging or marketplace checks while remaining vague, padded, or behaviorally weak as agent-facing prose.
 
 ## Verification Needed
 

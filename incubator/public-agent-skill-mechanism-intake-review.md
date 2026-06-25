@@ -102,6 +102,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - `claurst`: clean-room spec-to-runtime package with structured behavior, tool, UI, state, permission, command, and host-protocol specs before implementation crates.
 - `claw-code`: agent harness sample that explicitly separates exhibit or parity-harness artifacts from production runtime repositories.
 - multi-host projected skill platforms: canonical skill bodies projected into host-specific surfaces such as `.agents`, `.claude`, `.gemini`, or similar directories through thin pointers, manifests, and small policy files; projection shape is source evidence only and does not prove behavior parity across hosts.
+- manifesto-lint packages: instruction-file linting as a separate pass/fail prose gate, distinct from packaging validation or runtime loadability.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -127,8 +128,10 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - creative case-library workflows: staged creative methods where a source corpus, lookup index, scoring references, and pre-exit review act as quality gates; source-count conflicts must be preserved instead of normalized.
 - three-axis research-method skills: prompt templates that separate longitudinal analysis, cross-sectional comparison, and intersection synthesis, including quick and deep variants.
 - meta-skill optimizers: baseline-versus-with-skill comparisons, independent scoring, result ledgers, and keep-or-revert gates for skill refinement.
+- active-state governance loops: classify each incoming statement before action, keep the current decision state outside the chat stream, and inject a compact ground-truth block on every model call so examples and hypotheticals do not silently mutate policy.
 - domain editing skills: measurable preservation thresholds, rolling paragraph summaries, terminology memory, and format-protection gates for long-form transformations.
 - experience-test generation skills: tests-as-second-truth framing, public-interface-only verification, internal-mock avoidance, replay-grade JSON logs, and explicit "not for" boundaries around unit-test theater and one-off debugging.
+- eval-surface packages: keep existing-registry evals, custom evals, private evals, held-out gates, and benchmark data surfaces separate from runtime execution authority.
 - database security audit skills: actual-versus-present configuration review, cross-backend reasoning, safe probes, scored reports, and exact fix formats, with real backend access remaining inactive.
 - cloud data-agent skills: per-message mode, attach-based session reuse, workspace/custom-agent support, credential-chain boundaries, and async/session isolation.
 - persona and theory-first skill packs: corpus-to-persona calibration, anti-bias rules, double-loop review, Socratic questioning, cybernetics framing, knowledge gardening, and narrative commit review as scoped method signals rather than truth claims.
@@ -148,6 +151,7 @@ Lifecycle platform and ingestion surfaces:
 - web-to-LLM ingestion tools: crawler, Markdown extraction, filtering, caching, progressive crawl state, security hardening, prompt-template, and egress surfaces that remain source-review-only until activation review.
 - terminal, computer-use, design-tool, and web-UI agent bridges: terminal coding clients, computer-use sandboxes, MCP-plus-plugin bridges, and web UIs expose useful runtime surfaces, but installs, sockets, plugins, hosted sessions, browser accounts, and design-tool access remain separate activation reviews.
 - data-engineering and AI-code execution platforms: evolvable context layers, schema/metric/reference-SQL knowledge bases, continuous learning loops, full-computer sandboxes, dedicated kernel/filesystem/network claims, and persistence surfaces should be separated before any adoption claim.
+- autoresearch orchestrators: tree-search loops over accepted branches, worktree-isolated parallel subagents, shared trace state, and inherited pass/fail gates as a stronger loop/state/gate package than plain single-branch retry.
 - security-testing platforms and vulnerable-agent benchmarks: role-based security skills, attack-chain analysis, prompt-injection targets, CTF origins, and C2-like surfaces are source-review signals only; offensive use, probing, credentials, implants, or live targets remain red-lane.
 
 ## Initial Scope

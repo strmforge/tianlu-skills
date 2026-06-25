@@ -34,6 +34,7 @@ Related umbrella: `agent-role-envelope-cycle-review.md`.
 - `https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents`
 - `C:\Users\56214\Documents\Codex\tianlu-skills\eval\expected-behavior.md`
 - `C:\Users\56214\Documents\Codex\tianlu-skills\eval\test-prompts.md`
+- controller-audited local public-repo samples from 2026-06-25 covering tree-search autoresearch loops, worktree-isolated parallel subagents, shared trace state, inherited pass/fail gates, and explicit eval-registry surfaces.
 
 ## Proposed Trigger
 
@@ -75,6 +76,8 @@ Before building a loop:
    - Keep concurrent edits isolated until merge time.
 7a. Prefer constructional isolation over verbal promises.
    - If a loop claims safe parallelism, look for structural boundaries such as per-lane worktrees, non-overlapping unit decomposition, and mandatory post-lane integration review rather than relying on "be careful" instructions alone.
+7b. Distinguish frontier state from plain retry loops.
+   - A stronger loop keeps a visible search frontier, branch history, or accepted-node ledger instead of only retrying the last attempt.
 8. Add connectors only when they reduce friction.
    - PRs, tickets, alerts, and summaries should flow through explicit tool boundaries.
 9. Recheck permissions and review cadence.
@@ -97,6 +100,7 @@ Before building a loop:
 - Token burn: retries and fan-out cost more than the task is worth.
 - Permission creep: small write permissions accumulate into broad authority.
 - Parallelism theater: a workflow advertises concurrent agents but lacks non-overlap rules, structural isolation, or mandatory integration review.
+- Frontier theater: a workflow claims search, exploration, or optimization but only retries serially with no accepted-node history or branch-selection rule.
 - Skill injection: unreviewed skills or prompts enter the loop as hidden behavior.
 - Log leakage: secrets or private data leak into verbose output and receipts.
 - Missing liveness contract: the loop stops, defers, or misses runs but is still treated as complete.
@@ -109,6 +113,7 @@ Before building a loop:
 - Confirm the hard gate catches bad output before any writeback.
 - Confirm stop conditions, resume target, and missed-run behavior.
 - Confirm the loop cannot claim completion just because it paused or timed out.
+- Confirm whether branch selection, keep-or-revert logic, and shared-state reuse are explicit or only rhetorical.
 
 ## Placement Candidates
 

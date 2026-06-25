@@ -27,6 +27,7 @@ Controller-audited public repository samples from the local short-worker loop in
 - instruction-file lifecycle packages where hooks check size or drift, but explicit repair commands perform mutating split, prune, or sync work;
 - knowledge-vault role packages that combine a skill suite, methodology modes, retrieval, bounded research, multi-writer locking, agents, scripts, tests, and seeded vault material.
 - multi-host projected role packages where canonical skill bodies are projected into `.agents`, `.claude`, `.gemini`, or similar runtime surfaces via thin pointers and small host policy files rather than duplicated skill content.
+- instruction-file packages that add a separate manifesto-lint or pass/fail prose-review surface on top of ordinary plugin packaging and loadability checks.
 - evidence-gated research role packages that preserve question cards, evidence records, claim strength, source fitness, non-upgraded wording, contradictions, and proposal readiness gates before research claims move into knowledge, writing, reports, drafts, or rebuttals;
 - content workflow packages that combine style learning, calendar planning, draft generation, traffic review, narrative-intent budgets, and anti-generic-voice rules while keeping browser sessions, publishing, engagement, replies, and traffic reads behind account-action gates;
 - clean-room spec-to-runtime packages that put behavioral, tool, UI, state, permission, command, and host-protocol specifications between source absorption and implementation modules;
@@ -80,6 +81,8 @@ Review the package as an operating package before any activation:
    - Statuslines, cost monitors, session viewers, sidecar memory services, and remote dashboards can improve loop control, but they also create retention, exposure, write, and remote-control surfaces.
 8. Treat instruction files as lifecycle artifacts.
    - `CLAUDE.md`, `AGENTS.md`, project memory, and role prompt files need size, drift, inheritance, and repair policies. A hook that warns is not the same as a command that mutates.
+8a. Treat manifesto lint as a package surface.
+   - A repo may expose explicit pass/fail review for instruction prose. That surface is valuable, but it is still source evidence until replayed on scoped examples.
 9. Treat evidence and spec artifacts as intermediate state.
    - Research contracts, evidence records, claim-promotion gates, and clean-room specs can carry neutralized knowledge forward, but they are not runtime execution proof, writing authority, or protocol activation proof.
 10. Treat content loops and file-generation tools as dual-surface packages.
@@ -111,6 +114,7 @@ Review the package as an operating package before any activation:
 - Scope laundering: a scoped package is promoted to neutral law because it looked coherent once.
 - Observability laundering: a dashboard, statusline, session viewer, or cost monitor is treated as authorization to run unattended loops.
 - Repair-hook confusion: a read/check hook is mistaken for safe automatic mutation of instruction files.
+- Loadability confusion: a package that can be discovered or installed is treated as if its instruction prose has already passed a quality gate.
 - Vault overreach: a knowledge-base role package with locks, retrieval, and tests is treated as safe to write local vaults, fetch the web, or activate hooks without review.
 - Claim-upgrade laundering: evidence records or source trust labels are treated as permission to strengthen uncertain claims into knowledge, reports, drafts, or rebuttals.
 - Content-action laundering: a useful content calendar or style-learning loop is treated as authority to open a real browser session, publish, reply, engage, or read account analytics.
