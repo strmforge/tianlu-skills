@@ -21,6 +21,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - lifecycle platforms that separate prompt development, evaluation, and observability;
 - visual agent builders that combine prompt, RAG, plugin, workflow, API, and deployment surfaces;
 - web-to-LLM Markdown crawlers with filtering, caching, API, progressive crawl, security, and prompt-template surfaces.
+- brain-layer memory platforms that combine well-cited answer synthesis, graph traversal, gap analysis, typed edges, overnight consolidation, and per-login company slices.
 - multi-host projected development platforms that carry canonical skill or review bodies into `.agents`, `.claude`, `.gemini`, or similar host surfaces via pointers and small runtime-specific policy files;
 - terminal coding agents, computer-use platforms, web UIs, and design-tool bridges that combine session state, LSP or tool context, MCP transports, plugins, WebSockets, and multi-runtime install paths;
 - data-engineering agents and code-execution infrastructure that advertise evolvable context, domain knowledge bases, sandboxed full-computer runtimes, persistence, and fast spin-up claims;
@@ -60,6 +61,8 @@ Review the platform as separate lifecycle planes before any adoption:
    - Trace capture, dashboards, intermediate results, and exception logs can reduce uncertainty, but do not authorize unattended loops, deployment, account access, or system writes.
 4. Treat memory and self-evolution as persistent behavior.
    - Memory tiers, nightly distillation, automatic skill improvement, and unfinished-task follow-up require source, retention, rollback, owner-review, and activation boundaries.
+4a. Treat synthesis layers as memory surfaces.
+   - If a platform says it gives the answer instead of the pages, and it couples that with typed graph edges, citation repair, or overnight consolidation, review the synthesis path as a lifecycle surface rather than as a search box.
 5. Treat visual builders as multi-surface products.
    - Prompt, RAG, plugin, workflow, database, API, SDK, model, deployment, and low-code surfaces each need their own authority and rollback review.
 6. Treat crawlers and web-to-LLM pipelines as ingestion systems.
