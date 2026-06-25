@@ -23,6 +23,9 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - data and code-execution platforms that make session, sandbox, context, credential, or persistence surfaces first-class.
 - a governance loop that classifies each incoming statement, keeps active decisions in external state, and injects a compact ground-truth block before every model call;
 - official and open-source eval frameworks that separate registry evals, custom evals, private evals, held-out gates, and replay-grade evaluation surfaces.
+- source-reviewed memory-as-learning architectures that separate retain, recall, and reflect operations, memory banks, extracted facts or relationships, benchmark surfaces, control planes, and generated clients;
+- source-reviewed design-system pipelines that treat extracted tokens, component tear-downs, contradiction flags, source-confidence levels, and screenshot or render validation as state and gates rather than as proof of final design quality;
+- source-reviewed cost-aware model routers that hold model tiers, cost tables, scoring weights, confidence thresholds, and override rules in config, then use routing decisions and stats as loop outputs.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -41,7 +44,9 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - a measurable threshold, score, rubric, or pass/fail gate;
 - a mandatory brief, fit check, weakest-axis critique, or other staged review loop around artifact generation;
 - a state file, memory bank, rolling summary, session reuse, or persisted context;
+- a memory-learning loop that claims to retain, recall, reflect, consolidate, or improve future behavior;
 - baseline-versus-enhanced comparison;
+- extracted design tokens, component inventories, confidence flags, contradiction ledgers, or model-tier routing policy;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -71,6 +76,10 @@ Review stateful skills as gated operating loops:
    - Replay the gate on small safe examples, compare against a single-prompt baseline, and add negative cases for fake thresholds and state laundering.
 9. Separate eval surfaces from gate authority.
    - A registry, held-out slice, or private eval corpus can strengthen a method, but an eval surface still does not authorize runtime mutation or claim production fitness by itself.
+10. Split learning, extraction, and routing claims into replayable state.
+   - Memory banks, design-token ledgers, source-confidence labels, model tiers, and cost stats are state candidates.
+   - They constrain future action only after the system shows where the state is read, injected, compared, and downgraded on conflict.
+   - Benchmark, savings, token-fidelity, and quality claims need independent replay or must stay source-review-only.
 
 ## Initial Scope
 
@@ -89,6 +98,8 @@ Review stateful skills as gated operating loops:
 - Sandbox laundering: an isolated runtime claim is treated as proof of security, compliance, or execution fitness.
 - Corpus laundering: case counts, quote libraries, or persona distillations are treated as truth without source and conflict review.
 - Metric laundering: claimed improvement numbers are repeated without replay, denominator, or failure cases.
+- Benchmark laundering: a memory, model-routing, or design pipeline benchmark is treated as independent validation without checking task scope, replay conditions, denominator, and negative cases.
+- Token-fidelity laundering: extracted colors, typography, component sheets, or model tiers are treated as output quality proof without visible replay against the brief or task.
 - Domain-action creep: a useful method in editing, security, data, design, or code execution becomes permission to use accounts, credentials, browsers, cloud services, or local runtimes.
 
 ## Verification Needed
@@ -97,6 +108,7 @@ Review stateful skills as gated operating loops:
 - Compare against single-prompt baselines for output quality, evidence separation, and boundary handling.
 - Add negative eval cases where a named threshold has no measurement, a state file is treated as durable memory authority, and a safe-probe description becomes real-system access.
 - Add a negative case where state is stored but never injected, and another where an eval registry is mistaken for proof of production readiness.
+- Add negative cases where benchmark text is treated as learning proof, extracted design tokens are treated as design proof, or a routing cost table is treated as savings proof.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

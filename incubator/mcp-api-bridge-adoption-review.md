@@ -19,6 +19,7 @@ The recurring risk is not one vendor or one runtime. It is the mistaken move fro
 - Round 379: Cloudflare Code Mode and MCP server documentation showed that a first-party server can expose a broad cloud API through a small `search`/`execute` interface, typed SDK code generation, sandboxed execution, OAuth, API tokens, portal policy, and settings such as `allow_code_mode`.
 - Round 387: Mitiga's Claude Code MCP token-theft research and Anthropic's MCP documentation showed that agent runtime MCP configuration can be a tool-routing and credential control plane. A package lifecycle hook or setup helper that rewrites MCP endpoints, server definitions, OAuth metadata, or startup behavior can persist or reseed attacker-selected routing even after package removal or token rotation.
 - Round 388: TrustFall reporting and related coding-agent documentation/advisories showed a distinct project-entry risk: a repository can carry project-scoped agent configuration such as MCP definitions, hooks, startup settings, or CI/headless settings. A broad folder/workspace trust prompt or headless trust default can be mistaken for approval to execute those project-defined agent surfaces.
+- Controller-audited public-source review on 2026-06-26 added a human-in-the-loop marketplace MCP shape: search, offer, listing, messaging, payment, review, profile, and agent-registration tools may appear as one convenient server surface, but each tool class crosses a different authority boundary.
 
 No installation, package download, MCP connection, OAuth flow, API-token entry, server start, or tool registration was performed during these reviews.
 
@@ -35,6 +36,7 @@ Use this candidate when an agent, user, repository, marketplace, vendor doc, or 
 - an archived, deprecated, unmaintained, registry-published, or reference MCP server;
 - a broad all-tools mode, read-only URL, per-tool allowlist, generated schema, or tool catalog;
 - a bridge that can touch infrastructure, repositories, DNS, storage, security controls, identity, billing, customer data, production data, account state, or browser/desktop automation.
+- a human-in-the-loop, marketplace, contractor, expert, support, or service-buying bridge that can create offers, job listings, messages, reviews, payments, profiles, or public representations.
 
 ## Proposed Mechanism
 
@@ -60,6 +62,9 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
    - Bind package identity, publisher, exact version, integrity, tarball or artifact URL, included and excluded files, lifecycle scripts, generated artifacts, source-to-artifact match, maintenance status, and no-secret install lane.
 10. Preserve receipts and rollback.
     - Record source URLs, versions, scopes, selected tools, denied tools, review decisions, commands not run, credentials not entered, cleanup, disable path, and residual risks.
+11. Split discovery, communication, payment, and reputation.
+    - Search or read-only marketplace discovery is not permission to contact people, reveal identity, create public listings, send messages, make offers, pay, release funds, verify domains, or leave reviews.
+    - Payment, review, and identity surfaces need separate actor, account, jurisdiction, refund, audit, and owner-approval records even when exposed by the same MCP server.
 
 ## Initial Scope
 
@@ -76,6 +81,7 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 
 - An official or first-party bridge is treated as permission to connect production accounts.
 - A two-tool or compressed interface is treated as minimal authority while it can reach thousands of backend operations.
+- A marketplace bridge is treated as a harmless helper because it is framed as human-in-the-loop, even though it can create legal, payment, reputation, privacy, or public-listing side effects.
 - Read-only labels or read-only URLs are assumed to cover generated code, SDK calls, hidden writes, browser automation, or account side effects.
 - OAuth success, API-token presence, portal login, or gateway authentication is treated as per-tool or per-resource authorization.
 - A server-id URL, hidden UI entry, or unguessable identifier is treated as an authorization boundary.
@@ -100,6 +106,7 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 - Confirm runtime MCP config paths, scope hierarchy, server definitions, endpoint URLs, commands, environment variables, OAuth metadata, selected tools, hooks, autoload or startup behavior, package lifecycle scripts, reseeding paths, and old/new config diffs.
 - Confirm project-scoped config paths and precedence, folder/workspace trust prompt text, interactive versus headless behavior, local server commands, package-manager commands, hooks, generated tool metadata, startup/autoload behavior, no-secret lane, command allowlist, sandbox and egress boundary, and negative tests before opening or running untrusted projects.
 - Confirm generated-code sandbox properties: network egress, external fetch, environment variables, filesystem, persistence, logs, package imports, timeout, and cancellation.
+- For marketplace or human-work bridges, confirm which tools are pure discovery versus identity, contact, offer, listing, message, payment, dispute, review, verification, or public-profile actions.
 - Confirm deny-by-default allowlist behavior and negative tests for unauthorized tools, other tenants, direct server-id URLs, and stale credentials.
 - Confirm rollback and disable paths for client config, runtime MCP config, server registration, OAuth grants, API tokens, package installs, generated files, hooks, logs, and caches.
 - Confirm that receipts preserve enough evidence to replay the adoption decision without exposing credentials, private account data, source code, or production data.

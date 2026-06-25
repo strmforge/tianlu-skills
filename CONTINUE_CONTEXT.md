@@ -39,6 +39,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the context-harness, code-intelligence, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for lean git-backed context indexes, typed code-graph MCP runtimes, service-as-agent distributed frameworks, and goal-contract intake protocols.
 - Added a compact synthesis checkpoint for the 2026-06-25 intake batches that surfaced `GitNexus`, `go-micro`, `gpt-researcher`, `graphify`, `grant-thinking-*`, and `grok-skills` as controller-audited method candidates.
 - Extended the public-intake, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for team-architecture factories, healthcare-style domain role systems, local-first multi-agent workbenches, and self-improving agent runtimes.
+- Extended the public-intake, stateful-gate, lifecycle-platform, local-provider-gateway, and MCP/API bridge incubators with controller-audited mechanisms for memory-as-learning systems, brand-to-design-system pipelines, human-in-the-loop marketplace bridges, and cost-aware model routers.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -76,6 +77,10 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Domain specialist role systems are package-shape evidence until workflow routing, evidence-pack semantics, safety boundaries, data modes, and external validation are independently reviewed. Internal scores are not independent validation.
 - Local-first multi-agent workbenches strengthen loop/state/gate design through worktree state boundaries and review surfaces, but visible PR/MR, merge, CI-fix, conflict-resolution, and account controls remain activation surfaces.
 - Self-improving agent runtimes must be split into memory/search, user modeling, skill creation, skill mutation, terminal backends, optional skills, and trajectory compression before adoption. Self-improvement language is not durable future-behavior authority.
+- Memory-as-learning systems must be split into retain, recall, reflect, benchmark, memory-bank, API/CLI, control-plane, and generated-client surfaces before adoption. Benchmark wording, client packages, or dashboards are not proof of accurate, private, reversible, or owner-approved future memory.
+- Brand-to-design-system pipelines can provide useful state surfaces through extracted tokens, component tear-downs, source-confidence flags, contradictions, and screenshot or render validation, but source extraction is not design-quality proof by itself.
+- Human-in-the-loop marketplaces and MCP bridges must split discovery, identity, contact, offer/listing creation, messaging, payment, dispute, review, and public-profile surfaces. A human-in-loop label does not make contact, payment, or reputation actions safe.
+- Cost-aware model routers can express model tiers, cost tables, weighted scoring, confidence thresholds, override rules, and stats as loop/state/gate surfaces. Savings, quality, provider behavior, and fallback correctness remain source-review-only until safe replay.
 
 ## Next Step
 
@@ -89,6 +94,9 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay `role-skill-operating-package-review.md` on evidence-gated research, content workflow, clean-room spec-to-runtime, Markdown OS, and registry lifecycle package shapes.
 - Replay `agent-platform-lifecycle-review.md` on at least three lifecycle platform shapes: a self-evolution memory platform, a prompt/eval/observability platform, and a web-to-LLM ingestion platform.
 - Replay `agent-platform-lifecycle-review.md` on one self-improving runtime and one local-first coding-agent workbench to check whether state, review gates, and account-action boundaries stay separated.
+- Replay memory-as-learning review on one retain/recall/reflect package and one self-improving runtime to check state injection, conflict handling, rollback, and owner-review boundaries.
+- Replay local-provider-gateway review on one cost-aware model router and one multi-provider gateway to compare scoring policy, capability metadata, cost reporting, and rollback behavior.
+- Replay MCP/API bridge review on one human-marketplace bridge to check discovery versus contact, listing, messaging, payment, and review boundaries.
 - Replay `code-intelligence-graph-runtime-review.md` on at least one typed knowledge-graph MCP runtime and compare graph query value against the smaller git-backed context-index pattern.
 - Replay `context-harness-loop-readiness-review.md` on at least one lean git-backed context package and one service-as-agent framework to decide when context storage is enough and when a fuller harness/runtime layer is actually warranted.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
@@ -112,3 +120,4 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Current QClaw synthesis source range pending validation in this batch: controller-audited successful cycles `qclaw-tianlu-20260625-110818`, `qclaw-tianlu-20260625-113649`, `qclaw-tianlu-20260625-120649`, and `qclaw-tianlu-20260625-124712`; controller-audited but synthesis-excluded cycle `qclaw-tianlu-20260625-123731` is intentionally excluded because the worker reply omitted one selected directory's evidence block.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260625-130800`, `qclaw-tianlu-20260625-133650`, `qclaw-tianlu-20260625-140654`, and `qclaw-tianlu-20260625-143708`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-005517`, `qclaw-tianlu-20260626-012519`, `qclaw-tianlu-20260626-015658`, and `qclaw-tianlu-20260626-025549`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-032513`, `qclaw-tianlu-20260626-035519`, `qclaw-tianlu-20260626-042543`, and `qclaw-tianlu-20260626-045758`.

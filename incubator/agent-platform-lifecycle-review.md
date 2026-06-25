@@ -31,6 +31,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - security-testing platforms and vulnerable-agent benchmarks that combine roles, skills, tools, C2-like surfaces, prompt-injection targets, and educational eval framing.
 - local-first coding-agent workbenches that combine per-task worktrees or branches, local databases, sidecars, streaming IPC, native terminal sessions, diff review, and PR/MR action surfaces;
 - self-improving agent runtimes that combine memory/search, user modeling, autonomous skill creation, skill self-improvement, optional skill catalogs, terminal backend abstraction, batch trajectory generation, and trajectory compression.
+- memory-as-learning systems that split retain, recall, and reflect operations across memory banks, extracted fact or relationship representations, API/CLI/control-plane surfaces, clients, and benchmark scripts.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction. For example, one self-evolution package had README support for a three-tier memory story, while a controller spot-check of its config surface only found flat self-evolution toggles and agent workspace/context settings, not proof of an explicit three-tier config schema.
 
@@ -94,6 +95,9 @@ Review the platform as separate lifecycle planes before any adoption:
    - A local-first workbench can make worktrees, diffs, terminals, and PR buttons visible as a lifecycle loop. That does not prove isolation quality, CI-fix correctness, merge safety, or account-action permission.
 14. Split self-improvement architecture into reviewable planes.
    - Treat memory/search, user modeling, skill creation, skill mutation, terminal backends, optional skills, and trajectory compression as distinct surfaces. None of them proves learning quality, future-behavior safety, or owner-approved persistence by itself.
+15. Split memory-learning claims from memory authority.
+   - Retain, recall, reflect, benchmark, control-plane, generated-client, and memory-bank surfaces should be reviewed separately.
+   - A system can describe learning over time without proving retention quality, conflict handling, privacy, rollback, or authority over future sessions.
 
 ## Initial Scope
 
@@ -121,6 +125,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Security-lab authority creep: a benchmark, lab, or authorized-testing phrase is treated as permission for offensive action.
 - Workbench merge laundering: visible PR, merge, CI-fix, or conflict-resolution controls are treated as if they had already been exercised safely.
 - Self-improvement authority creep: a system that can create or update skills is treated as if future behavior changes are approved, reversible, or high quality.
+- Memory-learning authority creep: benchmark wording, generated clients, or control-plane dashboards are treated as proof that durable memory is accurate, private, reversible, or fit to govern future actions.
 
 ## Verification Needed
 
@@ -130,6 +135,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Check whether crawler or ingestion claims preserve source role, egress, security, and compliance boundaries.
 - Check whether local-first workbench claims actually keep task state, branches, agents, and account actions separated under replay.
 - Check whether self-improvement claims include owner review, rollback, retention limits, skill provenance, and negative cases for regression.
+- Check whether memory-learning claims include source provenance, retention limits, conflict handling, recall quality, privacy boundaries, rollback, and owner review before influencing future behavior.
 - Add negative eval cases for platform-completeness claims, self-evolution as durable-memory authority, observability as validation, and crawler usefulness as web-action authority.
 - Decide whether this remains a supporting incubator note or becomes a productive platform-review playbook.
 
