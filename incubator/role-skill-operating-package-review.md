@@ -26,6 +26,10 @@ Controller-audited public repository samples from the local short-worker loop in
 - cost, token, session, and control-plane observability sidecars that expose burn rate, reset forecasts, session logs, remote-control surfaces, and config-write boundaries;
 - instruction-file lifecycle packages where hooks check size or drift, but explicit repair commands perform mutating split, prune, or sync work;
 - knowledge-vault role packages that combine a skill suite, methodology modes, retrieval, bounded research, multi-writer locking, agents, scripts, tests, and seeded vault material.
+- design-system diagram skill packages that carry semantic palette, layout law, multilingual sizing, and export-backend constraints inside the skill itself;
+- staged design-composition packages that require a brief gate, a deterministic fit check, and a fixed-axis critique loop around generation;
+- typed harness packages that separate agent definition, session-versus-run semantics, sandboxes, plans, and blueprints as visible operating surfaces;
+- secure portable skill runtimes that compile skill definitions into runnable agents with egress, secrets, audit, and deployment surfaces called out explicitly;
 - multi-host projected role packages where canonical skill bodies are projected into `.agents`, `.claude`, `.gemini`, or similar runtime surfaces via thin pointers and small host policy files rather than duplicated skill content.
 - instruction-file packages that add a separate manifesto-lint or pass/fail prose-review surface on top of ordinary plugin packaging and loadability checks.
 - evidence-gated research role packages that preserve question cards, evidence records, claim strength, source fitness, non-upgraded wording, contradictions, and proposal readiness gates before research claims move into knowledge, writing, reports, drafts, or rebuttals;

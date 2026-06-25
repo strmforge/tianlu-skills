@@ -15,6 +15,7 @@ This candidate is not an endorsement of unattended coding, automatic pull reques
 ## Source
 
 - User-shared Toutiao article dated 2026-06-23 about prompt, context, harness, and loop engineering.
+- Controller-audited public runtime samples showing typed harness composition, explicit session-versus-run semantics, durable `plans/` and `blueprints/` artifacts, and skill-definition-to-runtime compilation with security policy, audit logs, and deployment targets.
 - `incubator/loop-engineering-workflow-review.md`
 - `incubator/agent-role-envelope-cycle-review.md`
 - `laws/surface-agent-orchestration.md`
@@ -31,6 +32,7 @@ Use this candidate when a user, article, repo, tool, runtime, or team proposes t
 - project context documents;
 - schema, API, ADR, IAM, dependency, or deprecated-module knowledge;
 - worktrees, tests, lint, build, logs, or execution harnesses;
+- skill-definition compilers, sandboxes, plan or blueprint directories, or portable runtimes that look like they could justify unattended loops;
 - maker-checker agents or reviewer subagents;
 - scheduled, overnight, recurring, autonomous, or issue-scanning coding loops;
 - automatic pull requests, commits, pushes, merges, or review handoffs.
@@ -47,6 +49,7 @@ Before moving a task into a loop, classify which layer is actually missing.
    - Mark stale, inferred, generated, missing, and unverified context separately.
 3. Harness layer.
    - Define the execution harness contract: allowed tools, forbidden tools, worktree or sandbox path, test/lint/build gates, log capture, secret and credential boundary, network boundary, artifact paths, rollback, cleanup, and reviewer.
+   - If a repo or runtime already exposes explicit agent-definition, session, sandbox, plan, blueprint, compile, or deployment surfaces, treat those as harness evidence rather than as proof that loop authority already exists.
    - Treat the harness as a control surface, not as proof of safety.
 4. Loop layer.
    - Define automation trigger, state file, cursor, checkpoint cadence, maker-checker or verifier split, acceptance gate, stop conditions, liveness receipt, review queue, retry limit, cost budget, and escalation path.

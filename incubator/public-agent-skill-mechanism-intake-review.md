@@ -85,6 +85,8 @@ Role-envelope and bundled-skill surfaces:
 - `claude-blog`: commercial content skill suite with reviewer gates, multi-artifact output, agent roles, and substantial test surfaces.
 - `claude-scholar`: evidence-gated research role package with question cards, evidence records, source fitness, claim strength, wording boundaries, contradiction preservation, and claim or proposal promotion gates.
 - `claude-skill-social-post`: content workflow package with style learning, calendar planning, draft generation, narrative-intent budgeting, cooldowns, and anti-generic-voice rules, while publishing and engagement remain account-action red lanes.
+- design-system diagram skill packages: semantic palette, pattern-specific layout law, multilingual sizing rules, and export-backend constraints embedded directly in the skill package.
+- staged design-composition skill packages: mandatory brief commitment, deterministic pre-render fit checks, and fixed-axis critique loops wrapped around generation.
 - `Claude-Code-Game-Studios`: large role ecology with agent files, skill directories, hooks, path rules, templates, tiered delegation, escalation rules, and explicit human approval protocol.
 - `claude-code-infrastructure-showcase`: hook-routed skill infrastructure with trigger registry, progressive-disclosure skill layout, and resumable dev-doc state pattern.
 - `ClaudeForge`: instruction-file lifecycle package with `CLAUDE.md` creation, validation hooks, drift summaries, explicit sync/repair commands, and sibling-instruction import patterns.
@@ -97,6 +99,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - `agentic-os`: prompt and rule guidance backed by validators, hooks, CI, and evidence logs.
 - `agent-runbook`: YAML runbook as source of truth compiled into skill artifacts with build-time contract checks.
 - `agents`: canonical source with harness-native adapters and graceful degradation rules.
+- typed harness packages: explicit bundle composition across model, tools, skills, sandbox, and instructions, with session-versus-run semantics and first-class `plans/` and `blueprints/` surfaces.
+- secure portable skill runtimes: `SKILL.md` compiled into runnable agents with security policy, audit logging, and multi-target deployment kept as separate runtime surfaces.
 - `claude-code-dispatch`: dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces.
 - `claude-code-zero`: small plugin marketplace pattern that distinguishes full plugin installation from skills-only installation where hooks, agents, MCP servers, and scripts are omitted.
 - `claurst`: clean-room spec-to-runtime package with structured behavior, tool, UI, state, permission, command, and host-protocol specs before implementation crates.
@@ -128,6 +132,7 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - creative case-library workflows: staged creative methods where a source corpus, lookup index, scoring references, and pre-exit review act as quality gates; source-count conflicts must be preserved instead of normalized.
 - three-axis research-method skills: prompt templates that separate longitudinal analysis, cross-sectional comparison, and intersection synthesis, including quick and deep variants.
 - meta-skill optimizers: baseline-versus-with-skill comparisons, independent scoring, result ledgers, and keep-or-revert gates for skill refinement.
+- staged design-composition gates: mandatory design brief, deterministic fit check, and weakest-axis-first post-render critique loops around artifact generation.
 - active-state governance loops: classify each incoming statement before action, keep the current decision state outside the chat stream, and inject a compact ground-truth block on every model call so examples and hypotheticals do not silently mutate policy.
 - domain editing skills: measurable preservation thresholds, rolling paragraph summaries, terminology memory, and format-protection gates for long-form transformations.
 - experience-test generation skills: tests-as-second-truth framing, public-interface-only verification, internal-mock avoidance, replay-grade JSON logs, and explicit "not for" boundaries around unit-test theater and one-off debugging.

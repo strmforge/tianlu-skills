@@ -15,6 +15,7 @@ This candidate keeps that pattern in incubation. It is not an endorsement of any
 Controller-audited local QClaw short-worker receipts from 2026-06-25 include source-review evidence for:
 
 - a creative workflow whose case-library calibration is used as a quality gate, while exact case counts conflict across source files;
+- a design-composition skill whose protocol requires a brief gate, a deterministic pre-render defect check, and a fixed-axis post-render critique before another generation pass;
 - a research-method skill whose prompt template explicitly separates longitudinal analysis, cross-sectional analysis, and intersection synthesis;
 - a meta-skill optimizer whose sampled protocol compares baseline output against with-skill output, logs results, and keeps or reverts changes;
 - a domain editing skill whose sampled protocol uses character-preservation thresholds, rolling summaries, terminology memory, and format-protection rules;
@@ -38,6 +39,7 @@ Related Tianlu candidates:
 Use this candidate when a public skill, internal role, or agent workflow claims to improve quality through one or more of these surfaces:
 
 - a measurable threshold, score, rubric, or pass/fail gate;
+- a mandatory brief, fit check, weakest-axis critique, or other staged review loop around artifact generation;
 - a state file, memory bank, rolling summary, session reuse, or persisted context;
 - baseline-versus-enhanced comparison;
 - safe probe, rollback, canary, dry run, or reversible execution;
