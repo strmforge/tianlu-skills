@@ -73,6 +73,8 @@ Before building a loop:
    - The same model should not be the only judge of its own output.
 7. Use worktrees for parallel lanes.
    - Keep concurrent edits isolated until merge time.
+7a. Prefer constructional isolation over verbal promises.
+   - If a loop claims safe parallelism, look for structural boundaries such as per-lane worktrees, non-overlapping unit decomposition, and mandatory post-lane integration review rather than relying on "be careful" instructions alone.
 8. Add connectors only when they reduce friction.
    - PRs, tickets, alerts, and summaries should flow through explicit tool boundaries.
 9. Recheck permissions and review cadence.
@@ -94,6 +96,7 @@ Before building a loop:
 - Cognitive surrender: human review disappears because the loop feels productive.
 - Token burn: retries and fan-out cost more than the task is worth.
 - Permission creep: small write permissions accumulate into broad authority.
+- Parallelism theater: a workflow advertises concurrent agents but lacks non-overlap rules, structural isolation, or mandatory integration review.
 - Skill injection: unreviewed skills or prompts enter the loop as hidden behavior.
 - Log leakage: secrets or private data leak into verbose output and receipts.
 - Missing liveness contract: the loop stops, defers, or misses runs but is still treated as complete.

@@ -20,11 +20,13 @@ Controller-audited public repository samples from the local short-worker loop in
 - staged creative-production and commercial content suites with routed skills, domain corpora, quality gates, reviewer gates, and tests;
 - a large role ecology with many agent files, skill directories, path rules, hooks, templates, tiered delegation, escalation rules, and explicit human approval protocol;
 - a dispatch controller pattern with task metadata, callbacks, worktree isolation, cost controls, hooks, and red-lane runtime surfaces;
+- a parallel implementation orchestrator pattern with dependency-ordered batches, self-contained specs, worktree isolation by construction, bounded retries, and mandatory post-execution integration review;
 - a hook-routed skill infrastructure sample with `skill-rules.json`, prompt/file trigger metadata, `UserPromptSubmit`, `PostToolUse`, and `Stop` hooks, progressive-disclosure skills, and resumable dev docs.
 - marketplace-scale skill and plugin catalogs with structured specs, category folders, metadata, validation scripts, release notes, web browsing surfaces, and visible install paths;
 - cost, token, session, and control-plane observability sidecars that expose burn rate, reset forecasts, session logs, remote-control surfaces, and config-write boundaries;
 - instruction-file lifecycle packages where hooks check size or drift, but explicit repair commands perform mutating split, prune, or sync work;
 - knowledge-vault role packages that combine a skill suite, methodology modes, retrieval, bounded research, multi-writer locking, agents, scripts, tests, and seeded vault material.
+- multi-host projected role packages where canonical skill bodies are projected into `.agents`, `.claude`, `.gemini`, or similar runtime surfaces via thin pointers and small host policy files rather than duplicated skill content.
 - evidence-gated research role packages that preserve question cards, evidence records, claim strength, source fitness, non-upgraded wording, contradictions, and proposal readiness gates before research claims move into knowledge, writing, reports, drafts, or rebuttals;
 - content workflow packages that combine style learning, calendar planning, draft generation, traffic review, narrative-intent budgets, and anti-generic-voice rules while keeping browser sessions, publishing, engagement, replies, and traffic reads behind account-action gates;
 - clean-room spec-to-runtime packages that put behavioral, tool, UI, state, permission, command, and host-protocol specifications between source absorption and implementation modules;
@@ -72,6 +74,8 @@ Review the package as an operating package before any activation:
    - The package can be a useful composed variant without becoming neutral law.
 6. Require activation review for executable surfaces.
    - Hooks, scripts, package installs, MCP servers, browser or account access, callbacks, scheduled loops, broad permissions, commits, pushes, and external services need separate scoped approval.
+6a. Separate projection from parity.
+   - A host-specific pointer, manifest, or settings file can prove projection into another runtime surface. It does not prove equivalent skill loading, permissions, execution semantics, or review behavior across hosts.
 7. Treat observability as a governor, not permission.
    - Statuslines, cost monitors, session viewers, sidecar memory services, and remote dashboards can improve loop control, but they also create retention, exposure, write, and remote-control surfaces.
 8. Treat instruction files as lifecycle artifacts.
@@ -103,6 +107,7 @@ Review the package as an operating package before any activation:
 - Loop without liveness: dispatch or scheduled work runs without state, stop conditions, verifier, or human checkpoint.
 - Self-validation: the same package that produces work also declares it accepted.
 - Permission bleed: worktree or package boundaries are mistaken for browser, account, secret, MCP, or filesystem isolation.
+- Projection laundering: several host folders or pointer files are treated as proof of multi-runtime compatibility without replay in each host.
 - Scope laundering: a scoped package is promoted to neutral law because it looked coherent once.
 - Observability laundering: a dashboard, statusline, session viewer, or cost monitor is treated as authorization to run unattended loops.
 - Repair-hook confusion: a read/check hook is mistaken for safe automatic mutation of instruction files.

@@ -28,6 +28,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the public mechanism intake groups with controller-audited graph-backed code intelligence runtimes, auto-detect wiring, incremental reparse loops, and blast-radius query surfaces.
 - Extended the public mechanism intake groups with controller-audited lifecycle agent platforms, self-evolution and memory claims, prompt/eval/observability planes, visual builder surfaces, curriculum indexes, and web-to-LLM ingestion pipelines.
 - Extended the public mechanism intake groups with controller-audited stateful gates, comparison protocols, domain editing controls, database safe-probe patterns, cloud data-agent session boundaries, runtime bridges, data-engineering context layers, code-execution sandboxes, security-testing platforms, and vulnerable-agent benchmarks.
+- Extended the public mechanism intake groups with controller-audited parallel implementation orchestrators, multi-host projected skill platforms, public-interface experience-test methods, curl-only integration packs, finance-research role packages, and medical-domain skill packs.
+- Added a new incubator candidate: `incubator/public-interface-experience-test-review.md`
 - Added eval coverage for research evidence gates, content workflow account-action boundaries, clean-room spec/runtime activation boundaries, and Markdown OS persistent-write/backend/provider boundaries.
 - The latest synthesis push also wrote `incubator/code-intelligence-graph-runtime-review.md` and updated `incubator/README.md` to route the new intake note from the incubator index.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
@@ -44,6 +46,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - A graph-backed code intelligence runtime should be treated as scoped source evidence until its graph/query boundary, auto-detect wiring, incremental update behavior, and reversible install path are independently reviewed. Token-reduction and blast-radius claims are package-shape evidence, not activation proof.
 - A lifecycle agent platform should be treated as scoped source evidence until prompt development, evaluation, observability, memory, self-evolution, workflow, builder, deployment, and ingestion surfaces are separated and independently reviewed. Platform completeness, commercial origin, star count, hosted availability, or self-evolution language are not activation proof.
 - A stateful skill gate should be treated as scoped source evidence until its gate, state surface, action, rollback or stop condition, and baseline comparison are independently reviewed. Thresholds, scores, safe probes, improvement numbers, memory files, session reuse, sandboxes, and context stores are not validation or activation proof by themselves.
+- A multi-host projected platform should be treated as scoped source evidence until pointer files, host-specific settings, canonical skill bodies, and behavior parity across hosts are independently reviewed. Projection intent is not portability proof.
+- Public-interface experience tests should be treated as scoped source evidence until replay logs, interface boundaries, mock boundaries, and refactor-guardrail value are independently reviewed. Generated tests are not validation proof by themselves.
 - Observability sidecars and status dashboards can govern loop cost and liveness, but do not authorize unattended execution, remote control, config mutation, or session exposure.
 - Instruction files are governed lifecycle artifacts. Hooks may provide feedback; mutating repairs such as pruning, splitting, or sync require an explicit command and separate approval boundary.
 - Knowledge-vault role packages strengthen the role-name plus skills plus workflow plus memory/retrieval thesis, but vault writes, web research, hooks, locks, and setup scripts remain inactive until activation review.
@@ -64,6 +68,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay `role-skill-operating-package-review.md` on evidence-gated research, content workflow, clean-room spec-to-runtime, Markdown OS, and registry lifecycle package shapes.
 - Replay `agent-platform-lifecycle-review.md` on at least three lifecycle platform shapes: a self-evolution memory platform, a prompt/eval/observability platform, and a web-to-LLM ingestion platform.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
+- Replay `public-interface-experience-test-review.md` on one API-doc example, one product-spec example, and one protocol-spec example.
+- Replay multi-host projected platform review on at least one `.agents`/`.claude`/`.gemini` projection set and compare projection intent against actual host behavior.
 - Decide whether role-skill operating package review should stay as an incubator note, merge into role-envelope review, or become a productive review playbook.
 
 ## Validation
@@ -78,3 +84,4 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Current QClaw synthesis source range pending validation in this batch: controller-audited cycles `qclaw-tianlu-20260625-022635`, `qclaw-tianlu-20260625-025356`, `qclaw-tianlu-20260625-032424`, and `qclaw-tianlu-20260625-035402`.
 - Latest QClaw synthesis source range pending validation in this batch: controller-audited cycles `qclaw-tianlu-20260625-053918`, `qclaw-tianlu-20260625-060621`, low-signal `qclaw-tianlu-20260625-070647`, and `qclaw-tianlu-20260625-071119`; low-signal cycles contribute no imported mechanism.
 - Current QClaw synthesis source range pending validation in this batch: controller-audited cycles `qclaw-tianlu-20260625-073746`, `qclaw-tianlu-20260625-080652`, `qclaw-tianlu-20260625-081335`, and `qclaw-tianlu-20260625-083901`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited cycles `qclaw-tianlu-20260625-090703`, `qclaw-tianlu-20260625-093720`, `qclaw-tianlu-20260625-101323`, and `qclaw-tianlu-20260625-103711`.

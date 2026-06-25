@@ -101,6 +101,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - `claude-code-zero`: small plugin marketplace pattern that distinguishes full plugin installation from skills-only installation where hooks, agents, MCP servers, and scripts are omitted.
 - `claurst`: clean-room spec-to-runtime package with structured behavior, tool, UI, state, permission, command, and host-protocol specs before implementation crates.
 - `claw-code`: agent harness sample that explicitly separates exhibit or parity-harness artifacts from production runtime repositories.
+- multi-host projected skill platforms: canonical skill bodies projected into host-specific surfaces such as `.agents`, `.claude`, `.gemini`, or similar directories through thin pointers, manifests, and small policy files; projection shape is source evidence only and does not prove behavior parity across hosts.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -127,6 +128,7 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - three-axis research-method skills: prompt templates that separate longitudinal analysis, cross-sectional comparison, and intersection synthesis, including quick and deep variants.
 - meta-skill optimizers: baseline-versus-with-skill comparisons, independent scoring, result ledgers, and keep-or-revert gates for skill refinement.
 - domain editing skills: measurable preservation thresholds, rolling paragraph summaries, terminology memory, and format-protection gates for long-form transformations.
+- experience-test generation skills: tests-as-second-truth framing, public-interface-only verification, internal-mock avoidance, replay-grade JSON logs, and explicit "not for" boundaries around unit-test theater and one-off debugging.
 - database security audit skills: actual-versus-present configuration review, cross-backend reasoning, safe probes, scored reports, and exact fix formats, with real backend access remaining inactive.
 - cloud data-agent skills: per-message mode, attach-based session reuse, workspace/custom-agent support, credential-chain boundaries, and async/session isolation.
 - persona and theory-first skill packs: corpus-to-persona calibration, anti-bias rules, double-loop review, Socratic questioning, cybernetics framing, knowledge gardening, and narrative commit review as scoped method signals rather than truth claims.
@@ -160,6 +162,7 @@ Lifecycle platform and ingestion surfaces:
 - Mechanism laundering: a worker summary becomes neutral method without controller verification.
 - Repo-name worship: a famous repo or popular article is treated as evidence of local fitness.
 - Runtime bleed: install instructions, scripts, credentials, schedules, hooks, or account actions leak into Tianlu as if they were approved behavior.
+- Host projection theater: multiple host directories are treated as proof that one canonical skill works equivalently in every runtime.
 - Over-generalization: a single scoped repo becomes a broad law before replay evidence.
 - Registry flattening: large lists are treated as one method instead of structured absorb-layer input.
 - Eval theater: a repo's own eval, badge, or benchmark is treated as independent validation without checking scope and negative cases.

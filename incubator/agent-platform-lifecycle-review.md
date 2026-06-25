@@ -21,6 +21,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - lifecycle platforms that separate prompt development, evaluation, and observability;
 - visual agent builders that combine prompt, RAG, plugin, workflow, API, and deployment surfaces;
 - web-to-LLM Markdown crawlers with filtering, caching, API, progressive crawl, security, and prompt-template surfaces.
+- multi-host projected development platforms that carry canonical skill or review bodies into `.agents`, `.claude`, `.gemini`, or similar host surfaces via pointers and small runtime-specific policy files;
 - terminal coding agents, computer-use platforms, web UIs, and design-tool bridges that combine session state, LSP or tool context, MCP transports, plugins, WebSockets, and multi-runtime install paths;
 - data-engineering agents and code-execution infrastructure that advertise evolvable context, domain knowledge bases, sandboxed full-computer runtimes, persistence, and fast spin-up claims;
 - security-testing platforms and vulnerable-agent benchmarks that combine roles, skills, tools, C2-like surfaces, prompt-injection targets, and educational eval framing.
@@ -71,6 +72,8 @@ Review the platform as separate lifecycle planes before any adoption:
    - Compare lifecycle-platform review against a smaller role-package review and a single-tool intake baseline on routing precision, evidence separation, activation boundary handling, and false completion.
 10. Split runtime bridges from lifecycle proof.
    - Terminal clients, web UIs, MCP/plugin bridges, computer-use drivers, and design-tool connectors can be useful runtime surfaces, but sockets, plugins, local servers, browser sessions, and design-tool access are activation surfaces.
+10a. Split host projection from host parity.
+   - A projected `.agents`, `.claude`, `.gemini`, or similar host surface can show portability intent, but it does not prove that hooks, permissions, skill lookup, or runtime behavior are equivalent across hosts.
 11. Split sandbox and context claims from security proof.
    - Dedicated kernels, isolated filesystems, evolving context layers, and persistence claims describe architecture. They do not prove safety, correctness, compliance, or local fitness without replay.
 12. Split security-lab framing from authorization.
@@ -93,6 +96,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Crawler compliance overreach: web-to-Markdown usefulness is treated as permission to crawl accounts, bypass access controls, use CAPTCHA or proxy services, retain data, or publish extracted content.
 - Curriculum-runtime confusion: educational course order is treated as a validated runtime workflow.
 - Proof by popularity: stars, user counts, commercial origin, or hosted availability are treated as independent validation.
+- Projection theater: several host-specific directories are treated as proof that one platform is behaviorally portable everywhere.
 - Schema theater: named memory tiers, eval dimensions, or workflow modules are repeated without checking where they exist in code, config, docs, or runtime behavior.
 - Source-to-law jump: one strong platform becomes neutral Tianlu law without replay, negative cases, or adapter review.
 - Bridge activation creep: connector shape is treated as permission to start sockets, install plugins, or connect a design tool.
