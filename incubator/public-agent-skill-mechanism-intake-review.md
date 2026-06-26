@@ -123,6 +123,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - cost-aware model routers: tiered model catalogs, cost metadata, weighted scoring, confidence thresholds, override rules, user-message-only scoring, and health or stats endpoints form a loop/state/gate package; savings, quality, and provider behavior remain unproven until replay.
 - human-in-the-loop marketplace bridges: a single MCP or connector surface may expose discovery, offers, listings, messages, payments, reviews, profiles, and registration; discovery is not authority for contact, payment, public listing, identity, or reputation actions.
 - personal-agent runtime packages: provider catalogs, config roots, profile modes, host-access prompts, WebUI/OAuth boundaries, sandbox policies, channel registries, jobs, routines, and tool catalogs can be reviewed as separate loop/state/gate surfaces; secure-runtime branding is not safety proof.
+- observability and containment control planes: telemetry, traces, scores, prompt versions, packet captures, snapshots, MCP observers, container mounts, environment forwarding, policy files, and dashboards can be reviewed as loop/state/gate surfaces; visibility and containment architecture are not validation, security proof, or activation authority.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -146,6 +147,7 @@ State, memory, isolation, and portability surfaces:
 - self-improving agent architectures: memory/search, user modeling, skill creation, skill self-improvement, terminal backends, and trajectory compression can be reviewed as separate state, loop, gate, and research-output surfaces; self-improvement language is not durable-memory authority.
 - memory-as-learning architectures: retain, recall, reflect, memory banks, extracted facts or relationships, benchmark scripts, API/CLI/control planes, and generated clients can be reviewed as state and lifecycle surfaces; benchmark wording is not future-behavior authority.
 - portable profile packages: compact personal profiles, preference layers, project facts, lesson stores, mutation rules, decay rules, conflict types, and host projection files can be reviewed as state and governance surfaces; projection into many hosts is not proof of parity or memory authority.
+- telemetry and containment packages: traces, metrics, captures, snapshots, policy files, mount prompts, environment forwarding, and control UIs can be reviewed as state and gate surfaces; no capture, enforcement, dashboard, or container claim should be promoted without safe replay.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 

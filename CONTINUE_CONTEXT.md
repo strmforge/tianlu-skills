@@ -41,6 +41,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the public-intake, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for team-architecture factories, healthcare-style domain role systems, local-first multi-agent workbenches, and self-improving agent runtimes.
 - Extended the public-intake, stateful-gate, lifecycle-platform, local-provider-gateway, and MCP/API bridge incubators with controller-audited mechanisms for memory-as-learning systems, brand-to-design-system pipelines, human-in-the-loop marketplace bridges, and cost-aware model routers.
 - Extended the public-intake, stateful-gate, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for portable profile packages, personal-agent runtime packages, vertical finance strategy packs, and high-risk security assessment packs.
+- Added a new incubator candidate: `incubator/observability-containment-control-plane-review.md`
+- Added a compact synthesis checkpoint for controller-audited observability and containment control planes: hardware/fleet telemetry, Kubernetes/network capture, LLM trace/eval/prompt platforms, and coding-agent container/policy wrappers.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -86,6 +88,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Personal-agent runtimes must split provider catalogs, config roots, host-access modes, WebUI/OAuth boundaries, sandbox claims, channels, jobs, routines, tool registries, and workspace memory before adoption. Secure or personal-agent branding is not credential, host, sandbox, or prompt-injection safety proof.
 - Vertical finance strategy packs can provide progressive disclosure, API reference shards, templates, factor stores, lint gates, and user-run replay boundaries, but no lint or template proves financial safety, market-data authority, backtest realism, trading authority, or advice quality.
 - Security assessment packs can contribute authorization, scope, depth, environment, coverage, stop-condition, zero-findings fallback, and report-evidence gates, but repository authorization text is not permission for live target probing, exploitation, credential testing, wireless/cloud/ICS activity, or external mutation.
+- Observability and containment control planes can contribute state inventory, trace or capture review, eval and policy gates, retention/redaction checks, and negative-test requirements, but traces, dashboards, packets, scores, containers, bind mounts, MCP observers, and policy engines are not correctness, completeness, security, compliance, or activation proof.
 
 ## Next Step
 
@@ -104,6 +107,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay MCP/API bridge review on one human-marketplace bridge to check discovery versus contact, listing, messaging, payment, and review boundaries.
 - Replay stateful-skill-gate review on one portable profile package, one finance strategy package, and one security assessment package to check mutation, advice, authorization, and activation boundaries.
 - Replay agent-platform-lifecycle review on one personal-agent runtime to verify provider/config/WebUI/OAuth/sandbox/job/tool separation before any adoption.
+- Replay `observability-containment-control-plane-review.md` on one telemetry package, one LLM observability/eval package, and one containment-policy package to check state capture, gate enforcement, retention, redaction, rollback, and false-positive/false-negative behavior.
 - Replay `code-intelligence-graph-runtime-review.md` on at least one typed knowledge-graph MCP runtime and compare graph query value against the smaller git-backed context-index pattern.
 - Replay `context-harness-loop-readiness-review.md` on at least one lean git-backed context package and one service-as-agent framework to decide when context storage is enough and when a fuller harness/runtime layer is actually warranted.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
@@ -129,3 +133,4 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-005517`, `qclaw-tianlu-20260626-012519`, `qclaw-tianlu-20260626-015658`, and `qclaw-tianlu-20260626-025549`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-032513`, `qclaw-tianlu-20260626-035519`, `qclaw-tianlu-20260626-042543`, and `qclaw-tianlu-20260626-045758`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-052607`, `qclaw-tianlu-20260626-055621`, `qclaw-tianlu-20260626-062557`, and `qclaw-tianlu-20260626-065548`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-072549`, `qclaw-tianlu-20260626-075600`, `qclaw-tianlu-20260626-082740`, and `qclaw-tianlu-20260626-085654`.

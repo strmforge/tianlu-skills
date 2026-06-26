@@ -29,6 +29,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed portable profile packages that use onboarding, mutation, decay, conflict resolution, and host-projection files as state and gates rather than as durable memory authority;
 - source-reviewed vertical finance strategy packs that use API reference shards, templates, lint rules, factor stores, and user-run backtest boundaries as state and gates rather than as trading, advice, or market-data authority;
 - source-reviewed security assessment packs that use authorization, scope, depth, coverage matrices, zero-findings fallbacks, stop conditions, and report evidence as gates rather than as permission to probe live targets.
+- source-reviewed observability and containment packages that use traces, metrics, scores, prompt versions, packet captures, snapshots, container mounts, environment forwarding, policy files, and MCP/tool-call telemetry as state and gates rather than as validation, security proof, or activation authority.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -53,6 +54,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - portable profile layers, conflict ledgers, decay rules, host projection surfaces, or owner-reviewed mutation gates;
 - vertical API reference shards, domain templates, lint policies, strategy or report ledgers, or user-run replay boundaries;
 - authorization/scope gates, assessment depth levels, coverage matrices, zero-finding escalation rules, or evidence report templates;
+- trace, metric, packet, snapshot, score, prompt-version, policy, mount, or telemetry surfaces used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -90,6 +92,9 @@ Review stateful skills as gated operating loops:
    - Security, finance, account, and personal-profile packages can expose strong gate designs.
    - Gate design does not authorize external action, target access, account use, credential handling, persistent profile mutation, or professional advice.
    - Before activation, require a scoped owner decision, safe replay path, rollback, and evidence of which state is read and written.
+12. Split observability and containment gates from proof.
+   - Traces, scores, metrics, captures, snapshots, mounts, policies, and telemetry can help review state and gate behavior.
+   - They do not prove completeness, correctness, privacy, containment, or security until replayed with false-positive, false-negative, rollback, retention, and redaction checks.
 
 ## Initial Scope
 
@@ -112,6 +117,7 @@ Review stateful skills as gated operating loops:
 - Token-fidelity laundering: extracted colors, typography, component sheets, or model tiers are treated as output quality proof without visible replay against the brief or task.
 - Domain-action creep: a useful method in editing, security, data, design, or code execution becomes permission to use accounts, credentials, browsers, cloud services, or local runtimes.
 - Authorization theater: a repository warning, scope form, or user-says-authorized phrase is treated as real permission for live security, finance, account, or profile-mutation action.
+- Observability/containment theater: a dashboard, trace, packet capture, container wrapper, MCP observer, or policy file is treated as validated gate behavior without replay.
 
 ## Verification Needed
 
@@ -121,6 +127,7 @@ Review stateful skills as gated operating loops:
 - Add a negative case where state is stored but never injected, and another where an eval registry is mistaken for proof of production readiness.
 - Add negative cases where benchmark text is treated as learning proof, extracted design tokens are treated as design proof, or a routing cost table is treated as savings proof.
 - Add negative cases where a portable profile is treated as automatic cross-host memory, a strategy lint script is treated as financial safety, or an authorization checklist is treated as permission to scan a target.
+- Add negative cases where traces are treated as correctness proof, container policy is treated as security proof, or packet/tool-call capture is treated as harmless read-only work.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

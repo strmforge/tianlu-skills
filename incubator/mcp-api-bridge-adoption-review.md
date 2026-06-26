@@ -20,6 +20,7 @@ The recurring risk is not one vendor or one runtime. It is the mistaken move fro
 - Round 387: Mitiga's Claude Code MCP token-theft research and Anthropic's MCP documentation showed that agent runtime MCP configuration can be a tool-routing and credential control plane. A package lifecycle hook or setup helper that rewrites MCP endpoints, server definitions, OAuth metadata, or startup behavior can persist or reseed attacker-selected routing even after package removal or token rotation.
 - Round 388: TrustFall reporting and related coding-agent documentation/advisories showed a distinct project-entry risk: a repository can carry project-scoped agent configuration such as MCP definitions, hooks, startup settings, or CI/headless settings. A broad folder/workspace trust prompt or headless trust default can be mistaken for approval to execute those project-defined agent surfaces.
 - Controller-audited public-source review on 2026-06-26 added a human-in-the-loop marketplace MCP shape: search, offer, listing, messaging, payment, review, profile, and agent-registration tools may appear as one convenient server surface, but each tool class crosses a different authority boundary.
+- Controller-audited public-source review on 2026-06-26 added observability and containment MCP shapes: network-observability tools, LLM trace/eval APIs, and coding-agent containment observers can expose capture, snapshot, score, prompt-version, filesystem, network, or tool-call telemetry through one bridge surface. Each capture, query, policy, and destructive-control class needs separate authority review.
 
 No installation, package download, MCP connection, OAuth flow, API-token entry, server start, or tool registration was performed during these reviews.
 
@@ -37,6 +38,7 @@ Use this candidate when an agent, user, repository, marketplace, vendor doc, or 
 - a broad all-tools mode, read-only URL, per-tool allowlist, generated schema, or tool catalog;
 - a bridge that can touch infrastructure, repositories, DNS, storage, security controls, identity, billing, customer data, production data, account state, or browser/desktop automation.
 - a human-in-the-loop, marketplace, contractor, expert, support, or service-buying bridge that can create offers, job listings, messages, reviews, payments, profiles, or public representations.
+- an observability, eval, network-capture, packet-capture, agent-containment, or policy-enforcement bridge that can collect telemetry, inspect tool calls, start captures, export snapshots, run reports, forward credentials, or enforce runtime policy.
 
 ## Proposed Mechanism
 
@@ -65,6 +67,9 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 11. Split discovery, communication, payment, and reputation.
     - Search or read-only marketplace discovery is not permission to contact people, reveal identity, create public listings, send messages, make offers, pay, release funds, verify domains, or leave reviews.
     - Payment, review, and identity surfaces need separate actor, account, jurisdiction, refund, audit, and owner-approval records even when exposed by the same MCP server.
+12. Split observability, capture, and policy enforcement.
+    - Reading trace metadata is different from starting captures, exporting packet data, forwarding credentials, enforcing policy, launching containers, or running RCA/security/eval reports.
+    - Telemetry and policy bridges need retention, redaction, destructive-flag, false-positive, false-negative, rollback, and no-secret review before activation.
 
 ## Initial Scope
 
@@ -96,6 +101,7 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 - Broad operation catalogs are loaded for convenience, increasing wrong-tool selection, context cost, and latent authority.
 - Audit logs are treated as prevention rather than post-hoc evidence.
 - The review stops at connection setup and misses operation-by-operation promotion, rollback, and negative tests.
+- A telemetry or policy bridge is treated as safe because it is "observability only", while it can capture sensitive traffic, tool calls, prompts, environment, filesystem, or network behavior.
 
 ## Verification Needed
 
@@ -107,6 +113,7 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 - Confirm project-scoped config paths and precedence, folder/workspace trust prompt text, interactive versus headless behavior, local server commands, package-manager commands, hooks, generated tool metadata, startup/autoload behavior, no-secret lane, command allowlist, sandbox and egress boundary, and negative tests before opening or running untrusted projects.
 - Confirm generated-code sandbox properties: network egress, external fetch, environment variables, filesystem, persistence, logs, package imports, timeout, and cancellation.
 - For marketplace or human-work bridges, confirm which tools are pure discovery versus identity, contact, offer, listing, message, payment, dispute, review, verification, or public-profile actions.
+- For observability and containment bridges, confirm which tools are metadata-only versus capture, snapshot export, policy enforcement, report generation, credential forwarding, container launch, or destructive control.
 - Confirm deny-by-default allowlist behavior and negative tests for unauthorized tools, other tenants, direct server-id URLs, and stale credentials.
 - Confirm rollback and disable paths for client config, runtime MCP config, server registration, OAuth grants, API tokens, package installs, generated files, hooks, logs, and caches.
 - Confirm that receipts preserve enough evidence to replay the adoption decision without exposing credentials, private account data, source code, or production data.

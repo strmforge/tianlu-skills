@@ -34,6 +34,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - memory-as-learning systems that split retain, recall, and reflect operations across memory banks, extracted fact or relationship representations, API/CLI/control-plane surfaces, clients, and benchmark scripts.
 - personal-agent runtime packages that combine provider catalogs, config roots, host-access modes, WebUI/OAuth boundaries, sandbox policies, channels, jobs, routines, tool registries, and workspace memory.
 - portable profile platforms that compress preferences, project facts, lessons, progress, decay rules, and conflict-handling rules into host-projected profile files.
+- LLM observability and evaluation platforms that combine traces, scores, datasets, prompt versions, playground iteration, API/SDK surfaces, workers, dashboards, deployment modes, and self-host or cloud control planes.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction. For example, one self-evolution package had README support for a three-tier memory story, while a controller spot-check of its config surface only found flat self-evolution toggles and agent workspace/context settings, not proof of an explicit three-tier config schema.
 
@@ -106,6 +107,9 @@ Review the platform as separate lifecycle planes before any adoption:
 17. Split portable profile projection from behavior authority.
    - A compact profile file can be a useful state packet, but onboarding, mutation, decay, conflict resolution, injection timing, rollback, and owner review must be visible before it can govern future behavior.
    - Host projection files show portability intent, not equivalent behavior across hosts.
+18. Split LLM observability and eval control planes from validation proof.
+   - Traces, spans, scores, datasets, prompt versions, dashboards, and evaluator flows are lifecycle state.
+   - They do not prove output quality, eval validity, privacy, deployment safety, or runtime fitness until replayed with negative cases and retention/redaction review.
 
 ## Initial Scope
 
@@ -136,6 +140,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Memory-learning authority creep: benchmark wording, generated clients, or control-plane dashboards are treated as proof that durable memory is accurate, private, reversible, or fit to govern future actions.
 - Personal-runtime safety creep: provider catalogs, sandbox labels, WebUI tokens, or OAuth warnings are treated as proof that the runtime is safe to run, connect, or trust with credentials.
 - Portable-profile authority creep: a compact profile or host projection is treated as permission to mutate personal state or govern future sessions without owner review.
+- Observability authority creep: traces, scores, prompt versions, or dashboards are treated as proof that a lifecycle platform is correct, private, deployable, or safe to run.
 
 ## Verification Needed
 
@@ -148,6 +153,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Check whether memory-learning claims include source provenance, retention limits, conflict handling, recall quality, privacy boundaries, rollback, and owner review before influencing future behavior.
 - Check whether personal-agent runtime packages separate providers, config, host access, WebUI, OAuth, sandboxing, routines, and tool execution before any activation.
 - Check whether portable profile packages show injection timing, mutation approval, conflict resolution, decay, rollback, and per-host behavior limits.
+- Check whether observability and eval platforms separate trace capture, scoring, prompt iteration, datasets, retention, redaction, deployment, and activation authority.
 - Add negative eval cases for platform-completeness claims, self-evolution as durable-memory authority, observability as validation, and crawler usefulness as web-action authority.
 - Decide whether this remains a supporting incubator note or becomes a productive platform-review playbook.
 
