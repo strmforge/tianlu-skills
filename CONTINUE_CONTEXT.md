@@ -44,6 +44,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Added a new incubator candidate: `incubator/observability-containment-control-plane-review.md`
 - Added a compact synthesis checkpoint for controller-audited observability and containment control planes: hardware/fleet telemetry, Kubernetes/network capture, LLM trace/eval/prompt platforms, and coding-agent container/policy wrappers.
 - Added a compact synthesis checkpoint for controller-audited professional-domain skill libraries, domain creative-control MCP packages, hardware-aware model selection, AI-agent observability platforms, and low-context controller-monitor packages.
+- Added a compact synthesis checkpoint for controller-audited communication bridges, provider-routed agent frameworks, data-observability operating packages, and MCP/API federation gateways.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -95,6 +96,10 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Hardware-aware model-selection packages can contribute hardware, backend, quantization, context, score-component, fit-level, provider, and benchmark state, but recommendations, speed, savings, installability, provider reachability, and delete/download safety remain unproven until local replay.
 - AI-agent observability platforms can contribute OpenTelemetry traces, spans, metrics, events, eval runs, datasets, dashboard SQL, annotation queues, gRPC export, and redaction limits as control-plane state, but trace ingestion, realtime display, eval quality, SQL correctness, and privacy/redaction claims require replay.
 - Low-context controller-monitor packages can reduce polling cost through ETA checks, cooldowns, terminal-state labels, and named-artifact reads, but status checks are not completion proof and do not authorize cross-thread mutation.
+- Communication bridges can contribute address identity, thread state, webhook, usage-limit, domain, DNS, abuse-check, and compliance-readiness gates, but sending, replying, webhook replay, delivery tracking, domain automation, pricing enforcement, and reliability remain unproven until replay.
+- Provider-routed agent frameworks can contribute model routing, graph workflows, suspend/resume state, context sources, MCP authoring, evals, observability, and local UI surfaces as lifecycle planes, but provider behavior, workflow correctness, storage durability, and deployment readiness remain unproven.
+- Data-observability operating packages can contribute asset health, alert triage, lineage, monitor coverage, incident workflow, metadata-ingestion, connector-auth, telemetry, and instrumentation state, but live workspace validation, monitor mutation, incident quality, and instrumentation safety remain activation surfaces.
+- MCP/API federation gateways can contribute protocol translation, upstream catalogs, auth modes, plugin metadata, tracing, caching, admin flags, and deployment-hardening surfaces, but upstream authority, tenant isolation, catalog accuracy, and production fitness remain source-review-only until scoped replay.
 
 ## Next Step
 
@@ -117,6 +122,9 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay `observability-containment-control-plane-review.md` on one AI-agent observability package and one host-application control bridge to check metadata-only review, ingestion/export/query boundaries, undo boundaries, non-undoable side effects, redaction, rollback, and report-generation scope.
 - Replay `stateful-skill-gate-review.md` on one professional-domain skill library and one hardware-aware model selector to check whether schema/taxonomy/fit scores constrain behavior without becoming authority claims.
 - Replay `role-skill-operating-package-review.md` on one controller-monitor skill package to check ETA/cooldown/terminal-state gates against actual worker correctness and final artifact review.
+- Replay MCP/API bridge review on one communication bridge and one federation gateway to check identity, delivery, domain, webhook, catalog, admin UI, upstream auth, and tenant boundaries.
+- Replay observability-containment review on one data-observability operating package to separate metadata inspection from monitor mutation, incident remediation, connector auth, and instrumentation.
+- Replay agent-platform-lifecycle review on one provider-routed agent framework to separate routing, workflow state, suspend/resume storage, context injection, MCP authoring, eval, observability, and local UI activation.
 - Replay `code-intelligence-graph-runtime-review.md` on at least one typed knowledge-graph MCP runtime and compare graph query value against the smaller git-backed context-index pattern.
 - Replay `context-harness-loop-readiness-review.md` on at least one lean git-backed context package and one service-as-agent framework to decide when context storage is enough and when a fuller harness/runtime layer is actually warranted.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
@@ -143,4 +151,5 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-032513`, `qclaw-tianlu-20260626-035519`, `qclaw-tianlu-20260626-042543`, and `qclaw-tianlu-20260626-045758`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-052607`, `qclaw-tianlu-20260626-055621`, `qclaw-tianlu-20260626-062557`, and `qclaw-tianlu-20260626-065548`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-072549`, `qclaw-tianlu-20260626-075600`, `qclaw-tianlu-20260626-082740`, and `qclaw-tianlu-20260626-085654`.
-- Current QClaw synthesis source range pending validation in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-093204`, `qclaw-tianlu-20260626-100246`, `qclaw-tianlu-20260626-103252`, and `qclaw-tianlu-20260626-110235`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-093204`, `qclaw-tianlu-20260626-100246`, `qclaw-tianlu-20260626-103252`, and `qclaw-tianlu-20260626-110235`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-113216`, `qclaw-tianlu-20260626-120205`, `qclaw-tianlu-20260626-123147`, and `qclaw-tianlu-20260626-130209`.

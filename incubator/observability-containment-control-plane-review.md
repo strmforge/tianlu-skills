@@ -20,6 +20,8 @@ Controller-audited short-worker receipts from 2026-06-26 include source-review e
 - coding-agent containment packages that combine container images, bind mounts, environment forwarding, policy files, MCP call observation, filesystem/network telemetry, control-plane isolation, and local control UIs.
 - AI-agent observability platforms that combine OpenTelemetry-native tracing, spans, metrics, events, eval SDK or CLI surfaces, SQL editors, dashboard builders, annotation and dataset queues, realtime trace viewers, gRPC exporters, self-host stacks, schema controls, and PII-redaction sidecars.
 - domain creative-control MCP packages that combine host-application remote scripts, MCP servers, local bridges, tool catalogs, device or asset indexes, sample sources, prompt-to-plan composers, execution routers, undo boundaries, and non-undoable side-effect classes.
+- data-observability operating packages that combine asset state, alerts, lineage, monitor coverage, incident workflows, metadata ingestion, connector auth, telemetry settings, and agent instrumentation.
+- MCP/API federation gateways that combine upstream catalogs, auth modes, protocol translation, admin UI flags, OpenTelemetry export, Redis-backed state, plugin execution, and deployment hardening into a single control plane.
 
 The receipts are evidence packets, not neutral law. Worker claims were accepted only after controller path verification, source spot-check, and source-review caveats. No package was installed, no server or dashboard was started, no cluster, account, cloud, API, browser, credential, container, model call, packet capture, or external service was used.
 
@@ -43,6 +45,8 @@ Use this candidate when a repository, product, or workflow proposes to govern an
 - policy engines, allow/deny rules, destructive flags, isolation scripts, or control-plane protections;
 - MCP observers, MCP tool policies, or API/SDK bridge instrumentation.
 - host-application control surfaces where session mutations, asset downloads, local corpus scans, memory writes, installer actions, or filesystem writes are presented through one MCP or bridge interface.
+- data, metadata, lineage, alert, monitor, or incident-response control planes that can query live workspaces, create or tune monitors, export configuration, ingest metadata, or instrument applications.
+- federation gateways or upstream server catalogs that can route tools through auth, cache, trace, plugin, admin UI, or deployment state before reaching the real backend.
 
 ## Proposed Mechanism
 
@@ -62,6 +66,12 @@ Review the control plane as separate loop, state, gate, and activation surfaces:
    - Querying metadata, inspecting traces, or reviewing configs is different from packet capture, cluster access, policy enforcement, credential forwarding, cloud calls, dashboard actions, report publication, or running an agent inside a container.
 7. Require scoped replay before promotion.
    - Safe examples should test state capture, gate behavior, false positives, false negatives, rollback, retention, redaction, and failure modes before this becomes a playbook or law.
+8. Separate operational observability from operational mutation.
+   - Asset health, lineage, alert, monitor, incident, and metadata state can be useful review surfaces.
+   - Creating monitors, tuning alerts, importing YAML, querying live workspaces, instrumenting agents, or changing connector auth are activation surfaces.
+9. Separate gateway observability from gateway trust.
+   - Tracing, catalog metadata, cache/federation state, admin UI flags, plugin lists, and deployment hardening are control-plane state.
+   - They do not prove upstream tool authorization, tenant isolation, catalog safety, or production readiness.
 
 ## Initial Scope
 
@@ -83,6 +93,8 @@ Review the control plane as separate loop, state, gate, and activation surfaces:
 - Flag theater: destructive-operation labels or policy warnings are present but not tested against actual unauthorized actions.
 - Realtime theater: live trace, dashboard, or control UI claims are treated as prevention or correctness proof instead of a display surface that can lag, filter, redact poorly, or miss events.
 - Undo-boundary laundering: host-application undo support is treated as rollback for all side effects even when asset downloads, memory writes, scans, installer actions, or filesystem writes persist outside the host document.
+- Operational-observability laundering: data-quality, lineage, incident, or monitor surfaces are treated as harmless observation even when they can create monitors, import configuration, query live workspaces, or instrument running code.
+- Gateway-observability laundering: protocol tracing, admin UI, plugin catalogs, or cache/federation metrics are treated as proof that upstream authority, tenant boundaries, and production deployment are safe.
 
 ## Verification Needed
 
@@ -93,6 +105,8 @@ Review the control plane as separate loop, state, gate, and activation surfaces:
 - Test rollback or stop behavior when telemetry, capture, policy compilation, or dashboard startup fails.
 - Test whether replay can distinguish metadata-only trace review from ingestion, export, SQL query, dataset creation, redaction, realtime streaming, and report-generation actions.
 - Test whether host-application control planes preserve undo boundaries and block or clearly label non-undoable side effects.
+- Test whether data-observability packages distinguish read-only health review from monitor mutation, incident remediation, metadata ingestion, connector auth, and application instrumentation.
+- Test whether gateway control planes distinguish catalog review, protocol translation, tracing, caching, admin UI, plugin execution, upstream invocation, tenant isolation, and disable/rollback behavior.
 - Add negative eval cases where observability is mistaken for correctness, a container wrapper is mistaken for security proof, and a destructive flag is mistaken for real authorization control.
 
 ## Placement Candidates

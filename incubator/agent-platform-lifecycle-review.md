@@ -35,6 +35,9 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - personal-agent runtime packages that combine provider catalogs, config roots, host-access modes, WebUI/OAuth boundaries, sandbox policies, channels, jobs, routines, tool registries, and workspace memory.
 - portable profile platforms that compress preferences, project facts, lessons, progress, decay rules, and conflict-handling rules into host-projected profile files.
 - LLM observability and evaluation platforms that combine traces, scores, datasets, prompt versions, playground iteration, API/SDK surfaces, workers, dashboards, deployment modes, and self-host or cloud control planes.
+- provider-routed agent frameworks that combine model routing, graph workflow syntax, human-in-the-loop suspend/resume, storage-backed execution state, context sources, MCP server authoring, evals, observability, Studio or local UI surfaces, package builds, and framework integrations.
+- data-observability operating packages that combine asset health, alert triage, lineage review, monitor creation, metadata ingestion, incident-response workflows, connector auth, MCP/OAuth setup, telemetry settings, and agent instrumentation.
+- gateway lifecycle packages that combine protocol federation, upstream server catalogs, plugins, admin UI, tracing, caching, auth modes, deployment modes, and security hardening as one apparent platform surface.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction. For example, one self-evolution package had README support for a three-tier memory story, while a controller spot-check of its config surface only found flat self-evolution toggles and agent workspace/context settings, not proof of an explicit three-tier config schema.
 
@@ -110,6 +113,15 @@ Review the platform as separate lifecycle planes before any adoption:
 18. Split LLM observability and eval control planes from validation proof.
    - Traces, spans, scores, datasets, prompt versions, dashboards, and evaluator flows are lifecycle state.
    - They do not prove output quality, eval validity, privacy, deployment safety, or runtime fitness until replayed with negative cases and retention/redaction review.
+19. Split provider-routed frameworks from application proof.
+   - Model routing, graph workflows, suspend/resume, storage, RAG, MCP authoring, evals, and observability are lifecycle planes.
+   - A framework README, local UI, or package build surface does not prove workflow correctness, provider behavior, storage durability, or deployment readiness.
+20. Split operational-domain platforms into state, gate, and account surfaces.
+   - Data observability, incident-response, monitoring, metadata ingestion, and instrumentation packages can provide useful lifecycle state.
+   - Live workspace validation, account roles, connector auth, monitor creation, lineage queries, and telemetry opt-out behavior remain activation surfaces until replayed.
+21. Split gateway lifecycle from gateway authority.
+   - Protocol federation, plugin catalogs, admin UI, tracing, caching, and deployment hardening are platform planes.
+   - They do not prove upstream tool safety, tenant isolation, catalog accuracy, or production readiness.
 
 ## Initial Scope
 
@@ -141,6 +153,9 @@ Review the platform as separate lifecycle planes before any adoption:
 - Personal-runtime safety creep: provider catalogs, sandbox labels, WebUI tokens, or OAuth warnings are treated as proof that the runtime is safe to run, connect, or trust with credentials.
 - Portable-profile authority creep: a compact profile or host projection is treated as permission to mutate personal state or govern future sessions without owner review.
 - Observability authority creep: traces, scores, prompt versions, or dashboards are treated as proof that a lifecycle platform is correct, private, deployable, or safe to run.
+- Framework completeness creep: provider counts, graph syntax, Studio UI, or MCP-authoring support are treated as proof that an agent application works or persists state correctly.
+- Operational platform authority creep: alert triage, lineage, monitor creation, metadata ingestion, and incident workflows are treated as safe because they are framed as observability or data quality.
+- Gateway completeness creep: protocol support, plugin count, admin UI, cache/federation, and tracing are treated as proof of safe upstream authority and deployment fitness.
 
 ## Verification Needed
 
@@ -154,6 +169,9 @@ Review the platform as separate lifecycle planes before any adoption:
 - Check whether personal-agent runtime packages separate providers, config, host access, WebUI, OAuth, sandboxing, routines, and tool execution before any activation.
 - Check whether portable profile packages show injection timing, mutation approval, conflict resolution, decay, rollback, and per-host behavior limits.
 - Check whether observability and eval platforms separate trace capture, scoring, prompt iteration, datasets, retention, redaction, deployment, and activation authority.
+- Check whether provider-routed agent frameworks separate provider routing, workflow graph state, suspend/resume storage, context injection, MCP authoring, evals, observability, and local UI/runtime activation.
+- Check whether operational observability packages separate metadata inspection, account connection, live workspace validation, monitor creation, incident response, instrumentation, and telemetry.
+- Check whether gateway platforms separate catalog import, upstream auth, protocol translation, plugin execution, admin UI, tracing/export, cache/federation, and deployment hardening.
 - Add negative eval cases for platform-completeness claims, self-evolution as durable-memory authority, observability as validation, and crawler usefulness as web-action authority.
 - Decide whether this remains a supporting incubator note or becomes a productive platform-review playbook.
 
