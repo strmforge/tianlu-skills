@@ -40,6 +40,10 @@ This can make an agent runtime more flexible, but it also concentrates model rou
   - hardware, RAM/VRAM, backend, run mode, context cap, quantization, score components, fit level, installed models, provider availability, and benchmark rows are held as reviewable selection state;
   - fit levels, dynamic quantization, simulation overrides, provider reachability, scoring weights, and benchmark lookups act as gates before recommending or downloading a model;
   - recommendation quality, speed estimates, benchmark truth, provider availability, installability, and safe delete/download behavior remain source-review-only until replayed locally.
+- Controller-audited public-source review on 2026-06-26 added a cross-platform model-deployment and ML-compilation shape:
+  - hardware vendors, mobile targets, web targets, C++/Python build surfaces, compiler configuration, examples, docs, tests, and version metadata are held as reviewable deployment state;
+  - target selection, build configuration, packaging, runtime launch, model conversion, and benchmark surfaces are separate gates before claiming that a model can run on a given device or backend;
+  - platform support, performance, memory fit, model compatibility, binary availability, installability, and safe local execution remain source-review-only until replayed on the intended machine.
 
 This file records the method shape and review requirements. It is not an endorsement of the implementation and does not recommend installing or running it.
 
@@ -51,6 +55,7 @@ Use this candidate when an agent, user, runtime adapter, or repository proposes 
 - route model requests through a local endpoint;
 - route requests to a cheapest-capable or cost-aware model tier;
 - score local models against hardware fit, context, quantization, backend, provider availability, or benchmark data;
+- compile, convert, package, or deploy models across desktop, mobile, web, GPU, CPU, or accelerator targets;
 - store or resolve API keys;
 - expose provider configuration through a web UI or local API;
 - launch through desktop or browser deep links;
@@ -92,6 +97,9 @@ Before adopting or activating a local agent provider gateway:
 12. Review hardware-fit policy as a gate, not as proof.
     - Hardware probes, RAM/VRAM, backend, quantization, context cap, fit level, installed-model scans, and benchmark rows are selection state.
     - They need safe local replay before any claim that a model will run well, run fast, fit memory, download safely, delete safely, or outperform an alternative.
+13. Review model deployment as a target matrix, not as proof.
+    - Build files, compiler settings, platform directories, examples, version files, and docs can show intended targets.
+    - They do not prove installability, model compatibility, runtime performance, memory fit, mobile/web readiness, or binary safety without scoped local replay and rollback.
 
 ## Initial Scope
 
@@ -112,6 +120,7 @@ Before adopting or activating a local agent provider gateway:
 - Model capability metadata overclaims tool, image, MCP, context, reasoning, or streaming support.
 - Cost-routing theater: a local proxy advertises cheaper model selection, but the scoring policy, fallback behavior, or cost report is not replayed and the savings estimate becomes a fact claim.
 - Hardware-fit theater: a model selector advertises best fit, speed, context, quantization, or benchmark support, but no local hardware probe, provider scan, model load, or benchmark replay has been performed.
+- Deployment-target theater: a repository lists GPU, CPU, mobile, web, C++/Python, or compiler targets and the list is treated as proof that a selected model will build, load, or perform acceptably on the user's machine.
 - Prompt-scope drift: the router scores system prompts, hidden instructions, or stale conversation context and over-escalates routine work or under-escalates high-stakes work.
 - A text-only model receives screenshot descriptions as ordinary prompt text and follows instructions embedded in the screen.
 - Screenshot capture sends private desktop or account content to a third-party vision provider.
@@ -136,6 +145,7 @@ Before adopting or activating a local agent provider gateway:
 - Confirm model capability claims against actual provider behavior and failure paths.
 - Confirm scoring inputs, tier boundaries, confidence fallback, override rules, config hot-reload behavior, stats calculations, and per-tier cost assumptions on safe replay prompts before trusting routing or savings claims.
 - Confirm hardware probe sources, context caps, quantization choice, fit thresholds, provider reachability, installed-model matching, benchmark provenance, and download/delete behavior on safe replay before trusting model-fit claims.
+- Confirm target platform, build toolchain, model conversion path, runtime launch command, supported model format, benchmark method, memory budget, artifact provenance, and rollback before trusting deployment or compilation claims.
 - Test the vision bridge with prompt-injection text inside a screenshot.
 - Confirm screenshot compression, caching, retention, and third-party transmission.
 - Confirm dashboard logs and SSE streams do not leak secrets or account data.

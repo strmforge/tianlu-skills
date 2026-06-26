@@ -127,6 +127,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - observability and containment control planes: telemetry, traces, scores, prompt versions, packet captures, snapshots, MCP observers, container mounts, environment forwarding, policy files, and dashboards can be reviewed as loop/state/gate surfaces; visibility and containment architecture are not validation, security proof, or activation authority.
 - domain creative-control MCP packages: tool catalogs, host-app adapters, device or asset indexes, user corpora, memory ledgers, undo boundaries, and side-effect classes can be reviewed as state and gates; MCP availability and host-app integration are not proof that session mutation, media download, or undo behavior is safe.
 - hardware-aware model-selection packages: detected hardware, RAM or VRAM, backend, context cap, quantization, score components, fit levels, installed models, provider availability, and benchmark rows can be reviewed as state; generated recommendations, speed estimates, and savings or quality claims remain source-review-only.
+- instruction-artifact contract packages: source instruction files, target schemas, typed relationships, conformance fixtures, integrity digests, signature metadata, and compile/validate/check commands can be reviewed as loop/state/gate surfaces; artifact trust, runtime portability, compiler determinism, and signing support remain source-review-only until replay.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -156,6 +157,7 @@ State, memory, isolation, and portability surfaces:
 - provider-routed TypeScript agent frameworks: model routing, graph workflow syntax, suspend/resume state, context sources, MCP authoring, evals, observability, and local UI surfaces can be reviewed as lifecycle planes; provider counts, workflow correctness, storage durability, and deployment readiness remain unproven.
 - data-observability operating packages: asset health, alert triage, lineage review, monitor coverage, incident-response workflows, metadata ingestion, connector auth, telemetry settings, and application instrumentation can be reviewed as state and gates; live workspace validation, monitor mutation, incident quality, and instrumentation safety require replay.
 - MCP federation gateway packages: protocol translation, upstream catalogs, auth modes, plugin metadata, Admin UI flags, tracing, caching, Redis or federation config, and deployment surfaces can be reviewed as state; catalog accuracy, tenant isolation, upstream authority, and production hardening remain unproven.
+- memory, config, and persona state packages: memory CRUD APIs, hosted or self-hosted memory surfaces, raw-source ledgers, persona files, markdown config tracking, diffs, version history, rollback language, and approval gates can be reviewed as state surfaces; memory accuracy, privacy, persona fidelity, rollback correctness, and future-behavior authority remain unproven.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -192,6 +194,7 @@ Lifecycle platform and ingestion surfaces:
 - data-engineering and AI-code execution platforms: evolvable context layers, schema/metric/reference-SQL knowledge bases, continuous learning loops, full-computer sandboxes, dedicated kernel/filesystem/network claims, and persistence surfaces should be separated before any adoption claim.
 - autoresearch orchestrators: tree-search loops over accepted branches, worktree-isolated parallel subagents, shared trace state, and inherited pass/fail gates as a stronger loop/state/gate package than plain single-branch retry.
 - security-testing platforms and vulnerable-agent benchmarks: role-based security skills, attack-chain analysis, prompt-injection targets, CTF origins, and C2-like surfaces are source-review signals only; offensive use, probing, credentials, implants, or live targets remain red-lane.
+- search, document, media, and model-deployment pipelines: query-decomposition graphs, web-search nodes, document-to-markdown or structured-data extraction, highlight/subtitle/render stages, hardware targets, compilation targets, and frontend/backend surfaces are lifecycle signals; graph quality, extraction accuracy, media quality, rights safety, performance, and deployment readiness require scoped replay.
 
 ## Initial Scope
 

@@ -33,6 +33,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed professional-domain skill libraries that use jurisdiction or domain taxonomy, path consistency, schema contracts, version checks, disclaimer rules, and citation-output requirements as state and gates rather than as professional authority or hosted runtime proof.
 - source-reviewed hardware/model fit packages that use hardware detection, RAM/VRAM, backend choice, context caps, quantization, score components, fit levels, provider reachability, and benchmark rows as state and gates rather than as recommendation-quality, speed, savings, or installability proof.
 - source-reviewed AI-agent observability packages that use traces, spans, eval runs, datasets, SQL queries, dashboard definitions, annotation state, and redaction limits as state and gates rather than as complete monitoring, correct evals, or privacy proof.
+- source-reviewed instruction-artifact and memory/persona packages that use source-target schemas, conformance fixtures, integrity metadata, memory CRUD endpoints, raw-source ledgers, config diffs, rollback language, and approval gates as state rather than as proof of runtime trust, durable memory authority, or persona fidelity.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -59,6 +60,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - authorization/scope gates, assessment depth levels, coverage matrices, zero-finding escalation rules, or evidence report templates;
 - trace, metric, packet, snapshot, score, prompt-version, policy, mount, or telemetry surfaces used as review state;
 - schema, taxonomy, version, disclaimer, citation, provider-reachability, quantization, fit-level, benchmark-row, SQL-query, or redaction-limit surfaces used as review state;
+- source-target schema, conformance fixture, integrity digest, signature metadata, compiler command, memory CRUD endpoint, raw-source ledger, persona file, config diff, version history, or rollback surface used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -102,6 +104,12 @@ Review stateful skills as gated operating loops:
 13. Split typed selection gates from recommendation proof.
    - Schemas, taxonomies, fit levels, score components, provider lists, and benchmark rows make choices reviewable.
    - They do not prove the selected professional skill, model, provider, or eval result is correct until replayed against bounded examples and downgraded on conflict.
+14. Split artifact trust metadata from runtime trust.
+   - Source files, target schemas, integrity digests, signature metadata, conformance suites, and compile commands make instruction artifacts reviewable.
+   - They do not prove host loading, behavior parity, compiler determinism, signature support, or trust enforcement until the compile and verify path is replayed.
+15. Split memory, config, and persona state from future authority.
+   - Memory operations, config diffs, raw-source ledgers, generated persona files, and rollback wording can govern a review.
+   - They do not authorize persistent memory writes, profile mutation, persona claims, or future-session behavior until owner review, injection timing, conflict handling, and rollback are visible.
 
 ## Initial Scope
 
@@ -127,6 +135,8 @@ Review stateful skills as gated operating loops:
 - Observability/containment theater: a dashboard, trace, packet capture, container wrapper, MCP observer, or policy file is treated as validated gate behavior without replay.
 - Selection-gate laundering: a schema, taxonomy, score, fit level, provider flag, or benchmark row is treated as proof that the chosen skill, model, provider, or advice is correct.
 - Redaction-gate laundering: token limits, chunking, BIO labels, or a PII-redaction sidecar are treated as privacy proof without false-negative, false-positive, and retention review.
+- Artifact-trust laundering: a schema, digest, signature field, or compiler command is treated as proof that a host will load the artifact safely or equivalently.
+- Persona/memory laundering: a generated persona, raw-source file, config diff, or memory API is treated as accurate, private, reversible, or authorized to govern future behavior.
 
 ## Verification Needed
 
@@ -138,6 +148,7 @@ Review stateful skills as gated operating loops:
 - Add negative cases where a portable profile is treated as automatic cross-host memory, a strategy lint script is treated as financial safety, or an authorization checklist is treated as permission to scan a target.
 - Add negative cases where traces are treated as correctness proof, container policy is treated as security proof, or packet/tool-call capture is treated as harmless read-only work.
 - Add negative cases where a professional-domain schema is treated as professional authority, a hardware-fit score is treated as recommendation truth, and a redaction service is treated as privacy proof.
+- Add negative cases where signature metadata is treated as runtime trust, a compile command is treated as host parity proof, a memory API is treated as durable authority, and a generated persona is treated as fidelity proof.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

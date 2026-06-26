@@ -38,6 +38,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - provider-routed agent frameworks that combine model routing, graph workflow syntax, human-in-the-loop suspend/resume, storage-backed execution state, context sources, MCP server authoring, evals, observability, Studio or local UI surfaces, package builds, and framework integrations.
 - data-observability operating packages that combine asset health, alert triage, lineage review, monitor creation, metadata ingestion, incident-response workflows, connector auth, MCP/OAuth setup, telemetry settings, and agent instrumentation.
 - gateway lifecycle packages that combine protocol federation, upstream server catalogs, plugins, admin UI, tracing, caching, auth modes, deployment modes, and security hardening as one apparent platform surface.
+- search, document, media, and model-deployment packages that combine query-decomposition graphs, web-search execution, document extraction, structured or markdown outputs, media transformation stages, ML compilation, hardware targets, mobile/web targets, and frontend/backend surfaces.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction. For example, one self-evolution package had README support for a three-tier memory story, while a controller spot-check of its config surface only found flat self-evolution toggles and agent workspace/context settings, not proof of an explicit three-tier config schema.
 
@@ -122,6 +123,12 @@ Review the platform as separate lifecycle planes before any adoption:
 21. Split gateway lifecycle from gateway authority.
    - Protocol federation, plugin catalogs, admin UI, tracing, caching, and deployment hardening are platform planes.
    - They do not prove upstream tool safety, tenant isolation, catalog accuracy, or production readiness.
+22. Split search and extraction pipelines from answer or data proof.
+   - Query graphs, sub-question nodes, reference aggregation, document extraction, markdown conversion, and structured-output schemas are lifecycle planes.
+   - They do not prove search relevance, source completeness, extraction accuracy, citation accuracy, or downstream data readiness until replayed on bounded examples.
+23. Split model deployment and media transformation from runtime or output proof.
+   - Hardware targets, compilation targets, mobile/web surfaces, highlight selection, subtitle cleanup, and render stages describe a pipeline.
+   - They do not prove performance, compatibility, rights clearance, media quality, publish readiness, or safe local execution without scoped replay and human handoff review.
 
 ## Initial Scope
 
@@ -156,6 +163,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Framework completeness creep: provider counts, graph syntax, Studio UI, or MCP-authoring support are treated as proof that an agent application works or persists state correctly.
 - Operational platform authority creep: alert triage, lineage, monitor creation, metadata ingestion, and incident workflows are treated as safe because they are framed as observability or data quality.
 - Gateway completeness creep: protocol support, plugin count, admin UI, cache/federation, and tracing are treated as proof of safe upstream authority and deployment fitness.
+- Pipeline completeness creep: a graph, extractor, compiler, frontend, or renderer is treated as proof that the answer, structured data, model runtime, or media output is correct and ready to use.
 
 ## Verification Needed
 
@@ -172,6 +180,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Check whether provider-routed agent frameworks separate provider routing, workflow graph state, suspend/resume storage, context injection, MCP authoring, evals, observability, and local UI/runtime activation.
 - Check whether operational observability packages separate metadata inspection, account connection, live workspace validation, monitor creation, incident response, instrumentation, and telemetry.
 - Check whether gateway platforms separate catalog import, upstream auth, protocol translation, plugin execution, admin UI, tracing/export, cache/federation, and deployment hardening.
+- Check whether search, extraction, media, and model-deployment packages separate graph state, source pointers, output QA, render/compile commands, hardware assumptions, frontend/backend startup, rights/publication boundaries, and runtime activation.
 - Add negative eval cases for platform-completeness claims, self-evolution as durable-memory authority, observability as validation, and crawler usefulness as web-action authority.
 - Decide whether this remains a supporting incubator note or becomes a productive platform-review playbook.
 

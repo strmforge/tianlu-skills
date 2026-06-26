@@ -50,6 +50,7 @@ Controller-audited public repository samples from the local short-worker loop in
 - high-risk security assessment packages where authorization, scope, depth, environment readiness, playbooks, tool categories, coverage matrices, stop conditions, and report templates define the package boundary.
 - professional-domain skill libraries where taxonomy files, jurisdiction or domain directories, schema contracts, versioning rules, disclaimer requirements, citation-output contracts, and hosted discovery/invocation surfaces define the package boundary.
 - controller-monitor skill packages where ETA-aware checks, cooldown rules, terminal-state labels, named artifact reads, and low-context status probes define the package boundary for supervising another agent thread.
+- persona or expert operating packages where raw-source ledgers, public-source collection, statistical analysis, templates, generated persona files, domain skill bodies, and examples define the package boundary for a simulated role or expert workflow.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -75,6 +76,7 @@ Use this candidate when a public repository, internal design, or agent runtime p
 - dispatch, callbacks, worktrees, or scheduled worker loops.
 - taxonomy/schema/disclaimer/citation gates around a large domain skill library;
 - ETA, cooldown, terminal-state, and artifact-read gates around a controller-monitor role.
+- raw-source, analysis, template, persona-file, expert-profile, or domain-skill gates around a simulated role package.
 
 ## Proposed Mechanism
 
@@ -124,6 +126,9 @@ Review the package as an operating package before any activation:
 18. Treat monitor packages as liveness governors.
    - ETA checks, cooldowns, and terminal-state labels can reduce controller cost and repeated reads.
    - They do not prove the worker is correct, authorize cross-thread mutation, or replace final artifact/evidence review after a terminal state.
+19. Treat persona and expert packages as evidence-bound role packages.
+   - Raw-source files, collection scripts, analysis notes, templates, generated persona files, and domain skill bodies can define a role envelope.
+   - They do not prove public-source completeness, privacy safety, character fidelity, expert judgment, or permission to browse, scrape, impersonate, advise, or persist identity-like memory.
 
 ## Initial Scope
 
@@ -160,6 +165,7 @@ Review the package as an operating package before any activation:
 - High-risk vertical laundering: a finance, security, account, or profile package is treated as safe because it contains warnings, templates, lint scripts, or authorization language.
 - Professional-domain laundering: taxonomy, schema, disclaimer, or citation rules are treated as legal, medical, financial, or other professional authority.
 - Monitor laundering: a low-context status check is treated as proof of task completion, worker correctness, or permission to mutate another thread.
+- Persona laundering: a raw-source bundle, statistical analysis, generated persona file, or expert template is treated as fidelity proof, privacy proof, expert authority, or permission to impersonate or persist identity state.
 
 ## Verification Needed
 
@@ -170,6 +176,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for generated team factories, internally scored domain role systems, and local-first workbenches with visible PR/MR buttons.
 - Add negative cases for portable profile mutation, finance strategy generation, security assessment authorization, and platform MCP bridges being treated as activation authority.
 - Add negative cases for professional-domain schema/citation packages being treated as advice authority and monitor/cooldown packages being treated as completion proof.
+- Add negative cases for persona or expert packages being treated as public-source completeness, character fidelity, professional authority, privacy safety, or permission to browse/scrape/persist identity state.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

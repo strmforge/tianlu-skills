@@ -21,6 +21,7 @@ Source:
 - C2PA specification: https://spec.c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html
 - W3C WAI audio/video planning: https://www.w3.org/WAI/media/av/planning/
 - YouTube supported subtitle and caption files: https://support.google.com/youtube/answer/2734698
+- Controller-audited public-source review on 2026-06-26 added video-transformation skill packages with highlight selection, subtitle cleanup, and programmatic rendering surfaces. These are production-pipeline signals only; no media generation, render, upload, rights review, or platform account action was performed.
 
 Proposed trigger:
 - The user asks for an AI video, AI avatar, digital human, AI anime, generated ad, AI UGC, product-video, short-video, lip-sync, character-consistency, ComfyUI, ToonCrafter, Audio2Face, or generated-media production workflow.
@@ -31,8 +32,9 @@ Proposed mechanism:
 2. Build a source and reference ledger covering source assets, prompts, model or workflow references, character references, voice or likeness inputs, music, stock assets, product claims, and missing permissions.
 3. Build a shot, prompt, and workflow matrix with per-shot intent, inputs, workflow or tool reference, seed or run controls when available, expected output, and retry notes.
 4. Build a run and version ledger with queue id, prompt id or job id, workflow JSON pointer, model or node versions, render settings, output path, failed frames or failed clips, rerender policy, and reviewer status.
-5. Build a QA pass for identity or character drift, motion drift, lip-sync drift, timing, captions, transcript, audio description need, platform export constraints, and visible disclosure labels that need human review.
-6. Produce a publication handoff packet with target channels, official spec lookup date, required metadata, privacy or visibility choice fields, AI-generated or sponsored-content label fields, approval status, and open questions.
+5. For source-video transformation, build a source-to-output ledger with source clip, transcript or subtitle source, highlight-selection rule, cut list, subtitle cleanup notes, render recipe, target aspect ratio, and reviewer status.
+6. Build a QA pass for identity or character drift, motion drift, lip-sync drift, timing, captions, transcript, audio description need, platform export constraints, and visible disclosure labels that need human review.
+7. Produce a publication handoff packet with target channels, official spec lookup date, required metadata, privacy or visibility choice fields, AI-generated or sponsored-content label fields, approval status, and open questions.
 
 Initial scope:
 - This is a productive planning candidate, not a law and not an adapter.
@@ -42,12 +44,14 @@ Initial scope:
 Known failure modes:
 - Treating a production plan as permission to call generation tools, upload files, publish posts, schedule posts, change visibility, toggle AI-generated or paid-partnership labels, buy licenses, contact rights holders, decide fair use, decide likeness or voice consent, or write platform accounts.
 - Treating generated-media provenance, workflow JSON, prompt history, queue status, screenshots, or successful renders as proof that the asset is rights-cleared, platform-safe, accessible, or ready to publish.
+- Treating highlight selection, subtitle cleanup, or a rendering script as proof that a short video is engaging, rights-cleared, accurate, accessible, or publish-ready.
 - Overfitting a neutral playbook to one tool, one model, one platform, one creator workflow, one local GPU setup, or one vendor API.
 - Free or cheap model/provider routing can increase fan-out, but it does not reduce the need for route receipts, evidence ledgers, budget ceilings, or review gates.
 
 Verification needed:
 - Add and replay a narrow eval that separates generated-media planning packets from generation, upload, publication, rights, account, and retention authority.
 - Replay at least two real planning tasks: one tool-local workflow such as ComfyUI and one platform handoff such as TikTok or YouTube, with no account mutation.
+- Replay one source-video transformation planning task with no source download, no render, no upload, no account access, and a human review packet for rights, transcript, subtitle, cut quality, and disclosure fields.
 - If promoted to playbook, update `playbooks/README.md`, `index/trigger-routing.md`, and relevant expected behavior with explicit composition rather than duplicating existing creator, content, campaign, and handoff playbooks.
 
 Replay evidence notes:

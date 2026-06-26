@@ -11,6 +11,8 @@ External feeds increasingly frame two adjacent needs:
 
 Open-source and vendor tools can help parse, convert, extract, or analyze files, but tool capability is not proof that a solo operator can charge for the work or that the output is correct enough for production use.
 
+Controller-audited public-source review on 2026-06-26 added document-extraction packages that convert complex documents into markdown or structured outputs with demos, docs, templates, tests, and package metadata. These surfaces are useful for extraction readiness review, but they are not proof of OCR accuracy, table fidelity, layout correctness, citation completeness, or production data quality.
+
 ## Proposed Trigger
 
 Use this candidate when a user asks about:
@@ -43,6 +45,9 @@ Use this candidate when a user asks about:
 6. Treat extraction tools as assistants, not authority.
    - Record tool/vendor/repo, version or access date, input files, transformation path, unsupported formats, and known security limits.
    - Sample-audit outputs against source documents, especially tables, totals, dates, names, clauses, OCR text, and computed values.
+6a. Separate extraction pipeline shape from output readiness.
+   - Demos, templates, docs, tests, markdown outputs, and structured-data claims make a pipeline inspectable.
+   - They do not prove field accuracy, source-pointer retention, table reconstruction, OCR quality, privacy handling, or downstream migration readiness without sample QA.
 7. For AI-search or agentic-discovery readiness, stay inside official search boundaries.
    - Check crawlability, robots directives, indexability, canonical pages, clear content, local business or ecommerce details, source citations, and ordinary structured data eligibility.
    - Do not claim ranking, recommendation placement, AI citation inclusion, lead generation, revenue, compliance, or platform acceptance.
@@ -60,6 +65,7 @@ This candidate is for readiness review, source mapping, extraction QA, and servi
 - Treating structured data, citations, confidence scores, or RAG language as proof of correctness.
 - Losing source pointers while transforming files into markdown, JSON, or tables.
 - Trusting OCR, table extraction, arithmetic, or computed fields without sample audit.
+- Treating a document-extraction repository, demo, template, or package surface as proof that real documents will convert accurately or safely.
 - Mixing private, regulated, or customer data into a generic tool without an explicit data-handling boundary.
 - Promising AI-search ranking, ChatGPT recommendation inclusion, Google AI Overview placement, leads, revenue, compliance, or production readiness.
 - Treating a GEO, AI-visibility, or structured-data score as proof without source pointers, sample methodology, counterexamples, and missing-data labels.
@@ -72,6 +78,7 @@ This candidate is for readiness review, source mapping, extraction QA, and servi
 - Replay on website readiness reviews where official search documentation can validate the allowed checklist and reject ranking guarantees.
 - For public-only website dry-runs, record the target URL, fetched public pages, HTTP status/source-gap table, observed metadata/headings/links/structured-data status, public entity/source evidence, and a no-account/no-write/no-contact boundary before recommending owner actions.
 - Compare local/offline conversion tools, hosted APIs, and manual extraction on the same sample for source-pointer retention and error patterns.
+- For document-extraction packages, replay on small public samples with source-line or page anchors, table checks, null handling, exception notes, and a no-upload/no-private-data receipt before any production recommendation.
 - Replay against public pricing pages, agency service pages, and personal paid-client claims to test whether the method separates offer existence from paid proof.
 - Replay scorecards against counterexamples: high score with no citation, low score with citation, schema-complete pages with weak visibility, and single-page optimization that fails to beat a baseline.
 - Add eval coverage only if repeated failures show that existing evidence, browser, MCP/tool, and solo-business boundaries are insufficient.
