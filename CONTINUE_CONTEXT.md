@@ -12,6 +12,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Added a new incubator candidate: `incubator/agent-role-skill-bundle-routing-review.md`
 - Added a new incubator candidate: `incubator/loop-engineering-workflow-review.md`
 - Added a new incubator candidate: `incubator/context-harness-loop-readiness-review.md`
+- Added a new incubator candidate: `incubator/container-isolated-agent-runtime-review.md`
 - Added a new incubator candidate: `incubator/code-intelligence-graph-runtime-review.md`
 - Added a new incubator candidate: `incubator/agent-platform-lifecycle-review.md`
 - Added a new incubator candidate: `incubator/stateful-skill-gate-review.md`
@@ -37,6 +38,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Extended the public-intake and role-operating-package incubators with controller-audited frontend design skills that use one-anchor-per-brief token fidelity, plus preview-first presentation packs that make style discovery visible and keep fallback templates available.
 - Extended the lifecycle-platform incubator with controller-audited brain-layer memory platforms that combine answer synthesis, typed graph traversal, gap analysis, citation repair, overnight consolidation, and per-login company slices.
 - Extended the context-harness, code-intelligence, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for lean git-backed context indexes, typed code-graph MCP runtimes, service-as-agent distributed frameworks, and goal-contract intake protocols.
+- Extended the incubator index with a container-isolated-agent runtime review that separates container gates, filesystem state, bootstrap scripts, and migration logic from any safety or parity claims.
 - Added a compact synthesis checkpoint for the 2026-06-25 intake batches that surfaced `GitNexus`, `go-micro`, `gpt-researcher`, `graphify`, `grant-thinking-*`, and `grok-skills` as controller-audited method candidates.
 - Extended the public-intake, lifecycle-platform, and role-operating-package incubators with controller-audited mechanisms for team-architecture factories, healthcare-style domain role systems, local-first multi-agent workbenches, and self-improving agent runtimes.
 - Extended the public-intake, stateful-gate, lifecycle-platform, local-provider-gateway, and MCP/API bridge incubators with controller-audited mechanisms for memory-as-learning systems, brand-to-design-system pipelines, human-in-the-loop marketplace bridges, and cost-aware model routers.
