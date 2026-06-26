@@ -48,6 +48,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Added a compact synthesis checkpoint for controller-audited professional-domain skill libraries, domain creative-control MCP packages, hardware-aware model selection, AI-agent observability platforms, and low-context controller-monitor packages.
 - Added a compact synthesis checkpoint for controller-audited communication bridges, provider-routed agent frameworks, data-observability operating packages, and MCP/API federation gateways.
 - Added a compact synthesis checkpoint for controller-audited instruction-artifact contracts, memory/config/persona state packages, search/document/media pipeline packages, and cross-platform model-deployment surfaces.
+- Added a new incubator candidate: `incubator/wave-gated-agent-delivery-review.md`
+- Added a compact synthesis checkpoint for controller-audited memory/MCP integration packages, anti-sycophancy and skill-marketplace packages, content and persona skill packs, communication infrastructure surfaces, and phase-gated agent delivery frameworks.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -106,6 +108,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Instruction-artifact contracts can contribute source documents, target schemas, frontmatter, typed relationships, conformance fixtures, integrity digests, signature metadata, and compile/validate/check commands as loop/state/gate surfaces, but schema presence, signature wording, or compiler commands do not prove runtime portability, trust enforcement, deterministic compilation, or signing support.
 - Memory/config/persona packages can contribute add/search/update/delete APIs, open memory surfaces, raw-source ledgers, persona files, markdown config tracking, diff/rollback, versioning, and approval gates as state surfaces, but stored state, benchmark wording, generated persona text, or reversible-language claims do not prove retrieval quality, privacy, fidelity, rollback correctness, or future-behavior authority.
 - Search/document/media/deployment pipelines can contribute query-decomposition graphs, extraction schemas, markdown/structured-data outputs, highlight/subtitle/render stages, hardware targets, compilation targets, and frontend/backend surfaces as lifecycle state, but graph completeness, extraction accuracy, media quality, rights safety, hardware performance, model compatibility, and deployment readiness remain source-review-only until scoped replay.
+- Wave-gated agent delivery frameworks can contribute phase maps, specialist roles, artifacts, routing rules, human approval gates, and enforcement surfaces, but phase names, generated artifacts, hooks, commands, validators, or approval language do not prove runtime correctness, agent quality, install safety, or delivery readiness.
 
 ## Next Step
 
@@ -134,6 +137,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Replay stateful-skill-gate review on one instruction-artifact contract and one memory/config/persona package to check source-target schemas, integrity metadata, compile gates, raw-source ledgers, mutation approval, rollback, and state-injection boundaries.
 - Replay agent-platform-lifecycle review on one search-agent graph pipeline, one document-extraction pipeline, and one cross-platform model-deployment package to separate decomposition, extraction, compilation, frontend/backend, and deployment activation surfaces.
 - Replay source-grounded structured-data and generative-media planning reviews on one document-extraction package and one media transformation package to check source pointers, QA sampling, rights boundaries, no-upload/no-render receipts, and human handoff fields.
+- Replay `wave-gated-agent-delivery-review.md` on one feature-planning task, one bugfix task, and one refactor/documentation task to compare phase artifacts, approval gates, and single-shot baseline behavior.
 - Replay `code-intelligence-graph-runtime-review.md` on at least one typed knowledge-graph MCP runtime and compare graph query value against the smaller git-backed context-index pattern.
 - Replay `context-harness-loop-readiness-review.md` on at least one lean git-backed context package and one service-as-agent framework to decide when context storage is enough and when a fuller harness/runtime layer is actually warranted.
 - Replay `stateful-skill-gate-review.md` on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.
@@ -163,3 +167,4 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-093204`, `qclaw-tianlu-20260626-100246`, `qclaw-tianlu-20260626-103252`, and `qclaw-tianlu-20260626-110235`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-113216`, `qclaw-tianlu-20260626-120205`, `qclaw-tianlu-20260626-123147`, and `qclaw-tianlu-20260626-130209`.
 - Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-133224`, `qclaw-tianlu-20260626-140208`, `qclaw-tianlu-20260626-143241`, and `qclaw-tianlu-20260626-150429`.
+- Latest QClaw synthesis source range validated in this batch: controller-audited successful cycles `qclaw-tianlu-20260626-183159`, `qclaw-tianlu-20260626-190322`, `qclaw-tianlu-20260626-193419`, and `qclaw-tianlu-20260626-200254`.
