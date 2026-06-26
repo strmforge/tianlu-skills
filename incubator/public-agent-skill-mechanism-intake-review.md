@@ -101,6 +101,7 @@ Role-envelope and bundled-skill surfaces:
 - brand-to-design-system skill packages: input-source inventory, extracted tokens, component tear-down sheets, source-confidence flags, contradiction handling, and screenshot or render validation as state and gate surfaces rather than proof of design quality.
 - vertical platform skill packs: competition, research, finance, or domain-API packages can combine API reference shards, templates, examples, lint scripts, reporting flows, and MCP surfaces; these are package-shape evidence, not authority for accounts, market data, trading, publishing, or advice.
 - high-risk security workflow packs: authorization text, scope forms, depth labels, coverage matrices, zero-finding fallbacks, and report templates are useful gate surfaces, but they do not authorize scanning, exploitation, credential testing, wireless/cloud/ICS activity, or target contact.
+- professional-domain skill libraries: jurisdiction or domain directories, practice taxonomies, schema contracts, version checks, disclaimer requirements, and citation-output contracts can become reviewable state and gate surfaces; hosted discovery or invocation language is still only a loop surface until connected and replayed.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -124,6 +125,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - human-in-the-loop marketplace bridges: a single MCP or connector surface may expose discovery, offers, listings, messages, payments, reviews, profiles, and registration; discovery is not authority for contact, payment, public listing, identity, or reputation actions.
 - personal-agent runtime packages: provider catalogs, config roots, profile modes, host-access prompts, WebUI/OAuth boundaries, sandbox policies, channel registries, jobs, routines, and tool catalogs can be reviewed as separate loop/state/gate surfaces; secure-runtime branding is not safety proof.
 - observability and containment control planes: telemetry, traces, scores, prompt versions, packet captures, snapshots, MCP observers, container mounts, environment forwarding, policy files, and dashboards can be reviewed as loop/state/gate surfaces; visibility and containment architecture are not validation, security proof, or activation authority.
+- domain creative-control MCP packages: tool catalogs, host-app adapters, device or asset indexes, user corpora, memory ledgers, undo boundaries, and side-effect classes can be reviewed as state and gates; MCP availability and host-app integration are not proof that session mutation, media download, or undo behavior is safe.
+- hardware-aware model-selection packages: detected hardware, RAM or VRAM, backend, context cap, quantization, score components, fit levels, installed models, provider availability, and benchmark rows can be reviewed as state; generated recommendations, speed estimates, and savings or quality claims remain source-review-only.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -148,6 +151,7 @@ State, memory, isolation, and portability surfaces:
 - memory-as-learning architectures: retain, recall, reflect, memory banks, extracted facts or relationships, benchmark scripts, API/CLI/control planes, and generated clients can be reviewed as state and lifecycle surfaces; benchmark wording is not future-behavior authority.
 - portable profile packages: compact personal profiles, preference layers, project facts, lesson stores, mutation rules, decay rules, conflict types, and host projection files can be reviewed as state and governance surfaces; projection into many hosts is not proof of parity or memory authority.
 - telemetry and containment packages: traces, metrics, captures, snapshots, policy files, mount prompts, environment forwarding, and control UIs can be reviewed as state and gate surfaces; no capture, enforcement, dashboard, or container claim should be promoted without safe replay.
+- AI-agent observability packages: OpenTelemetry traces, spans, metrics, events, eval runs, datasets, dashboard SQL, annotation queues, PII-redaction limits, and gRPC export surfaces can be reviewed as control-plane state; ingestion, query, dashboard, eval, redaction, and realtime claims require replay before promotion.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 

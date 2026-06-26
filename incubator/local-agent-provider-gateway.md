@@ -36,6 +36,10 @@ This can make an agent runtime more flexible, but it also concentrates model rou
   - routing policy is held in a typed config with tiered models, cost metadata, weighted dimensions, score boundaries, confidence thresholds, and explicit override rules;
   - the proxy implementation hot-reloads config, extracts only recent user messages for scoring, maps scores to model tiers, defaults ambiguous requests to a middle tier, escalates reasoning-heavy or large-context requests, rewrites the outbound model field, and exposes health or stats endpoints;
   - savings and capability claims remain source-review-only because no local proxy, service registration, provider request, or stats endpoint was exercised.
+- Controller-audited public-source review on 2026-06-26 added a hardware-aware local model-selection shape:
+  - hardware, RAM/VRAM, backend, run mode, context cap, quantization, score components, fit level, installed models, provider availability, and benchmark rows are held as reviewable selection state;
+  - fit levels, dynamic quantization, simulation overrides, provider reachability, scoring weights, and benchmark lookups act as gates before recommending or downloading a model;
+  - recommendation quality, speed estimates, benchmark truth, provider availability, installability, and safe delete/download behavior remain source-review-only until replayed locally.
 
 This file records the method shape and review requirements. It is not an endorsement of the implementation and does not recommend installing or running it.
 
@@ -46,6 +50,7 @@ Use this candidate when an agent, user, runtime adapter, or repository proposes 
 - patch agent runtime config;
 - route model requests through a local endpoint;
 - route requests to a cheapest-capable or cost-aware model tier;
+- score local models against hardware fit, context, quantization, backend, provider availability, or benchmark data;
 - store or resolve API keys;
 - expose provider configuration through a web UI or local API;
 - launch through desktop or browser deep links;
@@ -84,6 +89,9 @@ Before adopting or activating a local agent provider gateway:
     - Model tiers, cost tables, scoring weights, confidence thresholds, and override rules are policy state.
     - Routing decisions, fallback behavior, and cost reports need replay on safe prompts before any savings, capability, or quality claim is adopted.
     - Ambiguous-request fallback and system-prompt exclusion should be checked explicitly because both can silently move routine work into the wrong tier.
+12. Review hardware-fit policy as a gate, not as proof.
+    - Hardware probes, RAM/VRAM, backend, quantization, context cap, fit level, installed-model scans, and benchmark rows are selection state.
+    - They need safe local replay before any claim that a model will run well, run fast, fit memory, download safely, delete safely, or outperform an alternative.
 
 ## Initial Scope
 
@@ -103,6 +111,7 @@ Before adopting or activating a local agent provider gateway:
 - Config auto-patching changes future sessions before review.
 - Model capability metadata overclaims tool, image, MCP, context, reasoning, or streaming support.
 - Cost-routing theater: a local proxy advertises cheaper model selection, but the scoring policy, fallback behavior, or cost report is not replayed and the savings estimate becomes a fact claim.
+- Hardware-fit theater: a model selector advertises best fit, speed, context, quantization, or benchmark support, but no local hardware probe, provider scan, model load, or benchmark replay has been performed.
 - Prompt-scope drift: the router scores system prompts, hidden instructions, or stale conversation context and over-escalates routine work or under-escalates high-stakes work.
 - A text-only model receives screenshot descriptions as ordinary prompt text and follows instructions embedded in the screen.
 - Screenshot capture sends private desktop or account content to a third-party vision provider.
@@ -126,6 +135,7 @@ Before adopting or activating a local agent provider gateway:
 - Confirm tool inventory, default exposure, allowlist support, and whether high-authority tools can be disabled.
 - Confirm model capability claims against actual provider behavior and failure paths.
 - Confirm scoring inputs, tier boundaries, confidence fallback, override rules, config hot-reload behavior, stats calculations, and per-tier cost assumptions on safe replay prompts before trusting routing or savings claims.
+- Confirm hardware probe sources, context caps, quantization choice, fit thresholds, provider reachability, installed-model matching, benchmark provenance, and download/delete behavior on safe replay before trusting model-fit claims.
 - Test the vision bridge with prompt-injection text inside a screenshot.
 - Confirm screenshot compression, caching, retention, and third-party transmission.
 - Confirm dashboard logs and SSE streams do not leak secrets or account data.

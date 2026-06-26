@@ -48,6 +48,8 @@ Controller-audited public repository samples from the local short-worker loop in
 - portable profile packages where profile files, onboarding questions, preference layers, lesson stores, mutation rules, decay rules, conflict types, and host projection files define the operating package boundary.
 - vertical finance or competition platform packages where API references, templates, lint scripts, factor stores, reporting surfaces, credential hints, and MCP bridges define the package boundary.
 - high-risk security assessment packages where authorization, scope, depth, environment readiness, playbooks, tool categories, coverage matrices, stop conditions, and report templates define the package boundary.
+- professional-domain skill libraries where taxonomy files, jurisdiction or domain directories, schema contracts, versioning rules, disclaimer requirements, citation-output contracts, and hosted discovery/invocation surfaces define the package boundary.
+- controller-monitor skill packages where ETA-aware checks, cooldown rules, terminal-state labels, named artifact reads, and low-context status probes define the package boundary for supervising another agent thread.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -71,6 +73,8 @@ Use this candidate when a public repository, internal design, or agent runtime p
 - state, context, dev docs, ledgers, or receipts for resume;
 - reviewer, test, lint, scoring, or eval gates;
 - dispatch, callbacks, worktrees, or scheduled worker loops.
+- taxonomy/schema/disclaimer/citation gates around a large domain skill library;
+- ETA, cooldown, terminal-state, and artifact-read gates around a controller-monitor role.
 
 ## Proposed Mechanism
 
@@ -117,6 +121,9 @@ Review the package as an operating package before any activation:
    - Finance, security, account, and profile packages can contain useful route, state, lint, coverage, or report surfaces.
    - The neutral mechanism is the gate and evidence shape, not the domain action.
    - Credentials, accounts, market data, professional advice, target probing, exploitation, persistent personal profiles, and external mutations require separate activation review.
+18. Treat monitor packages as liveness governors.
+   - ETA checks, cooldowns, and terminal-state labels can reduce controller cost and repeated reads.
+   - They do not prove the worker is correct, authorize cross-thread mutation, or replace final artifact/evidence review after a terminal state.
 
 ## Initial Scope
 
@@ -151,6 +158,8 @@ Review the package as an operating package before any activation:
 - Domain-authority laundering: a specialist role pack is treated as medical, legal, compliance, coding, billing, or clinical authority because its catalog is large or internally scored.
 - Workbench-action laundering: branch/worktree isolation is treated as permission to open PRs, fix CI, resolve conflicts, or merge.
 - High-risk vertical laundering: a finance, security, account, or profile package is treated as safe because it contains warnings, templates, lint scripts, or authorization language.
+- Professional-domain laundering: taxonomy, schema, disclaimer, or citation rules are treated as legal, medical, financial, or other professional authority.
+- Monitor laundering: a low-context status check is treated as proof of task completion, worker correctness, or permission to mutate another thread.
 
 ## Verification Needed
 
@@ -160,6 +169,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for evidence-gated research packages, content automation packages, clean-room spec/runtime packages, and Markdown OS file-role governance packages.
 - Add negative cases for generated team factories, internally scored domain role systems, and local-first workbenches with visible PR/MR buttons.
 - Add negative cases for portable profile mutation, finance strategy generation, security assessment authorization, and platform MCP bridges being treated as activation authority.
+- Add negative cases for professional-domain schema/citation packages being treated as advice authority and monitor/cooldown packages being treated as completion proof.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

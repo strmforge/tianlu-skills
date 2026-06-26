@@ -30,6 +30,9 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed vertical finance strategy packs that use API reference shards, templates, lint rules, factor stores, and user-run backtest boundaries as state and gates rather than as trading, advice, or market-data authority;
 - source-reviewed security assessment packs that use authorization, scope, depth, coverage matrices, zero-findings fallbacks, stop conditions, and report evidence as gates rather than as permission to probe live targets.
 - source-reviewed observability and containment packages that use traces, metrics, scores, prompt versions, packet captures, snapshots, container mounts, environment forwarding, policy files, and MCP/tool-call telemetry as state and gates rather than as validation, security proof, or activation authority.
+- source-reviewed professional-domain skill libraries that use jurisdiction or domain taxonomy, path consistency, schema contracts, version checks, disclaimer rules, and citation-output requirements as state and gates rather than as professional authority or hosted runtime proof.
+- source-reviewed hardware/model fit packages that use hardware detection, RAM/VRAM, backend choice, context caps, quantization, score components, fit levels, provider reachability, and benchmark rows as state and gates rather than as recommendation-quality, speed, savings, or installability proof.
+- source-reviewed AI-agent observability packages that use traces, spans, eval runs, datasets, SQL queries, dashboard definitions, annotation state, and redaction limits as state and gates rather than as complete monitoring, correct evals, or privacy proof.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -55,6 +58,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - vertical API reference shards, domain templates, lint policies, strategy or report ledgers, or user-run replay boundaries;
 - authorization/scope gates, assessment depth levels, coverage matrices, zero-finding escalation rules, or evidence report templates;
 - trace, metric, packet, snapshot, score, prompt-version, policy, mount, or telemetry surfaces used as review state;
+- schema, taxonomy, version, disclaimer, citation, provider-reachability, quantization, fit-level, benchmark-row, SQL-query, or redaction-limit surfaces used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -95,6 +99,9 @@ Review stateful skills as gated operating loops:
 12. Split observability and containment gates from proof.
    - Traces, scores, metrics, captures, snapshots, mounts, policies, and telemetry can help review state and gate behavior.
    - They do not prove completeness, correctness, privacy, containment, or security until replayed with false-positive, false-negative, rollback, retention, and redaction checks.
+13. Split typed selection gates from recommendation proof.
+   - Schemas, taxonomies, fit levels, score components, provider lists, and benchmark rows make choices reviewable.
+   - They do not prove the selected professional skill, model, provider, or eval result is correct until replayed against bounded examples and downgraded on conflict.
 
 ## Initial Scope
 
@@ -118,6 +125,8 @@ Review stateful skills as gated operating loops:
 - Domain-action creep: a useful method in editing, security, data, design, or code execution becomes permission to use accounts, credentials, browsers, cloud services, or local runtimes.
 - Authorization theater: a repository warning, scope form, or user-says-authorized phrase is treated as real permission for live security, finance, account, or profile-mutation action.
 - Observability/containment theater: a dashboard, trace, packet capture, container wrapper, MCP observer, or policy file is treated as validated gate behavior without replay.
+- Selection-gate laundering: a schema, taxonomy, score, fit level, provider flag, or benchmark row is treated as proof that the chosen skill, model, provider, or advice is correct.
+- Redaction-gate laundering: token limits, chunking, BIO labels, or a PII-redaction sidecar are treated as privacy proof without false-negative, false-positive, and retention review.
 
 ## Verification Needed
 
@@ -128,6 +137,7 @@ Review stateful skills as gated operating loops:
 - Add negative cases where benchmark text is treated as learning proof, extracted design tokens are treated as design proof, or a routing cost table is treated as savings proof.
 - Add negative cases where a portable profile is treated as automatic cross-host memory, a strategy lint script is treated as financial safety, or an authorization checklist is treated as permission to scan a target.
 - Add negative cases where traces are treated as correctness proof, container policy is treated as security proof, or packet/tool-call capture is treated as harmless read-only work.
+- Add negative cases where a professional-domain schema is treated as professional authority, a hardware-fit score is treated as recommendation truth, and a redaction service is treated as privacy proof.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

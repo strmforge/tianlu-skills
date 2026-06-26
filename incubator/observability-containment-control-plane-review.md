@@ -18,6 +18,8 @@ Controller-audited short-worker receipts from 2026-06-26 include source-review e
 - Kubernetes and network-observability packages that combine capture windows, snapshots, query filters, dissection state, packet metadata, MCP surfaces, destructive-operation flags, and RCA or security-report outputs;
 - LLM engineering platforms that combine traces, scores, datasets, prompt versions, evaluator flows, playground iteration, API/SDK surfaces, workers, dashboards, cloud deployment, and self-host deployment;
 - coding-agent containment packages that combine container images, bind mounts, environment forwarding, policy files, MCP call observation, filesystem/network telemetry, control-plane isolation, and local control UIs.
+- AI-agent observability platforms that combine OpenTelemetry-native tracing, spans, metrics, events, eval SDK or CLI surfaces, SQL editors, dashboard builders, annotation and dataset queues, realtime trace viewers, gRPC exporters, self-host stacks, schema controls, and PII-redaction sidecars.
+- domain creative-control MCP packages that combine host-application remote scripts, MCP servers, local bridges, tool catalogs, device or asset indexes, sample sources, prompt-to-plan composers, execution routers, undo boundaries, and non-undoable side-effect classes.
 
 The receipts are evidence packets, not neutral law. Worker claims were accepted only after controller path verification, source spot-check, and source-review caveats. No package was installed, no server or dashboard was started, no cluster, account, cloud, API, browser, credential, container, model call, packet capture, or external service was used.
 
@@ -40,6 +42,7 @@ Use this candidate when a repository, product, or workflow proposes to govern an
 - containerized agent execution, filesystem or network telemetry, bind mounts, or environment forwarding;
 - policy engines, allow/deny rules, destructive flags, isolation scripts, or control-plane protections;
 - MCP observers, MCP tool policies, or API/SDK bridge instrumentation.
+- host-application control surfaces where session mutations, asset downloads, local corpus scans, memory writes, installer actions, or filesystem writes are presented through one MCP or bridge interface.
 
 ## Proposed Mechanism
 
@@ -78,6 +81,8 @@ Review the control plane as separate loop, state, gate, and activation surfaces:
 - Credential forwarding creep: environment forwarding, config files, or cloud/local mode selection moves credentials into a control plane before owner review.
 - Report laundering: RCA, security, eval, or health reports are treated as facts without preserving source scope, limitations, and non-claims.
 - Flag theater: destructive-operation labels or policy warnings are present but not tested against actual unauthorized actions.
+- Realtime theater: live trace, dashboard, or control UI claims are treated as prevention or correctness proof instead of a display surface that can lag, filter, redact poorly, or miss events.
+- Undo-boundary laundering: host-application undo support is treated as rollback for all side effects even when asset downloads, memory writes, scans, installer actions, or filesystem writes persist outside the host document.
 
 ## Verification Needed
 
@@ -86,6 +91,8 @@ Review the control plane as separate loop, state, gate, and activation surfaces:
 - Confirm which gates are enforced versus only described in docs.
 - Test false positives and false negatives for policy, eval, and alert gates.
 - Test rollback or stop behavior when telemetry, capture, policy compilation, or dashboard startup fails.
+- Test whether replay can distinguish metadata-only trace review from ingestion, export, SQL query, dataset creation, redaction, realtime streaming, and report-generation actions.
+- Test whether host-application control planes preserve undo boundaries and block or clearly label non-undoable side effects.
 - Add negative eval cases where observability is mistaken for correctness, a container wrapper is mistaken for security proof, and a destructive flag is mistaken for real authorization control.
 
 ## Placement Candidates
