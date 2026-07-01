@@ -21,6 +21,7 @@ Placement candidates:
 ## Current Incubating Methods
 
 - [Agent team meta-factory review](agent-team-meta-factory-review.md): review tools that generate agent teams, skills, orchestrators, runtime pointers, or future behavior files before activation.
+- [Activation surface ledger review](activation-surface-ledger-review.md): review private-key, browser/session, payment, human-task, telemetry, local-daemon, CLI, MCP, codegen, and multi-agent activation surfaces before treating source-reviewed mechanisms as runtime authority.
 - [Agent platform lifecycle review](agent-platform-lifecycle-review.md): review all-in-one or lifecycle agent platforms that bundle prompt development, eval, observability, memory, self-evolution, workflows, builders, and ingestion tools before treating them as more than scoped source evidence.
 - [Agent role envelope and loop review](agent-role-envelope-cycle-review.md): review recurring agent roles that combine a role name, skill bundle, workflow contract, boundary laws, and a bounded loop.
 - [Agent role skill bundle routing review](agent-role-skill-bundle-routing-review.md): review role definitions that should be composed from an entry skill, a core skill, helper skills, boundary laws, and eval coverage instead of a single prompt file.
@@ -50,6 +51,7 @@ Placement candidates:
 - [Solo revenue claim verification review](solo-revenue-claim-verification-review.md): verify solo-founder, one-person-company, MRR, ARR, revenue, no-employees, or one-laptop business claims before treating them as cases or opportunity evidence.
 - [Source-grounded structured data readiness review](source-grounded-structured-data-readiness-review.md): shape messy documents, websites, and AI-search visibility signals into source inventories, schemas, cited extraction QA, and owner handoffs without claiming tool accuracy, ranking, revenue, production readiness, or account-write authority.
 - [Stateful skill gate review](stateful-skill-gate-review.md): review skills and agent workflows that combine measurable gates, state surfaces, baseline comparisons, safe probes, rolling memory, or sandbox/session boundaries before treating them as validated methods or activation authority.
+- [Self-generated skill learning review](self-generated-skill-learning-review.md): review context-to-skill and trajectory-to-distillation research signals before treating generated skills as runtime learning, role evolution, or model-internalized behavior.
 - [Software supply chain evidence triage service](software-supply-chain-evidence-triage-service.md): shape SBOM, VEX, Dependabot, advisory, KEV, OpenSSF, and SLSA signals into reviewable evidence and handoff packets without installing, patching, releasing, or claiming compliance.
 - [Terminal output compression review](terminal-output-compression-review.md): review local wrappers, hooks, and summaries that compress noisy command output while preserving raw evidence.
 - [Voice profile skill review](voice-profile-skill-review.md): review corpus-to-profile-to-skill systems for consent, privacy, measured evidence, held-out verification, activation, misuse, and rollback boundaries.
