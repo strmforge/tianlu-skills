@@ -39,6 +39,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - data-observability operating packages that combine asset health, alert triage, lineage review, monitor creation, metadata ingestion, incident-response workflows, connector auth, MCP/OAuth setup, telemetry settings, and agent instrumentation.
 - gateway lifecycle packages that combine protocol federation, upstream server catalogs, plugins, admin UI, tracing, caching, auth modes, deployment modes, and security hardening as one apparent platform surface.
 - search, document, media, and model-deployment packages that combine query-decomposition graphs, web-search execution, document extraction, structured or markdown outputs, media transformation stages, ML compilation, hardware targets, mobile/web targets, and frontend/backend surfaces.
+- official or ecosystem SDK/platform repositories that present agents, tools, handoffs, guardrails, sessions, tracing, realtime surfaces, MCP bridges, sandbox extensions, multi-runtime clients, generated API references, examples, and tests as one lifecycle control plane.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction. For example, one self-evolution package had README support for a three-tier memory story, while a controller spot-check of its config surface only found flat self-evolution toggles and agent workspace/context settings, not proof of an explicit three-tier config schema.
 
@@ -129,6 +130,9 @@ Review the platform as separate lifecycle planes before any adoption:
 23. Split model deployment and media transformation from runtime or output proof.
    - Hardware targets, compilation targets, mobile/web surfaces, highlight selection, subtitle cleanup, and render stages describe a pipeline.
    - They do not prove performance, compatibility, rights clearance, media quality, publish readiness, or safe local execution without scoped replay and human handoff review.
+24. Split SDK control-plane shape from API or runtime truth.
+   - Agent classes, tool abstractions, handoff helpers, guardrail modules, session stores, tracing hooks, MCP clients, realtime examples, generated API references, and tests are source-review surfaces.
+   - They do not prove current API availability, model behavior, provider compatibility, account permissions, package release freshness, persistence quality, tracing retention, or sandbox safety without current official-source verification and scoped runtime replay.
 
 ## Initial Scope
 
@@ -164,6 +168,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Operational platform authority creep: alert triage, lineage, monitor creation, metadata ingestion, and incident workflows are treated as safe because they are framed as observability or data quality.
 - Gateway completeness creep: protocol support, plugin count, admin UI, cache/federation, and tracing are treated as proof of safe upstream authority and deployment fitness.
 - Pipeline completeness creep: a graph, extractor, compiler, frontend, or renderer is treated as proof that the answer, structured data, model runtime, or media output is correct and ready to use.
+- SDK authority creep: official-looking clients, generated API references, examples, tests, or package manifests are treated as proof of current hosted API behavior, account access, model quality, or safe runtime integration.
 
 ## Verification Needed
 
@@ -181,6 +186,7 @@ Review the platform as separate lifecycle planes before any adoption:
 - Check whether operational observability packages separate metadata inspection, account connection, live workspace validation, monitor creation, incident response, instrumentation, and telemetry.
 - Check whether gateway platforms separate catalog import, upstream auth, protocol translation, plugin execution, admin UI, tracing/export, cache/federation, and deployment hardening.
 - Check whether search, extraction, media, and model-deployment packages separate graph state, source pointers, output QA, render/compile commands, hardware assumptions, frontend/backend startup, rights/publication boundaries, and runtime activation.
+- Check whether SDK and API-library packages separate documented concepts, generated reference files, examples/tests, auth/account surfaces, model/provider assumptions, session persistence, tracing retention, realtime transport, MCP bridges, and sandbox/container activation.
 - Add negative eval cases for platform-completeness claims, self-evolution as durable-memory authority, observability as validation, and crawler usefulness as web-action authority.
 - Decide whether this remains a supporting incubator note or becomes a productive platform-review playbook.
 
