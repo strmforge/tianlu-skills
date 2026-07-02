@@ -55,6 +55,9 @@ Controller-audited public repository samples from the local short-worker loop in
 - portable output skill packages where a skill combines product scaffolding, local toolchain bootstrap, generated binary or archive outputs, platform-specific sync, ignored local environment folders, and deployment/upload paths.
 - CLI catalog operating packages where a discovery skill, registry file, categories, focused `pp-*` skills, deferred binary setup, install/update/uninstall flows, MCP metadata, and local mirror claims define the package boundary.
 - project-continuity and invariant packages where handoff commands, session state, project logs, DNA/RNA documents, audit modes, and harness translation rules define the package boundary.
+- canonical skill projection packages where one source skill body, project manifests, lockfiles, host pointers, host rule files, and MCP config projection define the package boundary.
+- remote persistence and security-workflow packages where environment inspection, idempotent action plans, service/task definitions, local/package mode switches, workspace resume, authorization warnings, worker/container surfaces, and report deliverables define the package boundary.
+- GUI-grounded, commerce/API, scene-rewrite, and crawler-sync packages where screen grounding, live API/docs surfaces, scope tiers, protected spans, scheduler intervals, and API-sync toggles define the package boundary.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -85,6 +88,8 @@ Use this candidate when a public repository, internal design, or agent runtime p
 - local toolchain, generated artifact, dump/output folder, platform-sync, and upload boundary gates around an output-generation role.
 - registry, category taxonomy, discovery skill, focused-skill recommendation, deferred install, and MCP metadata gates around a CLI catalog role.
 - handoff file, project log, invariant document, RNA/harness translation, and audit-mode gates around a project-continuity role.
+- source skill store, host projection manifest, lockfile, pointer file, rule file, and MCP config gates around a canonical projection role.
+- service/task plan, hidden/background process plan, local/package mode switch, resumable workspace, authorization scope, GUI grounding, API-sync toggle, and scheduler interval gates around persistence, security, GUI, commerce, rewrite, or crawler-sync roles.
 
 ## Proposed Mechanism
 
@@ -146,6 +151,12 @@ Review the package as an operating package before any activation:
 22. Treat project-continuity packages as state packages.
    - Handoff files, project logs, and invariant documents can improve resumption and keep "what/why" visible.
    - They do not prove future-session memory, enforcement, or implementation correctness until the read/inject/audit loop is replayed.
+23. Treat canonical projection packages as packaging state.
+   - A source skill body, manifest, lockfile, pointer, host rule file, or MCP config map can improve distribution review.
+   - They do not prove behavior parity, host loading, permission equivalence, or safe writes until each target host path is replayed under scoped approval.
+24. Treat persistence, security, GUI, commerce, rewrite, and crawler packages as dual-surface roles.
+   - Their action plans, mode switches, resume handles, scope tiers, scheduler intervals, and sync toggles can make the operating boundary visible.
+   - They do not authorize service/task registration, hidden/background launch, exploit execution, browser or GUI control, account/API use, scheduler execution, crawler runs, or push/update/delete paths.
 
 ## Initial Scope
 
@@ -186,6 +197,9 @@ Review the package as an operating package before any activation:
 - Output laundering: a scaffold, viewer, or build script is treated as proof of artifact quality, installability, or deployment readiness.
 - Catalog laundering: registry counts, category labels, and discovery flows are treated as proof that a focused CLI, skill, MCP server, or external API workflow should be installed or run.
 - Continuity laundering: a handoff file or invariant document is treated as automatic cross-session memory or enforcement authority.
+- Projection-package laundering: a single canonical source plus host pointers is treated as proof that every runtime loads, scopes, and executes it the same way.
+- Persistence-package laundering: an idempotent setup plan is treated as permission to register services, launch background workers, or claim logout/reboot survival.
+- Sync-package laundering: a scheduler interval or API-sync toggle is treated as proof that crawling, freshness, auth, and delete/update behavior are safe.
 
 ## Verification Needed
 
@@ -198,6 +212,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for professional-domain schema/citation packages being treated as advice authority and monitor/cooldown packages being treated as completion proof.
 - Add negative cases for persona or expert packages being treated as public-source completeness, character fidelity, professional authority, privacy safety, or permission to browse/scrape/persist identity state.
 - Add negative cases for output packages being treated as build/deploy proof, catalog packages being treated as install/API proof, and continuity packages being treated as future-session authority.
+- Add negative cases for canonical projection packages being treated as host-parity proof, remote persistence packages being treated as durable-service proof, and crawler/API-sync packages being treated as mutation authority.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

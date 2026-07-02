@@ -14,6 +14,7 @@ This candidate records the method for turning batches of public repository revie
 
 - Controller-audited local QClaw short-worker receipts from the public repository reading loop on 2026-06-24.
 - Repository-level samples reviewed only through local lightweight source files such as README, SKILL.md, metadata, examples, and directory shape.
+- Additional controller-audited short-worker receipt windows from 2026-07-02 local 16:25, 16:43, 16:52, and 17:04 add source-reviewed examples for canonical skill projection, remote persistence setup, security-workflow packages, GUI-grounded agent packages, commerce/API skill packs, scene-to-eval rewrite gates, and scheduled crawler/API-sync loops.
 - Related Tianlu candidates:
   - `public-skill-triage-role-envelope-pilot.md`
   - `agent-role-skill-bundle-routing-review.md`
@@ -108,6 +109,8 @@ Role-envelope and bundled-skill surfaces:
 - prompt workbench and prompt-refinement packages: local-first workbenches, prompt optimizers, model-family strategy tables, hidden-rewrite rules, language locks, eval fixtures, and optional hook flags can be reviewed as prompt-state and selection surfaces; desktop app behavior, deployment behavior, model detection, rewrite quality, and hook enforcement remain source-review-only.
 - cross-host productivity skill bundles: many host directories, plugin manifests, commands, hooks, skills, landing pages, and multilingual READMEs can show distribution shape; they do not prove productivity gains, parity across hosts, safe activation, or community/account surfaces.
 - academic research and reading skill bundles: Obsidian-centered reading protocols, L1/L2/L3 note tiers, memory extraction taxonomies, literature-search packs, scientific-reasoning meta-skills, and citation/fulltext helper skills can be reviewed as role-package shape; vault writes, paper retrieval, citation validation, skill installs, and scientific or professional authority remain activation or proof surfaces.
+- canonical skill projection packages: a single source skill store, symlink or pointer projection, project manifests, lockfiles, host-specific policy files, and MCP config projection can be reviewed as role-package shape; projection commands, host-file writes, registry access, behavior parity, and cross-host permission semantics remain activation or proof surfaces.
+- remote persistence setup packages: environment inspection, action plans, idempotent scripts, service or task manager definitions, graceful-degradation rules, and explicit persistence limits can be reviewed as operating-package shape; session launch, service registration, hidden/background processes, sudo/login handling, and reboot/logout survival remain activation or proof surfaces.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -140,6 +143,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - tool-router and bootstrap packages: generated per-machine tool indexes, platform routing matrices, rule/subskill loading, field journals, report paths, and bootstrap scripts can be reviewed as operating-package state; generating indexes, installing tools, registering MCP servers, running reverse-engineering workflows, or writing journals requires separate activation review.
 - enterprise data-operation routers: natural-language intent can be routed into read-only structured queries or write-capable service scripts through a decision matrix, credential gate, and commit flag; query/script routing, credential handling, health checks, and writes remain source-review-only until replayed on a bounded safe fixture.
 - capture-driven pipe systems: screen/audio/activity capture, local timeline search, MCP or REST access, and markdown/YAML pipes can be reviewed as capture-to-action loop surfaces; capture, raw SQL/frame access, permission enforcement, and agent actions remain activation surfaces.
+- security-workflow packages: authorization warnings, local-versus-package mode detection, workspace resume, YAML overrides, worker/container surfaces, browser automation, exploit-capable stages, and report deliverables can be reviewed as gate and workflow state; target interaction, credential use, exploit execution, browser automation, Docker/worker launch, and report validity remain activation or proof surfaces.
+- GUI-grounded and commerce/API skill packs: screen grounding, navigation models, quantization or serving surfaces, live documentation retrieval, account/admin APIs, public extraction modes, and store-audit templates can be reviewed as lifecycle surfaces; GUI control, model download/inference/training, account access, API calls, scraping, and live-doc freshness remain source-review-only until scoped replay.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -177,6 +182,7 @@ State, memory, isolation, and portability surfaces:
 - source-context and codebase-packaging packages: repo packing, token-aware evidence bundles, source-context browser selection, plugin hooks, and extension/package metadata can be reviewed as context-supply surfaces; packaging quality, build behavior, browser-extension behavior, speed claims, MCP behavior, and external service behavior remain source-review-only.
 - filesystem-memory and scratchpad packages: ripgrep-backed local history search, persistent REPL scratchpads, print-only context contracts, and marketplace metadata can be reviewed as state and context-gating surfaces; reading private histories, launching REPLs, persisting sessions, or claiming context-savings requires scoped replay and owner approval.
 - local-first coworker packages: email, calendar, meeting-note ingestion, editable Markdown vault memory, knowledge graphs, generated work artifacts, external tools, vector stores, and worker services can be reviewed as state and lifecycle surfaces; OAuth, account reads, vault writes, external tools, Docker services, and generated-artifact quality remain unproven.
+- scheduled crawler and API-sync packages: upstream source URLs, update intervals, filter/save stages, local default endpoints, API-auth placeholders, sync toggles, batch/update/delete route documents, and scheduler entrypoints can be reviewed as state and lifecycle surfaces; crawler runs, upstream freshness, server availability, authentication, push/update/delete safety, and scheduled-task behavior remain unproven.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -194,6 +200,7 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - persona and theory-first skill packs: corpus-to-persona calibration, anti-bias rules, double-loop review, Socratic questioning, cybernetics framing, knowledge gardening, and narrative commit review as scoped method signals rather than truth claims.
 - prompt-injection and static-skill-check packages: deterministic JSON, CSV, or SARIF outputs, manifest/frontmatter checks, canary tokens, vector memories, and defense gates can be reviewed as evidence and gate shapes; detector accuracy, privacy, attack coverage, and runtime enforcement require independent replay.
 - package-audit and migration-review skills: live lookup plans, package delta tables, migration matrices, PDF/report outputs, and architecture checklists can be reviewed as structured audit surfaces; live API freshness, generated reports, dependency advice, and migration correctness remain unverified until run on a bounded fixture.
+- scene-to-eval rewrite packages: scene classification, tiered rewrite scope, protected-span ledgers, fixed execution order, and separate eval harnesses can be reviewed as gated transformation surfaces; rewrite quality, eval validity, protected-span enforcement, and downstream style fit remain unverified until replay.
 
 Scheduled monitor and alert-loop surfaces:
 

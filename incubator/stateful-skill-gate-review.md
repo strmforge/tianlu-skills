@@ -46,12 +46,15 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed command, lint, and router packages that use dispatch frontmatter, lifecycle sentinels, CI metadata checks, deterministic JSON/CSV/SARIF outputs, generated tool-index requirements, platform routing matrices, and field-journal paths as state and gates rather than as proof of safe execution, index freshness, or security-analysis quality.
 - source-reviewed scratchpad, research, and package-audit packages that use print-only context contracts, persistent session names, temp-file execution patterns, horizontal/vertical/cross-axis prompts, live-lookup plans, migration matrices, and report artifacts as state and gates rather than as proof of privacy, research quality, package advice, or migration correctness.
 - source-reviewed recursive orchestrators, local coworker memory tools, enterprise query/script routers, academic reading bundles, and capture-driven pipe systems that use plan/executor/verifier roles, vault or graph state, read-versus-write matrices, commit flags, tiered reading protocols, security-scan ledgers, capture timelines, pipe YAML permissions, and localhost API/MCP boundaries as state and gates rather than as proof of runtime correctness, privacy, or safe action.
+- source-reviewed projection, persistence, security-workflow, GUI, commerce/API, rewrite/eval, and crawler-sync packages that use canonical stores, project manifests, lockfiles, idempotent action plans, service/task gates, local-versus-package mode detection, workspace resume state, scope tiers, protected spans, API-sync toggles, and scheduler intervals as state and gates rather than as proof of host parity, durable service safety, exploit quality, GUI correctness, API safety, or sync correctness.
 
 Additional validated source range for the browser/build/catalog/invariant additions: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`.
 
 Additional validated source range for the prompt-refinement, proxy, safety-eval, agent-framework, and worker-governance additions: controller-audited successful cycles `qclaw-tianlu-20260702-120307`, `qclaw-tianlu-20260702-123357`, `qclaw-tianlu-20260702-130302`, and `qclaw-tianlu-20260702-133308`.
 
 Additional validated source range for the recursive-orchestrator, local-coworker, enterprise-router, academic-reading, and capture-pipe additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 15:42, 15:52, 16:03, and 16:15.
+
+Additional validated source range for the projection, persistence, security-workflow, GUI, commerce/API, rewrite/eval, and crawler-sync additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 16:25, 16:43, 16:52, and 17:04.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -90,6 +93,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - worker capability envelope, route-decision receipt, registry record, controls-present set, blast score, policy gate, attestation manifest, taxonomy entry, or conformance vector used as review state;
 - slash-command frontmatter, lifecycle sentinel, deterministic lint output, generated tool-index requirement, platform routing matrix, field-journal path, print-only context contract, research-axis template, package-audit matrix, or report artifact used as review state;
 - recursive plan/executor/verifier role state, local vault or knowledge-graph state, enterprise read-versus-write routing matrix, commit flag, tiered reading protocol, skill security ledger, capture timeline, pipe YAML permission file, localhost API endpoint, MCP boundary, raw SQL gate, or frame-access gate used as review state;
+- canonical skill store, host projection manifest, lockfile, service/task plan, local-versus-package mode switch, resumable workspace, protected-span ledger, scene tier/scope, API-sync toggle, scheduler interval, or delete/update route used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -151,6 +155,9 @@ Review stateful skills as gated operating loops:
 19. Split route-to-execution and capture-to-action state from permission proof.
    - Read/write routing matrices, commit flags, pipe permission files, capture timelines, and local API/MCP boundaries can make action surfaces reviewable.
    - They do not authorize credential use, health checks, enterprise queries, write scripts, screen/audio capture, raw SQL/frame access, or agent pipe actions until a scoped replay and owner approval boundary exists.
+20. Split projection, persistence, and sync state from activation proof.
+   - Project manifests, lockfiles, service/task plans, mode switches, workspace resume handles, scheduler intervals, and API-sync toggles can make adoption state visible.
+   - They do not authorize host projection, service registration, background launch, exploit execution, GUI control, account/API use, crawler runs, or API push/update/delete paths until scoped replay and owner approval exist.
 
 ## Initial Scope
 
@@ -192,6 +199,9 @@ Review stateful skills as gated operating loops:
 - Report-artifact laundering: CSV, SARIF, PDF, or matrix output formats are treated as audit correctness or migration advice proof without scoped replay.
 - Route-gate laundering: a read-versus-write matrix or commit flag is treated as proof that query routing, credential handling, and write safety will work in a live system.
 - Capture-permission laundering: pipe YAML, local-only storage, or deterministic permission language is treated as proof that capture, search, SQL/frame access, or downstream agent actions are safe.
+- Projection-state laundering: canonical-store manifests and lockfiles are treated as proof of behavior parity across hosts.
+- Persistence-state laundering: an idempotent service or task plan is treated as proof that a background session is safe, durable, and reversible.
+- Scheduler-state laundering: a sync interval or API toggle is treated as proof that crawler freshness, sync correctness, and delete/update safety are valid.
 
 ## Controller-Audited Gate Variants
 
@@ -205,6 +215,7 @@ Recent public-source review adds several gated-skill surfaces:
 - Context-output gates: scratchpad packages can make context entry explicit through print-only contracts, session names, and temp-file execution patterns; those contracts do not prove private-data safety, session isolation, or context-savings until replayed.
 - Tool-index and audit gates: generated tool indexes, platform routing matrices, static-lint outputs, prompt-injection canary/vector surfaces, and package-audit matrices can become state surfaces; they do not prove tool availability, detector quality, or live-package freshness.
 - Enterprise-route and capture-pipe gates: read-only query versus write-script matrices, explicit commit flags, capture timelines, pipe markdown/YAML permissions, content-type filters, and localhost REST/MCP boundaries can become state surfaces; they do not prove credential safety, routing correctness, permission enforcement, local-only privacy, or agent-action safety.
+- Projection/persistence/sync gates: canonical stores, host projection manifests, lockfiles, service/task plans, mode switches, workspace resume handles, scene tiers, protected spans, scheduler intervals, and API-sync toggles can become state surfaces; they do not prove host parity, durable service behavior, exploit quality, GUI correctness, account/API safety, crawler freshness, or delete/update safety.
 
 Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
 
@@ -222,6 +233,7 @@ Neutral mechanism: when a skill claims a gate, capture the input state, gate rul
 - Add negative cases where a DNA/RNA document is treated as enforced project truth without injection evidence, a handoff file is treated as durable memory authority, and a CLI catalog count is treated as install or API proof.
 - Add negative cases where a prompt-refinement skill's model-family routing is treated as automatic model detection, and where a worker-governance protocol's route decision is treated as proof of production trust enforcement.
 - Add negative cases where an enterprise router's FlexSearch/Groovy-style matrix is treated as permission to connect credentials or run writes, and where a capture system's pipe permissions are treated as proof of privacy or safe agent action.
+- Add negative cases where a host projection manifest is treated as parity proof, a service/task plan is treated as persistence proof, and a scheduler/API toggle is treated as permission to crawl or mutate records.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates
