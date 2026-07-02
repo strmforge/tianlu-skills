@@ -167,6 +167,12 @@ Review the package as an operating package before any activation:
 26. Treat discovery, manifest, and event-mesh packages as routing packages.
    - Catalogs, safety ratings, ranked skill results, full skill bodies, transport manifests, constrained dialogue rules, and event brokers can help choose or shape a role's next action.
    - They do not authorize skill injection, installation, hosted API calls, SMS ordering, wallet payment, broker launch, or agent delegation until each authority surface has a scoped review and replay path.
+27. Treat cross-session and practice packages as state-plus-method roles.
+   - Shared context files, project handovers, session recaps, cognitive-practice files, writing rubrics, design-rule corpora, and structure-first methods can make a role's memory and working method inspectable.
+   - They do not prove host loading, future-session enforcement, output quality, or durable self-improvement until the read/inject/audit loop and baseline comparison are replayed.
+28. Treat hosted-domain and browser-action packages as dual-surface roles.
+   - Typed market rules, backtests, linked channels, payment confirmations, observe-before-act browser automation, action caches, and local subprocess boundaries can be useful role-contract material.
+   - They do not authorize account credentials, browser/session actions, hosted endpoint calls, public sharing, wallet/payment actions, local audio/model execution, or Docker/product launches without separate activation review.
 
 ## Initial Scope
 
@@ -214,6 +220,10 @@ Review the package as an operating package before any activation:
 - Discovery-package laundering: a catalog, safety rating, ranked result, or full skill payload is treated as permission to load, obey, install, or distribute a skill.
 - Transport-package laundering: a manifest lists MCP, REST, hosted, or payment-gated paths and is treated as proof of equivalent, safe, or authorized runtime behavior.
 - Event-mesh laundering: an orchestrator or broker topology is treated as proof of reliable delegation, task completion, or isolation across agents.
+- Cross-session laundering: project-state files, snapshots, handovers, recaps, or MCP tool counts are treated as proof that a future host will load and obey the intended state.
+- Practice-package laundering: a self-regulation exercise, writing threshold, design rule, or code-structure mantra is treated as proof of improved output without a baseline and failure cases.
+- Hosted-domain laundering: typed rules, private backtests, delivery readiness, or account-scoped endpoints are treated as proof that a hosted domain agent works or is safe to call.
+- Preview-browser laundering: observe-before-act and action caching are treated as proof that a browser automation role is safe to run on logged-in or mutable pages.
 
 ## Verification Needed
 
@@ -229,6 +239,8 @@ Review the package as an operating package before any activation:
 - Add negative cases for canonical projection packages being treated as host-parity proof, remote persistence packages being treated as durable-service proof, and crawler/API-sync packages being treated as mutation authority.
 - Add negative cases for gateway packages being treated as model/API authority, runtime skill trials being treated as deployment proof, HR termination logs being treated as deletion authority, registries being treated as quality proof, and validation-gated skill edits being treated as safe adoption.
 - Add negative cases for runtime-discovery packages being treated as installation authority, multi-transport manifests being treated as API or payment proof, Socratic constraints being treated as learning-quality proof, and event-mesh packages being treated as orchestration proof.
+- Add negative cases where project-continuity files are treated as future-session authority, practice/rubric files are treated as output-quality proof, and observe-before-act browser packages are treated as safe logged-in automation.
+- Add negative cases where hosted market-rule packages are treated as account, data, notification, or public-share authority, and where payment-confirmation text is treated as proof of settlement or pricing behavior.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

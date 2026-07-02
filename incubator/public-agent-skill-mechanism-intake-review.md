@@ -242,6 +242,10 @@ Lifecycle platform and ingestion surfaces:
 - fresh-context autonomous-loop packages: task ledgers, progress logs, per-iteration clean contexts, max-iteration caps, explicit completion markers, and feedback loops can be absorbed as loop/state/gate surfaces; unattended coding, commits, worktrees, branch mutation, and external tool calls remain inactive.
 - plan-execution and role-event loop frameworks: plan files, validation commands, review stages, external review, finalize phases, hats, event loops, memories, merge queues, backend adapters, and wave dispatch are orchestration surfaces; advertised maturity, language choice, and built-in dashboards do not prove loop safety or output quality.
 - QA-autopilot skill packages: requirements intake, adapter detection, optional instrumentation, parallel discovery, risk scoring, scenario design, Playwright generation, execution/healing, quality review, traceability, gate decisions, CI output, checkpoints, and schemas can be reviewed as gated QA surfaces; browser inspection, model calls, test execution, CI mutation, and generated-test quality remain source-review-only until replay.
+- risk-adaptive review and feedback packages: PR risk scoring, specialist reviewers, optional machine-consumable feedback, auth-gated checks, and benchmark/cost claims can be reviewed as orchestration surfaces; git/host auth, PR comments, agent remediation, benchmark validity, and reviewer quality remain source-review-only until replay.
+- browser/UI automation and local runtime packages: observe-before-act candidates, action caches, self-healing fallback paths, Electron shells, stateless CLIs, local audio/transcription subprocesses, and JSON state files can be reviewed as context and runtime-boundary surfaces; browser/session actions, model calls, audio-device behavior, and local server behavior require separate activation review.
+- domain execution and hosted-rule packages: x402 payment skills, hosted market-rule agents, typed alerts, account-private backtests, linked channels, public share cards, and confirmation gates can be reviewed as activation-surface examples; wallet/payment, market data, endpoint availability, account state, delivery, public sharing, and settlement claims remain unverified.
+- project-continuity and practice-rule packages: `.story`-style project state, MCP tool inventories, handovers, snapshots, recaps, startup-context files, cognitive-practice instructions, writing rubrics, structure-first methods, and design-rule corpora can be reviewed as state/method packages; future injection, host loading, output quality, and durable self-improvement require replay and baseline comparison.
 
 ## Initial Scope
 
@@ -272,6 +276,7 @@ Lifecycle platform and ingestion surfaces:
 - Confirm which examples are stable enough to cite in neutral docs and which should stay as local receipt evidence only.
 - Add an automation memory or state marker so future sync jobs can tell which receipt ranges have been synthesized and pushed.
 - Add negative eval cases for runtime discovery being treated as installation authority, safety ratings being treated as quality proof, multi-transport manifests being treated as API/payment proof, and event-mesh diagrams being treated as orchestration proof.
+- Add negative eval cases for observe-before-act browser automation being treated as safe logged-in action, project-continuity files being treated as future-memory authority, hosted-rule packages being treated as account/API authority, and practice/rubric packages being treated as output-quality proof.
 
 ## Placement Candidates
 

@@ -58,6 +58,7 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Added a compact synthesis checkpoint for controller-audited short-worker batches covering canonical skill projection, remote-session persistence setup, autonomous security-workflow packages, GUI-grounded agent packages, commerce/API skill packs, scene-to-eval rewrite gates, and scheduled crawler/API-sync loops.
 - Added a compact synthesis checkpoint for controller-audited short-worker batches covering unified AI gateways, runtime skill-evaluation harnesses, skill-HR lifecycle state, registry/delivery layers, scaffolded skill creation, progressive disclosure schemas, and validation-gated skill optimization loops.
 - Added a compact synthesis checkpoint for controller-audited short-worker batches covering skill supply-chain security scanners, runtime skill discovery APIs, skill vault/catalog gates, multi-transport skill manifests, constrained Socratic workflows, and event-driven agent mesh packages.
+- Added a compact synthesis checkpoint for controller-audited short-worker batches covering risk-adaptive PR review packages, browser/UI observe-before-act loops, hosted market-rule and payment-gated skill surfaces, project-continuity MCP state packages, shared-context founder skill bundles, local subprocess runtime boundaries, practice/rubric method skills, structure-first coding methods, and design-rule corpora.
 - The role-envelope method is still incubating; it is not promoted to `playbooks/`, `laws/`, adapters, or active runtime behavior yet.
 
 ## Working Hypothesis
@@ -139,6 +140,8 @@ Move Tianlu from single-file prompt routing toward role envelopes: one role name
 - Runtime skill discovery packages can contribute catalogs, ranked results, full skill payloads, caches, and REST/MCP selection surfaces, but relevance, freshness, injection safety, installability, and host behavior remain source-review-only until scoped replay and owner approval.
 - Multi-transport skill manifests can contribute operation inventory across MCP, REST, hosted, wallet, or payment-gated endpoints, but transport equivalence, endpoint availability, pricing, settlement, authentication, and call authority remain source-review-only until each transport is separately reviewed.
 - Event-driven agent mesh packages can contribute event brokers, orchestrator plans, peer-agent delegation, artifacts, and gateway surfaces, but broker reliability, tenant isolation, delegation quality, and workflow completion remain source-review-only until scoped replay.
+- Project-continuity and practice-rule packages can contribute durable state shapes, handovers, snapshots, recaps, MCP inventories, shared context files, self-regulation exercises, writing rubrics, structure-first working rules, and design-rule corpora, but future-session injection, host loading, stale-state behavior, output quality, and durable self-improvement remain source-review-only until baseline replay.
+- Previewable browser, hosted-rule, and payment-gated packages can contribute observe-before-act gates, action caches, typed rules, private backtests, delivery prerequisites, confirmation gates, and endpoint inventories, but browser/session safety, account/API authority, payment settlement, public sharing, market-data truth, and hosted execution remain activation surfaces.
 
 ## Next Step
 
