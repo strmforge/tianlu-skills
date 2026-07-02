@@ -266,6 +266,9 @@ Lifecycle platform and ingestion surfaces:
 - visual reproduction and design-gate packages: computed-style extraction, specialist spec lenses, design approval artifacts, viewport pixel-diff verdicts, feedback loops, and browser/designer automation instructions can be reviewed as gated artifact-production surfaces; visual quality, build correctness, browser control, Webflow mutation, GPU debugging, and generated output remain unverified.
 - channel delivery and queue packages: draft-only publishing, exact target matching, synchronous versus queued delivery modes, status logs, and explicit error codes can be reviewed as account-action boundary examples; account login, API keys, uploads, sends, queue ordering, and delivery/publication semantics remain activation surfaces.
 - review-policy and constitution packages: shared review policies, fresh-context reviewer skills, touched-surface validation matrices, source-derived CLI guidance, CEO/sub-agent/skill/MCP constitutions, and consistency-lint recommendations can be reviewed as governance package shapes; reviewer quality, generated-doc correctness, UI verification, and enforced project truth require bounded replay.
+- knowledge-platform and setup-CLI packages: RAG/vector/graph/multi-agent platform diagrams, Docker-first development contracts, LITE-mode boundaries, setup wizards, generated-output folders, i18n/template sync, and lint/typecheck/test commands can be reviewed as platform or setup discipline; deployment health, retrieval quality, sponsor/provider claims, generated install correctness, and runtime behavior remain source-review-only.
+- irreversible publishing and primary-source research packages: staged deposit lifecycles, sandbox defaults, token indirection, metadata/file review, quote corpora, method inference, cached data snapshots, and non-advice disclaimers can be reviewed as evidence and boundary mechanisms; production publication, external API behavior, script correctness, data freshness, and professional advice authority remain activation surfaces.
+- single-source runtime governance packages: no-duplicate-state rules, pre-edit source-of-truth rituals, resolver/on-demand materialization patterns, risk tiers, command policies, sandboxing, and tool receipts can be reviewed as governance package shapes; actual enforcement, memory behavior, tool execution, supervisor routing, and sandbox security require bounded replay.
 
 ## Initial Scope
 
@@ -300,6 +303,10 @@ Lifecycle platform and ingestion surfaces:
 - Visual-QA laundering: computed tokens, pixel-diff verdicts, or specialist specs are treated as artifact quality proof.
 - Channel-queue laundering: queued acceptance, draft-only language, or exact target validation is treated as proof of safe account action or delivery.
 - Governance-package laundering: review policies, generated guidance, or constitution scaffolds are treated as enforced behavior without replay.
+- Setup-provider laundering: a setup CLI's sponsor, model, provider, or relay claims are treated as neutral capability evidence instead of being excluded or downgraded to source claims.
+- Publishing-safety laundering: sandbox-first language and confirmation prompts are treated as proof that public releases, metadata exposure, file upload, or irreversible publish behavior is safe.
+- Quote-corpus laundering: primary-source quotes, method inference, cached facts, and live data scripts are collapsed into professional advice authority.
+- Single-source governance laundering: a strong source-of-truth rule is imported as enforcement proof before duplicate-state, resolver, cache, and generated-view behavior is replayed.
 
 ## Verification Needed
 
@@ -314,6 +321,7 @@ Lifecycle platform and ingestion surfaces:
 - Add negative eval cases for communication packages being treated as account-action authority, escrow packages being treated as payment correctness, academic review packages being treated as expert authority, template pipelines being treated as visual proof, and forecasting wrappers being treated as model-quality proof.
 - Add negative eval cases for repository graphs being treated as understanding proof, design lint scores being treated as UI proof, delegate logs being treated as execution proof, workflow routers being treated as HDL validation proof, and style locks or timing files being treated as media/package quality proof.
 - Add negative eval cases for typed runtime package shape being treated as supervisor or memory proof, visual-diff gates being treated as visual-quality proof, queued channel acceptance being treated as delivery proof, and constitution or review-policy scaffolds being treated as enforced governance.
+- Add negative cases where a setup CLI's provider/sponsor text is treated as capability proof, a sandbox publishing lifecycle is treated as production safety proof, a quote corpus is treated as advice authority, and a single-source rule is treated as runtime enforcement proof.
 
 ## Placement Candidates
 

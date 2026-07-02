@@ -231,6 +231,9 @@ Review stateful skills as gated operating loops:
 - Persistence-state laundering: an idempotent service or task plan is treated as proof that a background session is safe, durable, and reversible.
 - Scheduler-state laundering: a sync interval or API toggle is treated as proof that crawler freshness, sync correctness, and delete/update safety are valid.
 - Skill-quality laundering: a grader, threshold, HR decision state, rating, or held-out gate is treated as proof that the skill should be kept, installed, terminated, promoted, or deployed.
+- Source-of-truth laundering: a repository declares a single-source rule, resolver pattern, or no-duplicate-state policy, and that declaration is treated as enforcement proof before call sites, caches, generated views, and failure cases are replayed.
+- Irreversible-action laundering: a staged lifecycle, sandbox default, or confirmation prompt is treated as proof that publish, upload, public release, delete, or rollback behavior is safe.
+- Source-role laundering: original quotes, inferred methods, cached data, live fetches, and user disclaimers are collapsed into one evidence layer, making professional or investment claims look more proven than they are.
 
 ## Controller-Audited Gate Variants
 
@@ -269,6 +272,8 @@ Recent public-source review adds several gated-skill surfaces:
 - Sync-versus-queue delivery gates: a bounded channel skill can distinguish synchronous true-result mode from asynchronous queue-accepted mode, require exact target or file validation, and preserve explicit error codes. These gates do not authorize account login, message or draft creation, file upload, delivery claims, queue ordering, or external API behavior without owner-approved activation review.
 - Review-policy and generated-guidance gates: shared review policies, fresh-context reviewer skills, touched-surface validation matrices, and source-derived CLI guidance generation can make code-review and command-documentation work auditable. They do not prove reviewer quality, generated guidance correctness, real-browser verification, or validation coverage until replayed against bounded diffs.
 - Constitution-consistency gates: a constitution scaffold can require single-source pointers, global/local capability separation, reflection as final step, and a recommended `doctor` or consistency-lint command. Until the check is implemented and run, this is a design gate, not proof that docs, registries, skills, CLI commands, or filesystem reality are aligned.
+- Source-of-truth and irreversible-action gates: pre-edit source-of-truth rituals, resolver-only state patterns, sandbox-first defaults, status-code checks, metadata/file review, and explicit production confirmation can make high-risk workflows inspectable. They do not prove enforcement, token safety, publication correctness, rollback behavior, or runtime security until replayed against bounded fixtures and negative cases.
+- Source-role separation gates: quote-first corpora, method-distillation notes, cached data snapshots, live-fetch scripts, and non-advice disclaimers can make research packages auditable. They do not prove professional judgment, market-data truth, script correctness, advice quality, or current freshness without separate source, inference, and data checks.
 
 Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
 
@@ -290,6 +295,7 @@ Neutral mechanism: when a skill claims a gate, capture the input state, gate rul
 - Add negative cases where a runtime-eval threshold is treated as deployment proof, a skill-HR termination log is treated as permission to delete installed skills, a registry rating is treated as quality proof, and a held-out gate is treated as automatic adoption authority.
 - Add negative cases where a safety rating is treated as permission to install, a ranked search result is treated as permission to inject a skill, a multi-transport manifest is treated as proof of callable API/payment behavior, and an event-delegation diagram is treated as proof of reliable orchestration.
 - Add negative cases where an account-data dashboard contract is treated as account-access or extraction proof, a lock manager is treated as parallelism proof, a tracker daemon spec is treated as issue-mutation authority, and a prompt archive is treated as neutral law or policy source.
+- Add negative cases where a single-source-of-truth rule is treated as duplicate-state enforcement proof, a sandbox-first publishing lifecycle is treated as production safety proof, and a quote corpus plus scoring script is treated as investment or professional advice authority.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

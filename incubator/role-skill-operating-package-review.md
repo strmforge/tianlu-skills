@@ -192,6 +192,9 @@ Review the package as an operating package before any activation:
 32. Treat analysis, design, delegation, HDL, media, mobile, and style-output packages as artifact-state roles.
    - Graph/status artifacts, decision ledgers, lint/evolve loops, workflow-mode routers, explicit emitted files, delegate run logs, timing files, style locks, and confirmation gates can make the package contract visible.
    - They do not prove repository-understanding quality, deterministic design quality, delegate safety, HDL correctness, simulator or synthesis validation, media quality, preference learning, device streaming, image generation, PPTX/zip assembly, or cross-host behavior without scoped replay.
+33. Treat platform, setup, publishing, research, and runtime-governance packages as split-authority roles.
+   - Docker-first platform boundaries, setup wizards, generated-output folders, i18n/template sync, sandbox-first publishing lifecycles, quote-first corpora, cached data snapshots, and single-source-of-truth rituals can make a role package inspectable.
+   - They do not authorize deployment, install/setup execution, sponsor/provider adoption, production publishing, token use, live data fetches, professional advice, autonomous runtime execution, tool calls, memory writes, or sandbox/security trust claims without scoped replay and owner approval.
 
 ## Initial Scope
 
@@ -260,6 +263,10 @@ Review the package as an operating package before any activation:
 - Queue-acceptance laundering: asynchronous queue acceptance or status endpoints are treated as proof that a message, draft, upload, or external action succeeded.
 - Review-gate laundering: a review policy, fresh-context reviewer skill, validation matrix, or generated CLI guidance file is treated as proof that review findings, command docs, or UI verification are correct.
 - Constitution laundering: a CEO/sub-agent/skill/MCP architecture, reflection loop, or recommended `doctor` command is treated as enforced project truth before generated files and consistency checks are replayed.
+- Setup-role laundering: setup wizards, generated-output boundaries, or validation scripts are treated as proof of install quality, provider routing, or safe local configuration.
+- Publication-role laundering: sandbox-first publication and confirmation gates are treated as proof that public release, metadata exposure, file upload, DOI creation, or rollback behavior is safe.
+- Research-role laundering: quote corpora, inferred methods, data snapshots, and scoring scripts are treated as professional advice or data authority rather than a split source/inference/data role package.
+- Runtime-governance laundering: single-source rules, risk tiers, tool receipts, or sandbox language are treated as proof that a runtime actually prevents duplicate state, unsafe actions, or bad tool execution.
 
 ## Verification Needed
 
@@ -282,6 +289,7 @@ Review the package as an operating package before any activation:
 - Add negative cases where vision self-check loops are treated as visual quality proof, media quote gates are treated as credit or upload authority, MCP/YAML RAG pipelines are treated as safe-to-run retrieval, and protocol SDK packages are treated as server/adaptor correctness proof.
 - Add negative cases where design lint/evolve loops are treated as UI quality proof, delegate logs are treated as safe execution proof, workflow-mode routers are treated as HDL validation proof, and style locks or prompt gates are treated as generated-artifact quality proof.
 - Add negative cases where typed role/runtime package shape is treated as supervisor, memory, workflow, or deployment proof; where visual QA specs are treated as clone quality; where queue acceptance is treated as delivery; where review gates are treated as reviewer correctness; and where a constitution scaffold is treated as enforced runtime governance.
+- Add negative cases where setup validation is treated as install/provider proof, sandbox publication gates are treated as production safety proof, quote corpora are treated as professional advice, and source-of-truth rules are treated as runtime enforcement.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 
