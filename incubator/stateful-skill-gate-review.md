@@ -41,8 +41,12 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed portable build skills that use `.local-env`-style local toolchains, dump/output folders, ignored environment folders, and package scripts as state surfaces rather than as proof of successful or safe builds.
 - source-reviewed CLI catalog packages that use registry entries, category fields, discovery skills, focused-skill selection, and deferred binary setup as state and gates rather than as proof that any CLI is installable, current, safe, or useful.
 - source-reviewed project invariant and memory packages that use DNA/RNA documents, audit loops, cross-session handoff files, project logs, and five-mode workflows as state and gates rather than as proof of future-session authority or generated-code correctness.
+- source-reviewed host-model prompt refinement packages that use model-family strategy tables, conversation-state toggles, hidden rewrite rules, language locks, optional hook flags, eval fixtures, and fallback strategies as state and gates rather than as proof of automatic model detection, prompt quality, or hook enforcement.
+- source-reviewed worker-governance packages that use capability request envelopes, route-decision contracts, registry enrollment, controls-present checks, blast-score gates, policy hooks, attestation helpers, taxonomy catalogs, and conformance fixtures as state and gates rather than as proof of standard legitimacy, runtime dispatch correctness, or production trust enforcement.
 
 Additional validated source range for the browser/build/catalog/invariant additions: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`.
+
+Additional validated source range for the prompt-refinement, proxy, safety-eval, agent-framework, and worker-governance additions: controller-audited successful cycles `qclaw-tianlu-20260702-120307`, `qclaw-tianlu-20260702-123357`, `qclaw-tianlu-20260702-130302`, and `qclaw-tianlu-20260702-133308`.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -77,6 +81,8 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - local toolchain folder, generated artifact dump, package script, mobile sync output, or ignored environment folder used as review state;
 - catalog registry entry, category taxonomy, focused-skill recommendation, deferred-install policy, or local mirror metadata used as review state;
 - project invariant document, RNA/harness rule file, handoff file, project log, mode table, or audit-loop result used as review state;
+- host-model strategy table, conversation toggle, hidden-rewrite rule, output-language lock, hook flag, eval fixture, or fallback strategy used as review state;
+- worker capability envelope, route-decision receipt, registry record, controls-present set, blast score, policy gate, attestation manifest, taxonomy entry, or conformance vector used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -165,6 +171,8 @@ Review stateful skills as gated operating loops:
 - Invariant laundering: a DNA, requirements, or harness document is treated as enforcement proof before any agent-read, injection, translation, audit, or conflict path is shown.
 - Handoff laundering: a session file, project log, or continuation command is treated as future memory authority without checking when it is read and how stale or conflicting state is handled.
 - Catalog-state laundering: registry counts and category metadata are treated as proof of CLI quality, installability, or safe API use.
+- Model-detection laundering: a strategy table or self-description is treated as proof that the active model was detected correctly and the hidden rewrite improved the answer.
+- Protocol-standard laundering: a typed worker protocol, registry, conformance suite, or attestation file is treated as proof of independent standard status, secure dispatch, or production-grade trust enforcement.
 
 ## Verification Needed
 
@@ -178,6 +186,7 @@ Review stateful skills as gated operating loops:
 - Add negative cases where a professional-domain schema is treated as professional authority, a hardware-fit score is treated as recommendation truth, and a redaction service is treated as privacy proof.
 - Add negative cases where signature metadata is treated as runtime trust, a compile command is treated as host parity proof, a memory API is treated as durable authority, and a generated persona is treated as fidelity proof.
 - Add negative cases where a DNA/RNA document is treated as enforced project truth without injection evidence, a handoff file is treated as durable memory authority, and a CLI catalog count is treated as install or API proof.
+- Add negative cases where a prompt-refinement skill's model-family routing is treated as automatic model detection, and where a worker-governance protocol's route decision is treated as proof of production trust enforcement.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

@@ -44,6 +44,10 @@ This can make an agent runtime more flexible, but it also concentrates model rou
   - hardware vendors, mobile targets, web targets, C++/Python build surfaces, compiler configuration, examples, docs, tests, and version metadata are held as reviewable deployment state;
   - target selection, build configuration, packaging, runtime launch, model conversion, and benchmark surfaces are separate gates before claiming that a model can run on a given device or backend;
   - platform support, performance, memory fit, model compatibility, binary availability, installability, and safe local execution remain source-review-only until replayed on the intended machine.
+- Controller-audited public-source review on 2026-07-02 added LLM proxy and desktop subscription-bridge shapes:
+  - base-URL proxy packages expose provider catalogs, routing policies, budget limits, local dashboards, response caches, per-agent cost state, telemetry or mesh metadata, alert/webhook paths, service-install commands, and credential-boundary surfaces;
+  - desktop wrapper packages can bridge subscription-style provider access into coding tools through a local proxy or CLI-management layer, while provider accounts, tokens, OAuth/session state, and bridge correctness remain separate activation surfaces;
+  - "local execution" and "prompts stay local" claims must be split from telemetry, mesh, cloud dashboard, webhook, and provider-request surfaces before adoption. Metadata egress, cloud login, and opt-out behavior are not privacy proof without replay.
 
 This file records the method shape and review requirements. It is not an endorsement of the implementation and does not recommend installing or running it.
 
@@ -54,10 +58,12 @@ Use this candidate when an agent, user, runtime adapter, or repository proposes 
 - patch agent runtime config;
 - route model requests through a local endpoint;
 - route requests to a cheapest-capable or cost-aware model tier;
+- bridge existing provider subscriptions, OAuth sessions, or provider-compatible endpoints into a coding tool;
 - score local models against hardware fit, context, quantization, backend, provider availability, or benchmark data;
 - compile, convert, package, or deploy models across desktop, mobile, web, GPU, CPU, or accelerator targets;
 - store or resolve API keys;
 - expose provider configuration through a web UI or local API;
+- send telemetry, mesh, alert, webhook, or cloud-dashboard metadata;
 - launch through desktop or browser deep links;
 - advertise custom model capabilities;
 - expose MCP, browser, desktop, or file tools;
@@ -86,18 +92,21 @@ Before adopting or activating a local agent provider gateway:
    - Screenshot descriptions must carry provenance labels, privacy review, OCR-instruction stripping, and negative tests for prompt injection from screen text.
 8. Review logs and traces as sensitive artifacts.
    - Log buffers, SSE streams, dashboards, terminal logs, provider errors, prompts, screenshots, and tool arguments may expose private data or secrets.
-9. Separate restart, reset, and runtime takeover actions.
+9. Separate prompt locality from metadata egress.
+   - A gateway can keep prompts out of its own cloud while still sending model, token, latency, cost, success/fail, dashboard, alert, or mesh metadata elsewhere.
+   - Record defaults, opt-out path, destination domain, payload fields, retention, account linkage, and whether telemetry is required for any advertised feature.
+10. Separate restart, reset, and runtime takeover actions.
    - Runtime restarts, process kills, model selection changes, and config reset need explicit user approval and recovery instructions.
-10. Verify uninstall and rollback.
+11. Verify uninstall and rollback.
     - Confirm how to stop the service, remove managed config, delete provider files, revoke keys, close ports, remove launch agents or process managers, and restore the original runtime state.
-11. Review routing policy as a gate, not as proof.
+12. Review routing policy as a gate, not as proof.
     - Model tiers, cost tables, scoring weights, confidence thresholds, and override rules are policy state.
     - Routing decisions, fallback behavior, and cost reports need replay on safe prompts before any savings, capability, or quality claim is adopted.
     - Ambiguous-request fallback and system-prompt exclusion should be checked explicitly because both can silently move routine work into the wrong tier.
-12. Review hardware-fit policy as a gate, not as proof.
+13. Review hardware-fit policy as a gate, not as proof.
     - Hardware probes, RAM/VRAM, backend, quantization, context cap, fit level, installed-model scans, and benchmark rows are selection state.
     - They need safe local replay before any claim that a model will run well, run fast, fit memory, download safely, delete safely, or outperform an alternative.
-13. Review model deployment as a target matrix, not as proof.
+14. Review model deployment as a target matrix, not as proof.
     - Build files, compiler settings, platform directories, examples, version files, and docs can show intended targets.
     - They do not prove installability, model compatibility, runtime performance, memory fit, mobile/web readiness, or binary safety without scoped local replay and rollback.
 
@@ -117,6 +126,7 @@ Before adopting or activating a local agent provider gateway:
 - Warning, preview, or confirmation screens are treated as sufficient proof instead of containment evidence that still needs negative tests.
 - Dashboard or API routes expose provider keys, prompts, screenshots, logs, model catalogs, reset actions, or runtime restart actions without authentication.
 - Config auto-patching changes future sessions before review.
+- A proxy says prompts stay local, while telemetry, mesh, alert, webhook, cloud-dashboard, or provider-account metadata is enabled by default or required for advertised features.
 - Model capability metadata overclaims tool, image, MCP, context, reasoning, or streaming support.
 - Cost-routing theater: a local proxy advertises cheaper model selection, but the scoring policy, fallback behavior, or cost report is not replayed and the savings estimate becomes a fact claim.
 - Hardware-fit theater: a model selector advertises best fit, speed, context, quantization, or benchmark support, but no local hardware probe, provider scan, model load, or benchmark replay has been performed.
@@ -141,6 +151,7 @@ Before adopting or activating a local agent provider gateway:
 - Confirm whether config patching happens automatically on construction, startup, dashboard action, or explicit command only.
 - Inspect exact config patch blocks, backups, rollback, and conflict behavior when user config already contains provider settings.
 - Confirm key storage format, environment variable resolution, redaction, dashboard display, API response redaction, and log redaction.
+- Confirm telemetry, mesh, alert, webhook, and cloud-dashboard defaults, destination domains, payload fields, opt-out behavior, retention, and whether cloud login changes what is sent.
 - Confirm tool inventory, default exposure, allowlist support, and whether high-authority tools can be disabled.
 - Confirm model capability claims against actual provider behavior and failure paths.
 - Confirm scoring inputs, tier boundaries, confidence fallback, override rules, config hot-reload behavior, stats calculations, and per-tier cost assumptions on safe replay prompts before trusting routing or savings claims.

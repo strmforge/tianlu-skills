@@ -38,7 +38,9 @@ Additional validated source range: controller-audited successful cycles `qclaw-t
 
 Additional validated source range: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`. Worker transport failure `qclaw-tianlu-20260702-103325` is excluded because it produced no reviewable mechanism.
 
-No source package was installed. No repository code, browser extension, wallet, payment, worker marketplace, telemetry backend, collector, local daemon, MCP server, model provider, SaaS template, codegen flow, external actor, scraper, PDF retrieval flow, browser challenge bypass, institutional access path, security scan, exploit action, remote device, cloud phone, app install, browser navigation, browser profile access, storage mutation, CDP connection, CLI auth, package-manager install, mobile SDK or JDK download, APK or iOS build, API call, GitHub query, SBOM generation, PoC cache, remediation edit, hook registration, plan injection, graph backend, database migration, integration-platform operation, print/order/payment action, or observability stack was run.
+Additional validated source range: controller-audited successful cycles `qclaw-tianlu-20260702-120307`, `qclaw-tianlu-20260702-123357`, `qclaw-tianlu-20260702-130302`, and `qclaw-tianlu-20260702-133308`.
+
+No source package was installed. No repository code, browser extension, wallet, payment, worker marketplace, telemetry backend, collector, local daemon, MCP server, model provider, SaaS template, codegen flow, external actor, scraper, PDF retrieval flow, browser challenge bypass, institutional access path, security scan, exploit action, remote device, cloud phone, app install, browser navigation, browser profile access, storage mutation, CDP connection, CLI auth, package-manager install, mobile SDK or JDK download, APK or iOS build, API call, GitHub query, SBOM generation, PoC cache, remediation edit, hook registration, plan injection, graph backend, database migration, integration-platform operation, print/order/payment action, prompt/eval/red-team scan, provider base-URL routing, telemetry or mesh sync, local dashboard access, webhook delivery, service install, worker dispatch, registry verification, package attestation, model training, crawler run, or observability stack was run.
 
 Related Tianlu candidates:
 
@@ -68,6 +70,9 @@ Use this candidate when a repository, skill, MCP bridge, agent platform, or tool
 - portable mobile or desktop build flows, local SDK/JDK bootstrap, license acceptance, Gradle or package-manager builds, mobile sync, generated binary outputs, upload packaging, or deployment targets;
 - CLI catalog discovery, focused skill installation, package-manager or Go binary setup, MCP server registration, local database mirrors, update/uninstall flows, or live API-backed catalog entries;
 - ORM/database migration, integration-platform code generation, platform account operation, print-on-demand order/payment flows, or other vertical API execution surfaces.
+- LLM proxy base-URL routing, provider-key use, subscription bridging, telemetry or mesh metadata, cloud dashboards, budget downgrades, response caches, local dashboards, service installs, and alert or webhook paths;
+- prompt-refinement activation, hidden rewrite injection, hook flags, model-family strategy selection, eval execution, or host-specific state mutation;
+- worker-governance dispatch, registry enrollment, controls verification, blast scoring, package attestation, MCP server launch, or external registry verification.
 
 ## Proposed Mechanism
 
@@ -121,6 +126,8 @@ rollback_or_requeue:
 - Build-output laundering: a skill's portable build scripts or generated binary outputs are treated as proven artifacts before SDK/JDK bootstrap, license handling, package-manager commands, sync, assembly, and upload surfaces are replayed.
 - Catalog-install laundering: a registry count, discovery skill, or focused-skill recommendation is treated as permission to install a binary, register an MCP server, call a live API, or create a local mirror.
 - Vertical-API laundering: database, integration, or commerce workflow shape is treated as authority to migrate schemas, generate integrations, call platform APIs, create orders, pay wallets, or mutate external records.
+- Locality laundering: a package says prompts stay local, while telemetry, mesh, cloud-dashboard, webhook, or provider-account metadata remains enabled, required, or unreviewed.
+- Governance-protocol laundering: a route decision, registry record, blast score, or attestation manifest is treated as permission to dispatch a worker or as proof that the worker is trustworthy.
 
 ## Promotion Criteria
 

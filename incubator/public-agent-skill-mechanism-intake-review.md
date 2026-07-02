@@ -105,6 +105,8 @@ Role-envelope and bundled-skill surfaces:
 - product and platform operating skills: PM operator packs, Power Platform-style plugin packs, presentation-generation packs, print/order API packs, and project-continuity packs can contribute role, workflow, template, and handoff surfaces; output generation, account access, payment/order actions, and platform operations remain activation surfaces.
 - invariant-to-harness methodology packs: DNA/RNA-style documents can preserve implementation-independent what/why decisions, translate them into harness rules, and feed requirements/design/code loops; the useful intake unit is the invariant, translation, and audit-loop shape, not a claim that enforcement already works.
 - CLI catalog packages: a registry plus discovery skill can be absorbed as a structured selection surface, with category fields, focused-skill metadata, install commands, MCP metadata, and deferred binary setup kept separate from any activation or quality claim.
+- prompt workbench and prompt-refinement packages: local-first workbenches, prompt optimizers, model-family strategy tables, hidden-rewrite rules, language locks, eval fixtures, and optional hook flags can be reviewed as prompt-state and selection surfaces; desktop app behavior, deployment behavior, model detection, rewrite quality, and hook enforcement remain source-review-only.
+- cross-host productivity skill bundles: many host directories, plugin manifests, commands, hooks, skills, landing pages, and multilingual READMEs can show distribution shape; they do not prove productivity gains, parity across hosts, safe activation, or community/account surfaces.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -131,6 +133,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - domain creative-control MCP packages: tool catalogs, host-app adapters, device or asset indexes, user corpora, memory ledgers, undo boundaries, and side-effect classes can be reviewed as state and gates; MCP availability and host-app integration are not proof that session mutation, media download, or undo behavior is safe.
 - hardware-aware model-selection packages: detected hardware, RAM or VRAM, backend, context cap, quantization, score components, fit levels, installed models, provider availability, and benchmark rows can be reviewed as state; generated recommendations, speed estimates, and savings or quality claims remain source-review-only.
 - instruction-artifact contract packages: source instruction files, target schemas, typed relationships, conformance fixtures, integrity digests, signature metadata, and compile/validate/check commands can be reviewed as loop/state/gate surfaces; artifact trust, runtime portability, compiler determinism, and signing support remain source-review-only until replay.
+- worker-governance protocol packages: capability envelopes, route-decision receipts, registry records, controls-present checks, blast-score gates, policy hooks, attestation helpers, taxonomy catalogs, and conformance fixtures can be reviewed as dispatch-governance surfaces; standard legitimacy, secure dispatch, registry availability, and trust enforcement remain unproven until replay.
+- typed agent-framework packages: provider adapters, tool-calling abstractions, graph runtimes, eval packages, slim installs, docs, examples, and lockfiles can be reviewed as lifecycle surfaces; type-safety, agent quality, provider behavior, graph execution, and eval validity remain source-review-only until scoped replay.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -138,6 +142,7 @@ Eval, evidence-ring, and rubric surfaces:
 - `Agentic-SEO-Skill`: script-backed evidence acquisition before synthesis.
 - `agent-native-design`: rubric-scored interface diagnosis.
 - `awesome-design-skills`: paired `SKILL.md` and `DESIGN.md` artifacts for runtime instruction plus human rationale.
+- LLM eval and red-team packages: CLI/library eval frameworks, safety benchmark umbrellas, moved upstream notices, model-guard families, prompt-guard surfaces, code shields, reporting surfaces, and dataset or benchmark folders can be reviewed as eval-state surfaces; scan accuracy, risk coverage, model behavior, provider behavior, and report quality remain unproven without replay.
 
 State, memory, isolation, and portability surfaces:
 
@@ -158,6 +163,7 @@ State, memory, isolation, and portability surfaces:
 - AI-agent observability packages: OpenTelemetry traces, spans, metrics, events, eval runs, datasets, dashboard SQL, annotation queues, PII-redaction limits, and gRPC export surfaces can be reviewed as control-plane state; ingestion, query, dashboard, eval, redaction, and realtime claims require replay before promotion.
 - communication and inbox bridges: address identities, send/reply/wait flows, thread state, webhook replay, custom domains, DNS records, engagement metrics, usage limits, abuse checks, and compliance readiness can be reviewed as state and gates; delivery, domain automation, security posture, pricing enforcement, and reliability remain source-review-only.
 - provider-routed TypeScript agent frameworks: model routing, graph workflow syntax, suspend/resume state, context sources, MCP authoring, evals, observability, and local UI surfaces can be reviewed as lifecycle planes; provider counts, workflow correctness, storage durability, and deployment readiness remain unproven.
+- LLM proxy and subscription-bridge packages: base-URL replacement, provider catalogs, routing policy, budgets, caches, local dashboards, telemetry or mesh metadata, alert/webhook paths, desktop wrappers, and CLI-management layers can be reviewed as control-plane state; savings, privacy, provider compatibility, OAuth/subscription behavior, and downgrade correctness remain unproven.
 - data-observability operating packages: asset health, alert triage, lineage review, monitor coverage, incident-response workflows, metadata ingestion, connector auth, telemetry settings, and application instrumentation can be reviewed as state and gates; live workspace validation, monitor mutation, incident quality, and instrumentation safety require replay.
 - MCP federation gateway packages: protocol translation, upstream catalogs, auth modes, plugin metadata, Admin UI flags, tracing, caching, Redis or federation config, and deployment surfaces can be reviewed as state; catalog accuracy, tenant isolation, upstream authority, and production hardening remain unproven.
 - memory, config, and persona state packages: memory CRUD APIs, hosted or self-hosted memory surfaces, raw-source ledgers, persona files, markdown config tracking, diffs, version history, rollback language, and approval gates can be reviewed as state surfaces; memory accuracy, privacy, persona fidelity, rollback correctness, and future-behavior authority remain unproven.
@@ -220,6 +226,7 @@ Lifecycle platform and ingestion surfaces:
 - Registry flattening: large lists are treated as one method instead of structured absorb-layer input.
 - Eval theater: a repo's own eval, badge, or benchmark is treated as independent validation without checking scope and negative cases.
 - Local-only leakage: controller paths, provider details, account state, token usage, or raw worker output enter neutral files.
+- Model/protocol authority laundering: model-family routing tables, type-safe agent frameworks, or worker-governance protocols are treated as proof of correct model detection, agent behavior, or trustworthy dispatch.
 
 ## Verification Needed
 
