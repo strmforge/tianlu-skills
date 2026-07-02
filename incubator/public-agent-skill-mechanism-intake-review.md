@@ -107,6 +107,7 @@ Role-envelope and bundled-skill surfaces:
 - CLI catalog packages: a registry plus discovery skill can be absorbed as a structured selection surface, with category fields, focused-skill metadata, install commands, MCP metadata, and deferred binary setup kept separate from any activation or quality claim.
 - prompt workbench and prompt-refinement packages: local-first workbenches, prompt optimizers, model-family strategy tables, hidden-rewrite rules, language locks, eval fixtures, and optional hook flags can be reviewed as prompt-state and selection surfaces; desktop app behavior, deployment behavior, model detection, rewrite quality, and hook enforcement remain source-review-only.
 - cross-host productivity skill bundles: many host directories, plugin manifests, commands, hooks, skills, landing pages, and multilingual READMEs can show distribution shape; they do not prove productivity gains, parity across hosts, safe activation, or community/account surfaces.
+- academic research and reading skill bundles: Obsidian-centered reading protocols, L1/L2/L3 note tiers, memory extraction taxonomies, literature-search packs, scientific-reasoning meta-skills, and citation/fulltext helper skills can be reviewed as role-package shape; vault writes, paper retrieval, citation validation, skill installs, and scientific or professional authority remain activation or proof surfaces.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -137,6 +138,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - typed agent-framework packages: provider adapters, tool-calling abstractions, graph runtimes, eval packages, slim installs, docs, examples, and lockfiles can be reviewed as lifecycle surfaces; type-safety, agent quality, provider behavior, graph execution, and eval validity remain source-review-only until scoped replay.
 - command-dispatch skill packages: slash-command frontmatter, dispatch targets, operator-argument passing, lifecycle sentinels, and metadata checks can be reviewed as routing and receipt surfaces; security scans, fuzzing, exploit generation, patch generation, and workflow execution remain inactive until separately authorized and replayed.
 - tool-router and bootstrap packages: generated per-machine tool indexes, platform routing matrices, rule/subskill loading, field journals, report paths, and bootstrap scripts can be reviewed as operating-package state; generating indexes, installing tools, registering MCP servers, running reverse-engineering workflows, or writing journals requires separate activation review.
+- enterprise data-operation routers: natural-language intent can be routed into read-only structured queries or write-capable service scripts through a decision matrix, credential gate, and commit flag; query/script routing, credential handling, health checks, and writes remain source-review-only until replayed on a bounded safe fixture.
+- capture-driven pipe systems: screen/audio/activity capture, local timeline search, MCP or REST access, and markdown/YAML pipes can be reviewed as capture-to-action loop surfaces; capture, raw SQL/frame access, permission enforcement, and agent actions remain activation surfaces.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -173,6 +176,7 @@ State, memory, isolation, and portability surfaces:
 - portable build state packages: local toolchain folders, generated dump/output folders, package scripts, mobile sync outputs, ignored environment directories, and upload/archive paths can be reviewed as state surfaces; installability, build success, artifact quality, and deployment readiness remain unproven.
 - source-context and codebase-packaging packages: repo packing, token-aware evidence bundles, source-context browser selection, plugin hooks, and extension/package metadata can be reviewed as context-supply surfaces; packaging quality, build behavior, browser-extension behavior, speed claims, MCP behavior, and external service behavior remain source-review-only.
 - filesystem-memory and scratchpad packages: ripgrep-backed local history search, persistent REPL scratchpads, print-only context contracts, and marketplace metadata can be reviewed as state and context-gating surfaces; reading private histories, launching REPLs, persisting sessions, or claiming context-savings requires scoped replay and owner approval.
+- local-first coworker packages: email, calendar, meeting-note ingestion, editable Markdown vault memory, knowledge graphs, generated work artifacts, external tools, vector stores, and worker services can be reviewed as state and lifecycle surfaces; OAuth, account reads, vault writes, external tools, Docker services, and generated-artifact quality remain unproven.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
