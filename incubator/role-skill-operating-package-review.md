@@ -51,6 +51,10 @@ Controller-audited public repository samples from the local short-worker loop in
 - professional-domain skill libraries where taxonomy files, jurisdiction or domain directories, schema contracts, versioning rules, disclaimer requirements, citation-output contracts, and hosted discovery/invocation surfaces define the package boundary.
 - controller-monitor skill packages where ETA-aware checks, cooldown rules, terminal-state labels, named artifact reads, and low-context status probes define the package boundary for supervising another agent thread.
 - persona or expert operating packages where raw-source ledgers, public-source collection, statistical analysis, templates, generated persona files, domain skill bodies, and examples define the package boundary for a simulated role or expert workflow.
+- browser-automation operating packages where MCP tools, capability groups, browser profile/session settings, storage-state operations, server bindings, extension mode, traces, videos, PDFs, and redaction language define the package boundary.
+- portable output skill packages where a skill combines product scaffolding, local toolchain bootstrap, generated binary or archive outputs, platform-specific sync, ignored local environment folders, and deployment/upload paths.
+- CLI catalog operating packages where a discovery skill, registry file, categories, focused `pp-*` skills, deferred binary setup, install/update/uninstall flows, MCP metadata, and local mirror claims define the package boundary.
+- project-continuity and invariant packages where handoff commands, session state, project logs, DNA/RNA documents, audit modes, and harness translation rules define the package boundary.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -77,6 +81,10 @@ Use this candidate when a public repository, internal design, or agent runtime p
 - taxonomy/schema/disclaimer/citation gates around a large domain skill library;
 - ETA, cooldown, terminal-state, and artifact-read gates around a controller-monitor role.
 - raw-source, analysis, template, persona-file, expert-profile, or domain-skill gates around a simulated role package.
+- browser/session/profile, storage-state, MCP capability, redaction, and server-binding gates around a browser automation role.
+- local toolchain, generated artifact, dump/output folder, platform-sync, and upload boundary gates around an output-generation role.
+- registry, category taxonomy, discovery skill, focused-skill recommendation, deferred install, and MCP metadata gates around a CLI catalog role.
+- handoff file, project log, invariant document, RNA/harness translation, and audit-mode gates around a project-continuity role.
 
 ## Proposed Mechanism
 
@@ -129,6 +137,15 @@ Review the package as an operating package before any activation:
 19. Treat persona and expert packages as evidence-bound role packages.
    - Raw-source files, collection scripts, analysis notes, templates, generated persona files, and domain skill bodies can define a role envelope.
    - They do not prove public-source completeness, privacy safety, character fidelity, expert judgment, or permission to browse, scrape, impersonate, advise, or persist identity-like memory.
+20. Treat output-generation packages as two-stage packages.
+   - Product, presentation, game, document, or media skills may have useful planning, template, and preview surfaces.
+   - Build scripts, SDK bootstrap, generated files, uploads, previews, viewers, and deployment targets remain separate activation surfaces.
+21. Treat catalog packages as selection packages.
+   - A registry plus discovery skill can improve routing to a focused tool or skill.
+   - Registry size, category count, or install commands do not prove focused-tool quality, binary safety, MCP behavior, or API authority.
+22. Treat project-continuity packages as state packages.
+   - Handoff files, project logs, and invariant documents can improve resumption and keep "what/why" visible.
+   - They do not prove future-session memory, enforcement, or implementation correctness until the read/inject/audit loop is replayed.
 
 ## Initial Scope
 
@@ -166,6 +183,9 @@ Review the package as an operating package before any activation:
 - Professional-domain laundering: taxonomy, schema, disclaimer, or citation rules are treated as legal, medical, financial, or other professional authority.
 - Monitor laundering: a low-context status check is treated as proof of task completion, worker correctness, or permission to mutate another thread.
 - Persona laundering: a raw-source bundle, statistical analysis, generated persona file, or expert template is treated as fidelity proof, privacy proof, expert authority, or permission to impersonate or persist identity state.
+- Output laundering: a scaffold, viewer, or build script is treated as proof of artifact quality, installability, or deployment readiness.
+- Catalog laundering: registry counts, category labels, and discovery flows are treated as proof that a focused CLI, skill, MCP server, or external API workflow should be installed or run.
+- Continuity laundering: a handoff file or invariant document is treated as automatic cross-session memory or enforcement authority.
 
 ## Verification Needed
 
@@ -177,6 +197,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for portable profile mutation, finance strategy generation, security assessment authorization, and platform MCP bridges being treated as activation authority.
 - Add negative cases for professional-domain schema/citation packages being treated as advice authority and monitor/cooldown packages being treated as completion proof.
 - Add negative cases for persona or expert packages being treated as public-source completeness, character fidelity, professional authority, privacy safety, or permission to browse/scrape/persist identity state.
+- Add negative cases for output packages being treated as build/deploy proof, catalog packages being treated as install/API proof, and continuity packages being treated as future-session authority.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

@@ -25,6 +25,10 @@ Recent controller-audited receipts included source-review evidence for these act
 - remote-device control skill packs that expose cloud-phone connection, app launch, tap/swipe/text input, browser navigation, app or APK install, remote shell, clipboard, file transfer, app-skill installation, and untrusted screen or page content;
 - vulnerability-intelligence coding-agent plugins that expose CLI installation and auth, external VDB/API calls, GitHub or dependency-alert context, pre-commit or manifest hooks, post-install scans, SBOM generation, exploit lookup, cached PoC handling, fix or remediation edits, and bulk-triage agents;
 - long-running planning and review plugins that expose host-specific hook registration, session-store reads, plan injection, Stop-hook completion gates, project-file mutation, benchmark claims, and cross-agent adapter behavior.
+- browser-automation MCP packages that expose package installation, browser launch, navigation, profile or user-data-dir selection, local/session storage reads or writes, storage-state save or restore, CDP or remote Playwright endpoints, extension mode, server binding, tracing, video, PDF, coordinate interactions, and secrets-redaction boundaries;
+- portable build or deployment skills that expose local SDK/JDK bootstrap, command-line tool downloads, license acceptance, package-manager builds, mobile sync, Gradle wrapper assembly, APK output folders, iOS project generation, archive/upload packaging, and generated artifact claims;
+- installable CLI catalog packages that expose discovery skills, focused skill selection, package-manager or Go installs, binary setup deferral, MCP setup, local database mirrors, live API calls, provider credentials, website catalog browsing, update/uninstall flows, and generated catalog metadata;
+- database, integration-platform, and vertical API skill packages that expose ORM CLIs, schema migrations, code generation, platform accounts, bundled MCP servers, integration migration, product/order/payment APIs, and external service operations.
 
 The latest validated source range for this note is controller-audited cycles `qclaw-tianlu-20260702-013123`, `qclaw-tianlu-20260702-020125`, `qclaw-tianlu-20260702-023119`, and `qclaw-tianlu-20260702-040136`. Controller-audited but synthesis-excluded cycles `qclaw-tianlu-20260702-030138` and `qclaw-tianlu-20260702-033149` are excluded because the worker reply was incomplete or relied on invalid carry-forward evidence.
 
@@ -32,7 +36,9 @@ Additional validated source range: controller-audited successful cycles `qclaw-t
 
 Additional validated source range: controller-audited successful cycles `qclaw-tianlu-20260702-070123`, `qclaw-tianlu-20260702-073127`, `qclaw-tianlu-20260702-080133`, and `qclaw-tianlu-20260702-083140`.
 
-No source package was installed. No repository code, browser extension, wallet, payment, worker marketplace, telemetry backend, collector, local daemon, MCP server, model provider, SaaS template, codegen flow, external actor, scraper, PDF retrieval flow, browser challenge bypass, institutional access path, security scan, exploit action, remote device, cloud phone, app install, browser navigation, CLI auth, API call, GitHub query, SBOM generation, PoC cache, remediation edit, hook registration, plan injection, graph backend, or observability stack was run.
+Additional validated source range: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`. Worker transport failure `qclaw-tianlu-20260702-103325` is excluded because it produced no reviewable mechanism.
+
+No source package was installed. No repository code, browser extension, wallet, payment, worker marketplace, telemetry backend, collector, local daemon, MCP server, model provider, SaaS template, codegen flow, external actor, scraper, PDF retrieval flow, browser challenge bypass, institutional access path, security scan, exploit action, remote device, cloud phone, app install, browser navigation, browser profile access, storage mutation, CDP connection, CLI auth, package-manager install, mobile SDK or JDK download, APK or iOS build, API call, GitHub query, SBOM generation, PoC cache, remediation edit, hook registration, plan injection, graph backend, database migration, integration-platform operation, print/order/payment action, or observability stack was run.
 
 Related Tianlu candidates:
 
@@ -58,6 +64,10 @@ Use this candidate when a repository, skill, MCP bridge, agent platform, or tool
 - remote-device or mobile-app workflows, cloud-phone connection, screen inspection, touch/text input, app launch, app or APK installation, remote shell, clipboard, file transfer, or untrusted UI/page content;
 - security-intelligence plugin workflows, dependency-alert context, pre-commit or manifest hooks, post-install scanners, SBOM or PoC caches, remediation edits, external vulnerability APIs, or triage agents;
 - plan/session hooks, session-store reads, stop gates, plan-file injection, project-file mutation, or benchmark claims that may influence whether an agent continues or stops.
+- browser automation, profile/session storage, CDP endpoints, extension mode, remote browser endpoints, page navigation, coordinate clicks, PDFs, video, traces, or secrets-redaction claims;
+- portable mobile or desktop build flows, local SDK/JDK bootstrap, license acceptance, Gradle or package-manager builds, mobile sync, generated binary outputs, upload packaging, or deployment targets;
+- CLI catalog discovery, focused skill installation, package-manager or Go binary setup, MCP server registration, local database mirrors, update/uninstall flows, or live API-backed catalog entries;
+- ORM/database migration, integration-platform code generation, platform account operation, print-on-demand order/payment flows, or other vertical API execution surfaces.
 
 ## Proposed Mechanism
 
@@ -107,6 +117,10 @@ rollback_or_requeue:
 - Remote-device laundering: cloud-phone or sandbox language is treated as harmless without separately recording app login, browser navigation, app install, shell, clipboard, file transfer, and untrusted screen-content surfaces.
 - Hook-action laundering: a security or planning hook is described as advisory while the actual host path may block, mutate files, call an API, read session state, or alter stop behavior.
 - Benchmark-scope laundering: a benchmark about file-pattern fidelity, trigger quality, or package shape is repeated as proof of long-run autonomy, security correctness, or remediation safety.
+- Browser-session laundering: an MCP browser package is summarized as read-only automation while profile state, storage mutation, CDP/remote endpoints, extension mode, and page actions remain unreviewed.
+- Build-output laundering: a skill's portable build scripts or generated binary outputs are treated as proven artifacts before SDK/JDK bootstrap, license handling, package-manager commands, sync, assembly, and upload surfaces are replayed.
+- Catalog-install laundering: a registry count, discovery skill, or focused-skill recommendation is treated as permission to install a binary, register an MCP server, call a live API, or create a local mirror.
+- Vertical-API laundering: database, integration, or commerce workflow shape is treated as authority to migrate schemas, generate integrations, call platform APIs, create orders, pay wallets, or mutate external records.
 
 ## Promotion Criteria
 
@@ -117,6 +131,6 @@ Consider promotion to a playbook only if it produces repeatable adoption packets
 ## Non-Claims
 
 - This note does not authorize installing, running, connecting, logging in, paying, trading, deploying, scraping, contacting workers, or starting services.
-- This note does not authorize paper downloading, publisher-direct access, Sci-Hub fallback, browser challenge handling, OSINT collection, psychoprofiling, security scanning, exploitation, target interaction, report generation, remote-device control, app installation, API authentication, GitHub querying, SBOM generation, PoC retrieval, remediation editing, hook activation, or plan injection.
-- This note does not prove any referenced package's runtime behavior, privacy behavior, security posture, authorization enforcement, payment behavior, browser behavior, telemetry correctness, retrieval legality, downloaded-file safety, cloud-device isolation, hook semantics, benchmark validity beyond its documented scope, remediation quality, or model quality.
+- This note does not authorize paper downloading, publisher-direct access, Sci-Hub fallback, browser challenge handling, OSINT collection, psychoprofiling, security scanning, exploitation, target interaction, report generation, remote-device control, browser-profile access, storage mutation, app installation, SDK or JDK download, package-manager install, binary build, MCP registration, API authentication, database migration, GitHub querying, SBOM generation, PoC retrieval, remediation editing, hook activation, order/payment action, or plan injection.
+- This note does not prove any referenced package's runtime behavior, privacy behavior, security posture, authorization enforcement, payment behavior, browser behavior, build behavior, installability, catalog freshness, CLI correctness, MCP behavior, database behavior, integration-platform behavior, telemetry correctness, retrieval legality, downloaded-file safety, cloud-device isolation, hook semantics, benchmark validity beyond its documented scope, remediation quality, or model quality.
 - This note does not promote a law or stable playbook.

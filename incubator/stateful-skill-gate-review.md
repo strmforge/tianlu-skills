@@ -37,8 +37,12 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed remote-device skill packages that use authentication, connection, screen observation, untrusted-content rules, app-skill discovery, and real-device testing as gates rather than as permission to log in, browse, install, shell, or mutate a remote device.
 - source-reviewed vulnerability-intelligence plugins that use CLI/API auth state, dependency manifests, hook events, shared vulnerability memory, SBOM or PoC caches, and triage coordination as state and gates rather than as proof of scan accuracy, exploit safety, or remediation correctness.
 - source-reviewed persistent-planning skills that use `task_plan.md`, `findings.md`, `progress.md`, session catchup, host adapters, autonomous/gated modes, Stop-hook behavior, and benchmark-scope notes as state and gates rather than as proof of unattended completion or cross-host behavior.
+- source-reviewed browser automation packages that use capability groups, profile or storage-state choices, server binding, secrets-redaction language, and session artifacts as state surfaces rather than as proof of safe browser automation.
+- source-reviewed portable build skills that use `.local-env`-style local toolchains, dump/output folders, ignored environment folders, and package scripts as state surfaces rather than as proof of successful or safe builds.
+- source-reviewed CLI catalog packages that use registry entries, category fields, discovery skills, focused-skill selection, and deferred binary setup as state and gates rather than as proof that any CLI is installable, current, safe, or useful.
+- source-reviewed project invariant and memory packages that use DNA/RNA documents, audit loops, cross-session handoff files, project logs, and five-mode workflows as state and gates rather than as proof of future-session authority or generated-code correctness.
 
-Latest validated source range for these additions: controller-audited successful cycles `qclaw-tianlu-20260702-070123`, `qclaw-tianlu-20260702-073127`, `qclaw-tianlu-20260702-080133`, and `qclaw-tianlu-20260702-083140`.
+Additional validated source range for the browser/build/catalog/invariant additions: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -69,6 +73,10 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - remote-device connection, screen dump, untrusted-content policy, app-skill registry, device test, or remote sandbox claim used as review state;
 - security hook, dependency manifest, vulnerability memory file, SBOM cache, PoC cache, external API result, remediation plan, or triage queue used as review state;
 - task-plan, findings, progress, session catchup, host adapter, stop-gate, benchmark denominator, or advisory-versus-blocking behavior used as review state;
+- browser profile, storage-state file, capability group, trace, video, PDF, server binding, or redaction policy used as review state;
+- local toolchain folder, generated artifact dump, package script, mobile sync output, or ignored environment folder used as review state;
+- catalog registry entry, category taxonomy, focused-skill recommendation, deferred-install policy, or local mirror metadata used as review state;
+- project invariant document, RNA/harness rule file, handoff file, project log, mode table, or audit-loop result used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -118,6 +126,12 @@ Review stateful skills as gated operating loops:
 15. Split memory, config, and persona state from future authority.
    - Memory operations, config diffs, raw-source ledgers, generated persona files, and rollback wording can govern a review.
    - They do not authorize persistent memory writes, profile mutation, persona claims, or future-session behavior until owner review, injection timing, conflict handling, and rollback are visible.
+16. Split invariant documents from enforcement proof.
+   - DNA/RNA-style documents, mode tables, handoff files, and harness diagrams can make project intent reviewable.
+   - They do not prove that future agents will read, inject, enforce, or correctly translate the invariants until the injection point, conflict behavior, and audit loop are replayed.
+17. Split catalog state from activation proof.
+   - Registry counts, category fields, focused-skill metadata, and discovery flows can govern selection.
+   - They do not prove installability, live API behavior, local mirror correctness, MCP safety, or package freshness until bounded replay.
 
 ## Initial Scope
 
@@ -148,6 +162,9 @@ Review stateful skills as gated operating loops:
 - Remote-sandbox laundering: remote-device isolation is treated as permission to browse, install apps, run shell commands, transfer files, or follow screen text without separate scope and untrusted-content gates.
 - Hook-parity laundering: a hook or adapter works in one host, so its stop behavior, session-state reads, file mutation, or blocking semantics are assumed to be identical in another host.
 - File-pattern metric laundering: a benchmark that proves creation or maintenance of planning files is treated as proof that the agent completed the user's goal or will survive arbitrary long runs.
+- Invariant laundering: a DNA, requirements, or harness document is treated as enforcement proof before any agent-read, injection, translation, audit, or conflict path is shown.
+- Handoff laundering: a session file, project log, or continuation command is treated as future memory authority without checking when it is read and how stale or conflicting state is handled.
+- Catalog-state laundering: registry counts and category metadata are treated as proof of CLI quality, installability, or safe API use.
 
 ## Verification Needed
 
@@ -160,6 +177,7 @@ Review stateful skills as gated operating loops:
 - Add negative cases where traces are treated as correctness proof, container policy is treated as security proof, or packet/tool-call capture is treated as harmless read-only work.
 - Add negative cases where a professional-domain schema is treated as professional authority, a hardware-fit score is treated as recommendation truth, and a redaction service is treated as privacy proof.
 - Add negative cases where signature metadata is treated as runtime trust, a compile command is treated as host parity proof, a memory API is treated as durable authority, and a generated persona is treated as fidelity proof.
+- Add negative cases where a DNA/RNA document is treated as enforced project truth without injection evidence, a handoff file is treated as durable memory authority, and a CLI catalog count is treated as install or API proof.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

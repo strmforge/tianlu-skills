@@ -102,6 +102,9 @@ Role-envelope and bundled-skill surfaces:
 - vertical platform skill packs: competition, research, finance, or domain-API packages can combine API reference shards, templates, examples, lint scripts, reporting flows, and MCP surfaces; these are package-shape evidence, not authority for accounts, market data, trading, publishing, or advice.
 - high-risk security workflow packs: authorization text, scope forms, depth labels, coverage matrices, zero-finding fallbacks, and report templates are useful gate surfaces, but they do not authorize scanning, exploitation, credential testing, wireless/cloud/ICS activity, or target contact.
 - professional-domain skill libraries: jurisdiction or domain directories, practice taxonomies, schema contracts, version checks, disclaimer requirements, and citation-output contracts can become reviewable state and gate surfaces; hosted discovery or invocation language is still only a loop surface until connected and replayed.
+- product and platform operating skills: PM operator packs, Power Platform-style plugin packs, presentation-generation packs, print/order API packs, and project-continuity packs can contribute role, workflow, template, and handoff surfaces; output generation, account access, payment/order actions, and platform operations remain activation surfaces.
+- invariant-to-harness methodology packs: DNA/RNA-style documents can preserve implementation-independent what/why decisions, translate them into harness rules, and feed requirements/design/code loops; the useful intake unit is the invariant, translation, and audit-loop shape, not a claim that enforcement already works.
+- CLI catalog packages: a registry plus discovery skill can be absorbed as a structured selection surface, with category fields, focused-skill metadata, install commands, MCP metadata, and deferred binary setup kept separate from any activation or quality claim.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -158,6 +161,8 @@ State, memory, isolation, and portability surfaces:
 - data-observability operating packages: asset health, alert triage, lineage review, monitor coverage, incident-response workflows, metadata ingestion, connector auth, telemetry settings, and application instrumentation can be reviewed as state and gates; live workspace validation, monitor mutation, incident quality, and instrumentation safety require replay.
 - MCP federation gateway packages: protocol translation, upstream catalogs, auth modes, plugin metadata, Admin UI flags, tracing, caching, Redis or federation config, and deployment surfaces can be reviewed as state; catalog accuracy, tenant isolation, upstream authority, and production hardening remain unproven.
 - memory, config, and persona state packages: memory CRUD APIs, hosted or self-hosted memory surfaces, raw-source ledgers, persona files, markdown config tracking, diffs, version history, rollback language, and approval gates can be reviewed as state surfaces; memory accuracy, privacy, persona fidelity, rollback correctness, and future-behavior authority remain unproven.
+- project-continuity and invariant state packages: session handoff files, project logs, continuation commands, DNA/RNA documents, mode tables, example invariant files, and audit loops can be reviewed as state surfaces; future-session authority, stale-state handling, invariant enforcement, and generated-code correctness remain unproven.
+- portable build state packages: local toolchain folders, generated dump/output folders, package scripts, mobile sync outputs, ignored environment directories, and upload/archive paths can be reviewed as state surfaces; installability, build success, artifact quality, and deployment readiness remain unproven.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -195,6 +200,8 @@ Lifecycle platform and ingestion surfaces:
 - autoresearch orchestrators: tree-search loops over accepted branches, worktree-isolated parallel subagents, shared trace state, and inherited pass/fail gates as a stronger loop/state/gate package than plain single-branch retry.
 - security-testing platforms and vulnerable-agent benchmarks: role-based security skills, attack-chain analysis, prompt-injection targets, CTF origins, and C2-like surfaces are source-review signals only; offensive use, probing, credentials, implants, or live targets remain red-lane.
 - search, document, media, and model-deployment pipelines: query-decomposition graphs, web-search nodes, document-to-markdown or structured-data extraction, highlight/subtitle/render stages, hardware targets, compilation targets, and frontend/backend surfaces are lifecycle signals; graph quality, extraction accuracy, media quality, rights safety, performance, and deployment readiness require scoped replay.
+- browser automation MCP packages: accessibility-snapshot tooling, capability groups, profile/session settings, storage-state operations, CDP or remote endpoints, extension mode, server binding, traces, videos, PDFs, and redaction language are lifecycle signals; page navigation, profile access, storage mutation, or remote browser behavior require scoped replay.
+- database and integration-platform tool packages: ORM CLIs, schema/migration tools, integration codegen, bundled MCP servers, platform exploration, and environment operation commands are lifecycle signals; database mutation, account access, generated integration quality, and external service behavior require scoped replay.
 
 ## Initial Scope
 
