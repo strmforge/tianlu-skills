@@ -18,6 +18,7 @@ This candidate is not an endorsement of unattended coding, automatic pull reques
 - Controller-audited public runtime samples showing typed harness composition, explicit session-versus-run semantics, durable `plans/` and `blueprints/` artifacts, and skill-definition-to-runtime compilation with security policy, audit logs, and deployment targets.
 - Controller-audited public context packages showing lean git-backed context indexes with `hash`, `intent`, optional decision notes, worktree tracking, and on-demand reconstruction rather than full narrative memory copies.
 - Controller-audited short-worker samples showing repo-packing context bundles, source-context browser selection, print-contract scratchpads, generated tool indexes, slash-command dispatch metadata, and package-audit matrices as source-reviewed context or harness-shape surfaces only.
+- Controller-audited short-worker samples showing account-data extraction recipes, progressive-disclosure vault indexes, coding-assistant retrieval surfaces, issue-tracker daemon contracts, and YAML workflow manifests as source-reviewed context or harness-shape surfaces only.
 - `incubator/loop-engineering-workflow-review.md`
 - `incubator/agent-role-envelope-cycle-review.md`
 - `laws/surface-agent-orchestration.md`
@@ -35,6 +36,7 @@ Use this candidate when a user, article, repo, tool, runtime, or team proposes t
 - schema, API, ADR, IAM, dependency, or deprecated-module knowledge;
 - worktrees, tests, lint, build, logs, or execution harnesses;
 - repo-packing tools, print-contract scratchpads, source-context browser selection, generated tool indexes, command metadata, or package-audit matrices that are being used to justify broader context or harness claims;
+- account-data extraction schemas, progressive-disclosure indexes, coding-assistant retrieval indexes, issue-tracker workspaces, or YAML workflow manifests being used to justify broader context, harness, or loop claims;
 - skill-definition compilers, sandboxes, plan or blueprint directories, or portable runtimes that look like they could justify unattended loops;
 - maker-checker agents or reviewer subagents;
 - scheduled, overnight, recurring, autonomous, or issue-scanning coding loops;
@@ -95,6 +97,8 @@ Recent public-source review adds two context-layer patterns:
 - Source-context selection: browser or extension packages can expose source picking, context clipping, plugin hooks, and package metadata. These are context-selection signals only; speed, extension behavior, browser safety, and account/session boundaries remain unverified.
 - Scratchpad context gates: persistent REPL or scratchpad packages can make printed output the only conversation-facing artifact while raw data stays local. Treat that as a proposed context gate, not as privacy, retention, or execution-safety proof.
 - Tool-index context: generated per-machine indexes and routing matrices can describe available tools and subskills. A missing generated index is a stop-and-review signal, not permission to bootstrap tools or register runtime surfaces.
+- Account-data and vault-retrieval context: extraction fields, deduplication rules, dashboard/export paths, vault indexes, and staged retrieval can make context boundaries explicit. They do not prove account access, parsing accuracy, privacy safety, artifact correctness, retrieval quality, or vault-write safety.
+- Tracker and workflow harness context: issue workspaces, workflow policy files, task-state machines, YAML manifests, review gates, and finalization contracts can define a harness. They do not authorize tracker/API calls, daemon launch, branch or worktree mutation, command execution, or acceptance claims before scoped replay.
 
 Neutral mechanism: before an ingestion layer feeds a loop, record input formats, parser/backend choices, optional heavy dependencies, external programs, retrieval store, model/API boundary, replay artifacts, and downgrade path. Context availability is not harness readiness; harness readiness is not loop authority.
 

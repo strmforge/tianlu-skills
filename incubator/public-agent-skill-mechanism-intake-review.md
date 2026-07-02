@@ -17,6 +17,7 @@ This candidate records the method for turning batches of public repository revie
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 16:25, 16:43, 16:52, and 17:04 add source-reviewed examples for canonical skill projection, remote persistence setup, security-workflow packages, GUI-grounded agent packages, commerce/API skill packs, scene-to-eval rewrite gates, and scheduled crawler/API-sync loops.
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 17:27, 17:37, 17:47, and 17:57 add source-reviewed examples for AI gateway packages, runtime skill evaluation, skill-HR lifecycle management, registry/delivery layers, scaffolded skill creation, progressive disclosure, and validation-gated skill optimization.
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 18:15, 18:26, 18:35, and 18:45 add source-reviewed examples for security-scanner families, runtime skill discovery APIs, skill vault/catalog gates, multi-transport skill manifests, constrained Socratic workflows, and event-driven multi-agent orchestration packages.
+- Additional controller-audited short-worker receipt windows from 2026-07-02 local 19:35, 19:46, 19:55, and 20:05 add source-reviewed examples for account-email subscription audit packages, parallel orchestration state machines, issue-tracker daemon contracts, progressive-disclosure retrieval, coding-assistant retrieval runtimes, YAML workflow gates, and public prompt-archive quarantine.
 - Related Tianlu candidates:
   - `public-skill-triage-role-envelope-pilot.md`
   - `agent-role-skill-bundle-routing-review.md`
@@ -117,6 +118,7 @@ Role-envelope and bundled-skill surfaces:
 - constrained teaching or questioning skills: no-direct-answer rules, anti-pattern lists, language mirroring, read-before-questioning, and staged question types can be reviewed as workflow discipline; learning quality, user fit, and multi-agent handoff behavior remain unproven until replay.
 - canonical skill projection packages: a single source skill store, symlink or pointer projection, project manifests, lockfiles, host-specific policy files, and MCP config projection can be reviewed as role-package shape; projection commands, host-file writes, registry access, behavior parity, and cross-host permission semantics remain activation or proof surfaces.
 - remote persistence setup packages: environment inspection, action plans, idempotent scripts, service or task manager definitions, graceful-degradation rules, and explicit persistence limits can be reviewed as operating-package shape; session launch, service registration, hidden/background processes, sudo/login handling, and reboot/logout survival remain activation or proof surfaces.
+- account-data dashboard skill packages: account-search recipes, extraction schemas, deduplication, urgency tiers, privacy notices, generated dashboard paths, and spreadsheet-export scripts can be reviewed as role-package shape; connector access, message parsing accuracy, privacy safety, artifact rendering, export correctness, and cancellation/payment-link handling remain unproven until scoped replay.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -136,6 +138,7 @@ Runtime, harness, gate, and event-truth surfaces:
 - manifesto-lint packages: instruction-file linting as a separate pass/fail prose gate, distinct from packaging validation or runtime loadability.
 - team-architecture factories: a domain sentence is mapped into a named team pattern, generated agent/skill/orchestrator surfaces, and validation steps; experimental runtime dependencies and generated-file quality remain activation review surfaces.
 - local-first multi-agent workbenches: each task can get an isolated worktree or branch, while parallel agent sessions, local databases, diff review, terminal panels, and PR/MR actions form loop/state/gate surfaces; actual PR actions, CI fixing, account connections, and agent quality remain unproven.
+- parallel orchestration and tracker-daemon packages: touch sets, locks, gates, task states, per-issue workspaces, tracker-state transitions, restart recovery, approval policies, and proof-of-work artifacts can be reviewed as loop contracts; subagent launch, worktree mutation, tracker/API use, PR landing, daemon reliability, and approval/sandbox safety remain activation or proof surfaces.
 - cost-aware model routers: tiered model catalogs, cost metadata, weighted scoring, confidence thresholds, override rules, user-message-only scoring, and health or stats endpoints form a loop/state/gate package; savings, quality, and provider behavior remain unproven until replay.
 - human-in-the-loop marketplace bridges: a single MCP or connector surface may expose discovery, offers, listings, messages, payments, reviews, profiles, and registration; discovery is not authority for contact, payment, public listing, identity, or reputation actions.
 - personal-agent runtime packages: provider catalogs, config roots, profile modes, host-access prompts, WebUI/OAuth boundaries, sandbox policies, channel registries, jobs, routines, and tool catalogs can be reviewed as separate loop/state/gate surfaces; secure-runtime branding is not safety proof.
@@ -194,6 +197,7 @@ State, memory, isolation, and portability surfaces:
 - scheduled crawler and API-sync packages: upstream source URLs, update intervals, filter/save stages, local default endpoints, API-auth placeholders, sync toggles, batch/update/delete route documents, and scheduler entrypoints can be reviewed as state and lifecycle surfaces; crawler runs, upstream freshness, server availability, authentication, push/update/delete safety, and scheduled-task behavior remain unproven.
 - skill lifecycle management packages: JD-style intake, installed-pool matching, delegation handoffs, recruitment tasks, trials, debriefs, performance state, termination logs, multi-agent role files, and registry state can be reviewed as lifecycle surfaces; skill install, deletion, sync, matching quality, and human-resource metaphors remain source-review-only until scoped replay.
 - validation-gated skill evolution packages: bounded edit budgets, training/eval entries, reflection or aggregation stages, held-out gates, slow update knobs, meta-skill prompts, offline sleep proposals, and staged adoption decisions can be reviewed as learning-state surfaces; optimization quality, benchmark gains, zero-overhead claims, and safe adoption remain unproven without replay.
+- progressive-disclosure and workflow-gate packages: vault indexes, staged local retrieval, task manifests, YAML workflow definitions, review gates, worktree notes, and finalization contracts can be reviewed as context and workflow surfaces; vault safety, retrieval quality, workflow execution, review quality, and durable task completion remain source-review-only until replay.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -213,6 +217,7 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - skill supply-chain security packages: static, AST, YARA, optional LLM, semantic threat-category, CVSS, SARIF, and remediation-output surfaces can be reviewed as scanner design evidence; vulnerability truth, maliciousness statistics, false-positive filtering, and report correctness remain source-review-only until replay.
 - package-audit and migration-review skills: live lookup plans, package delta tables, migration matrices, PDF/report outputs, and architecture checklists can be reviewed as structured audit surfaces; live API freshness, generated reports, dependency advice, and migration correctness remain unverified until run on a bounded fixture.
 - scene-to-eval rewrite packages: scene classification, tiered rewrite scope, protected-span ledgers, fixed execution order, and separate eval harnesses can be reviewed as gated transformation surfaces; rewrite quality, eval validity, protected-span enforcement, and downstream style fit remain unverified until replay.
+- prompt-archive repositories: README-level archive shape can be reviewed only as an activation-surface and quarantine signal; raw prompt bodies, provider policies, model/version claims, authenticity claims, support links, and leak-derived content are not neutral mechanism material.
 
 Scheduled monitor and alert-loop surfaces:
 
@@ -267,6 +272,8 @@ Lifecycle platform and ingestion surfaces:
 - Model/protocol authority laundering: model-family routing tables, type-safe agent frameworks, or worker-governance protocols are treated as proof of correct model detection, agent behavior, or trustworthy dispatch.
 - Discovery authority laundering: a ranked skill search result, full skill-content payload, catalog rating, or multi-transport manifest is treated as permission to inject, install, call, pay for, or delegate to a skill.
 - Scanner authority laundering: a security detector list, SARIF output claim, CVSS label, or malicious-skill statistic is treated as proof of actual safety or vulnerability truth.
+- Account-dashboard laundering: a source-level account-data extraction package is treated as proof of connector access, privacy safety, generated artifacts, or extraction accuracy.
+- Prompt-archive laundering: a public prompt archive is treated as neutral law, policy truth, or reusable prompt text instead of being quarantined as observational source shape only.
 
 ## Verification Needed
 
@@ -277,6 +284,7 @@ Lifecycle platform and ingestion surfaces:
 - Add an automation memory or state marker so future sync jobs can tell which receipt ranges have been synthesized and pushed.
 - Add negative eval cases for runtime discovery being treated as installation authority, safety ratings being treated as quality proof, multi-transport manifests being treated as API/payment proof, and event-mesh diagrams being treated as orchestration proof.
 - Add negative eval cases for observe-before-act browser automation being treated as safe logged-in action, project-continuity files being treated as future-memory authority, hosted-rule packages being treated as account/API authority, and practice/rubric packages being treated as output-quality proof.
+- Add negative eval cases for account-data dashboards being treated as account-access or extraction proof, lock managers being treated as parallelism proof, tracker daemons being treated as issue-mutation authority, and prompt archives being treated as importable neutral prompt or policy sources.
 
 ## Placement Candidates
 

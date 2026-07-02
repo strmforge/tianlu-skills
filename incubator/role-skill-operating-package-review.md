@@ -60,6 +60,9 @@ Controller-audited public repository samples from the local short-worker loop in
 - GUI-grounded, commerce/API, scene-rewrite, and crawler-sync packages where screen grounding, live API/docs surfaces, scope tiers, protected spans, scheduler intervals, and API-sync toggles define the package boundary.
 - skill lifecycle operating packages where gateway tools, runtime trials, HR-style skill intake and termination, registry delivery, session mining, scaffolded creation, progressive disclosure, and validation-gated evolution define the package boundary.
 - skill security, discovery, and orchestration operating packages where scanner gates, catalog indexes, safety ratings, ranked skill search, full skill-content retrieval, multi-transport manifests, constrained tutoring rules, event brokers, orchestrator agents, and dependency surfaces define the package boundary.
+- account-data dashboard packages where account-search recipes, extraction fields, deduplication rules, urgency tiers, privacy notices, generated dashboard paths, and spreadsheet-export scripts define the package boundary.
+- parallel orchestration, issue-tracker daemon, progressive-disclosure retrieval, and YAML workflow packages where touch sets, lock managers, quality gates, task states, per-issue workspaces, tracker-state transitions, restart recovery, vault indexes, workflow manifests, and review/finalization gates define the package boundary.
+- public prompt-archive packages where archive shape is a quarantine and activation-surface signal only; raw prompt bodies, provider-policy text, model/version claims, authenticity claims, support links, and leak-derived material stay out of neutral method material.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -94,6 +97,7 @@ Use this candidate when a public repository, internal design, or agent runtime p
 - service/task plan, hidden/background process plan, local/package mode switch, resumable workspace, authorization scope, GUI grounding, API-sync toggle, and scheduler interval gates around persistence, security, GUI, commerce, rewrite, or crawler-sync roles.
 - gateway tool list, runtime trial preset, grader, CI threshold, skill JD, installed-skill pool, debrief log, termination ledger, registry rating, per-project sync, bounded edit budget, validation gate, sleep proposal, or progressive-disclosure schema around a skill lifecycle role.
 - scanner threat taxonomy, vault catalog, safety rating, runtime skill search, full skill payload, transport manifest, hosted endpoint, payment rail, Socratic progression, event-broker topology, orchestrator delegation, or dependency manifest around a skill discovery or agent-mesh role.
+- account-search recipes, extraction schemas, dashboard/export paths, touch sets, file locks, task-state machines, tracker-state transitions, per-issue workspaces, vault indexes, workflow YAML, review gates, finalization commands, or prompt-archive quarantine rules around account-data, orchestration, retrieval, or workflow roles.
 
 ## Proposed Mechanism
 
@@ -173,6 +177,9 @@ Review the package as an operating package before any activation:
 28. Treat hosted-domain and browser-action packages as dual-surface roles.
    - Typed market rules, backtests, linked channels, payment confirmations, observe-before-act browser automation, action caches, and local subprocess boundaries can be useful role-contract material.
    - They do not authorize account credentials, browser/session actions, hosted endpoint calls, public sharing, wallet/payment actions, local audio/model execution, or Docker/product launches without separate activation review.
+29. Treat account-data, tracker, workflow, and archive packages as quarantine-first roles.
+   - Extraction fields, lock files, task states, tracker transitions, vault indexes, workflow YAML, and prompt-archive labels can make the role contract inspectable.
+   - They do not authorize account reads, generated exports, subagent launches, worktree mutation, tracker/API actions, daemon persistence, vault indexing, workflow execution, prompt copying, or policy adoption without scoped owner approval and replay.
 
 ## Initial Scope
 
@@ -224,6 +231,9 @@ Review the package as an operating package before any activation:
 - Practice-package laundering: a self-regulation exercise, writing threshold, design rule, or code-structure mantra is treated as proof of improved output without a baseline and failure cases.
 - Hosted-domain laundering: typed rules, private backtests, delivery readiness, or account-scoped endpoints are treated as proof that a hosted domain agent works or is safe to call.
 - Preview-browser laundering: observe-before-act and action caching are treated as proof that a browser automation role is safe to run on logged-in or mutable pages.
+- Account-data laundering: extraction fields, dashboards, or exports are treated as proof of connector access, parsing accuracy, privacy, or artifact correctness.
+- Tracker-daemon laundering: workflow state, workspaces, or proof-of-work artifacts are treated as permission to mutate issues, launch daemons, or land PRs.
+- Prompt-archive laundering: a public archive is treated as neutral role text, provider policy, or prompt authority rather than a quarantined source-shape signal.
 
 ## Verification Needed
 
@@ -241,6 +251,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for runtime-discovery packages being treated as installation authority, multi-transport manifests being treated as API or payment proof, Socratic constraints being treated as learning-quality proof, and event-mesh packages being treated as orchestration proof.
 - Add negative cases where project-continuity files are treated as future-session authority, practice/rubric files are treated as output-quality proof, and observe-before-act browser packages are treated as safe logged-in automation.
 - Add negative cases where hosted market-rule packages are treated as account, data, notification, or public-share authority, and where payment-confirmation text is treated as proof of settlement or pricing behavior.
+- Add negative cases where account-data dashboards are treated as account-access or extraction proof, parallel locks are treated as execution proof, tracker daemons are treated as issue-mutation authority, YAML workflows are treated as safe-to-run, and prompt archives are treated as neutral law or importable prompt text.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

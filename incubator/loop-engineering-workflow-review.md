@@ -36,6 +36,7 @@ Related umbrella: `agent-role-envelope-cycle-review.md`.
 - `C:\Users\56214\Documents\Codex\tianlu-skills\eval\test-prompts.md`
 - controller-audited local public-repo samples from 2026-06-25 covering tree-search autoresearch loops, worktree-isolated parallel subagents, shared trace state, inherited pass/fail gates, and explicit eval-registry surfaces.
 - controller-audited short-worker samples from 2026-07-02 covering slash-command dispatch metadata, deterministic lint/report outputs, prompt-injection gates, print-contract scratchpads, generated tool indexes, research-axis templates, codebase-packing context, and package-audit matrices as loop/state/gate candidates.
+- controller-audited short-worker samples from 2026-07-02 covering parallel orchestration state machines, issue-tracker daemon contracts, and YAML workflow gates as source-level loop shapes only.
 
 ## Proposed Trigger
 
@@ -118,6 +119,9 @@ Recent public-source review adds several source-level loop shapes that should st
 - Command-dispatch loops: frontmatter dispatch targets, operator-argument handling, lifecycle sentinels, and metadata checks can make one iteration's route and output location inspectable; they do not authorize scans, fuzzing, exploit generation, patch generation, or command execution.
 - Scratchpad and context gates: persistent scratchpads and codebase-packaging tools can reduce context pressure by keeping raw data outside the conversation and passing only printed summaries or packed evidence bundles; privacy, retention, context quality, and token-economics claims require replay.
 - Tool-router and audit loops: generated tool indexes, platform routing matrices, field journals, static-lint outputs, package deltas, migration matrices, and report artifacts can serve as loop state and review outputs; bootstrap, MCP registration, live lookup, security workflow execution, or report publication remain activation surfaces.
+- Parallel orchestration loops: touch sets, lock managers, task states, quality gates, auto-spawn rules, retry limits, budget stops, and integration review can make concurrent work inspectable; subagent launch, worktree mutation, lock enforcement, output acceptance, and production safety remain unverified until replay.
+- Issue-tracker daemon loops: tracker polling, per-issue workspaces, workflow policy files, bounded concurrency, state-change stops, structured logs, backoff, and restart recovery can make long-running implementation loops reviewable; tracker/API access, daemon persistence, approval/sandbox posture, PR landing, and cleanup safety remain activation surfaces.
+- YAML workflow loops: manifest-defined phases, gates, worktree notes, review steps, and finalization contracts can carry workflow state; executing commands, mutating branches, running checks, or treating reviews as acceptance requires scoped replay.
 
 Neutral mechanism: a recurring coding loop is only a candidate when role, state file, per-iteration context reset, bounded budget, verifier gate, completion predicate, and failure receipt are all visible. Implementation language, wrapper choice, and advertised maturity are incidental.
 
@@ -130,6 +134,7 @@ Neutral mechanism: a recurring coding loop is only a candidate when role, state 
 - Confirm stop conditions, resume target, and missed-run behavior.
 - Confirm the loop cannot claim completion just because it paused or timed out.
 - Confirm whether branch selection, keep-or-revert logic, and shared-state reuse are explicit or only rhetorical.
+- Confirm that lock managers, tracker-state changes, daemon restarts, workflow YAML, and finalization commands are replayed in bounded fixtures before any loop is treated as safe or complete.
 
 ## Placement Candidates
 
