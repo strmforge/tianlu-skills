@@ -65,6 +65,8 @@ Additional validated source range for the scanner, catalog, runtime-discovery, m
 
 Additional validated source range for the account-data, orchestration, tracker-daemon, progressive-disclosure, workflow-gate, and prompt-archive quarantine additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 19:35, 19:46, 19:55, and 20:05.
 
+Additional validated source range for the vision artifact, action-offer, durable-task, MCP/YAML pipeline, quote-confirm, preview/scorecard, design-retrieval, tutoring-vault, and protocol-adapter additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 21:13, 21:23, 21:33, and 21:43.
+
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
 Related Tianlu candidates:
@@ -106,6 +108,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - runtime trial preset, deterministic grader, LLM-rubric grader, CI threshold, score ledger, skill JD, installed-pool match, recruitment/debrief/termination state, registry rating, per-project sync marker, bounded edit budget, validation gate, held-out slice, or sleep-cycle proposal used as review state;
 - scanner threat category, safety rating, catalog entry, runtime skill-search result, full skill-content payload, transport manifest, hosted endpoint, payment rail, Socratic question progression, event delegation plan, or dependency surface used as review state;
 - account-record extraction schema, deduplication or urgency tier, generated dashboard/export path, lock manager, worktree gate, tracker-state daemon, per-issue workspace, vault retrieval index, workflow YAML, review-gate manifest, or prompt-archive quarantine rule used as review state;
+- artifact export plus vision re-read, pre-output action-offer blocker, durable retry/checkpoint metadata, YAML step graph, shared variable pool, quote/confirmation/credit gate, preview or scorecard selector, design token/retrieval index, concept-tracking vault, hub-routed pattern file, or protocol adapter contract used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -252,6 +255,9 @@ Recent public-source review adds several gated-skill surfaces:
 - Template-preservation gates: inspect/clone/fill/quality-gate flows, editable output requirements, desktop export checks, and overflow scans can make document or slide generation reviewable. They do not prove template fidelity, font/asset rights, COM behavior, visual quality, or final submission readiness until replayed on safe templates.
 - Checklist review gates: degree-level, discipline-specific, and multi-item review checklists can make academic or quality review state visible. They do not prove professional judgment, thesis correctness, conversion fidelity, or usefulness of feedback without sampled human review and baseline comparison.
 - Queue and escrow state gates: sequential job queues, communication sync states, escrow statuses, AI-judge states, and payout/refund terminal states can make high-risk workflows inspectable. They do not authorize account access, sends, sync, wallet use, external API calls, or payments, and they do not prove correctness of settlement, delivery, or verification.
+- Vision and preview gates: diagram generators, media generators, presentation packs, and UI/design packages can expose export/re-read loops, quote-before-generation gates, previews, fit checks, scorecards, and design-token ledgers. These make artifact review state visible; they do not prove visual quality, rights safety, generation behavior, upload safety, desktop automation, or UI migration correctness until replayed on safe fixtures.
+- Durable runtime and MCP/YAML gates: task runtimes and RAG packages can expose retries, queues, idempotency, human-in-loop pauses, realtime metadata, YAML pipelines, shared variable pools, branch or loop steps, generated configs, and memory snapshots. These are reviewable state surfaces, not proof of task completion, MCP server safety, retrieval quality, code-executor safety, or memory authority.
+- Action-offer and tutoring gates: travel/action packages, tutoring vaults, and hub-routed pattern packs can require explicit user offers before risky work, track concepts, route to narrow rule files, or degrade when credentials are absent. They do not authorize account access, booking or reward API calls, vault writes, advice quality claims, or TypeScript/runtime correctness.
 
 Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
 
