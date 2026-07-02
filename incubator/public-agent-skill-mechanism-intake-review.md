@@ -16,6 +16,7 @@ This candidate records the method for turning batches of public repository revie
 - Repository-level samples reviewed only through local lightweight source files such as README, SKILL.md, metadata, examples, and directory shape.
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 16:25, 16:43, 16:52, and 17:04 add source-reviewed examples for canonical skill projection, remote persistence setup, security-workflow packages, GUI-grounded agent packages, commerce/API skill packs, scene-to-eval rewrite gates, and scheduled crawler/API-sync loops.
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 17:27, 17:37, 17:47, and 17:57 add source-reviewed examples for AI gateway packages, runtime skill evaluation, skill-HR lifecycle management, registry/delivery layers, scaffolded skill creation, progressive disclosure, and validation-gated skill optimization.
+- Additional controller-audited short-worker receipt windows from 2026-07-02 local 18:15, 18:26, 18:35, and 18:45 add source-reviewed examples for security-scanner families, runtime skill discovery APIs, skill vault/catalog gates, multi-transport skill manifests, constrained Socratic workflows, and event-driven multi-agent orchestration packages.
 - Related Tianlu candidates:
   - `public-skill-triage-role-envelope-pilot.md`
   - `agent-role-skill-bundle-routing-review.md`
@@ -75,6 +76,8 @@ Registry and index surfaces:
 - `claude-plugins-official`: curated plugin directory split between internally maintained plugins and external plugin submissions, with manifest-based skill composition.
 - `clawhub`: public skill and package registry sample with versioning, rename and merge lifecycle, search, moderation roles, declared capability metadata, and install or publish surfaces that remain inactive in source review.
 - `clawhub-skills`: vertical skill-pack sample with pack-level and per-skill sync units, archived lifecycle state, and multi-runtime distribution channels.
+- skill vault and catalog packages: master indexes, category folders, safety ratings, source metadata, empty-catalog states, and recommend/search commands can be absorbed as retrieval and review surfaces; catalog writes, security decisions, and skill adoption remain inactive until replay.
+- runtime skill discovery APIs: ranked and deduplicated search, full skill-content retrieval, optional references, cache layers, REST and MCP interfaces, and source aggregation can be absorbed as selection surfaces; relevance, freshness, injection safety, and host behavior remain unproven.
 
 Role-envelope and bundled-skill surfaces:
 
@@ -111,6 +114,7 @@ Role-envelope and bundled-skill surfaces:
 - prompt workbench and prompt-refinement packages: local-first workbenches, prompt optimizers, model-family strategy tables, hidden-rewrite rules, language locks, eval fixtures, and optional hook flags can be reviewed as prompt-state and selection surfaces; desktop app behavior, deployment behavior, model detection, rewrite quality, and hook enforcement remain source-review-only.
 - cross-host productivity skill bundles: many host directories, plugin manifests, commands, hooks, skills, landing pages, and multilingual READMEs can show distribution shape; they do not prove productivity gains, parity across hosts, safe activation, or community/account surfaces.
 - academic research and reading skill bundles: Obsidian-centered reading protocols, L1/L2/L3 note tiers, memory extraction taxonomies, literature-search packs, scientific-reasoning meta-skills, and citation/fulltext helper skills can be reviewed as role-package shape; vault writes, paper retrieval, citation validation, skill installs, and scientific or professional authority remain activation or proof surfaces.
+- constrained teaching or questioning skills: no-direct-answer rules, anti-pattern lists, language mirroring, read-before-questioning, and staged question types can be reviewed as workflow discipline; learning quality, user fit, and multi-agent handoff behavior remain unproven until replay.
 - canonical skill projection packages: a single source skill store, symlink or pointer projection, project manifests, lockfiles, host-specific policy files, and MCP config projection can be reviewed as role-package shape; projection commands, host-file writes, registry access, behavior parity, and cross-host permission semantics remain activation or proof surfaces.
 - remote persistence setup packages: environment inspection, action plans, idempotent scripts, service or task manager definitions, graceful-degradation rules, and explicit persistence limits can be reviewed as operating-package shape; session launch, service registration, hidden/background processes, sudo/login handling, and reboot/logout survival remain activation or proof surfaces.
 
@@ -141,6 +145,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - instruction-artifact contract packages: source instruction files, target schemas, typed relationships, conformance fixtures, integrity digests, signature metadata, and compile/validate/check commands can be reviewed as loop/state/gate surfaces; artifact trust, runtime portability, compiler determinism, and signing support remain source-review-only until replay.
 - worker-governance protocol packages: capability envelopes, route-decision receipts, registry records, controls-present checks, blast-score gates, policy hooks, attestation helpers, taxonomy catalogs, and conformance fixtures can be reviewed as dispatch-governance surfaces; standard legitimacy, secure dispatch, registry availability, and trust enforcement remain unproven until replay.
 - typed agent-framework packages: provider adapters, tool-calling abstractions, graph runtimes, eval packages, slim installs, docs, examples, and lockfiles can be reviewed as lifecycle surfaces; type-safety, agent quality, provider behavior, graph execution, and eval validity remain source-review-only until scoped replay.
+- event-driven agent-mesh packages: event brokers, orchestrator agents, specialized peer agents, artifact sharing, interface gateways, and dependency manifests can be reviewed as orchestration surfaces; broker availability, delegation quality, tenant boundaries, and workflow completion remain unproven.
+- multi-transport skill manifests: one skill contract may expose MCP, REST, hosted, and payment-gated endpoints; the manifest is useful for authority inventory, not proof that every transport is callable, equivalent, safe, priced correctly, or authorized.
 - command-dispatch skill packages: slash-command frontmatter, dispatch targets, operator-argument passing, lifecycle sentinels, and metadata checks can be reviewed as routing and receipt surfaces; security scans, fuzzing, exploit generation, patch generation, and workflow execution remain inactive until separately authorized and replayed.
 - tool-router and bootstrap packages: generated per-machine tool indexes, platform routing matrices, rule/subskill loading, field journals, report paths, and bootstrap scripts can be reviewed as operating-package state; generating indexes, installing tools, registering MCP servers, running reverse-engineering workflows, or writing journals requires separate activation review.
 - enterprise data-operation routers: natural-language intent can be routed into read-only structured queries or write-capable service scripts through a decision matrix, credential gate, and commit flag; query/script routing, credential handling, health checks, and writes remain source-review-only until replayed on a bounded safe fixture.
@@ -204,6 +210,7 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - cloud data-agent skills: per-message mode, attach-based session reuse, workspace/custom-agent support, credential-chain boundaries, and async/session isolation.
 - persona and theory-first skill packs: corpus-to-persona calibration, anti-bias rules, double-loop review, Socratic questioning, cybernetics framing, knowledge gardening, and narrative commit review as scoped method signals rather than truth claims.
 - prompt-injection and static-skill-check packages: deterministic JSON, CSV, or SARIF outputs, manifest/frontmatter checks, canary tokens, vector memories, and defense gates can be reviewed as evidence and gate shapes; detector accuracy, privacy, attack coverage, and runtime enforcement require independent replay.
+- skill supply-chain security packages: static, AST, YARA, optional LLM, semantic threat-category, CVSS, SARIF, and remediation-output surfaces can be reviewed as scanner design evidence; vulnerability truth, maliciousness statistics, false-positive filtering, and report correctness remain source-review-only until replay.
 - package-audit and migration-review skills: live lookup plans, package delta tables, migration matrices, PDF/report outputs, and architecture checklists can be reviewed as structured audit surfaces; live API freshness, generated reports, dependency advice, and migration correctness remain unverified until run on a bounded fixture.
 - scene-to-eval rewrite packages: scene classification, tiered rewrite scope, protected-span ledgers, fixed execution order, and separate eval harnesses can be reviewed as gated transformation surfaces; rewrite quality, eval validity, protected-span enforcement, and downstream style fit remain unverified until replay.
 
@@ -254,6 +261,8 @@ Lifecycle platform and ingestion surfaces:
 - Eval theater: a repo's own eval, badge, or benchmark is treated as independent validation without checking scope and negative cases.
 - Local-only leakage: controller paths, provider details, account state, token usage, or raw worker output enter neutral files.
 - Model/protocol authority laundering: model-family routing tables, type-safe agent frameworks, or worker-governance protocols are treated as proof of correct model detection, agent behavior, or trustworthy dispatch.
+- Discovery authority laundering: a ranked skill search result, full skill-content payload, catalog rating, or multi-transport manifest is treated as permission to inject, install, call, pay for, or delegate to a skill.
+- Scanner authority laundering: a security detector list, SARIF output claim, CVSS label, or malicious-skill statistic is treated as proof of actual safety or vulnerability truth.
 
 ## Verification Needed
 
@@ -262,6 +271,7 @@ Lifecycle platform and ingestion surfaces:
 - Decide which groups should become playbooks, law notes, adapter notes, or remain incubating.
 - Confirm which examples are stable enough to cite in neutral docs and which should stay as local receipt evidence only.
 - Add an automation memory or state marker so future sync jobs can tell which receipt ranges have been synthesized and pushed.
+- Add negative eval cases for runtime discovery being treated as installation authority, safety ratings being treated as quality proof, multi-transport manifests being treated as API/payment proof, and event-mesh diagrams being treated as orchestration proof.
 
 ## Placement Candidates
 

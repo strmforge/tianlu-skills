@@ -59,6 +59,7 @@ Controller-audited public repository samples from the local short-worker loop in
 - remote persistence and security-workflow packages where environment inspection, idempotent action plans, service/task definitions, local/package mode switches, workspace resume, authorization warnings, worker/container surfaces, and report deliverables define the package boundary.
 - GUI-grounded, commerce/API, scene-rewrite, and crawler-sync packages where screen grounding, live API/docs surfaces, scope tiers, protected spans, scheduler intervals, and API-sync toggles define the package boundary.
 - skill lifecycle operating packages where gateway tools, runtime trials, HR-style skill intake and termination, registry delivery, session mining, scaffolded creation, progressive disclosure, and validation-gated evolution define the package boundary.
+- skill security, discovery, and orchestration operating packages where scanner gates, catalog indexes, safety ratings, ranked skill search, full skill-content retrieval, multi-transport manifests, constrained tutoring rules, event brokers, orchestrator agents, and dependency surfaces define the package boundary.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -92,6 +93,7 @@ Use this candidate when a public repository, internal design, or agent runtime p
 - source skill store, host projection manifest, lockfile, pointer file, rule file, and MCP config gates around a canonical projection role.
 - service/task plan, hidden/background process plan, local/package mode switch, resumable workspace, authorization scope, GUI grounding, API-sync toggle, and scheduler interval gates around persistence, security, GUI, commerce, rewrite, or crawler-sync roles.
 - gateway tool list, runtime trial preset, grader, CI threshold, skill JD, installed-skill pool, debrief log, termination ledger, registry rating, per-project sync, bounded edit budget, validation gate, sleep proposal, or progressive-disclosure schema around a skill lifecycle role.
+- scanner threat taxonomy, vault catalog, safety rating, runtime skill search, full skill payload, transport manifest, hosted endpoint, payment rail, Socratic progression, event-broker topology, orchestrator delegation, or dependency manifest around a skill discovery or agent-mesh role.
 
 ## Proposed Mechanism
 
@@ -162,6 +164,9 @@ Review the package as an operating package before any activation:
 25. Treat skill lifecycle packages as adoption-review roles.
    - Gateways, trial harnesses, HR lifecycles, registries, creation scaffolds, and bounded skill-optimization loops can improve how a team selects, tests, delivers, and retires skills.
    - They do not authorize model calls, package installs, Docker/local provider runs, registry writes, physical skill deletion, session mining, or generated skill adoption without a scoped activation review.
+26. Treat discovery, manifest, and event-mesh packages as routing packages.
+   - Catalogs, safety ratings, ranked skill results, full skill bodies, transport manifests, constrained dialogue rules, and event brokers can help choose or shape a role's next action.
+   - They do not authorize skill injection, installation, hosted API calls, SMS ordering, wallet payment, broker launch, or agent delegation until each authority surface has a scoped review and replay path.
 
 ## Initial Scope
 
@@ -206,6 +211,9 @@ Review the package as an operating package before any activation:
 - Persistence-package laundering: an idempotent setup plan is treated as permission to register services, launch background workers, or claim logout/reboot survival.
 - Sync-package laundering: a scheduler interval or API-sync toggle is treated as proof that crawling, freshness, auth, and delete/update behavior are safe.
 - Skill-lifecycle laundering: an eval harness, HR-style state machine, registry, scaffold, or validation gate is treated as proof that a skill should be installed, kept, changed, deleted, distributed, or considered learned.
+- Discovery-package laundering: a catalog, safety rating, ranked result, or full skill payload is treated as permission to load, obey, install, or distribute a skill.
+- Transport-package laundering: a manifest lists MCP, REST, hosted, or payment-gated paths and is treated as proof of equivalent, safe, or authorized runtime behavior.
+- Event-mesh laundering: an orchestrator or broker topology is treated as proof of reliable delegation, task completion, or isolation across agents.
 
 ## Verification Needed
 
@@ -220,6 +228,7 @@ Review the package as an operating package before any activation:
 - Add negative cases for output packages being treated as build/deploy proof, catalog packages being treated as install/API proof, and continuity packages being treated as future-session authority.
 - Add negative cases for canonical projection packages being treated as host-parity proof, remote persistence packages being treated as durable-service proof, and crawler/API-sync packages being treated as mutation authority.
 - Add negative cases for gateway packages being treated as model/API authority, runtime skill trials being treated as deployment proof, HR termination logs being treated as deletion authority, registries being treated as quality proof, and validation-gated skill edits being treated as safe adoption.
+- Add negative cases for runtime-discovery packages being treated as installation authority, multi-transport manifests being treated as API or payment proof, Socratic constraints being treated as learning-quality proof, and event-mesh packages being treated as orchestration proof.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

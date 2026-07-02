@@ -48,6 +48,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed recursive orchestrators, local coworker memory tools, enterprise query/script routers, academic reading bundles, and capture-driven pipe systems that use plan/executor/verifier roles, vault or graph state, read-versus-write matrices, commit flags, tiered reading protocols, security-scan ledgers, capture timelines, pipe YAML permissions, and localhost API/MCP boundaries as state and gates rather than as proof of runtime correctness, privacy, or safe action.
 - source-reviewed projection, persistence, security-workflow, GUI, commerce/API, rewrite/eval, and crawler-sync packages that use canonical stores, project manifests, lockfiles, idempotent action plans, service/task gates, local-versus-package mode detection, workspace resume state, scope tiers, protected spans, API-sync toggles, and scheduler intervals as state and gates rather than as proof of host parity, durable service safety, exploit quality, GUI correctness, API safety, or sync correctness.
 - source-reviewed skill lifecycle and optimization packages that use runtime trial configs, deterministic and LLM-rubric graders, CI thresholds, score ledgers, HR-style intake/matching/debrief/termination state, registry ratings, per-project sync state, bounded edit budgets, validation gates, and offline sleep proposals as gates rather than as proof of skill quality, safe adoption, runtime behavior, or durable learning.
+- source-reviewed security-scanner, skill-catalog, runtime-discovery, multi-transport manifest, Socratic workflow, and event-orchestration packages that use threat categories, safety ratings, catalog schemas, ranked search results, full skill payloads, transport metadata, question-progression rules, orchestrator delegation, and dependency manifests as review state rather than as proof of scan accuracy, skill quality, transport availability, payment safety, learning quality, or multi-agent reliability.
 
 Additional validated source range for the browser/build/catalog/invariant additions: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`.
 
@@ -58,6 +59,8 @@ Additional validated source range for the recursive-orchestrator, local-coworker
 Additional validated source range for the projection, persistence, security-workflow, GUI, commerce/API, rewrite/eval, and crawler-sync additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 16:25, 16:43, 16:52, and 17:04.
 
 Additional validated source range for the skill lifecycle, runtime-eval, registry-delivery, and validation-gated skill-optimization additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 17:27, 17:37, 17:47, and 17:57.
+
+Additional validated source range for the scanner, catalog, runtime-discovery, multi-transport manifest, Socratic workflow, and event-orchestration additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 18:15, 18:26, 18:35, and 18:45.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -98,6 +101,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - recursive plan/executor/verifier role state, local vault or knowledge-graph state, enterprise read-versus-write routing matrix, commit flag, tiered reading protocol, skill security ledger, capture timeline, pipe YAML permission file, localhost API endpoint, MCP boundary, raw SQL gate, or frame-access gate used as review state;
 - canonical skill store, host projection manifest, lockfile, service/task plan, local-versus-package mode switch, resumable workspace, protected-span ledger, scene tier/scope, API-sync toggle, scheduler interval, or delete/update route used as review state;
 - runtime trial preset, deterministic grader, LLM-rubric grader, CI threshold, score ledger, skill JD, installed-pool match, recruitment/debrief/termination state, registry rating, per-project sync marker, bounded edit budget, validation gate, held-out slice, or sleep-cycle proposal used as review state;
+- scanner threat category, safety rating, catalog entry, runtime skill-search result, full skill-content payload, transport manifest, hosted endpoint, payment rail, Socratic question progression, event delegation plan, or dependency surface used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -165,6 +169,9 @@ Review stateful skills as gated operating loops:
 21. Split skill-evolution gates from skill-quality proof.
    - Runtime trials, score ledgers, HR-style lifecycle state, registry ratings, bounded edits, held-out gates, and offline sleep proposals can make skill improvement reviewable.
    - They do not prove that a skill is better, safe to adopt, correctly installed, portable across hosts, or internally learned until the trial, acceptance, rollback, and adoption path is replayed on bounded examples.
+22. Split discovery, transport, and delegation gates from capability proof.
+   - Ranked discovery results, full skill payloads, safety ratings, multi-transport manifests, question workflows, and orchestrator delegation plans can make selection and routing reviewable.
+   - They do not prove the skill should be injected, installed, called, paid for, trusted, or delegated to until source role, activation surface, rollback, and bounded replay evidence are visible.
 
 ## Initial Scope
 
@@ -225,6 +232,7 @@ Recent public-source review adds several gated-skill surfaces:
 - Enterprise-route and capture-pipe gates: read-only query versus write-script matrices, explicit commit flags, capture timelines, pipe markdown/YAML permissions, content-type filters, and localhost REST/MCP boundaries can become state surfaces; they do not prove credential safety, routing correctness, permission enforcement, local-only privacy, or agent-action safety.
 - Projection/persistence/sync gates: canonical stores, host projection manifests, lockfiles, service/task plans, mode switches, workspace resume handles, scene tiers, protected spans, scheduler intervals, and API-sync toggles can become state surfaces; they do not prove host parity, durable service behavior, exploit quality, GUI correctness, account/API safety, crawler freshness, or delete/update safety.
 - Skill lifecycle and optimization gates: trial presets, deterministic graders, LLM-rubric graders, CI thresholds, JD matching, debrief and termination logs, registry ratings, bounded edits, held-out gates, and offline proposal staging can become state surfaces; they do not prove skill quality, model behavior, install safety, registry correctness, safe deletion, or durable learning.
+- Discovery, manifest, and delegation gates: security categories, safety ratings, empty or populated catalogs, ranked skill search results, full `SKILL.md` payloads, MCP/REST/payment transport metadata, Socratic progression rules, and event-mesh delegation plans can become state surfaces; they do not prove scanner accuracy, catalog quality, retrieval relevance, injection safety, payment correctness, hosted availability, tutoring quality, or orchestration reliability.
 
 Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
 
@@ -244,6 +252,7 @@ Neutral mechanism: when a skill claims a gate, capture the input state, gate rul
 - Add negative cases where an enterprise router's FlexSearch/Groovy-style matrix is treated as permission to connect credentials or run writes, and where a capture system's pipe permissions are treated as proof of privacy or safe agent action.
 - Add negative cases where a host projection manifest is treated as parity proof, a service/task plan is treated as persistence proof, and a scheduler/API toggle is treated as permission to crawl or mutate records.
 - Add negative cases where a runtime-eval threshold is treated as deployment proof, a skill-HR termination log is treated as permission to delete installed skills, a registry rating is treated as quality proof, and a held-out gate is treated as automatic adoption authority.
+- Add negative cases where a safety rating is treated as permission to install, a ranked search result is treated as permission to inject a skill, a multi-transport manifest is treated as proof of callable API/payment behavior, and an event-delegation diagram is treated as proof of reliable orchestration.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

@@ -23,6 +23,7 @@ The recurring risk is not one vendor or one runtime. It is the mistaken move fro
 - Controller-audited public-source review on 2026-06-26 added observability and containment MCP shapes: network-observability tools, LLM trace/eval APIs, and coding-agent containment observers can expose capture, snapshot, score, prompt-version, filesystem, network, or tool-call telemetry through one bridge surface. Each capture, query, policy, and destructive-control class needs separate authority review.
 - Controller-audited public-source review on 2026-06-26 added host-application and AI-agent observability bridge shapes: one bridge may expose tracing, evals, SQL, dashboards, datasets, gRPC export, redaction, host-app session mutation, asset downloads, local corpus scans, memory writes, and execution routers. Metadata inspection, query, export, mutation, download, and report actions must be separated even when they share one MCP or SDK surface.
 - Controller-audited public-source review on 2026-06-26 added communication, browser, geospatial, and federation-gateway bridge shapes: a single integration surface may expose inbox provisioning, send or reply, thread state, delivery tracking, webhook replay, custom domains, DNS automation, browser session automation, location lookup, route planning, upstream server catalogs, admin surfaces, OAuth/API-key metadata, tracing, caching, and multi-protocol routing. Discovery, identity, delivery, DNS, browser/session mutation, upstream registration, and gateway administration must be separated before activation.
+- Controller-audited public-source review on 2026-07-02 added skill-manifest bridge shapes: a single skill package can advertise MCP, REST, hosted, and payment-gated transports for the same contract. Manifest presence is useful operation inventory, but it is not proof of endpoint availability, transport equivalence, pricing, payment settlement, API authentication, or permission to call any transport.
 
 No installation, package download, MCP connection, OAuth flow, API-token entry, server start, or tool registration was performed during these reviews.
 
@@ -44,6 +45,7 @@ Use this candidate when an agent, user, repository, marketplace, vendor doc, or 
 - a domain creative, media, design, IDE, or host-application bridge that can mutate a live document/session, download assets, scan local libraries, write memory, invoke installers, or route execution through local TCP, UDP, OSC, gRPC, stdio, or HTTP channels.
 - a communication, inbox, delivery, webhook, domain, DNS, geospatial, map, browser, or desktop bridge that can send messages, wait for replies, replay events, verify domains, mutate browser state, or call external location or routing APIs.
 - a federation gateway, upstream-server catalog, multi-protocol proxy, or registry bridge that can translate among MCP, A2A, REST, gRPC, SDK, CLI, browser, or hosted API surfaces while adding auth, caching, tracing, admin UI, plugin, or deployment state.
+- a skill manifest that presents MCP, REST, hosted, x402, wallet, or payment-gated endpoints as interchangeable access paths to one skill contract.
 
 ## Proposed Mechanism
 
@@ -84,6 +86,9 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 15. Split gateway registration from upstream authority.
     - Adding a server to a catalog, proxying a protocol, enabling an admin UI, routing through cache/federation, or tracing calls is not permission to invoke upstream tools.
     - Gate catalog entries by auth type, transport, tenant, scopes, upstream action class, admin surface, retention, and disable path.
+16. Split transport inventory from transport authority.
+    - A manifest can list MCP, REST, hosted, wallet, or payment endpoints before any bridge is safe to use.
+    - Gate each transport separately for endpoint identity, auth source, billing or payment path, data class, operation class, pricing or rate-limit uncertainty, audit log, disable path, and rollback.
 
 ## Initial Scope
 
@@ -119,6 +124,7 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 - A host-application bridge is treated as safe because it advertises undo support, while adjacent asset, memory, install, scan, filesystem, or external-service side effects remain outside the host undo stack.
 - A communication bridge is treated as simple send/receive tooling while it also controls address identity, custom domains, DNS records, webhook replay, engagement tracking, abuse gates, and usage limits.
 - A federation gateway or catalog is treated as neutral plumbing while it can concentrate upstream credentials, admin UI state, tracing, caching, plugin execution, and multi-tenant tool authority.
+- A multi-transport skill manifest is treated as proof that all listed transports are equivalent, available, safe, priced correctly, or authorized to call.
 
 ## Verification Needed
 
@@ -134,6 +140,7 @@ Before connecting, installing, registering, or enabling an MCP/API bridge:
 - For host-application bridges, confirm which tools are read-only metadata, reversible document/session changes, non-undoable local writes, downloads, scans, memory writes, installers, external-service calls, or public/account actions.
 - For communication bridges, confirm which tools provision identities, send messages, reply, wait, replay webhooks, manage domains, mutate DNS, expose engagement data, or enforce pricing and abuse rules.
 - For gateway catalogs and protocol federators, confirm catalog import, upstream auth, admin UI exposure, tracing/export, cache/federation behavior, plugin execution, tenant boundaries, and server disable paths.
+- For multi-transport skill manifests, confirm each transport independently: endpoint identity, auth, account or wallet actor, operation list, billing or settlement path, pricing source, rate limits, auditability, revocation, and disable path.
 - Confirm deny-by-default allowlist behavior and negative tests for unauthorized tools, other tenants, direct server-id URLs, and stale credentials.
 - Confirm rollback and disable paths for client config, runtime MCP config, server registration, OAuth grants, API tokens, package installs, generated files, hooks, logs, and caches.
 - Confirm that receipts preserve enough evidence to replay the adoption decision without exposing credentials, private account data, source code, or production data.
