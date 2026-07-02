@@ -22,12 +22,17 @@ Recent controller-audited receipts included source-review evidence for these act
 - individual-research and OSINT skill packs that expose social scraping, third-party actor runners, person dossiers, psychoprofile templates, API tokens, platform auth walls, and scored profile claims;
 - paper discovery or download skills that expose DOI or title resolution, publisher-direct retrieval, institutional access, browser challenge handling, Sci-Hub or mirror fallback, PDF validation, and machine-readable agent envelopes;
 - dual-use security-agent platforms that expose recon, vulnerability scanning, exploit tooling, browser or search APIs, Docker sandboxes, target scope, report generation, API tokens, graph memory, and observability stacks.
+- remote-device control skill packs that expose cloud-phone connection, app launch, tap/swipe/text input, browser navigation, app or APK install, remote shell, clipboard, file transfer, app-skill installation, and untrusted screen or page content;
+- vulnerability-intelligence coding-agent plugins that expose CLI installation and auth, external VDB/API calls, GitHub or dependency-alert context, pre-commit or manifest hooks, post-install scans, SBOM generation, exploit lookup, cached PoC handling, fix or remediation edits, and bulk-triage agents;
+- long-running planning and review plugins that expose host-specific hook registration, session-store reads, plan injection, Stop-hook completion gates, project-file mutation, benchmark claims, and cross-agent adapter behavior.
 
 The latest validated source range for this note is controller-audited cycles `qclaw-tianlu-20260702-013123`, `qclaw-tianlu-20260702-020125`, `qclaw-tianlu-20260702-023119`, and `qclaw-tianlu-20260702-040136`. Controller-audited but synthesis-excluded cycles `qclaw-tianlu-20260702-030138` and `qclaw-tianlu-20260702-033149` are excluded because the worker reply was incomplete or relied on invalid carry-forward evidence.
 
 Additional validated source range: controller-audited successful cycles `qclaw-tianlu-20260702-043145`, `qclaw-tianlu-20260702-050147`, `qclaw-tianlu-20260702-053132`, and `qclaw-tianlu-20260702-063125`. Controller-audited but synthesis-excluded cycle `qclaw-tianlu-20260702-060139` is excluded because the worker reply omitted four selected directories and only supplied a partial verification pass.
 
-No source package was installed. No repository code, browser extension, wallet, payment, worker marketplace, telemetry backend, collector, local daemon, MCP server, model provider, SaaS template, codegen flow, external actor, scraper, PDF retrieval flow, browser challenge bypass, institutional access path, security scan, exploit action, graph backend, or observability stack was run.
+Additional validated source range: controller-audited successful cycles `qclaw-tianlu-20260702-070123`, `qclaw-tianlu-20260702-073127`, `qclaw-tianlu-20260702-080133`, and `qclaw-tianlu-20260702-083140`.
+
+No source package was installed. No repository code, browser extension, wallet, payment, worker marketplace, telemetry backend, collector, local daemon, MCP server, model provider, SaaS template, codegen flow, external actor, scraper, PDF retrieval flow, browser challenge bypass, institutional access path, security scan, exploit action, remote device, cloud phone, app install, browser navigation, CLI auth, API call, GitHub query, SBOM generation, PoC cache, remediation edit, hook registration, plan injection, graph backend, or observability stack was run.
 
 Related Tianlu candidates:
 
@@ -50,6 +55,9 @@ Use this candidate when a repository, skill, MCP bridge, agent platform, or tool
 - public-person research, OSINT dossiers, psychoprofiles, social scraping, third-party actor execution, crawler scripts, or account-authenticated platform access;
 - paper search, DOI or title resolution, PDF retrieval, publisher-direct access, institutional subscription access, Sci-Hub or mirror fallback, browser challenge handling, or downloaded-file validation;
 - dual-use security workflows, reconnaissance, vulnerability scanning, exploitation tooling, target interaction, generated exploit guidance, security report generation, or authorized-scope claims.
+- remote-device or mobile-app workflows, cloud-phone connection, screen inspection, touch/text input, app launch, app or APK installation, remote shell, clipboard, file transfer, or untrusted UI/page content;
+- security-intelligence plugin workflows, dependency-alert context, pre-commit or manifest hooks, post-install scanners, SBOM or PoC caches, remediation edits, external vulnerability APIs, or triage agents;
+- plan/session hooks, session-store reads, stop gates, plan-file injection, project-file mutation, or benchmark claims that may influence whether an agent continues or stops.
 
 ## Proposed Mechanism
 
@@ -96,6 +104,9 @@ rollback_or_requeue:
 - Default-fallback amnesia: an apparently optional retrieval path is default-on in source text, so the ledger must record the default behavior before any agent can call it.
 - Authorization-text laundering: a README says authorized use only, but no runtime gate, target ownership proof, or operator approval has been verified.
 - Dual-use collapse: security research, OSINT, browser challenge handling, and PDF retrieval are summarized as ordinary data access instead of being split into separate side-effect classes.
+- Remote-device laundering: cloud-phone or sandbox language is treated as harmless without separately recording app login, browser navigation, app install, shell, clipboard, file transfer, and untrusted screen-content surfaces.
+- Hook-action laundering: a security or planning hook is described as advisory while the actual host path may block, mutate files, call an API, read session state, or alter stop behavior.
+- Benchmark-scope laundering: a benchmark about file-pattern fidelity, trigger quality, or package shape is repeated as proof of long-run autonomy, security correctness, or remediation safety.
 
 ## Promotion Criteria
 
@@ -106,6 +117,6 @@ Consider promotion to a playbook only if it produces repeatable adoption packets
 ## Non-Claims
 
 - This note does not authorize installing, running, connecting, logging in, paying, trading, deploying, scraping, contacting workers, or starting services.
-- This note does not authorize paper downloading, publisher-direct access, Sci-Hub fallback, browser challenge handling, OSINT collection, psychoprofiling, security scanning, exploitation, target interaction, or report generation.
-- This note does not prove any referenced package's runtime behavior, privacy behavior, security posture, authorization enforcement, payment behavior, browser behavior, telemetry correctness, retrieval legality, downloaded-file safety, or model quality.
+- This note does not authorize paper downloading, publisher-direct access, Sci-Hub fallback, browser challenge handling, OSINT collection, psychoprofiling, security scanning, exploitation, target interaction, report generation, remote-device control, app installation, API authentication, GitHub querying, SBOM generation, PoC retrieval, remediation editing, hook activation, or plan injection.
+- This note does not prove any referenced package's runtime behavior, privacy behavior, security posture, authorization enforcement, payment behavior, browser behavior, telemetry correctness, retrieval legality, downloaded-file safety, cloud-device isolation, hook semantics, benchmark validity beyond its documented scope, remediation quality, or model quality.
 - This note does not promote a law or stable playbook.

@@ -34,6 +34,11 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed hardware/model fit packages that use hardware detection, RAM/VRAM, backend choice, context caps, quantization, score components, fit levels, provider reachability, and benchmark rows as state and gates rather than as recommendation-quality, speed, savings, or installability proof.
 - source-reviewed AI-agent observability packages that use traces, spans, eval runs, datasets, SQL queries, dashboard definitions, annotation state, and redaction limits as state and gates rather than as complete monitoring, correct evals, or privacy proof.
 - source-reviewed instruction-artifact and memory/persona packages that use source-target schemas, conformance fixtures, integrity metadata, memory CRUD endpoints, raw-source ledgers, config diffs, rollback language, and approval gates as state rather than as proof of runtime trust, durable memory authority, or persona fidelity.
+- source-reviewed remote-device skill packages that use authentication, connection, screen observation, untrusted-content rules, app-skill discovery, and real-device testing as gates rather than as permission to log in, browse, install, shell, or mutate a remote device.
+- source-reviewed vulnerability-intelligence plugins that use CLI/API auth state, dependency manifests, hook events, shared vulnerability memory, SBOM or PoC caches, and triage coordination as state and gates rather than as proof of scan accuracy, exploit safety, or remediation correctness.
+- source-reviewed persistent-planning skills that use `task_plan.md`, `findings.md`, `progress.md`, session catchup, host adapters, autonomous/gated modes, Stop-hook behavior, and benchmark-scope notes as state and gates rather than as proof of unattended completion or cross-host behavior.
+
+Latest validated source range for these additions: controller-audited successful cycles `qclaw-tianlu-20260702-070123`, `qclaw-tianlu-20260702-073127`, `qclaw-tianlu-20260702-080133`, and `qclaw-tianlu-20260702-083140`.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -61,6 +66,9 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - trace, metric, packet, snapshot, score, prompt-version, policy, mount, or telemetry surfaces used as review state;
 - schema, taxonomy, version, disclaimer, citation, provider-reachability, quantization, fit-level, benchmark-row, SQL-query, or redaction-limit surfaces used as review state;
 - source-target schema, conformance fixture, integrity digest, signature metadata, compiler command, memory CRUD endpoint, raw-source ledger, persona file, config diff, version history, or rollback surface used as review state;
+- remote-device connection, screen dump, untrusted-content policy, app-skill registry, device test, or remote sandbox claim used as review state;
+- security hook, dependency manifest, vulnerability memory file, SBOM cache, PoC cache, external API result, remediation plan, or triage queue used as review state;
+- task-plan, findings, progress, session catchup, host adapter, stop-gate, benchmark denominator, or advisory-versus-blocking behavior used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -137,6 +145,9 @@ Review stateful skills as gated operating loops:
 - Redaction-gate laundering: token limits, chunking, BIO labels, or a PII-redaction sidecar are treated as privacy proof without false-negative, false-positive, and retention review.
 - Artifact-trust laundering: a schema, digest, signature field, or compiler command is treated as proof that a host will load the artifact safely or equivalently.
 - Persona/memory laundering: a generated persona, raw-source file, config diff, or memory API is treated as accurate, private, reversible, or authorized to govern future behavior.
+- Remote-sandbox laundering: remote-device isolation is treated as permission to browse, install apps, run shell commands, transfer files, or follow screen text without separate scope and untrusted-content gates.
+- Hook-parity laundering: a hook or adapter works in one host, so its stop behavior, session-state reads, file mutation, or blocking semantics are assumed to be identical in another host.
+- File-pattern metric laundering: a benchmark that proves creation or maintenance of planning files is treated as proof that the agent completed the user's goal or will survive arbitrary long runs.
 
 ## Verification Needed
 
