@@ -251,6 +251,10 @@ Lifecycle platform and ingestion surfaces:
 - browser/UI automation and local runtime packages: observe-before-act candidates, action caches, self-healing fallback paths, Electron shells, stateless CLIs, local audio/transcription subprocesses, and JSON state files can be reviewed as context and runtime-boundary surfaces; browser/session actions, model calls, audio-device behavior, and local server behavior require separate activation review.
 - domain execution and hosted-rule packages: x402 payment skills, hosted market-rule agents, typed alerts, account-private backtests, linked channels, public share cards, and confirmation gates can be reviewed as activation-surface examples; wallet/payment, market data, endpoint availability, account state, delivery, public sharing, and settlement claims remain unverified.
 - project-continuity and practice-rule packages: `.story`-style project state, MCP tool inventories, handovers, snapshots, recaps, startup-context files, cognitive-practice instructions, writing rubrics, structure-first methods, and design-rule corpora can be reviewed as state/method packages; future injection, host loading, output quality, and durable self-improvement require replay and baseline comparison.
+- communication and publication skill packages: browser-session publishers, personal-account CLIs, local archive search, file sending, channel targeting, and MCP exposure can be reviewed as role and activation-surface shapes; login, session storage, message reads, sends, uploads, public delivery, and account safety require owner-approved activation review.
+- payment and escrow skill packages: escrow states, work-submission endpoints, judge-verification steps, wallet fields, fee calculations, payout/refund states, and database/deploy instructions can be reviewed as state-machine source evidence; payment correctness, custody, settlement, database safety, and external API behavior remain unverified.
+- academic artifact and review packages: template-preserving slide generation, editable-output constraints, desktop export checks, overflow scans, thesis-review checklists, degree-level routing, and discipline modules can be reviewed as productive role packages; template fidelity, asset rights, COM behavior, conversion accuracy, review quality, and submission readiness require replay and human acceptance.
+- forecasting and inference wrapper packages: model cards, package install paths, skill entrypoints, context-window limits, parameter bounds, and fine-tuning notes can be reviewed as capability-wrapper shape; model availability, dependency compatibility, prediction quality, fine-tuning safety, and runtime performance remain source-review-only until replay.
 
 ## Initial Scope
 
@@ -274,6 +278,10 @@ Lifecycle platform and ingestion surfaces:
 - Scanner authority laundering: a security detector list, SARIF output claim, CVSS label, or malicious-skill statistic is treated as proof of actual safety or vulnerability truth.
 - Account-dashboard laundering: a source-level account-data extraction package is treated as proof of connector access, privacy safety, generated artifacts, or extraction accuracy.
 - Prompt-archive laundering: a public prompt archive is treated as neutral law, policy truth, or reusable prompt text instead of being quarantined as observational source shape only.
+- Communication-skill laundering: a package's convenient send, publish, sync, or MCP commands are treated as neutral mechanism rather than account-read, account-write, public-release, and local-store activation surfaces.
+- Escrow-skill laundering: a source-level state machine is treated as settlement, wallet, fee, or judge correctness without replaying payment, database, API, and refund behavior in a safe fixture.
+- Academic-skill laundering: a checklist, template workflow, or generated deck pipeline is treated as final academic quality without conversion checks, visual replay, rights review, and human acceptance.
+- Forecasting-wrapper laundering: a model-wrapper repository is treated as accurate forecasting or validated fine-tuning because it names a known model or package.
 
 ## Verification Needed
 
@@ -285,6 +293,7 @@ Lifecycle platform and ingestion surfaces:
 - Add negative eval cases for runtime discovery being treated as installation authority, safety ratings being treated as quality proof, multi-transport manifests being treated as API/payment proof, and event-mesh diagrams being treated as orchestration proof.
 - Add negative eval cases for observe-before-act browser automation being treated as safe logged-in action, project-continuity files being treated as future-memory authority, hosted-rule packages being treated as account/API authority, and practice/rubric packages being treated as output-quality proof.
 - Add negative eval cases for account-data dashboards being treated as account-access or extraction proof, lock managers being treated as parallelism proof, tracker daemons being treated as issue-mutation authority, and prompt archives being treated as importable neutral prompt or policy sources.
+- Add negative eval cases for communication packages being treated as account-action authority, escrow packages being treated as payment correctness, academic review packages being treated as expert authority, template pipelines being treated as visual proof, and forecasting wrappers being treated as model-quality proof.
 
 ## Placement Candidates
 

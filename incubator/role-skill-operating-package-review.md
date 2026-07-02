@@ -180,6 +180,9 @@ Review the package as an operating package before any activation:
 29. Treat account-data, tracker, workflow, and archive packages as quarantine-first roles.
    - Extraction fields, lock files, task states, tracker transitions, vault indexes, workflow YAML, and prompt-archive labels can make the role contract inspectable.
    - They do not authorize account reads, generated exports, subagent launches, worktree mutation, tracker/API actions, daemon persistence, vault indexing, workflow execution, prompt copying, or policy adoption without scoped owner approval and replay.
+30. Treat communication, payment, academic, and model-wrapper packages as split-authority roles.
+   - Session files, API credentials, channel targets, escrow states, payout states, template files, checklist modules, model parameters, and fine-tuning knobs can make a role contract visible.
+   - They do not authorize account login, message sending, file upload, wallet/payment action, desktop automation, academic review authority, model download, fine-tuning, or inference until each activation path has a separate scoped replay and owner approval boundary.
 
 ## Initial Scope
 
@@ -234,6 +237,10 @@ Review the package as an operating package before any activation:
 - Account-data laundering: extraction fields, dashboards, or exports are treated as proof of connector access, parsing accuracy, privacy, or artifact correctness.
 - Tracker-daemon laundering: workflow state, workspaces, or proof-of-work artifacts are treated as permission to mutate issues, launch daemons, or land PRs.
 - Prompt-archive laundering: a public archive is treated as neutral role text, provider policy, or prompt authority rather than a quarantined source-shape signal.
+- Communication-role laundering: a publishing or personal-message role is treated as an ordinary skill package before account login, stored sessions, local archives, channel targeting, delivery, file transfer, and public posting are split into separate authority surfaces.
+- Payment-role laundering: an escrow or commerce role is treated as neutral trust infrastructure before API keys, wallet custody, funds, fees, judge calls, payout/refund logic, database policy, and deployment are reviewed.
+- Academic-output laundering: a thesis, review, or defense role is treated as domain authority or final deliverable proof before source conversion, template fidelity, checklist coverage, discipline fit, human review, and submission requirements are replayed.
+- Model-wrapper laundering: a forecasting or inference skill is treated as validated capability because it names a foundation model, package, or fine-tuning path, before weights, dependency compatibility, parameter bounds, task fitness, and output quality are tested.
 
 ## Verification Needed
 
@@ -252,6 +259,7 @@ Review the package as an operating package before any activation:
 - Add negative cases where project-continuity files are treated as future-session authority, practice/rubric files are treated as output-quality proof, and observe-before-act browser packages are treated as safe logged-in automation.
 - Add negative cases where hosted market-rule packages are treated as account, data, notification, or public-share authority, and where payment-confirmation text is treated as proof of settlement or pricing behavior.
 - Add negative cases where account-data dashboards are treated as account-access or extraction proof, parallel locks are treated as execution proof, tracker daemons are treated as issue-mutation authority, YAML workflows are treated as safe-to-run, and prompt archives are treated as neutral law or importable prompt text.
+- Add negative cases where Telegram or other communication packages are treated as safe to log in, send, sync, or expose through MCP; where escrow state diagrams are treated as payment correctness; where thesis checklist packages are treated as academic authority; and where model-wrapper skill files are treated as forecasting or fine-tuning proof.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 

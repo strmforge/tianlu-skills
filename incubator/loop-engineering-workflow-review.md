@@ -122,6 +122,7 @@ Recent public-source review adds several source-level loop shapes that should st
 - Parallel orchestration loops: touch sets, lock managers, task states, quality gates, auto-spawn rules, retry limits, budget stops, and integration review can make concurrent work inspectable; subagent launch, worktree mutation, lock enforcement, output acceptance, and production safety remain unverified until replay.
 - Issue-tracker daemon loops: tracker polling, per-issue workspaces, workflow policy files, bounded concurrency, state-change stops, structured logs, backoff, and restart recovery can make long-running implementation loops reviewable; tracker/API access, daemon persistence, approval/sandbox posture, PR landing, and cleanup safety remain activation surfaces.
 - YAML workflow loops: manifest-defined phases, gates, worktree notes, review steps, and finalization contracts can carry workflow state; executing commands, mutating branches, running checks, or treating reviews as acceptance requires scoped replay.
+- Phase-gated JSON workflow loops: a planning system can keep `docs/*.json` as the source of truth, render Markdown as views, emit `PASS` or `FAIL`, preserve last-fail artifacts, assign or check IDs, and route back to the prior phase. This is stronger loop-shape evidence than prompt-only stage naming, but it does not prove the scripts enforce append-only continuity, that generated views are correct, or that batch execution is safe without replay on bounded fixtures.
 
 Neutral mechanism: a recurring coding loop is only a candidate when role, state file, per-iteration context reset, bounded budget, verifier gate, completion predicate, and failure receipt are all visible. Implementation language, wrapper choice, and advertised maturity are incidental.
 
@@ -135,6 +136,7 @@ Neutral mechanism: a recurring coding loop is only a candidate when role, state 
 - Confirm the loop cannot claim completion just because it paused or timed out.
 - Confirm whether branch selection, keep-or-revert logic, and shared-state reuse are explicit or only rhetorical.
 - Confirm that lock managers, tracker-state changes, daemon restarts, workflow YAML, and finalization commands are replayed in bounded fixtures before any loop is treated as safe or complete.
+- Confirm that JSON-pack workflow gates actually preserve ID continuity, write diagnostic artifacts as claimed, route `FAIL` states to bounded replans, and keep user-interaction surfaces separate from automated planning phases.
 
 ## Placement Candidates
 
