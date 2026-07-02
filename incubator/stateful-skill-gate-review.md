@@ -174,6 +174,17 @@ Review stateful skills as gated operating loops:
 - Model-detection laundering: a strategy table or self-description is treated as proof that the active model was detected correctly and the hidden rewrite improved the answer.
 - Protocol-standard laundering: a typed worker protocol, registry, conformance suite, or attestation file is treated as proof of independent standard status, secure dispatch, or production-grade trust enforcement.
 
+## Controller-Audited Gate Variants
+
+Recent public-source review adds several gated-skill surfaces:
+
+- QA pipeline gates: requirements intake, adapter detection, optional instrumentation, parallel context discovery, risk scoring, scenario design, test generation, execution or healing, quality review, traceability, gate decision, CI output, checkpoints, and JSON schemas form a reviewable multi-agent QA surface. Playwright, browser inspection, model calls, test execution, self-healing, CI mutation, and generated-test quality remain unverified until safe replay.
+- Hard information gates: domain skills can require a minimum fact set before analysis, route to platform-specific playbooks, and keep references behind progressive disclosure. This is useful stateful prompt discipline, but not proof of domain advice quality, eval validity, or safe activation.
+- Exit gates for fresh-context loops: task status files, progress logs, explicit completion markers, max-iteration caps, circuit breakers, rate-limit handling, and dual-condition exits make liveness inspectable. They do not prove that a loop completed the user's goal, avoided drift, or produced accepted code.
+- Review gates for autonomous plan execution: validation commands, multi-agent review phases, external review stages, stalemate detection, and finalize gates are state surfaces. Branch creation, commits, worktrees, provider calls, external review tools, and post-completion actions remain separate permission surfaces.
+
+Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
+
 ## Verification Needed
 
 - Replay on at least three safe examples: one prompt-method skill, one editing or content transformation skill, and one quality or security review skill.

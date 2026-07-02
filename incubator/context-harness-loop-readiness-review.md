@@ -83,6 +83,15 @@ Before moving a task into a loop, classify which layer is actually missing.
 - Permission creep: the loop slowly gains connectors, account tools, push rights, or production write access.
 - Review collapse: human review disappears because the harness looks professional.
 
+## Controller-Audited Context And Ingestion Variants
+
+Recent public-source review adds two context-layer patterns:
+
+- Multimodal ingestion context: document pipelines can expose parser choices, optional dependency groups, OCR or document-structure backends, external program requirements, and retrieval backbones. These surfaces help absorb heterogeneous PDFs, images, office documents, tables, equations, and markdown into a shared context layer, but parser quality, OCR correctness, dependency installability, retrieval quality, and model behavior remain unverified until replay.
+- RAG infrastructure context: full-stack RAG engines can expose document understanding, chunking, retrieval, agent templates, memory, MCP, code-executor, Docker, SDK, cloud, and API-key setup surfaces. Treat these as context and lifecycle planes, not as permission to launch services, connect accounts, download containers, or touch customer data.
+
+Neutral mechanism: before an ingestion layer feeds a loop, record input formats, parser/backend choices, optional heavy dependencies, external programs, retrieval store, model/API boundary, replay artifacts, and downgrade path. Context availability is not harness readiness; harness readiness is not loop authority.
+
 ## Verification Needed
 
 - Replay on one codebase-understanding task, one CI triage task, and one dependency-update task.

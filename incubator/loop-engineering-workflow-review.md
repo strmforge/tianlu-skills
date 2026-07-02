@@ -105,6 +105,18 @@ Before building a loop:
 - Log leakage: secrets or private data leak into verbose output and receipts.
 - Missing liveness contract: the loop stops, defers, or misses runs but is still treated as complete.
 
+## Controller-Audited Loop Variants
+
+Recent public-source review adds several source-level loop shapes that should stay incubating:
+
+- Fresh-context implementation loops: a small task list plus progress ledger can spawn a new coding-agent instance per iteration, persist state in files such as task status and append-only progress notes, and exit only when an explicit completion marker or iteration cap is reached.
+- Hardened loop wrappers: rate-limit handling, circuit breakers, dual-condition exit gates, dry-run modes, and metrics logs are useful liveness surfaces, but they do not prove safe unattended execution.
+- Plan-execution CLIs: plan files, task checkboxes, validation commands, review phases, optional external review, stale-loop detection, and finalize stages make loop state reviewable; automatic commits, branch creation, worktrees, and external review tools remain activation surfaces.
+- Hat or role event loops: event-loop cores, role hats, memory files, merge queues, backend adapters, and wave dispatch can express role switching and parallel work, but wave execution, adapter behavior, dashboard behavior, and human-interaction channels need separate replay.
+- Spec-to-execute loops: brainstorm/spec/plan/execute phases, DAG state, isolated worktrees, two-stage review, and self-modifying release boundaries are strong loop-shape evidence; dogfood metrics and review labels remain source-level claims until independently replayed.
+
+Neutral mechanism: a recurring coding loop is only a candidate when role, state file, per-iteration context reset, bounded budget, verifier gate, completion predicate, and failure receipt are all visible. Implementation language, wrapper choice, and advertised maturity are incidental.
+
 ## Verification Needed
 
 - Pilot on one CI triage or dependency-bump workflow.
