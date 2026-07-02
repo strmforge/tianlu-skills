@@ -38,6 +38,7 @@ Related umbrella: `agent-role-envelope-cycle-review.md`.
 - controller-audited short-worker samples from 2026-07-02 covering slash-command dispatch metadata, deterministic lint/report outputs, prompt-injection gates, print-contract scratchpads, generated tool indexes, research-axis templates, codebase-packing context, and package-audit matrices as loop/state/gate candidates.
 - controller-audited short-worker samples from 2026-07-02 covering parallel orchestration state machines, issue-tracker daemon contracts, and YAML workflow gates as source-level loop shapes only.
 - controller-audited short-worker samples from 2026-07-02 local 21:13, 21:23, 21:33, and 21:43 covering vision-verified artifact loops, durable task runtimes, MCP/YAML RAG orchestration, tutoring-vault cycles, and hub-routed pattern packages as source-level loop shapes only.
+- controller-audited short-worker samples from 2026-07-02 local 21:57, 22:06, 22:16, and 22:26 covering codebase-analysis pipelines, deterministic UX evolve loops, workflow-mode routers, delegate supervision loops, video/media pipelines, mobile streaming packages, and style-locked presentation workflows as source-level loop shapes only.
 
 ## Proposed Trigger
 
@@ -128,6 +129,10 @@ Recent public-source review adds several source-level loop shapes that should st
 - Durable task-runtime loops: retries, queues, idempotency keys, checkpoint metadata, and human-in-loop pauses make long work auditable. They do not prove liveness, external service behavior, or goal completion until the state transitions and stop paths are replayed.
 - MCP/YAML RAG loops: independent retrieval, prompting, generation, routing, memory, and evaluation servers can be orchestrated by YAML steps with branches, loops, and shared variables. This is loop architecture evidence only; server launch, retrieval quality, code execution, memory snapshots, and external data handling remain activation surfaces.
 - Tutoring and pattern-routing loops: concept vaults, quiz ledgers, hub routers, and narrow rule files can make repeated learning or code-pattern work stateful. They do not prove learning quality, future-session enforcement, or language/runtime correctness without baseline comparison and negative cases.
+- Codebase-analysis loops: staged repository intake, graph extraction, status dashboards, parser fallback, cleanup rules, and browser-safe import boundaries can make understanding work inspectable; they do not prove analysis completeness, parser behavior, model fallback quality, or dashboard value without fixture replay.
+- Deterministic design loops: fixed-axis synthesis, accepted-decision ledgers, lint thresholds, bounded evolve passes, and plateau stops can make design iteration auditable; they do not prove UI quality, linter correctness, cross-host behavior, or no-telemetry/offline claims.
+- Delegated coding and workflow-router loops: mode routers, explicit artifact lists, delegate flag files, run logs, and post-run diff supervision can make subtask execution reviewable; they do not authorize delegate launch, HDL tool validation, source mutation, commit/push, or output acceptance without a scoped activation review.
+- Media and style production loops: timing ledgers, human script review, prompt/outline confirmation gates, style locks, image-only packaging, and per-slide artifact containers can make creative work stateful; they do not prove rendering, generation, PPTX/zip assembly, preference learning, rights safety, or final visual quality.
 
 Neutral mechanism: a recurring coding loop is only a candidate when role, state file, per-iteration context reset, bounded budget, verifier gate, completion predicate, and failure receipt are all visible. Implementation language, wrapper choice, and advertised maturity are incidental.
 
@@ -142,6 +147,7 @@ Neutral mechanism: a recurring coding loop is only a candidate when role, state 
 - Confirm whether branch selection, keep-or-revert logic, and shared-state reuse are explicit or only rhetorical.
 - Confirm that lock managers, tracker-state changes, daemon restarts, workflow YAML, and finalization commands are replayed in bounded fixtures before any loop is treated as safe or complete.
 - Confirm that JSON-pack workflow gates actually preserve ID continuity, write diagnostic artifacts as claimed, route `FAIL` states to bounded replans, and keep user-interaction surfaces separate from automated planning phases.
+- Confirm that design evolve loops, workflow routers, delegate run logs, graph dashboards, timing ledgers, and style-lock gates are replayed on bounded fixtures before they are treated as useful or safe loops.
 
 ## Placement Candidates
 

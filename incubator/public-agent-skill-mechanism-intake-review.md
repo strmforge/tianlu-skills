@@ -19,6 +19,7 @@ This candidate records the method for turning batches of public repository revie
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 18:15, 18:26, 18:35, and 18:45 add source-reviewed examples for security-scanner families, runtime skill discovery APIs, skill vault/catalog gates, multi-transport skill manifests, constrained Socratic workflows, and event-driven multi-agent orchestration packages.
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 19:35, 19:46, 19:55, and 20:05 add source-reviewed examples for account-email subscription audit packages, parallel orchestration state machines, issue-tracker daemon contracts, progressive-disclosure retrieval, coding-assistant retrieval runtimes, YAML workflow gates, and public prompt-archive quarantine.
 - Additional controller-audited short-worker receipt windows from 2026-07-02 local 21:13, 21:23, 21:33, and 21:43 add source-reviewed examples for vision-verified artifact loops, pre-output action-offer gates, durable task runtimes, MCP/YAML RAG pipelines, quote-and-confirm media gates, preview-first presentation workflows, design-restructure and retrieval packages, skill marketplace surfaces, tutoring vault loops, hub-routed pattern packs, and protocol SDK adapter surfaces.
+- Additional controller-audited short-worker receipt windows from 2026-07-02 local 21:57, 22:06, 22:16, and 22:26 add source-reviewed examples for codebase-understanding pipelines, deterministic UX decision/evolve loops, venture evidence scoring conflicts, delegated-coding supervision, HDL workflow routers, video/media timing and review gates, mobile video tool-routing packages, and style-locked presentation workflows.
 - Related Tianlu candidates:
   - `public-skill-triage-role-envelope-pilot.md`
   - `agent-role-skill-bundle-routing-review.md`
@@ -121,6 +122,7 @@ Role-envelope and bundled-skill surfaces:
 - remote persistence setup packages: environment inspection, action plans, idempotent scripts, service or task manager definitions, graceful-degradation rules, and explicit persistence limits can be reviewed as operating-package shape; session launch, service registration, hidden/background processes, sudo/login handling, and reboot/logout survival remain activation or proof surfaces.
 - account-data dashboard skill packages: account-search recipes, extraction schemas, deduplication, urgency tiers, privacy notices, generated dashboard paths, and spreadsheet-export scripts can be reviewed as role-package shape; connector access, message parsing accuracy, privacy safety, artifact rendering, export correctness, and cancellation/payment-link handling remain unproven until scoped replay.
 - artifact, travel/action, media, presentation, design, tutoring, pattern, and protocol SDK packages: export/re-read loops, action-offer language, quote-and-confirm gates, preview selectors, scorecards, design token or retrieval indexes, concept ledgers, hub routers, rule-file packs, and adapter contracts can be reviewed as role-package shape; account actions, uploads, generation, credit checks, UI migration, vault writes, package installs, TypeScript builds, MCP/RAG execution, and SDK server behavior remain unproven until scoped replay.
+- codebase-understanding, deterministic UX, delegated-coding, HDL, video/media, mobile, and visual-style packages: graph or dashboard artifacts, decision ledgers, lint/evolve loops, workflow routers, emitted artifacts, flag files, run logs, timing ledgers, human review gates, style locks, and prompt confirmation rules can be reviewed as package shape; parser setup, runtime analysis, design quality, delegate launch, HDL validation, media rendering, device streaming, image generation, preference learning, and PPTX/zip assembly remain unproven until scoped replay.
 
 Runtime, harness, gate, and event-truth surfaces:
 
@@ -201,6 +203,8 @@ State, memory, isolation, and portability surfaces:
 - validation-gated skill evolution packages: bounded edit budgets, training/eval entries, reflection or aggregation stages, held-out gates, slow update knobs, meta-skill prompts, offline sleep proposals, and staged adoption decisions can be reviewed as learning-state surfaces; optimization quality, benchmark gains, zero-overhead claims, and safe adoption remain unproven without replay.
 - progressive-disclosure and workflow-gate packages: vault indexes, staged local retrieval, task manifests, YAML workflow definitions, review gates, worktree notes, and finalization contracts can be reviewed as context and workflow surfaces; vault safety, retrieval quality, workflow execution, review quality, and durable task completion remain source-review-only until replay.
 - durable task runtime and MCP/YAML RAG packages: retries, queues, idempotency, checkpoints, human-in-loop pauses, realtime metadata, modular servers, branches, loops, shared variable pools, generated configs, and memory snapshots can be reviewed as loop/state surfaces; service launch, code execution, retrieval quality, external data handling, and memory authority remain source-review-only until replay.
+- codebase-analysis and workflow-router packages: staged indexing, repository graphs, dashboards, cleanup plans, browser-safe import boundaries, mode routers, explicit artifact inventories, adapter facades, and validation disclaimers can be reviewed as harness surfaces; parser/runtime behavior, source coverage, artifact correctness, simulator/synthesis behavior, and adapter execution remain source-review-only until replay.
+- deterministic UX and style-output packages: axis synthesis, accepted-decision ledgers, lint thresholds, evolve stop rules, style locks, prompt/outline gates, and per-slide package containers can be reviewed as state/gate surfaces; design quality, linter accuracy, generation behavior, output rights, PPTX/zip correctness, and cross-host behavior remain source-review-only until replay.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -285,6 +289,9 @@ Lifecycle platform and ingestion surfaces:
 - Escrow-skill laundering: a source-level state machine is treated as settlement, wallet, fee, or judge correctness without replaying payment, database, API, and refund behavior in a safe fixture.
 - Academic-skill laundering: a checklist, template workflow, or generated deck pipeline is treated as final academic quality without conversion checks, visual replay, rights review, and human acceptance.
 - Forecasting-wrapper laundering: a model-wrapper repository is treated as accurate forecasting or validated fine-tuning because it names a known model or package.
+- Design-metric laundering: a lint score, decision ledger, or evolve loop is treated as proof of design quality or deterministic behavior without replay and negative cases.
+- Delegate-supervision laundering: a flag file, run log, or diff review rule is treated as proof that spawned coding work is safe, accepted, or resource-accounted.
+- Media-style laundering: a timing file, script review gate, style lock, or prompt confirmation step is treated as proof of media quality, preference learning, image quality, or package output.
 
 ## Verification Needed
 
@@ -297,6 +304,7 @@ Lifecycle platform and ingestion surfaces:
 - Add negative eval cases for observe-before-act browser automation being treated as safe logged-in action, project-continuity files being treated as future-memory authority, hosted-rule packages being treated as account/API authority, and practice/rubric packages being treated as output-quality proof.
 - Add negative eval cases for account-data dashboards being treated as account-access or extraction proof, lock managers being treated as parallelism proof, tracker daemons being treated as issue-mutation authority, and prompt archives being treated as importable neutral prompt or policy sources.
 - Add negative eval cases for communication packages being treated as account-action authority, escrow packages being treated as payment correctness, academic review packages being treated as expert authority, template pipelines being treated as visual proof, and forecasting wrappers being treated as model-quality proof.
+- Add negative eval cases for repository graphs being treated as understanding proof, design lint scores being treated as UI proof, delegate logs being treated as execution proof, workflow routers being treated as HDL validation proof, and style locks or timing files being treated as media/package quality proof.
 
 ## Placement Candidates
 

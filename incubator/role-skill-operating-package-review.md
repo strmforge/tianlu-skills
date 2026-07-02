@@ -64,6 +64,7 @@ Controller-audited public repository samples from the local short-worker loop in
 - parallel orchestration, issue-tracker daemon, progressive-disclosure retrieval, and YAML workflow packages where touch sets, lock managers, quality gates, task states, per-issue workspaces, tracker-state transitions, restart recovery, vault indexes, workflow manifests, and review/finalization gates define the package boundary.
 - public prompt-archive packages where archive shape is a quarantine and activation-surface signal only; raw prompt bodies, provider-policy text, model/version claims, authenticity claims, support links, and leak-derived material stay out of neutral method material.
 - diagram-generation, travel/action, media-generation, presentation, RAG/MCP, UI design, skill-marketplace, tutoring, language-pattern, and protocol-SDK packages where artifact previews, quote gates, durable task state, YAML pipelines, shared variables, design token indexes, catalog metadata, concept vaults, hub routers, and adapter surfaces define the package boundary.
+- codebase-understanding, deterministic UX, delegated coding, HDL workflow, video/media, mobile-streaming, and style-locked presentation packages where graph artifacts, decision ledgers, lint/evolve thresholds, workflow routers, emitted artifacts, delegate logs, timing files, device or gateway surfaces, prompt confirmation gates, and package-output rules define the package boundary.
 
 These examples are evidence of recurring mechanism shape. They are not proof that any package is safe, portable, current, or validated for local use.
 
@@ -188,6 +189,9 @@ Review the package as an operating package before any activation:
 31. Treat generated-artifact, travel, RAG, tutoring, and protocol packages as split-surface roles.
    - Export previews, quote screens, action offers, task metadata, YAML steps, MCP server definitions, variable pools, concept ledgers, hub routers, and adapter contracts can make a role package inspectable.
    - They do not authorize travel/account actions, media uploads or generation, credit checks, presentation or document automation, UI rewrites, MCP/RAG execution, StudyVault writes, package installs, TypeScript builds, or SDK server/adaptor launch without scoped replay and owner approval.
+32. Treat analysis, design, delegation, HDL, media, mobile, and style-output packages as artifact-state roles.
+   - Graph/status artifacts, decision ledgers, lint/evolve loops, workflow-mode routers, explicit emitted files, delegate run logs, timing files, style locks, and confirmation gates can make the package contract visible.
+   - They do not prove repository-understanding quality, deterministic design quality, delegate safety, HDL correctness, simulator or synthesis validation, media quality, preference learning, device streaming, image generation, PPTX/zip assembly, or cross-host behavior without scoped replay.
 
 ## Initial Scope
 
@@ -247,6 +251,10 @@ Review the package as an operating package before any activation:
 - Academic-output laundering: a thesis, review, or defense role is treated as domain authority or final deliverable proof before source conversion, template fidelity, checklist coverage, discipline fit, human review, and submission requirements are replayed.
 - Model-wrapper laundering: a forecasting or inference skill is treated as validated capability because it names a foundation model, package, or fine-tuning path, before weights, dependency compatibility, parameter bounds, task fitness, and output quality are tested.
 - Artifact-loop laundering: a preview, export/re-read loop, scorecard, quote gate, YAML pipeline, concept ledger, catalog, or SDK adapter is treated as proof of output quality, runtime safety, account authority, or installability before fixture replay.
+- Deterministic-design laundering: a decision ledger, lint score, evolve loop, or tool-count claim is treated as proof of UI quality, linter correctness, cross-host support, or telemetry behavior without replay and conflict review.
+- Delegation laundering: a flag file, delegate log, resource counter, or diff-supervision rule is treated as proof that spawned coding work is safe, accepted, or economical.
+- Roadmap-implementation laundering: conflicting documentation or roadmap language is treated as implemented runtime capability, such as automatic preference learning, without source reconciliation and replay.
+- Style-gate laundering: a style lock, prompt confirmation, or per-slide packaging rule is treated as proof of image quality, style fidelity, PPTX output, or rights safety.
 
 ## Verification Needed
 
@@ -267,6 +275,7 @@ Review the package as an operating package before any activation:
 - Add negative cases where account-data dashboards are treated as account-access or extraction proof, parallel locks are treated as execution proof, tracker daemons are treated as issue-mutation authority, YAML workflows are treated as safe-to-run, and prompt archives are treated as neutral law or importable prompt text.
 - Add negative cases where Telegram or other communication packages are treated as safe to log in, send, sync, or expose through MCP; where escrow state diagrams are treated as payment correctness; where thesis checklist packages are treated as academic authority; and where model-wrapper skill files are treated as forecasting or fine-tuning proof.
 - Add negative cases where vision self-check loops are treated as visual quality proof, media quote gates are treated as credit or upload authority, MCP/YAML RAG pipelines are treated as safe-to-run retrieval, and protocol SDK packages are treated as server/adaptor correctness proof.
+- Add negative cases where design lint/evolve loops are treated as UI quality proof, delegate logs are treated as safe execution proof, workflow-mode routers are treated as HDL validation proof, and style locks or prompt gates are treated as generated-artifact quality proof.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 
