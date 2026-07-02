@@ -262,6 +262,10 @@ Lifecycle platform and ingestion surfaces:
 - payment and escrow skill packages: escrow states, work-submission endpoints, judge-verification steps, wallet fields, fee calculations, payout/refund states, and database/deploy instructions can be reviewed as state-machine source evidence; payment correctness, custody, settlement, database safety, and external API behavior remain unverified.
 - academic artifact and review packages: template-preserving slide generation, editable-output constraints, desktop export checks, overflow scans, thesis-review checklists, degree-level routing, and discipline modules can be reviewed as productive role packages; template fidelity, asset rights, COM behavior, conversion accuracy, review quality, and submission readiness require replay and human acceptance.
 - forecasting and inference wrapper packages: model cards, package install paths, skill entrypoints, context-window limits, parameter bounds, and fine-tuning notes can be reviewed as capability-wrapper shape; model availability, dependency compatibility, prediction quality, fine-tuning safety, and runtime performance remain source-review-only until replay.
+- agent-runtime and typed workflow packages: typed roles, tools, memory adapters, supervisors, workflow engines, registries, observability, deployment surfaces, and contribution guardrails can be reviewed as role-operating-package shape; runtime behavior, supervisor routing, workflow correctness, memory persistence, MCP connectivity, and deployment remain source-review-only until replay.
+- visual reproduction and design-gate packages: computed-style extraction, specialist spec lenses, design approval artifacts, viewport pixel-diff verdicts, feedback loops, and browser/designer automation instructions can be reviewed as gated artifact-production surfaces; visual quality, build correctness, browser control, Webflow mutation, GPU debugging, and generated output remain unverified.
+- channel delivery and queue packages: draft-only publishing, exact target matching, synchronous versus queued delivery modes, status logs, and explicit error codes can be reviewed as account-action boundary examples; account login, API keys, uploads, sends, queue ordering, and delivery/publication semantics remain activation surfaces.
+- review-policy and constitution packages: shared review policies, fresh-context reviewer skills, touched-surface validation matrices, source-derived CLI guidance, CEO/sub-agent/skill/MCP constitutions, and consistency-lint recommendations can be reviewed as governance package shapes; reviewer quality, generated-doc correctness, UI verification, and enforced project truth require bounded replay.
 
 ## Initial Scope
 
@@ -292,6 +296,10 @@ Lifecycle platform and ingestion surfaces:
 - Design-metric laundering: a lint score, decision ledger, or evolve loop is treated as proof of design quality or deterministic behavior without replay and negative cases.
 - Delegate-supervision laundering: a flag file, run log, or diff review rule is treated as proof that spawned coding work is safe, accepted, or resource-accounted.
 - Media-style laundering: a timing file, script review gate, style lock, or prompt confirmation step is treated as proof of media quality, preference learning, image quality, or package output.
+- Typed-runtime laundering: role, tool, memory, supervisor, workflow, or registry shape is treated as agent-platform proof.
+- Visual-QA laundering: computed tokens, pixel-diff verdicts, or specialist specs are treated as artifact quality proof.
+- Channel-queue laundering: queued acceptance, draft-only language, or exact target validation is treated as proof of safe account action or delivery.
+- Governance-package laundering: review policies, generated guidance, or constitution scaffolds are treated as enforced behavior without replay.
 
 ## Verification Needed
 
@@ -305,6 +313,7 @@ Lifecycle platform and ingestion surfaces:
 - Add negative eval cases for account-data dashboards being treated as account-access or extraction proof, lock managers being treated as parallelism proof, tracker daemons being treated as issue-mutation authority, and prompt archives being treated as importable neutral prompt or policy sources.
 - Add negative eval cases for communication packages being treated as account-action authority, escrow packages being treated as payment correctness, academic review packages being treated as expert authority, template pipelines being treated as visual proof, and forecasting wrappers being treated as model-quality proof.
 - Add negative eval cases for repository graphs being treated as understanding proof, design lint scores being treated as UI proof, delegate logs being treated as execution proof, workflow routers being treated as HDL validation proof, and style locks or timing files being treated as media/package quality proof.
+- Add negative eval cases for typed runtime package shape being treated as supervisor or memory proof, visual-diff gates being treated as visual-quality proof, queued channel acceptance being treated as delivery proof, and constitution or review-policy scaffolds being treated as enforced governance.
 
 ## Placement Candidates
 

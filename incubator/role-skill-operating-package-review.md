@@ -255,6 +255,11 @@ Review the package as an operating package before any activation:
 - Delegation laundering: a flag file, delegate log, resource counter, or diff-supervision rule is treated as proof that spawned coding work is safe, accepted, or economical.
 - Roadmap-implementation laundering: conflicting documentation or roadmap language is treated as implemented runtime capability, such as automatic preference learning, without source reconciliation and replay.
 - Style-gate laundering: a style lock, prompt confirmation, or per-slide packaging rule is treated as proof of image quality, style fidelity, PPTX output, or rights safety.
+- Agent-runtime laundering: a package that names typed roles, tools, memory, supervisors, workflows, registries, observability, or deployment surfaces is treated as proof that agent routing, memory behavior, MCP behavior, or deployment works.
+- Visual-QA laundering: computed style extraction, specialist specs, pixel-diff verdicts, or feedback-loop diagrams are treated as proof of clone quality or automated repair.
+- Queue-acceptance laundering: asynchronous queue acceptance or status endpoints are treated as proof that a message, draft, upload, or external action succeeded.
+- Review-gate laundering: a review policy, fresh-context reviewer skill, validation matrix, or generated CLI guidance file is treated as proof that review findings, command docs, or UI verification are correct.
+- Constitution laundering: a CEO/sub-agent/skill/MCP architecture, reflection loop, or recommended `doctor` command is treated as enforced project truth before generated files and consistency checks are replayed.
 
 ## Verification Needed
 
@@ -276,6 +281,7 @@ Review the package as an operating package before any activation:
 - Add negative cases where Telegram or other communication packages are treated as safe to log in, send, sync, or expose through MCP; where escrow state diagrams are treated as payment correctness; where thesis checklist packages are treated as academic authority; and where model-wrapper skill files are treated as forecasting or fine-tuning proof.
 - Add negative cases where vision self-check loops are treated as visual quality proof, media quote gates are treated as credit or upload authority, MCP/YAML RAG pipelines are treated as safe-to-run retrieval, and protocol SDK packages are treated as server/adaptor correctness proof.
 - Add negative cases where design lint/evolve loops are treated as UI quality proof, delegate logs are treated as safe execution proof, workflow-mode routers are treated as HDL validation proof, and style locks or prompt gates are treated as generated-artifact quality proof.
+- Add negative cases where typed role/runtime package shape is treated as supervisor, memory, workflow, or deployment proof; where visual QA specs are treated as clone quality; where queue acceptance is treated as delivery; where review gates are treated as reviewer correctness; and where a constitution scaffold is treated as enforced runtime governance.
 - Decide whether a stable productive playbook is needed, or whether this remains an incubator note supporting role-envelope and public-skill-intake work.
 - Define a small trust card for role operating packages before any future adapter activation.
 
