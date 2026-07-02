@@ -47,6 +47,7 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed scratchpad, research, and package-audit packages that use print-only context contracts, persistent session names, temp-file execution patterns, horizontal/vertical/cross-axis prompts, live-lookup plans, migration matrices, and report artifacts as state and gates rather than as proof of privacy, research quality, package advice, or migration correctness.
 - source-reviewed recursive orchestrators, local coworker memory tools, enterprise query/script routers, academic reading bundles, and capture-driven pipe systems that use plan/executor/verifier roles, vault or graph state, read-versus-write matrices, commit flags, tiered reading protocols, security-scan ledgers, capture timelines, pipe YAML permissions, and localhost API/MCP boundaries as state and gates rather than as proof of runtime correctness, privacy, or safe action.
 - source-reviewed projection, persistence, security-workflow, GUI, commerce/API, rewrite/eval, and crawler-sync packages that use canonical stores, project manifests, lockfiles, idempotent action plans, service/task gates, local-versus-package mode detection, workspace resume state, scope tiers, protected spans, API-sync toggles, and scheduler intervals as state and gates rather than as proof of host parity, durable service safety, exploit quality, GUI correctness, API safety, or sync correctness.
+- source-reviewed skill lifecycle and optimization packages that use runtime trial configs, deterministic and LLM-rubric graders, CI thresholds, score ledgers, HR-style intake/matching/debrief/termination state, registry ratings, per-project sync state, bounded edit budgets, validation gates, and offline sleep proposals as gates rather than as proof of skill quality, safe adoption, runtime behavior, or durable learning.
 
 Additional validated source range for the browser/build/catalog/invariant additions: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`.
 
@@ -55,6 +56,8 @@ Additional validated source range for the prompt-refinement, proxy, safety-eval,
 Additional validated source range for the recursive-orchestrator, local-coworker, enterprise-router, academic-reading, and capture-pipe additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 15:42, 15:52, 16:03, and 16:15.
 
 Additional validated source range for the projection, persistence, security-workflow, GUI, commerce/API, rewrite/eval, and crawler-sync additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 16:25, 16:43, 16:52, and 17:04.
+
+Additional validated source range for the skill lifecycle, runtime-eval, registry-delivery, and validation-gated skill-optimization additions: controller-audited successful short-worker receipt windows from 2026-07-02 local 17:27, 17:37, 17:47, and 17:57.
 
 The receipts are evidence packets, not neutral law. A worker summary is accepted only after controller path verification, source spot-check, and conflict correction.
 
@@ -94,6 +97,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - slash-command frontmatter, lifecycle sentinel, deterministic lint output, generated tool-index requirement, platform routing matrix, field-journal path, print-only context contract, research-axis template, package-audit matrix, or report artifact used as review state;
 - recursive plan/executor/verifier role state, local vault or knowledge-graph state, enterprise read-versus-write routing matrix, commit flag, tiered reading protocol, skill security ledger, capture timeline, pipe YAML permission file, localhost API endpoint, MCP boundary, raw SQL gate, or frame-access gate used as review state;
 - canonical skill store, host projection manifest, lockfile, service/task plan, local-versus-package mode switch, resumable workspace, protected-span ledger, scene tier/scope, API-sync toggle, scheduler interval, or delete/update route used as review state;
+- runtime trial preset, deterministic grader, LLM-rubric grader, CI threshold, score ledger, skill JD, installed-pool match, recruitment/debrief/termination state, registry rating, per-project sync marker, bounded edit budget, validation gate, held-out slice, or sleep-cycle proposal used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -158,6 +162,9 @@ Review stateful skills as gated operating loops:
 20. Split projection, persistence, and sync state from activation proof.
    - Project manifests, lockfiles, service/task plans, mode switches, workspace resume handles, scheduler intervals, and API-sync toggles can make adoption state visible.
    - They do not authorize host projection, service registration, background launch, exploit execution, GUI control, account/API use, crawler runs, or API push/update/delete paths until scoped replay and owner approval exist.
+21. Split skill-evolution gates from skill-quality proof.
+   - Runtime trials, score ledgers, HR-style lifecycle state, registry ratings, bounded edits, held-out gates, and offline sleep proposals can make skill improvement reviewable.
+   - They do not prove that a skill is better, safe to adopt, correctly installed, portable across hosts, or internally learned until the trial, acceptance, rollback, and adoption path is replayed on bounded examples.
 
 ## Initial Scope
 
@@ -202,6 +209,7 @@ Review stateful skills as gated operating loops:
 - Projection-state laundering: canonical-store manifests and lockfiles are treated as proof of behavior parity across hosts.
 - Persistence-state laundering: an idempotent service or task plan is treated as proof that a background session is safe, durable, and reversible.
 - Scheduler-state laundering: a sync interval or API toggle is treated as proof that crawler freshness, sync correctness, and delete/update safety are valid.
+- Skill-quality laundering: a grader, threshold, HR decision state, rating, or held-out gate is treated as proof that the skill should be kept, installed, terminated, promoted, or deployed.
 
 ## Controller-Audited Gate Variants
 
@@ -216,6 +224,7 @@ Recent public-source review adds several gated-skill surfaces:
 - Tool-index and audit gates: generated tool indexes, platform routing matrices, static-lint outputs, prompt-injection canary/vector surfaces, and package-audit matrices can become state surfaces; they do not prove tool availability, detector quality, or live-package freshness.
 - Enterprise-route and capture-pipe gates: read-only query versus write-script matrices, explicit commit flags, capture timelines, pipe markdown/YAML permissions, content-type filters, and localhost REST/MCP boundaries can become state surfaces; they do not prove credential safety, routing correctness, permission enforcement, local-only privacy, or agent-action safety.
 - Projection/persistence/sync gates: canonical stores, host projection manifests, lockfiles, service/task plans, mode switches, workspace resume handles, scene tiers, protected spans, scheduler intervals, and API-sync toggles can become state surfaces; they do not prove host parity, durable service behavior, exploit quality, GUI correctness, account/API safety, crawler freshness, or delete/update safety.
+- Skill lifecycle and optimization gates: trial presets, deterministic graders, LLM-rubric graders, CI thresholds, JD matching, debrief and termination logs, registry ratings, bounded edits, held-out gates, and offline proposal staging can become state surfaces; they do not prove skill quality, model behavior, install safety, registry correctness, safe deletion, or durable learning.
 
 Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
 
@@ -234,6 +243,7 @@ Neutral mechanism: when a skill claims a gate, capture the input state, gate rul
 - Add negative cases where a prompt-refinement skill's model-family routing is treated as automatic model detection, and where a worker-governance protocol's route decision is treated as proof of production trust enforcement.
 - Add negative cases where an enterprise router's FlexSearch/Groovy-style matrix is treated as permission to connect credentials or run writes, and where a capture system's pipe permissions are treated as proof of privacy or safe agent action.
 - Add negative cases where a host projection manifest is treated as parity proof, a service/task plan is treated as persistence proof, and a scheduler/API toggle is treated as permission to crawl or mutate records.
+- Add negative cases where a runtime-eval threshold is treated as deployment proof, a skill-HR termination log is treated as permission to delete installed skills, a registry rating is treated as quality proof, and a held-out gate is treated as automatic adoption authority.
 - Decide whether this remains a supporting incubator note or becomes a productive review playbook for gated skills.
 
 ## Placement Candidates

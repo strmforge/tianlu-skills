@@ -10,6 +10,7 @@ Two 2026 external research signals frame Skill learning as a loop rather than a 
 
 - Ctx2Skill extracts context-specific natural-language skills from long or technical contexts through multi-agent self-play, then uses Cross-Time Replay to select a less overfit skill version.
 - OPID extracts hierarchical hindsight skills from completed on-policy agent trajectories, then uses those skills during training to create dense token-level distillation advantages while requiring no skill retrieval at inference time.
+- Later controller-audited public-source review adds a lighter skill-artifact optimization shape: rollouts, reflection, aggregation, candidate selection, bounded textual edits, validation gates, offline sleep proposals, and explicit user adoption stages around skill documents.
 
 This candidate records the mechanism shape only. It is not an endorsement of either repository, dataset, model checkpoint, training script, dependency stack, API endpoint, or self-learning runtime claim.
 
@@ -22,6 +23,8 @@ This candidate records the mechanism shape only. It is not an endorsement of eit
 - OPID repository: `https://github.com/jinyangwu/OPID/tree/main`, Python, MIT by GitHub API, released paper/code on 2026-06-25 per README.
 - Nantianmen external-info mirror: `G:\南天门设想与实现对照库\60_待核验\2026-07-02_Ctx2Skill_OPID_Skill自生成与内化外部资讯记录.md`.
 
+- Controller-audited public-source short-worker window from 2026-07-02 local 17:57 for a skill-optimization package that exposed train/eval/sleep entrypoints, training-loop docs, configuration gates, and offline proposal staging. This is source-review evidence only; no training, eval, or sleep cycle was run.
+
 ## Proposed Trigger
 
 Use this incubator note when a future workflow asks whether an agent, role, Skill group, or Tianlu method can learn from:
@@ -29,6 +32,7 @@ Use this incubator note when a future workflow asks whether an agent, role, Skil
 - a long source context, such as a document bundle, session export, codebase notes, domain manual, or research corpus;
 - a completed agent trajectory, including successes, failures, refusals, eval records, route misses, or user corrections;
 - sparse outcome-only feedback where intermediate steps need hindsight explanation;
+- a skill document or role bundle that claims it can be improved by rollouts, reflection, bounded edits, eval gates, or offline sleep review;
 - a claim that a Skill, role, or model has become self-improving.
 
 ## Proposed Mechanism
@@ -66,6 +70,23 @@ completed trajectory
 
 Use this route only as a training-method candidate. Without a real training loop, logprob comparison, and held-out eval, it is not a runtime capability.
 
+### Skill-Artifact Optimization Route
+
+```text
+current skill document or role bundle
+-> rollout or task replay
+-> reflection over successes and failures
+-> aggregate lessons
+-> select candidate edits
+-> apply bounded textual update
+-> validation or held-out gate
+-> staged proposal
+-> explicit user or owner adoption
+-> rollback or keep-next-candidate on failure
+```
+
+Use this route for natural-language Skill or role-bundle evolution when the output is still an artifact proposal. A validation gate, score, or offline sleep loop is review state, not proof that the skill is improved or safe to activate.
+
 ## Initial Scope
 
 This candidate belongs to Tianlu's absorb -> generate -> compose -> re-enter loop:
@@ -86,6 +107,8 @@ The first useful local artifact should be a packet schema, not a model download 
 - License ambiguity: Ctx2Skill's repository did not expose a license in the light GitHub API/root check.
 - Training-cost drift: OPID-style adoption requires heavy training infrastructure and analyzer endpoints.
 - Claim inflation: inference-time skill packets, external repositories, or paper metrics may be misreported as local self-learning.
+- Gate inflation: a held-out gate, eval score, or sleep proposal is reported as if the skill had already been safely adopted or proven better.
+- Adoption blur: generated skill edits move from proposal to active runtime behavior without an owner decision, rollback path, or conflict review.
 
 ## Verification Needed
 
@@ -95,6 +118,7 @@ The first useful local artifact should be a packet schema, not a model download 
 - Negative cases where generated skills are rejected, overfit, contradictory, or unsupported by source evidence.
 - Held-out replay or eval evidence before calling a generated skill useful.
 - Explicit separation between candidate generation, user acceptance, activation, and any training/internalization claim.
+- Small fixtures for skill-artifact edit packets, including baseline skill, candidate diff, eval result, conflict note, adoption decision, and rollback path.
 
 ## Placement Candidates
 
@@ -109,5 +133,6 @@ The first useful local artifact should be a packet schema, not a model download 
 
 - This note does not make Ctx2Skill or OPID active Tianlu runtime behavior.
 - This note does not authorize cloning, installing, training, downloading datasets, or calling analyzer endpoints.
+- This note does not authorize running skill train/eval/sleep loops, mining private sessions, adopting generated skill edits, or changing active skill bundles.
 - This note does not prove Nantianmen has self-play skill extraction, on-policy RL, parameter internalization, or inference-time no-skill-retrieval capability.
 - This note does not promote a law or playbook.
