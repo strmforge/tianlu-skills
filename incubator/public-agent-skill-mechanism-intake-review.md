@@ -135,6 +135,8 @@ Runtime, harness, gate, and event-truth surfaces:
 - instruction-artifact contract packages: source instruction files, target schemas, typed relationships, conformance fixtures, integrity digests, signature metadata, and compile/validate/check commands can be reviewed as loop/state/gate surfaces; artifact trust, runtime portability, compiler determinism, and signing support remain source-review-only until replay.
 - worker-governance protocol packages: capability envelopes, route-decision receipts, registry records, controls-present checks, blast-score gates, policy hooks, attestation helpers, taxonomy catalogs, and conformance fixtures can be reviewed as dispatch-governance surfaces; standard legitimacy, secure dispatch, registry availability, and trust enforcement remain unproven until replay.
 - typed agent-framework packages: provider adapters, tool-calling abstractions, graph runtimes, eval packages, slim installs, docs, examples, and lockfiles can be reviewed as lifecycle surfaces; type-safety, agent quality, provider behavior, graph execution, and eval validity remain source-review-only until scoped replay.
+- command-dispatch skill packages: slash-command frontmatter, dispatch targets, operator-argument passing, lifecycle sentinels, and metadata checks can be reviewed as routing and receipt surfaces; security scans, fuzzing, exploit generation, patch generation, and workflow execution remain inactive until separately authorized and replayed.
+- tool-router and bootstrap packages: generated per-machine tool indexes, platform routing matrices, rule/subskill loading, field journals, report paths, and bootstrap scripts can be reviewed as operating-package state; generating indexes, installing tools, registering MCP servers, running reverse-engineering workflows, or writing journals requires separate activation review.
 
 Eval, evidence-ring, and rubric surfaces:
 
@@ -169,6 +171,8 @@ State, memory, isolation, and portability surfaces:
 - memory, config, and persona state packages: memory CRUD APIs, hosted or self-hosted memory surfaces, raw-source ledgers, persona files, markdown config tracking, diffs, version history, rollback language, and approval gates can be reviewed as state surfaces; memory accuracy, privacy, persona fidelity, rollback correctness, and future-behavior authority remain unproven.
 - project-continuity and invariant state packages: session handoff files, project logs, continuation commands, DNA/RNA documents, mode tables, example invariant files, and audit loops can be reviewed as state surfaces; future-session authority, stale-state handling, invariant enforcement, and generated-code correctness remain unproven.
 - portable build state packages: local toolchain folders, generated dump/output folders, package scripts, mobile sync outputs, ignored environment directories, and upload/archive paths can be reviewed as state surfaces; installability, build success, artifact quality, and deployment readiness remain unproven.
+- source-context and codebase-packaging packages: repo packing, token-aware evidence bundles, source-context browser selection, plugin hooks, and extension/package metadata can be reviewed as context-supply surfaces; packaging quality, build behavior, browser-extension behavior, speed claims, MCP behavior, and external service behavior remain source-review-only.
+- filesystem-memory and scratchpad packages: ripgrep-backed local history search, persistent REPL scratchpads, print-only context contracts, and marketplace metadata can be reviewed as state and context-gating surfaces; reading private histories, launching REPLs, persisting sessions, or claiming context-savings requires scoped replay and owner approval.
 
 Stateful gates, comparison protocols, and domain control surfaces:
 
@@ -184,6 +188,8 @@ Stateful gates, comparison protocols, and domain control surfaces:
 - database security audit skills: actual-versus-present configuration review, cross-backend reasoning, safe probes, scored reports, and exact fix formats, with real backend access remaining inactive.
 - cloud data-agent skills: per-message mode, attach-based session reuse, workspace/custom-agent support, credential-chain boundaries, and async/session isolation.
 - persona and theory-first skill packs: corpus-to-persona calibration, anti-bias rules, double-loop review, Socratic questioning, cybernetics framing, knowledge gardening, and narrative commit review as scoped method signals rather than truth claims.
+- prompt-injection and static-skill-check packages: deterministic JSON, CSV, or SARIF outputs, manifest/frontmatter checks, canary tokens, vector memories, and defense gates can be reviewed as evidence and gate shapes; detector accuracy, privacy, attack coverage, and runtime enforcement require independent replay.
+- package-audit and migration-review skills: live lookup plans, package delta tables, migration matrices, PDF/report outputs, and architecture checklists can be reviewed as structured audit surfaces; live API freshness, generated reports, dependency advice, and migration correctness remain unverified until run on a bounded fixture.
 
 Scheduled monitor and alert-loop surfaces:
 

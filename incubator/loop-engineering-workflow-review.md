@@ -35,6 +35,7 @@ Related umbrella: `agent-role-envelope-cycle-review.md`.
 - `C:\Users\56214\Documents\Codex\tianlu-skills\eval\expected-behavior.md`
 - `C:\Users\56214\Documents\Codex\tianlu-skills\eval\test-prompts.md`
 - controller-audited local public-repo samples from 2026-06-25 covering tree-search autoresearch loops, worktree-isolated parallel subagents, shared trace state, inherited pass/fail gates, and explicit eval-registry surfaces.
+- controller-audited short-worker samples from 2026-07-02 covering slash-command dispatch metadata, deterministic lint/report outputs, prompt-injection gates, print-contract scratchpads, generated tool indexes, research-axis templates, codebase-packing context, and package-audit matrices as loop/state/gate candidates.
 
 ## Proposed Trigger
 
@@ -114,6 +115,9 @@ Recent public-source review adds several source-level loop shapes that should st
 - Plan-execution CLIs: plan files, task checkboxes, validation commands, review phases, optional external review, stale-loop detection, and finalize stages make loop state reviewable; automatic commits, branch creation, worktrees, and external review tools remain activation surfaces.
 - Hat or role event loops: event-loop cores, role hats, memory files, merge queues, backend adapters, and wave dispatch can express role switching and parallel work, but wave execution, adapter behavior, dashboard behavior, and human-interaction channels need separate replay.
 - Spec-to-execute loops: brainstorm/spec/plan/execute phases, DAG state, isolated worktrees, two-stage review, and self-modifying release boundaries are strong loop-shape evidence; dogfood metrics and review labels remain source-level claims until independently replayed.
+- Command-dispatch loops: frontmatter dispatch targets, operator-argument handling, lifecycle sentinels, and metadata checks can make one iteration's route and output location inspectable; they do not authorize scans, fuzzing, exploit generation, patch generation, or command execution.
+- Scratchpad and context gates: persistent scratchpads and codebase-packaging tools can reduce context pressure by keeping raw data outside the conversation and passing only printed summaries or packed evidence bundles; privacy, retention, context quality, and token-economics claims require replay.
+- Tool-router and audit loops: generated tool indexes, platform routing matrices, field journals, static-lint outputs, package deltas, migration matrices, and report artifacts can serve as loop state and review outputs; bootstrap, MCP registration, live lookup, security workflow execution, or report publication remain activation surfaces.
 
 Neutral mechanism: a recurring coding loop is only a candidate when role, state file, per-iteration context reset, bounded budget, verifier gate, completion predicate, and failure receipt are all visible. Implementation language, wrapper choice, and advertised maturity are incidental.
 

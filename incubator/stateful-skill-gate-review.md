@@ -43,6 +43,8 @@ Controller-audited local QClaw short-worker receipts from 2026-06-25 include sou
 - source-reviewed project invariant and memory packages that use DNA/RNA documents, audit loops, cross-session handoff files, project logs, and five-mode workflows as state and gates rather than as proof of future-session authority or generated-code correctness.
 - source-reviewed host-model prompt refinement packages that use model-family strategy tables, conversation-state toggles, hidden rewrite rules, language locks, optional hook flags, eval fixtures, and fallback strategies as state and gates rather than as proof of automatic model detection, prompt quality, or hook enforcement.
 - source-reviewed worker-governance packages that use capability request envelopes, route-decision contracts, registry enrollment, controls-present checks, blast-score gates, policy hooks, attestation helpers, taxonomy catalogs, and conformance fixtures as state and gates rather than as proof of standard legitimacy, runtime dispatch correctness, or production trust enforcement.
+- source-reviewed command, lint, and router packages that use dispatch frontmatter, lifecycle sentinels, CI metadata checks, deterministic JSON/CSV/SARIF outputs, generated tool-index requirements, platform routing matrices, and field-journal paths as state and gates rather than as proof of safe execution, index freshness, or security-analysis quality.
+- source-reviewed scratchpad, research, and package-audit packages that use print-only context contracts, persistent session names, temp-file execution patterns, horizontal/vertical/cross-axis prompts, live-lookup plans, migration matrices, and report artifacts as state and gates rather than as proof of privacy, research quality, package advice, or migration correctness.
 
 Additional validated source range for the browser/build/catalog/invariant additions: controller-audited successful cycles `qclaw-tianlu-20260702-090157`, `qclaw-tianlu-20260702-093142`, `qclaw-tianlu-20260702-110303`, and `qclaw-tianlu-20260702-113302`.
 
@@ -83,6 +85,7 @@ Use this candidate when a public skill, internal role, or agent workflow claims 
 - project invariant document, RNA/harness rule file, handoff file, project log, mode table, or audit-loop result used as review state;
 - host-model strategy table, conversation toggle, hidden-rewrite rule, output-language lock, hook flag, eval fixture, or fallback strategy used as review state;
 - worker capability envelope, route-decision receipt, registry record, controls-present set, blast score, policy gate, attestation manifest, taxonomy entry, or conformance vector used as review state;
+- slash-command frontmatter, lifecycle sentinel, deterministic lint output, generated tool-index requirement, platform routing matrix, field-journal path, print-only context contract, research-axis template, package-audit matrix, or report artifact used as review state;
 - safe probe, rollback, canary, dry run, or reversible execution;
 - domain calibration corpus, example library, or reference card set;
 - sandbox, session, workspace, or isolated execution environment;
@@ -138,6 +141,9 @@ Review stateful skills as gated operating loops:
 17. Split catalog state from activation proof.
    - Registry counts, category fields, focused-skill metadata, and discovery flows can govern selection.
    - They do not prove installability, live API behavior, local mirror correctness, MCP safety, or package freshness until bounded replay.
+18. Split dispatch, scratchpad, and report state from execution proof.
+   - Command metadata, tool indexes, print contracts, research axes, and audit matrices make routing and review visible.
+   - They do not prove the command was safe to run, the scratchpad protected private data, the research was correct, or the report artifact was valid until replayed with bounded fixtures and explicit activation approval.
 
 ## Initial Scope
 
@@ -173,6 +179,10 @@ Review stateful skills as gated operating loops:
 - Catalog-state laundering: registry counts and category metadata are treated as proof of CLI quality, installability, or safe API use.
 - Model-detection laundering: a strategy table or self-description is treated as proof that the active model was detected correctly and the hidden rewrite improved the answer.
 - Protocol-standard laundering: a typed worker protocol, registry, conformance suite, or attestation file is treated as proof of independent standard status, secure dispatch, or production-grade trust enforcement.
+- Dispatch-metadata laundering: command frontmatter, accepted dispatch prefixes, or a lifecycle sentinel are treated as proof that running the command, scan, or patch workflow is safe.
+- Generated-index laundering: a missing or generated-per-machine tool index is treated as a reason to run bootstrap code rather than as a stop-and-review gate.
+- Print-contract laundering: a context-saving scratchpad promise is treated as privacy proof before local reads, temp-file execution, retention, and printed-output boundaries are replayed.
+- Report-artifact laundering: CSV, SARIF, PDF, or matrix output formats are treated as audit correctness or migration advice proof without scoped replay.
 
 ## Controller-Audited Gate Variants
 
@@ -182,6 +192,9 @@ Recent public-source review adds several gated-skill surfaces:
 - Hard information gates: domain skills can require a minimum fact set before analysis, route to platform-specific playbooks, and keep references behind progressive disclosure. This is useful stateful prompt discipline, but not proof of domain advice quality, eval validity, or safe activation.
 - Exit gates for fresh-context loops: task status files, progress logs, explicit completion markers, max-iteration caps, circuit breakers, rate-limit handling, and dual-condition exits make liveness inspectable. They do not prove that a loop completed the user's goal, avoided drift, or produced accepted code.
 - Review gates for autonomous plan execution: validation commands, multi-agent review phases, external review stages, stalemate detection, and finalize gates are state surfaces. Branch creation, commits, worktrees, provider calls, external review tools, and post-completion actions remain separate permission surfaces.
+- Dispatch and metadata gates: command frontmatter, dispatch targets, operator argument handling, lifecycle sentinels, and CI metadata checks make command routing reviewable, but scans, fuzzing, exploit generation, patch generation, and command execution remain source-review-only until replay.
+- Context-output gates: scratchpad packages can make context entry explicit through print-only contracts, session names, and temp-file execution patterns; those contracts do not prove private-data safety, session isolation, or context-savings until replayed.
+- Tool-index and audit gates: generated tool indexes, platform routing matrices, static-lint outputs, prompt-injection canary/vector surfaces, and package-audit matrices can become state surfaces; they do not prove tool availability, detector quality, or live-package freshness.
 
 Neutral mechanism: when a skill claims a gate, capture the input state, gate rule, evidence artifact, pass/fail output, retry or stop behavior, and what action is still forbidden. If the gate is only described but not replayed, keep it source-review-only.
 
