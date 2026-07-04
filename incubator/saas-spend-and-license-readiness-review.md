@@ -10,6 +10,8 @@ In the current scan, X was weaker and noisier than some recent lanes, but it sti
 
 A narrower follow-up scan on 2026-07-04 sharpened this picture in two ways. First, public offer language clearly exists: some vendors and service operators explicitly sell license optimization, reclaim workflows, renewal visibility, and spend reduction as a service line, including MSP-facing packaging. Second, the underlying pain shape is drifting from simple seat waste toward visibility failure: shadow IT, unmanaged AI tools, hidden group-based assignments, renewal exposure, and app-sprawl visibility gaps. That strengthens offer-existence evidence, but it still does not prove customer payment, margin, safe operator conduct, or that automated reclaims or vendor negotiations should be treated as default authority.
 
+A second same-day follow-up made one adjacent boundary clearer. `Shadow renewals` and renewal-surprise language are real, but they do not automatically mean the current candidate should absorb contract-clause extraction or vendor notice-window tracking as the same mechanism. The safe read is narrower: keep unmanaged-app visibility, usage plus spend linkage, renewal exposure, and shadow-AI discovery inside this candidate; treat contract renewal clauses, auto-renewal traps, and notice-window extraction as neighboring contract-tracking evidence unless repeated source-backed replays justify a separate sibling.
+
 ## Source
 
 - Microsoft 365 usage reports overview: admins can use reports to see how people in the organization are using Microsoft 365 services, learn who is using a service and who might not need a license, and review reporting windows such as 7, 30, 90, and 180 days. Role boundaries and privacy-display controls matter.
@@ -24,7 +26,9 @@ A narrower follow-up scan on 2026-07-04 sharpened this picture in two ways. Firs
 - Atlassian maximum-quantity billing guidance: if the team grows beyond billed quantity, Atlassian can automatically increase quantity and add prorated costs to the next bill.
 - Zylo 2026 SaaS Management Index: SaaS spend is rising even as average portfolio counts stay roughly flat; AI pricing and consumption volatility are making renewals and spend harder to predict; 78% of IT leaders reported unexpected charges tied to AI features or consumption pricing; cost pressure is increasingly tied to visibility and governance, not only raw app-count sprawl.
 - 1Password SaaS Manager discovery and integration pages: SaaS discovery can combine IdP, finance, browser, and app-integration signals to uncover managed and unmanaged apps, link usage with spend, identify similar or overlapping apps, and prepare for renewals. Public marketing here is useful as offer-existence and workflow-shape evidence, not as customer-payment proof.
+- 1Password shadow IT and SaaS governance pages: public solution framing now makes the visibility thesis explicit across shadow IT, unmanaged SaaS, and shadow AI. Discovery beyond SSO, governance, and cost optimization are useful workflow-shape evidence, not proof of paid demand, compliance authority, or safe automated enforcement.
 - AppReclaim MSP partner page: public MSP-oriented packaging exists for license optimization as a recurring service line, with branded reports, approval-gated reclaim workflows, renewal-ahead positioning, and multi-tenant visibility framing. This is useful as public offer evidence and service-shape evidence only, not as proof of realized savings, customer willingness, or authority to perform reclaims.
+- Renewly product page: public packaging exists for vendor-contract renewal tracking, notice-window extraction, and auto-renewal-trap alerts. This is useful neighboring-lane evidence for contract renewal visibility, not proof that contract clause analysis and SaaS seat or license review are one workflow, and not authority for cancellation, legal interpretation, notice submission, or vendor negotiation.
 - Community, X, and weak GitHub samples are useful only as low-authority friction evidence. They do not prove savings amount, unused-seat correctness, user-access correctness, renewal correctness, cancellation safety, downgrade safety, consolidation correctness, procurement approval, security compliance, privacy compliance, or profitable repeatability.
 
 ## Proposed Trigger
@@ -47,6 +51,7 @@ Use it especially when the task is preparation, classification, and evidence org
    - Lane C: Slack member activity and billing lane covering active-versus-inactive members, member types, invited-member billing, credit timing, and inactive-member review.
    - Lane D: Atlassian app-access and user-tier lane covering app-role assignment, group access, invited users, billed quantity growth, removal or suspension path, and app-access review.
    - Lane E: cross-vendor overlap and shadow-IT lane covering duplicate tools, overlapping capabilities, inactive contractors or guests, department ownership gaps, unmanaged or non-SSO apps, renewal clustering, and approval or reviewer gaps.
+   - Neighbor lane only when needed: vendor-contract renewal clause and notice-window tracking. Treat it as adjacent contract-tracking evidence that can sharpen renewal exposure, not as automatic license-optimization or cancellation authority.
    - Name app, plan, subscription scope, source snapshot, allowed artifact, and excluded actions for each lane.
 2. Inventory official sources and readback surfaces.
    - Capture official admin docs, billing notes, user-access notes, usage reports, invoices, renewal dates, cancellation windows, contract terms, group or role notes, stale or broken source risks, and login-gated source risks.
@@ -79,6 +84,7 @@ It should produce an app roster and owner ledger, seat and license assignment le
 - Treating an activity report, usage report, user list, or invoice as proof that the right cost-cutting action is obvious.
 - Treating inactive users, invited users, guests, contractors, or default access groups as interchangeable.
 - Treating public license-optimization offers, savings claims, or MSP partner packaging as proof that customers are paying, savings will materialize, or automated reclaim and negotiation flows are safe default moves.
+- Treating `shadow renewals`, auto-renewal-trap tooling, or notice-window extraction as if contract clause analysis were the same workflow as app-usage visibility, seat waste review, or safe cancellation authority.
 - Treating official access or billing docs as permission to change licenses, access, plans, or renewals.
 - Treating duplicate-tool suspicions as proof that one tool can be removed safely.
 - Treating GitHub SaaS-management repositories or OSS license-audit tools as proof of buyer demand or installation authority.
