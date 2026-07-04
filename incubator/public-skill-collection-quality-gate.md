@@ -24,6 +24,8 @@ A later primary-source report on 2026-05-30 reviewed security issues in the emer
 
 Another later feed item on 2026-05-30 pointed to an official project setup plugin that recommends hooks, skills, MCP servers, plugins, subagents, and commands. It is a useful ninth sample because a read-only recommender can still produce recommendations whose activation surfaces are not read-only.
 
+A later feed item on 2026-07-04 pointed to `WeZZard/opencode-vision`, an OpenCode plugin that packages a `vision` skill, dynamic vision-subagent routing, npm distribution, and a postinstall script that copies `SKILL.md` into the user's OpenCode config directory. It is a useful tenth sample because a small public plugin can combine real workflow demand, launch/distribution lessons, package lifecycle scripts, provider/model selection, persisted local config, and skill activation surfaces in one compact artifact.
+
 Primary source review, read-only:
 
 - Repository: `https://github.com/addyosmani/agent-skills`
@@ -96,6 +98,17 @@ Ninth sample, read-only:
 - The `claude-code-setup` plugin describes a read-only automation recommender that analyzes a codebase and recommends hooks, skills, MCP servers, plugins, subagents, and slash commands. Its read-only status applies to the recommender's analysis step, not to installing or enabling the recommendations.
 - Sample plugin files include MCP configurations using HTTP bearer-token headers or package runners, and channel access skills that write local access state. These are useful examples of why recommendations need target-specific review.
 
+Tenth sample, read-only:
+
+- Repository: `https://github.com/WeZZard/opencode-vision`
+- Observed commit: `451205827779b9fb1eee6079672215714bd6850f`
+- npm package: `opencode-vision@0.5.3`
+- Repository shape at review time: OpenCode plugin source, `SKILL.md`, npm `package.json`, postinstall script, model-discovery scripts, screenshots, tests, and README documentation.
+- The README describes an independent community plugin that gives text-only OpenCode orchestrators a visual-task route by delegating to dynamically registered vision subagents from configured image-capable providers. The README also says the plugin is not affiliated with OpenCode and that provider configuration is required.
+- The npm metadata exposes package lifecycle and persistence surfaces: `postinstall=node ./scripts/install-skill.mjs`, peer dependency on `@opencode-ai/plugin`, package signatures, tarball integrity, and npm download counts. Public npm day-granularity download data showed 1,612 downloads from 2026-06-27 through 2026-07-04, including 1,358 downloads through 2026-06-30; that supports early distribution activity but does not independently prove a precise 24-hour window, revenue, retention, or buyer demand.
+- The postinstall script copies the bundled `SKILL.md` into `~/.config/opencode/skills/vision/SKILL.md` or the path derived from `OPENCODE_CONFIG_DIR` / `XDG_CONFIG_HOME`. That is useful adoption evidence but also a persistence and activation surface, not a read-only method note.
+- The X article was useful because it surfaced a launch-process lesson: the first Reddit/X launch lacked a canonical GitHub issue path and name-conflict handling. The extractable method is canonical repository, issue tracker, package identity, and support-channel readiness before launch; the plugin itself was not installed, run, or imported.
+
 No install, clone, package execution, plugin activation, hook execution, or skill import was performed during review.
 
 ## Proposed Trigger
@@ -153,6 +166,8 @@ This candidate is about adopting or learning from public skill collections. It i
 - No confirmed malicious payload is mistaken for safe adoption despite vulnerable attack surfaces.
 - A scanner clean result is mistaken for permission to install, autoload, register tools, or write durable memory.
 - A read-only recommender's output is mistaken for approval to install, enable hooks, register MCP tools, grant account access, or write durable runtime config.
+- Early npm downloads, launch virality, or an author's go-to-market article are mistaken for revenue proof, retention proof, or permission to install a plugin.
+- A package postinstall script that copies a skill into a runtime config directory is treated as harmless documentation instead of a persistence and activation surface.
 - A public skill pack is copied wholesale, importing platform assumptions, hooks, scripts, or context bloat.
 - A meta-skill router over-triggers and loads too much context.
 - A domain-specific or taste-heavy skill is treated as neutral because its checklist is detailed.
@@ -162,7 +177,7 @@ This candidate is about adopting or learning from public skill collections. It i
 
 ## Verification Needed
 
-- Apply this gate to public skill or rule collections without installing them. Nine samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, one domain account-action plugin, one dual-use cybersecurity skill library, one skill ecosystem security report, and one official automation recommender.
+- Apply this gate to public skill or rule collections without installing them. Ten samples have been reviewed so far: one engineering workflow collection, one frontend taste/output collection, one official example/marketplace collection, one cross-runtime plugin/converter collection, one scanner/hook/MCP package, one domain account-action plugin, one dual-use cybersecurity skill library, one skill ecosystem security report, one official automation recommender, and one compact OpenCode vision-plugin package with npm lifecycle and local skill-persistence surfaces.
 - Record whether it changes adoption decisions compared with simple README review.
 - Add eval cases for high-star public skill packs, install-heavy packs, duplicated local methods, and preference-heavy packs.
 
