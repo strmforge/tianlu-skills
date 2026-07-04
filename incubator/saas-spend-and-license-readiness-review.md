@@ -8,6 +8,8 @@ External feeds, operator complaints, and routine admin pain surface a recurring 
 
 In the current scan, X was weaker and noisier than some recent lanes, but it still surfaced the right friction language: unused SaaS licenses, inactive accounts, surprise seat growth, manual audits, renewal confusion, and paying for overlapping tools. GitHub and open-source search were not empty, but they were not strong demand proof. Most results drifted toward generic multi-tenant SaaS management products or OSS license-audit tooling rather than practical SMB seat-waste and renewal-review operations. That reinforces the lane shape: this is mainly an evidence, readiness, and handoff service rather than a tool-first or install-first niche.
 
+A narrower follow-up scan on 2026-07-04 sharpened this picture in two ways. First, public offer language clearly exists: some vendors and service operators explicitly sell license optimization, reclaim workflows, renewal visibility, and spend reduction as a service line, including MSP-facing packaging. Second, the underlying pain shape is drifting from simple seat waste toward visibility failure: shadow IT, unmanaged AI tools, hidden group-based assignments, renewal exposure, and app-sprawl visibility gaps. That strengthens offer-existence evidence, but it still does not prove customer payment, margin, safe operator conduct, or that automated reclaims or vendor negotiations should be treated as default authority.
+
 ## Source
 
 - Microsoft 365 usage reports overview: admins can use reports to see how people in the organization are using Microsoft 365 services, learn who is using a service and who might not need a license, and review reporting windows such as 7, 30, 90, and 180 days. Role boundaries and privacy-display controls matter.
@@ -20,6 +22,9 @@ In the current scan, X was weaker and noisier than some recent lanes, but it sti
 - Atlassian remove app access guidance: there is an official workflow to remove app access for users rather than treating seat count as a passive report.
 - Atlassian manage users and user tiers guidance: additional users are counted toward billing even if they do not accept the invite or log in, and for a user to stop counting toward billing, an admin must remove or suspend the user according to the supported workflow.
 - Atlassian maximum-quantity billing guidance: if the team grows beyond billed quantity, Atlassian can automatically increase quantity and add prorated costs to the next bill.
+- Zylo 2026 SaaS Management Index: SaaS spend is rising even as average portfolio counts stay roughly flat; AI pricing and consumption volatility are making renewals and spend harder to predict; 78% of IT leaders reported unexpected charges tied to AI features or consumption pricing; cost pressure is increasingly tied to visibility and governance, not only raw app-count sprawl.
+- 1Password SaaS Manager discovery and integration pages: SaaS discovery can combine IdP, finance, browser, and app-integration signals to uncover managed and unmanaged apps, link usage with spend, identify similar or overlapping apps, and prepare for renewals. Public marketing here is useful as offer-existence and workflow-shape evidence, not as customer-payment proof.
+- AppReclaim MSP partner page: public MSP-oriented packaging exists for license optimization as a recurring service line, with branded reports, approval-gated reclaim workflows, renewal-ahead positioning, and multi-tenant visibility framing. This is useful as public offer evidence and service-shape evidence only, not as proof of realized savings, customer willingness, or authority to perform reclaims.
 - Community, X, and weak GitHub samples are useful only as low-authority friction evidence. They do not prove savings amount, unused-seat correctness, user-access correctness, renewal correctness, cancellation safety, downgrade safety, consolidation correctness, procurement approval, security compliance, privacy compliance, or profitable repeatability.
 
 ## Proposed Trigger
@@ -33,6 +38,7 @@ Use it especially when the task is preparation, classification, and evidence org
 0. Classify evidence strength before framing the opportunity.
    - L0: X complaints, operator threads, "we're paying for dead seats," "Slack is charging for everyone," "Atlassian invited users still count," or "we have five tools doing the same thing" chatter. Use only as friction language and search language.
    - L1: vendor blogs, consultant posts, SaaS-management marketing, or informal audit anecdotes. Treat as workflow-shape evidence, not billing or access authority.
+   - Public pricing pages, MSP partner pages, request-demo flows, or productized service pages can prove that offer packaging exists around this pain. Record them as offer-existence evidence only, not paid proof or authority proof.
    - L2-lite: official Microsoft, Google, Slack, and Atlassian documentation for usage, licensing, user access, member activity, and billing mechanics. Treat as terminology, process, and boundary authority, not savings or consolidation authority.
    - L2-strong: owner-supplied app rosters, user lists, inactive or deactivated-user tables, group maps, invoice and renewal notes, role or access readbacks, cancellation windows, contract notes, and scoped engagement evidence.
 1. Split the workflow into lanes before doing anything else.
@@ -40,13 +46,13 @@ Use it especially when the task is preparation, classification, and evidence org
    - Lane B: Google Workspace usage and license lane covering customer or user usage reports, auto-assigned licenses, SKU-level assignment, flexible-plan monetary impact, and license reassignment posture.
    - Lane C: Slack member activity and billing lane covering active-versus-inactive members, member types, invited-member billing, credit timing, and inactive-member review.
    - Lane D: Atlassian app-access and user-tier lane covering app-role assignment, group access, invited users, billed quantity growth, removal or suspension path, and app-access review.
-   - Lane E: cross-vendor overlap and shadow-IT lane covering duplicate tools, overlapping capabilities, inactive contractors or guests, department ownership gaps, renewal clustering, and approval or reviewer gaps.
+   - Lane E: cross-vendor overlap and shadow-IT lane covering duplicate tools, overlapping capabilities, inactive contractors or guests, department ownership gaps, unmanaged or non-SSO apps, renewal clustering, and approval or reviewer gaps.
    - Name app, plan, subscription scope, source snapshot, allowed artifact, and excluded actions for each lane.
 2. Inventory official sources and readback surfaces.
    - Capture official admin docs, billing notes, user-access notes, usage reports, invoices, renewal dates, cancellation windows, contract terms, group or role notes, stale or broken source risks, and login-gated source risks.
    - Record URL or file name, source date, vendor, lane type, field or artifact type, whether the source is official, owner-supplied, dashboard readback, export, login-gated, or L0 or L1 signal.
 3. Classify the evidence packet and its risks.
-   - Separate app roster facts, owner facts, user-access facts, seat and license facts, renewal facts, billing facts, plan facts, guest or contractor facts, inactive or deactivated-user facts, duplicate-tool facts, shadow-IT cues, stale source, export risk, privacy risk, and security-review cues.
+   - Separate app roster facts, owner facts, user-access facts, seat and license facts, renewal facts, billing facts, plan facts, guest or contractor facts, inactive or deactivated-user facts, duplicate-tool facts, shadow-IT cues, unmanaged-app cues, stale source, export risk, privacy risk, and security-review cues.
    - Use statuses such as `source-supported candidate`, `needs usage readback`, `needs roster cleanup`, `needs owner review`, `needs finance review`, `needs procurement review`, `needs security review`, `needs privacy review`, `needs legal review`, `stale`, `broken`, `login-gated`, `conflict`, and `ready for owner handoff`.
 4. Build the SaaS spend and license ledgers.
    - For each app or subscription, record vendor, product, billed quantity, active-use evidence, inactive-use evidence, invite or pending-user state, guest or contractor state, plan type, renewal date, cancellation window, downgrade note, app-access route, group or role path, owner, cost-center, overlap candidate, shadow-IT cue, missing evidence, conflicting source, stale source, reviewer role, and forbidden next action.
@@ -72,6 +78,7 @@ It should produce an app roster and owner ledger, seat and license assignment le
 - Treating usage, billing, user access, renewals, and vendor overlap as one uniform workflow instead of separate lanes.
 - Treating an activity report, usage report, user list, or invoice as proof that the right cost-cutting action is obvious.
 - Treating inactive users, invited users, guests, contractors, or default access groups as interchangeable.
+- Treating public license-optimization offers, savings claims, or MSP partner packaging as proof that customers are paying, savings will materialize, or automated reclaim and negotiation flows are safe default moves.
 - Treating official access or billing docs as permission to change licenses, access, plans, or renewals.
 - Treating duplicate-tool suspicions as proof that one tool can be removed safely.
 - Treating GitHub SaaS-management repositories or OSS license-audit tools as proof of buyer demand or installation authority.
