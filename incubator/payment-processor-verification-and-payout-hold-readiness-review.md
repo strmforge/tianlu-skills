@@ -8,6 +8,8 @@ External feeds, founder chatter, and operator complaints surface a recurring sol
 
 In the current scan, X was noisy but still useful for friction language. `stripe payout hold`, `paypal account limitation`, and `shopify payments payouts on hold` surfaced real operational pain around frozen or delayed funds, verification loops, reserve notices, and bank-account review. The strongest signal was not tool demand or ecosystem depth. It was recurring back-office distress around "what is missing," "why payouts are off," "what does currently_due mean," "why am I still limited," and "what changed after updating bank details." GitHub and open-source search were weak or empty for this lane, which reinforces that this is mainly a document, readback, and evidence-organization service shape rather than a tool-first or automation-first niche.
 
+A narrower follow-up scan on 2026-07-04 reinforced one additional point: explicit public "service offer" language does exist around this pain, especially on the Shopify and PayPal edges, but it arrives mixed with high-risk promises like "I unlock payouts," "I resolve payout holds," or "DM to get started." That is useful as offer-existence and buyer-pain signal only. It is not proof of restoration authority, payout-release authority, profitable repeatability, or safe operator conduct. The stronger mechanism remains readiness review, evidence organization, and boundary-preserving owner handoff.
+
 ## Source
 
 - Stripe Connect handle-verification-updates guidance: KYC requirements must be fulfilled before connected accounts can accept payments and send payouts; `future_requirements` can move into `requirements`; missing requirements can affect capabilities and prevent transactions; `future_requirements.current_deadline`, `pending_verification`, `future_requirements.errors`, and `account.updated` events matter for review.
@@ -34,6 +36,7 @@ Use it especially when the task is preparation, classification, and evidence org
    - L1: forum anecdotes, support-community posts, merchant blogs, or unofficial remediation explainers. Treat as workflow-shape evidence, not processor authority.
    - L2-lite: official Stripe, PayPal, and Shopify documentation, dashboard readbacks, limitation notices, requirement queues, and payout status explanations. Treat as terminology, process, and boundary authority, not account-restoration authority.
    - L2-strong: owner-supplied readbacks such as `currently_due`, `eventually_due`, `past_due`, `disabled_reason`, `requirements.errors`, `charges_enabled`, `payouts_enabled`, payout status, reserve notice, limitation notice, bank-review notice, and scoped engagement evidence.
+   - Public service-page, DM-offer, or consultant-pitch evidence can prove that someone is trying to sell into this pain, but it still does not prove payment, margin, restoration odds, or safe boundaries. Record it separately from official-source authority.
 1. Split the processor workflow into lanes before doing anything else.
    - Lane A: Stripe verification requirements and capability lane covering `currently_due`, `eventually_due`, `past_due`, deadlines, `requirements.errors`, `charges_enabled`, `payouts_enabled`, representative, owner, beneficial-owner, and bank-ownership issues.
    - Lane B: PayPal limitation and hold lane covering limitation notices, Resolution Center steps, identity confirmation, seller-performance holds, and timing notes.
@@ -70,6 +73,7 @@ It should produce a processor-and-lane map, verification requirement ledger, pay
 - Treating payout holds, reserves, limitations, and verification requirements as the same workflow instead of processor-specific lanes.
 - Treating Stripe `currently_due`, `eventually_due`, `past_due`, `disabled_reason`, or `requirements.errors` as self-executing instructions instead of readback evidence.
 - Treating a limitation notice, reserve notice, payout status, or dashboard flag as proof that the correct remediation is obvious.
+- Treating public "I can unlock payouts" or "I fix Shopify Payments holds" offers as proof that the operator should contact processors, collect sensitive records, or promise restoration outcomes.
 - Treating bank-account changes, identity uploads, or tax-ID submission as harmless default next steps.
 - Treating PayPal limitation guidance, Stripe verification guidance, and Shopify reserve guidance as interchangeable.
 - Treating dashboard readbacks, local QA, or approval worksheets as proof of verification sufficiency, payout eligibility, or reserve correctness.
